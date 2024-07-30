@@ -17,7 +17,7 @@ api_key = os.getenv('GOOGLE_MAPS_API_KEY')  # Read API key from environment vari
 
 # Create a form
 with st.form(key='my_form'):  
-    hotel_area_opt = ["Istanbul", "Ankara", "İzmir", "Bursa", "Antalya", "Çanakkale"]
+    hotel_area_opt = ["Istanbul", "Ankara", "İzmir", "Bursa", "Antalya", "Canakkale"]
     hotel_area = st.selectbox("", hotel_area_opt, index=0)
     submit_button = st.form_submit_button(label='Submit')
 

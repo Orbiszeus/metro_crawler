@@ -82,7 +82,7 @@ import re
 
 def hotel_crawler(url):
     hotel_items = []
-    with SB(uc=True, headless=True, locale_code="tr") as sb:
+    with SB(uc=True, headless=False, locale_code="tr") as sb:
         sb.driver.uc_open_with_reconnect(url, 6) 
         try:
             sb.sleep(3)
@@ -95,7 +95,11 @@ def hotel_crawler(url):
             # sb.click("span[aria-label='Marriott']")
             sb.sleep(4)
             # sb.scroll_to_bottom()
-            sb.slow_scroll_to("css selector", "button[id='paginationNext']")
+            try:   
+                sb.slow_scroll_to("css selector", "button[id='paginationNext']")
+            except:
+                print("One page search.")
+                
             sb.sleep(5)
             #TODO: Add the page by page crawling by clicking "next"
             grid_items = sb.find_elements("div[data-element-name='PropertyCardBaseJacket']")
@@ -405,7 +409,6 @@ def hotel_crawl_api(hotel_area):
     # hotel_serper_results = hotel_serper_search("İstanbul")
     # for url in hotel_serper_results:
     if hotel_area:
-        
         search_url = f"https://www.agoda.com/tr-tr/city/{hotel_area}-tr.html"
         hotel_crawler(search_url)      
     return get_from_mongo()  
