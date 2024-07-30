@@ -41,16 +41,18 @@ with st.container():
                 st.write(df)
                 
                 # Provide download button
-                excel_file = BytesIO()
-                df.to_excel(excel_file, index=False)
-                excel_file.seek(0)
+                # excel_file = BytesIO()
+                # with pd.ExcelWriter(excel_file, engine='xlsxwriter') as writer:
+                #     df.to_excel(writer, index=False)
+                #     writer.save()
+                # excel_file.seek(0)
                 
-                st.download_button(
-                    label="Download Excel",
-                    data=excel_file,
-                    file_name=f"{input_text}_menu.xlsx",
-                    mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-                )
+                # st.download_button(
+                #     label="Download Excel",
+                #     data=excel_file,
+                #     file_name=f"{input_text}_menu.xlsx",
+                #     mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+                # )
             else:
                 st.write("An error occurred. Please try again.")
         else:

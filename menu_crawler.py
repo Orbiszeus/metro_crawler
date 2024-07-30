@@ -82,7 +82,7 @@ import re
 
 def hotel_crawler(url):
     hotel_items = []
-    with SB(uc=True, headless=False, locale_code="tr") as sb:
+    with SB(uc=True, headless=True, locale_code="tr") as sb:
         sb.driver.uc_open_with_reconnect(url, 6) 
         try:
             sb.sleep(3)
@@ -301,7 +301,7 @@ def get_coordinates(address):
     
 def menu_crawler(url, is_area):
     menu_items = []
-    with SB(uc=True, headless=False, locale_code="tr") as sb:
+    with SB(uc=True, headless=True, locale_code="tr") as sb:
         sb.driver.uc_open_with_reconnect(url, 6)    
         try:
             sb.sleep(3)
@@ -440,12 +440,15 @@ def hotel_crawl_api(hotel_area):
 def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=False) as sb:
-            sb.driver.uc_open_with_reconnect(url, 6)
+        with SB(uc=True, headless=True) as sb:
+            sb.driver.uc_open_with_reconnect(url, 10)
             try:
                 sb.uc_gui_handle_cf()
                 sb.sleep(3)
-                sb.click("button[aria-label='Tümünü Reddet']")
+                try:
+                    sb.click("button[aria-label='Tümünü Reddet']")
+                except:
+                    sb.sleep(1)
                 sb.sleep(3)
                 all_items = sb.find_elements("div[class='sc-be09943-2 gagwGV']")
                 for item in all_items:
