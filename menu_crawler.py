@@ -288,7 +288,7 @@ def get_from_mongo():
     client.close()
     
 def get_coordinates(address):
-    geolocator = GoogleV3(api_key={api_key})
+    geolocator = GoogleV3(api_key="AIzaSyCA8FOwQt4JhWVrLzJVJaJqbEwQgTLpRvM")
     try:
         location = geolocator.geocode(address)
         if location:
