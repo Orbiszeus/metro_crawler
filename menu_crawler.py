@@ -4,17 +4,14 @@ import json
 import time
 import pandas as pd
 import random
-import undetected_chromedriver as uc
 import PyPDF2
 from io import BytesIO
-from bs4 import BeautifulSoup
 import os
 from seleniumbase import SB
 from curl_cffi import requests
 from typing import Union
 from fastapi import FastAPI, HTTPException, File, UploadFile
 from pydantic import BaseModel, Field
-from RecaptchaSolver import RecaptchaSolver
 import uvicorn
 # from ocr import process_uploaded_pdf, async_detect_document
 from tempfile import NamedTemporaryFile

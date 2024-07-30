@@ -4,10 +4,7 @@ import requests
 import streamlit.components.v1 as components
 import json
 import time
-import subprocess
-import os 
-import stat
-import sys
+import os
 from main import run_menu_crawler
 
 
