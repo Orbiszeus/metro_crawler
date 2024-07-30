@@ -13,12 +13,13 @@ from uuid import uuid4
 import re
 from pymongo import MongoClient
 from geopy.geocoders import GoogleV3
+import os 
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&appName=MetroAnalyst")
 db = client["MetroAnalyst"]
 collection = db["hotels"]
-
+api_key = os.getenv('GOOGLE_MAPS_API_KEY')
 headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
 
@@ -82,7 +83,7 @@ import re
 def hotel_crawler(url):
     hotel_items = []
     with SB(uc=True, headless=False, locale_code="tr") as sb:
-        sb.driver.uc_open_with_reconnect(url, 6) #https://www.agoda.com/tr-tr/city/istanbul-tr.html, "https://www.agoda.com/tr-tr/search?guid=4a629c25-e506-4dc2-a52d-4115ad9d7e0a&asq=bFdTL9llP7BZ4SejwwejB5ufa9Vwpz6XltTHq4n%2B9gP1PvdgVUVP68h57eVdQuv8IBrWFTqhW1dpLL7MGGZsqdrUrlVV3J13je9wZFHCpgF8S1ZjjN6usSxp30jSYO1wDhV5i2ciNve1U0UDxqZpvG0t3c82nJ%2Fp%2B0GXkwK5hQ9JypyOe2O9exnn65L2OXGBvVuYmacm%2FIy%2BM6q24efrgMj%2BxG%2F0EXyqEpLKdlme8IQ%3D&city=14932&tick=638572309229&locale=tr-tr&ckuid=981c775b-5dc7-43e2-82ae-be18bc5e2172&prid=0&gclid=CjwKCAjw4_K0BhBsEiwAfVVZ_9c3umlL-ft78T3009NtrOi0kFobyntGsmCG8InezITfHbX1-R16jhoCelQQAvD_BwE&currency=EUR&correlationId=706f3aa0-09ca-4108-821d-b5370a3368b1&analyticsSessionId=-8095943469502461136&pageTypeId=8&realLanguageId=32&languageId=32&origin=ES&stateCode=GC&cid=1922882&tag=c4254dc2-e34a-491c-9db8-aeb463b931f1&userId=981c775b-5dc7-43e2-82ae-be18bc5e2172&whitelabelid=1&loginLvl=0&storefrontId=3&currencyId=1&currencyCode=EUR&htmlLanguage=tr-tr&cultureInfoName=tr-tr&machineName=am-pc-4i-geo-web-user-5cb49677b6-4xg9g&trafficGroupId=5&sessionId=3ny4d4ulutjgj3zwzvmai1zj&trafficSubGroupId=122&aid=82361&useFullPageLogin=true&cttp=4&isRealUser=true&mode=production&browserFamily=Chrome&cdnDomain=agoda.net&checkIn=2024-07-31&checkOut=2024-08-01&rooms=1&adults=2&children=0&priceCur=EUR&los=1&textToSearch=%C4%B0stanbul&travellerType=1&familyMode=off&ds=MbFpC8913MUisoKd&brands=14&productType=-1&sort=reviewAll
+        sb.driver.uc_open_with_reconnect(url, 6) 
         try:
             sb.sleep(3)
             sb.uc_gui_handle_cf()
@@ -287,7 +288,7 @@ def get_from_mongo():
     client.close()
     
 def get_coordinates(address):
-    geolocator = GoogleV3(api_key="AIzaSyAJujPg1wWosbbLfj7-cpEoPHCy5mSnjDM")
+    geolocator = GoogleV3(api_key={api_key})
     try:
         location = geolocator.geocode(address)
         if location:
@@ -393,7 +394,11 @@ def crawler_endpoint(request: CrawlRequest):
     serper_y_results = menu_serper_search(area)
     for url in serper_y_results:
         # menu_crawler(url, is_area)
-        g_crawler(url, is_area)
+        df_json = g_crawler(url, is_area)
+        if df_json:
+            return {"dataframe": df_json}
+        else:
+            return {"error": "Crawling failed"}
         
 @app.post("/crawl_hotels")
 def hotel_crawl_api(hotel_area):
@@ -464,11 +469,10 @@ def g_crawler(url, is_area):
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
                 menu_items_list = json.loads(menu_items_json) 
                 df = pd.DataFrame(menu_items_list)
-                title = sb.get_title()
-                excel_file = f'{title}_getir_menu.xlsx'
-                df.to_excel(excel_file, index=False)                    
-                sb.get_page_source()
-                sb.save_page_source("getir_source")
+                # title = sb.get_title()
+                # excel_file = f'{title}_getir_menu.xlsx'
+                # df.to_excel(excel_file, index=False)  
+                return df.to_json(orient='split')                  
             except Exception as e:
                 print(f"Exception in Getir Crawler:  {e}")
     

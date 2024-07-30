@@ -1,39 +1,32 @@
 import streamlit as st
-from streamlit_extras.stylable_container import stylable_container
 import requests
 import streamlit.components.v1 as components
 import json
 import time
-from main import run_menu_crawler
+import os
 
-
-# Run the setup script to install Chrome if necessary
-
-
+# Set up Streamlit page configuration
 st.set_page_config(page_title="Hotel Analyst", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
 
-# Set the title of the web app
+# Set the title and subtitle
 st.title("AI Analysts for Hotels")
-
-# Set the subtitle
 st.subheader("Please choose your hotel area.")
 
 # Function to run the menu crawler script
+api_key = os.getenv('GOOGLE_MAPS_API_KEY')  # Read API key from environment variable
 
 # Create a form
 with st.form(key='my_form'):  
-    # Industry selection
     hotel_area_opt = ["Istanbul", "Ankara", "İzmir", "Bursa", "Antalya", "Çanakkale"]
-    hotel_area = st.selectbox("",hotel_area_opt, index=0 )
-    # Purpose input
-#     purpose = st.text_input("Purpose of the report")
-    # Submit button
+    hotel_area = st.selectbox("", hotel_area_opt, index=0)
     submit_button = st.form_submit_button(label='Submit')
+
     if submit_button: 
         progress_text = "Operation in progress. Please wait."
         my_bar = st.progress(0, text=progress_text)
         percent_complete = 0
         increment = 1
+
         while percent_complete < 100:
             time.sleep(0.1)  
             percent_complete += increment
@@ -54,19 +47,18 @@ with st.form(key='my_form'):
             st.write("Crawling Hotels..")
         else:
             st.write("An error occurred. Please try again.")
-# html_file_path = 'hotel_map.html'
-# with open(html_file_path, 'r', encoding='utf-8') as f:
-#     html_content = f.read()
 
+# Read hotel data from JSON file
 json_file_path = 'hotel_data.json'
 with open(json_file_path, 'r', encoding='utf-8') as file:
     hotel_data = json.load(file)
 
 hotel_data_json = json.dumps(hotel_data)
+
+# Generate the HTML content with the API key dynamically
 html_content = f"""
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Key Locations</title>
     <style>
@@ -81,7 +73,6 @@ html_content = f"""
         }}
     </style>
 </head>
-
 <body>
     <div id="map"></div>
     <script type="text/javascript">
@@ -98,7 +89,6 @@ html_content = f"""
                 return;
             }}
 
-            // Convert "Total Room Number" to number and validate data
             var validData = hotelData.filter(place => place['Total Room Number'] && place.coordinates &&
                 typeof place.coordinates.latitude === 'number' && 
                 !isNaN(place.coordinates.latitude) &&
@@ -116,7 +106,6 @@ html_content = f"""
                 return;
             }}
 
-            // Determine maximum number of rooms from valid data
             var maxRooms = Math.max(...validData.map(place => place['Total Room Number']));
             console.log("Max Rooms:", maxRooms);
 
@@ -160,8 +149,8 @@ html_content = f"""
         }}
 
         function scaleRadius(numberOfRooms, maxRooms) {{
-            var maxRadius = 2000; // Maximum radius in meters
-            var minRadius = 500;  // Minimum radius in meters
+            var maxRadius = 2000;
+            var minRadius = 500;
             return minRadius + (numberOfRooms / maxRooms) * (maxRadius - minRadius);
         }}
 
@@ -217,19 +206,12 @@ html_content = f"""
         }}
     </script>
     <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJujPg1wWosbbLfj7-cpEoPHCy5mSnjDM&callback=initMap&libraries=places">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOwgj0fSYvgSNMXtWyxArmahvl-NPRQ00&callback=initMap&libraries=places">
     </script>
 </body>
-
 </html>
 """
 
-
-
+# Render the HTML content in Streamlit
 components.html(html_content, height=600)
 
-
-
-if st.button("Run Crawlers"):
-    st.write("Crawler is running, now you can choose what to crawl!")
-    run_menu_crawler()
