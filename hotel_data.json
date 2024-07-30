@@ -1,0 +1,979 @@
+[
+    {
+        "Hotel Name": "The Ritz-Carlton, Istanbul",
+        "Hotel Rating": "9,1",
+        "Hotel Location": "Suzer Plaza, Askerocagi Caddesi, No.6, Şişli, İstanbul, Türkiye, 34367",
+        "Total Room Number": "239",
+        "Total Restaurant Number": "5",
+        "Total Bar Number": "3",
+        "Breakfast Price": "25 EUR",
+        "Total Number of Rooms with Breakfast": "139",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Atelier Lounge",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Tam İngiliz/İrlanda",
+                    "Glutensiz",
+                    "Koşer"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0406051,
+            "longitude": 28.992067
+        }
+    },
+    {
+        "Hotel Name": "Demiray Hotel & Spa Old City",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "Hobyar Mahallesi , Hocahanı Sok. No:10, Fatih, İstanbul, Türkiye, 34112",
+        "Total Room Number": "110",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "2",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "24",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0136304,
+            "longitude": 28.9724776
+        }
+    },
+    {
+        "Hotel Name": "Wanda Vista Istanbul",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "Taşocağı Yolu, Bağcılar, İstanbul, Türkiye, 34209",
+        "Total Room Number": "447",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "1",
+        "Breakfast Price": "18 EUR",
+        "Total Number of Rooms with Breakfast": "29",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0541254,
+            "longitude": 28.8128998
+        }
+    },
+    {
+        "Hotel Name": "ISG Sabiha Gokcen Airport Hotel",
+        "Hotel Rating": "8,7",
+        "Hotel Location": "Sabiha Gokcen Havalimanı Kurtkoy-Pendik, Pendik, İstanbul, Türkiye, 34912",
+        "Total Room Number": "128",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "10 EUR",
+        "Total Number of Rooms with Breakfast": "9",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Blue Sky Restaurant",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.9085183,
+            "longitude": 29.3151662
+        }
+    },
+    {
+        "Hotel Name": "Avantgarde Hotel Levent",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Büyükdere Caddesi No.161, Şişli, İstanbul, Türkiye, 34737",
+        "Total Room Number": "84",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "0",
+        "Breakfast Price": "15 EUR",
+        "Total Number of Rooms with Breakfast": "22",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "ACE RESTURANT",
+                "Kitchen": "Amerikan",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.070864,
+            "longitude": 29.015017
+        }
+    },
+    {
+        "Hotel Name": "Fuat Pasa Yalisi - Special Category Bosphorus",
+        "Hotel Rating": "7,9",
+        "Hotel Location": "Buyukdere Mah. Cayırbaşı Cad. No:148 Sarıyer İstanbul, Sarıyer, İstanbul, Türkiye, 34453",
+        "Total Room Number": "54",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "1",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "31",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "paşa",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.1613016,
+            "longitude": 29.0455552
+        }
+    },
+    {
+        "Hotel Name": "Elit Suits Pendik",
+        "Hotel Rating": "6,3",
+        "Hotel Location": "yenisehir mahallesi , osmanli bulvari no:13, Pendik, İstanbul, Türkiye, 34912",
+        "Total Room Number": "57",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.930332,
+            "longitude": 29.3064376
+        }
+    },
+    {
+        "Hotel Name": "Hippodrome Hotel",
+        "Hotel Rating": "7,9",
+        "Hotel Location": "Mimar Mehmet Aga Cad. No.38 , Sultanahmet, Sultanahmet, İstanbul, Türkiye, 34122",
+        "Total Room Number": "28",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "14",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "AZADE HOTEL RESTAURANT",
+                "Kitchen": "Türk",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0055406,
+            "longitude": 28.9782704
+        }
+    },
+    {
+        "Hotel Name": "Sofitel Istanbul Taksim",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "Gumussuyu Mah Siraselviler Cad No 13 Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "20 EUR",
+        "Total Number of Rooms with Breakfast": "132",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.036766,
+            "longitude": 28.9852683
+        }
+    },
+    {
+        "Hotel Name": "Byotell Otel (Byotell Asia)",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "Saniye Ermutlu Sok.3.Kozyatagi Kadıkoy,, Kadıköy, İstanbul, Türkiye, 34742",
+        "Total Room Number": "182",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "10 EUR",
+        "Total Number of Rooms with Breakfast": "27",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Kehribar-Breakfast Saloon",
+                "Kitchen": "Türk",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.9754738,
+            "longitude": 29.09768859999999
+        }
+    },
+    {
+        "Hotel Name": "The Central House Istanbul Galata",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "Çatma Mescit Akarca Sk. 47, 34430 Istanbul, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "35",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.03107869999999,
+            "longitude": 28.9724592
+        }
+    },
+    {
+        "Hotel Name": "Ibis Istanbul Zeytinburnu",
+        "Hotel Rating": "8,0",
+        "Hotel Location": "Kazlicesme Mah Kennedy Cad N56, Zeytinburnu, Zeytinburnu, İstanbul, Türkiye, 34025",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "9 EUR",
+        "Total Number of Rooms with Breakfast": "52",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Ibis Kitchen",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.9803164,
+            "longitude": 28.9024121
+        }
+    },
+    {
+        "Hotel Name": "Avantgarde Hotel Levent",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Büyükdere Caddesi No.161, Şişli, İstanbul, Türkiye, 34737",
+        "Total Room Number": "84",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "0",
+        "Breakfast Price": "15 EUR",
+        "Total Number of Rooms with Breakfast": "22",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "ACE RESTURANT",
+                "Kitchen": "Amerikan",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.070864,
+            "longitude": 29.015017
+        }
+    },
+    {
+        "Hotel Name": "Radisson Blu Hotel and Spa Istanbul Tuzla",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Camlibelde Sitesi Hasan Tokatli Sokak No13, Pendik, İstanbul, Türkiye, 34953",
+        "Total Room Number": "254",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "1",
+        "Breakfast Price": "20 EUR",
+        "Total Number of Rooms with Breakfast": "104",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "CASA GRILL",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.8754932,
+            "longitude": 29.3150858
+        }
+    },
+    {
+        "Hotel Name": "Park Inn by Radisson İstanbul Atatürk Havaalanı (Park Inn by Radisson Istanbul Ataturk Airport)",
+        "Hotel Rating": "7,4",
+        "Hotel Location": "Halkali Merkez Mahallesi Fatih, Küçükçekmece, İstanbul, Türkiye, 34303",
+        "Total Room Number": "154",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "1",
+        "Breakfast Price": "54 TRY",
+        "Total Number of Rooms with Breakfast": "36",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Anadolu Ziyafet Restaurant",
+                "Kitchen": "Yerel",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0335092,
+            "longitude": 28.79267
+        }
+    },
+    {
+        "Hotel Name": "Sheraton Istanbul Esenyurt",
+        "Hotel Rating": "8,7",
+        "Hotel Location": "Koza Mahallesi, 1638. Sk. No:4, 34538 Esenyurt/Istanbul, Esenyurt, İstanbul, Türkiye, 34535",
+        "Total Room Number": "269",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "2",
+        "Breakfast Price": "15 EUR",
+        "Total Number of Rooms with Breakfast": "29",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0565661,
+            "longitude": 28.6647845
+        }
+    },
+    {
+        "Hotel Name": "JW Marriott Istanbul Bosphorus",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "Kemankes Kara Mustafa Pasa Mahallesi, Kemankes Caddesi, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "130",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "54",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0235247,
+            "longitude": 28.9786144
+        }
+    },
+    {
+        "Hotel Name": "Sheraton Istanbul Ataköy Hotel",
+        "Hotel Rating": "8,0",
+        "Hotel Location": "Sahilyolu Cad., Bakırköy, İstanbul, Türkiye, 34158",
+        "Total Room Number": "285",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "1",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "48",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Cook Book",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.9782213,
+            "longitude": 28.8849668
+        }
+    },
+    {
+        "Hotel Name": "Istanbul Marriott Hotel Sisli",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Abide-i Hurriyet Caddesi No 142, Şişli, İstanbul, Türkiye, 34381",
+        "Total Room Number": "259",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "2",
+        "Breakfast Price": "25 EUR",
+        "Total Number of Rooms with Breakfast": "68",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "The Dish Room Grill",
+                "Kitchen": "Asyalı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0636257,
+            "longitude": 28.9878488
+        }
+    },
+    {
+        "Hotel Name": "The St. Regis Istanbul",
+        "Hotel Rating": "9,0",
+        "Hotel Location": "Mim Kemal Oke cad. no.35 Nisantasi - Sisli, Şişli, İstanbul, Türkiye, 34367",
+        "Total Room Number": "118",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "2",
+        "Breakfast Price": "30 EUR",
+        "Total Number of Rooms with Breakfast": "62",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Spago by Wolfang Puck",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.04782970000001,
+            "longitude": 28.9927965
+        }
+    },
+    {
+        "Hotel Name": "Renaissance Istanbul Polat Bosphorus Hotel",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Barbaros Bulvari No 145, Beşiktaş, İstanbul, Türkiye, 34349",
+        "Total Room Number": "213",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "1",
+        "Breakfast Price": "5 EUR",
+        "Total Number of Rooms with Breakfast": "54",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Arts Restaurant",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0593881,
+            "longitude": 29.01025779999999
+        }
+    },
+    {
+        "Hotel Name": "The Ritz-Carlton, Istanbul",
+        "Hotel Rating": "9,1",
+        "Hotel Location": "Suzer Plaza, Askerocagi Caddesi, No.6, Şişli, İstanbul, Türkiye, 34367",
+        "Total Room Number": "239",
+        "Total Restaurant Number": "5",
+        "Total Bar Number": "3",
+        "Breakfast Price": "25 EUR",
+        "Total Number of Rooms with Breakfast": "139",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Atelier Lounge",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Tam İngiliz/İrlanda",
+                    "Glutensiz",
+                    "Koşer"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0406051,
+            "longitude": 28.992067
+        }
+    },
+    {
+        "Hotel Name": "Le Méridien Istanbul Etiler",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "Cengiz Topel Caddesi No 39, Beşiktaş, İstanbul, Türkiye, 34337",
+        "Total Room Number": "259",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "19 EUR",
+        "Total Number of Rooms with Breakfast": "93",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "La Torre Restaurant",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0890482,
+            "longitude": 29.03475659999999
+        }
+    },
+    {
+        "Hotel Name": "Sheraton Istanbul Levent",
+        "Hotel Rating": "8,9",
+        "Hotel Location": "Buyukdere Caddesi, 4. Levent, Şişli, İstanbul, Türkiye, 34330",
+        "Total Room Number": "249",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "2",
+        "Breakfast Price": "15 EUR",
+        "Total Number of Rooms with Breakfast": "53",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "AzzuR Restaurant",
+                "Kitchen": "Akdenizli",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0830153,
+            "longitude": 29.0122141
+        }
+    },
+    {
+        "Hotel Name": "Renaissance Polat Istanbul Hotel",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Sahilyolu Cad.No:2 Yesilyurt, Bakırköy, İstanbul, Türkiye, 34149",
+        "Total Room Number": "437",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "0",
+        "Breakfast Price": "30 EUR",
+        "Total Number of Rooms with Breakfast": "139",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Daphne Restaurant & Grill",
+                "Kitchen": "Akdenizli",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.9594718,
+            "longitude": 28.8393105
+        }
+    },
+    {
+        "Hotel Name": "Gezi Hotel Bosphorus, Istanbul, a Member of Design Hotels™",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "Mete Cadde No.34, Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "67",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "25 EUR",
+        "Total Number of Rooms with Breakfast": "6",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Fiamma",
+                "Kitchen": "Akdenizli",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Helal",
+                    "Vejetaryen"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0385545,
+            "longitude": 28.9881873
+        }
+    },
+    {
+        "Hotel Name": "Delta Hotels Istanbul Levent",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "Esentepe Mahallesi Buyukdere Caddesi No 187, Sisli, Şişli, İstanbul, Türkiye, 34394",
+        "Total Room Number": "232",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "20 EUR",
+        "Total Number of Rooms with Breakfast": "48",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Butcha Steakhouse",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.078859,
+            "longitude": 29.011962
+        }
+    },
+    {
+        "Hotel Name": "Sheraton Istanbul City Center",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "23 Kurtuluş Deresi Cd., Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "254",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "4",
+        "Breakfast Price": "15 EUR",
+        "Total Number of Rooms with Breakfast": "70",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Alesta Restaurant",
+                "Kitchen": "Uluslararası",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.039266,
+            "longitude": 28.97456
+        }
+    },
+    {
+        "Hotel Name": "",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "JW Marriott Hotel Ankara",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "1423 Cadde, 48 Kizilirmak Mahallesi, Çankaya, Ankara, Türkiye, 06520",
+        "Total Room Number": "413",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "2",
+        "Breakfast Price": "20 EUR",
+        "Total Number of Rooms with Breakfast": "42",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Fires & Flavors",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor.",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 39.8845495,
+            "longitude": 32.8155018
+        }
+    },
+    {
+        "Hotel Name": "",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "Izmir Marriott Hotel",
+        "Hotel Rating": "9,3",
+        "Hotel Location": "Akdeniz Mahallesi Gazi Bulvari No 1 Alsancak, Konak, Kordon, İzmir, Türkiye, 35220",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "72",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 38.4243171,
+            "longitude": 27.1403452
+        }
+    },
+    {
+        "Hotel Name": "Renaissance İzmir (Renaissance Izmir Hotel)",
+        "Hotel Rating": "8,9",
+        "Hotel Location": "Akdeniz Mah. Gaziosmanpas Bulvari No. 16 Konak , Kordon, İzmir, Türkiye, 35210",
+        "Total Room Number": "110",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "20 EUR",
+        "Total Number of Rooms with Breakfast": "38",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Skyfire Restaurant & Bar",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor.",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Açık büfe"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 38.426599,
+            "longitude": 27.135699
+        }
+    },
+    {
+        "Hotel Name": "",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "ROYAL TERMAL HOTEL",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Çekirge, Çekirge Cd. No: 135, Bursa Şehir Merkezi, Bursa, Türkiye, 16340",
+        "Total Room Number": "86",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "40",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.200116,
+            "longitude": 29.031674
+        }
+    },
+    {
+        "Hotel Name": "",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "Swandor Topkapi Palace",
+        "Hotel Rating": "8,9",
+        "Hotel Location": "KUNDU STREET TESISLER ROAD NO 442 AKSU, Lara Plajı, Antalya, Türkiye, 07110",
+        "Total Room Number": "905",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "28",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Hünkar Restaurant",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor.",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 36.875273,
+            "longitude": 30.912432
+        }
+    },
+    {
+        "Hotel Name": "Tourist Hotel",
+        "Hotel Rating": "7,5",
+        "Hotel Location": "Güzeloba Mahallesi, Ornekkoy Cad.No:5 Lara, Lara Plajı, Antalya, Türkiye, 7100",
+        "Total Room Number": "49",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "23",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Restaurant",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor.",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 36.8510917,
+            "longitude": 30.8509053
+        }
+    },
+    {
+        "Hotel Name": "Lara Beach Homes",
+        "Hotel Rating": "7,0",
+        "Hotel Location": "guzeloba mah 2382. Sk. no.12 , Lara Plajı, Antalya, Türkiye, 07230",
+        "Total Room Number": "48",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "7 EUR",
+        "Total Number of Rooms with Breakfast": "23",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 36.8610371,
+            "longitude": 30.8332306
+        }
+    },
+    {
+        "Hotel Name": "C Suites Antalia Airport",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "alınova orta mah. perge sokak, no:7-A d:9, Antalya Havaalanı, Antalya, Türkiye, 07170",
+        "Total Room Number": "60",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 36.9311428,
+            "longitude": 30.7790739
+        }
+    },
+    {
+        "Hotel Name": "The Land of Legends Kingdom",
+        "Hotel Rating": "8,9",
+        "Hotel Location": "Atatürk cad., Kadriye, Antalya, Türkiye, 07506",
+        "Total Room Number": "401",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "21",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Al Abir",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor.",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 36.8659025,
+            "longitude": 31.0593414
+        }
+    },
+    {
+        "Hotel Name": "Seven City Hotel",
+        "Hotel Rating": "7,9",
+        "Hotel Location": "Eski sarampol cad.Ucgen Mah. No:189, Antalya Şehir Merkezi, Antalya, Türkiye, 07040",
+        "Total Room Number": "29",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "22",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 36.8976245,
+            "longitude": 30.6945402
+        }
+    },
+    {
+        "Hotel Name": "WOO Town Suites",
+        "Hotel Rating": "8,0",
+        "Hotel Location": "17 Uzun Çarşı Sk., Antalya Şehir Merkezi, Antalya, Türkiye, 07100",
+        "Total Room Number": "28",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "2",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "4",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 36.8853925,
+            "longitude": 30.7053231
+        }
+    },
+    {
+        "Hotel Name": "",
+        "Hotel Rating": "9,5",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "CAN ADALYA PALACE HOTEL",
+        "Hotel Rating": "7,8",
+        "Hotel Location": "ASIK VEYSEL STREET, Antalya Şehir Merkezi, Antalya, Türkiye, 07300",
+        "Total Room Number": "62",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "24",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 36.9061192,
+            "longitude": 30.7346972
+        }
+    },
+    {
+        "Hotel Name": "Privado Hotels",
+        "Hotel Rating": "8,1",
+        "Hotel Location": "Balbey Mh.Fahrettin Altay Cd. 441 Sk. No:2/201, Antalya Şehir Merkezi, Antalya, Türkiye, 7040",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "25",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 36.8895049,
+            "longitude": 30.7110307
+        }
+    },
+    {
+        "Hotel Name": "Lara Garden Butik Hotel",
+        "Hotel Rating": "7,4",
+        "Hotel Location": "Güzeloba Mahallesi 2321 Sokak No:5 Muratpaşa Antalya, Lara Plajı, Antalya, Türkiye, 7230",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "11",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Restaurant",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor.",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 36.858204,
+            "longitude": 30.8114421
+        }
+    },
+    {
+        "Hotel Name": "Grand Niki Hotel & Spa",
+        "Hotel Rating": "5,2",
+        "Hotel Location": "Guzeloba Mah. airport cad. Ahmet Coşkun Business Mrk. No 59/1 Muratpaşa/ANTALYA, Antalya Şehir Merkezi, Antalya, Türkiye, 07230",
+        "Total Room Number": "1",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "14",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 36.8598008,
+            "longitude": 30.8326663
+        }
+    }
+]
