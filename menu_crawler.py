@@ -1,23 +1,15 @@
 import requests
 import logging
 import json
-import time
 import pandas as pd
-import random
-import PyPDF2
-from io import BytesIO
-import os
 from seleniumbase import SB
 from curl_cffi import requests
 from typing import Union
 from fastapi import FastAPI, HTTPException, File, UploadFile
 from pydantic import BaseModel, Field
 import uvicorn
-# from ocr import process_uploaded_pdf, async_detect_document
 from tempfile import NamedTemporaryFile
 from uuid import uuid4
-import asyncio
-import vertex_pdf_ai
 import re
 from pymongo import MongoClient
 from geopy.geocoders import GoogleV3
@@ -326,9 +318,9 @@ def menu_crawler(url, is_area):
                     menu_items = []
                     print(len(sb.get_attribute(selector="div.bds-c-grid-item.vendor:nth-child(" + str(index + 1) + ") a", attribute="href", by="css selector")))
                     sb.click_nth_visible_element("div.bds-c-grid-item.vendor a", index)
-                    recaptchaSolver = RecaptchaSolver(sb.driver)
+                    
                     if sb.is_element_present("iframe[title*='recaptcha']"):
-                        recaptchaSolver.solveCaptcha()    
+                        print("Recaptha!!")  
                     all_items = sb.find_elements("li[data-testid='menu-product']")
                     sb.sleep(1)
                     for li in all_items:
@@ -353,13 +345,12 @@ def menu_crawler(url, is_area):
                     df.to_excel(excel_file, index=False)
                     sb.go_back()
                     if sb.is_element_present("iframe[title*='recaptcha']"):
-                        recaptchaSolver.solveCaptcha()
-                    sb.sleep(5)            
+                        print("Recaptha!!")      
             
             else:
-                recaptchaSolver = RecaptchaSolver(sb.driver)
+                
                 if sb.is_element_present("iframe[title*='recaptcha']"):
-                    recaptchaSolver.solveCaptcha()    
+                    print("Recatptha!!!")  
                 all_items = sb.find_elements("li[data-testid='menu-product']")
                 for li in all_items:
                     product_name = li.find_element("css selector", "[data-testid='menu-product-name']").text
