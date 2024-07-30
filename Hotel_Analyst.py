@@ -43,7 +43,7 @@ with st.form(key='my_form'):
             percent_complete += increment
             my_bar.progress(min(percent_complete, 100), text=progress_text)
             if percent_complete % 10 == 0:
-                response = requests.post(f"http://127.0.0.1:8581/crawl_hotels?hotel_area={hotel_area}")
+                response = requests.post(f"http://0.0.0.0:8000/crawl_hotels?hotel_area={hotel_area}")
                 my_bar.progress(percent_complete, text="Operation completed.")
                 if response.status_code == 200:
                     data = response.json()

@@ -36,7 +36,7 @@ with st.container():
                 "area": input_text
             }
         
-        response = requests.post("http://127.0.0.1:8581/crawl_menu", json=payload)
+        response = requests.post("http://0.0.0.0:8000/crawl_menu", json=payload)
         if response.status_code == 200:
             data = response.json()
             st.write(data)
