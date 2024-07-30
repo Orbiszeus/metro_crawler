@@ -3,6 +3,7 @@ from streamlit_extras.stylable_container import stylable_container
 import pandas as pd
 import requests
 from io import BytesIO
+from io import StringIO
 
 st.set_page_config(page_title="Metro Analyst", layout="wide")
 
@@ -37,7 +38,7 @@ with st.container():
             data = response.json()
             if "dataframe" in data:
                 df_json = data["dataframe"]
-                df = pd.read_json(df_json, orient='split')
+                df = pd.read_json(StringIO(df_json), orient='split')
                 st.write(df)
                 
                 # Provide download button
