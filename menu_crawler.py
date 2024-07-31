@@ -450,7 +450,7 @@ def g_crawler(url, is_area):
             sb.driver.uc_open_with_reconnect(url, 20)
             print("Reached the page: " + str(sb.get_title()))
             try:
-                sb.uc_gui_handle_cf()
+                # sb.uc_gui_handle_cf() 
                 sb.sleep(3)
                 try:
                     sb.click("button[aria-label='Tümünü Reddet']")
