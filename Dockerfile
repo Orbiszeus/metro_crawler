@@ -1,5 +1,6 @@
 # Use a smaller base image
-FROM python:3.10-slim
+FROM ubuntu:22.04
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
@@ -16,22 +17,25 @@ RUN apt-get update && apt-get install -y \
      gnupg \
      unzip \
      curl \
-     ca-certificates \
-     fonts-liberation \
-     libappindicator3-1 \
      libasound2 \
      libatk-bridge2.0-0 \
      libatk1.0-0 \
+     libatspi2.0-0 \
      libcups2 \
      libdbus-1-3 \
-     libgdk-pixbuf2.0-0 \
+     libdrm2 \
+     libgbm1 \
+     libgtk-3-0 \
      libnspr4 \
      libnss3 \
-     libx11-xcb1 \
+     libu2f-udev \
+     libvulkan1 \
+     libwayland-client0 \
      libxcomposite1 \
      libxdamage1 \
+     libxfixes3 \
+     libxkbcommon0 \
      libxrandr2 \
-     xdg-utils \
      locales \
      --no-install-recommends \
      && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone \
@@ -44,6 +48,24 @@ RUN apt-get update && apt-get install -y \
 RUN echo "LC_ALL=tr_TR.UTF-8" >> /etc/environment \
      && echo "LANG=tr_TR.UTF-8" >> /etc/environment \
      && locale-gen tr_TR.UTF-8
+
+#================
+# Install Python
+#================
+RUN apt-get update
+RUN apt-get install -y python3 python3-pip python3-setuptools python3-dev python3-tk
+RUN alias python=python3
+RUN echo "alias python=python3" >> ~/.bashrc
+RUN apt-get -qy --no-install-recommends install python3.10
+RUN rm /usr/bin/python3
+RUN ln -s python3.10 /usr/bin/python3
+
+#==========================
+# Install useful utilities
+#==========================
+RUN apt-get update
+RUN apt-get install -y xdg-utils
+
 
 # Copy and install Python dependencies
 COPY requirements.txt .
