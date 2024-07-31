@@ -444,7 +444,7 @@ def hotel_crawl_api(hotel_area):
 def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=True) as sb:
+        with SB(uc=True, headless=True, proxy="193.192.124.74:8080") as sb:
             print("Chrome opening: " + str(url))
             # sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 20)
