@@ -449,15 +449,18 @@ def g_crawler(url, is_area):
             # sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 20)
             print("Reached the page: " + str(sb.get_title()))
+            print(sb.get_page_source())
             try:
                 # sb.uc_gui_handle_cf() 
                 sb.sleep(3)
                 try:
                     sb.click("button[aria-label='Tümünü Reddet']")
+                    print("clicked cookies.")
                 except:
                     sb.sleep(1)
                 sb.sleep(3)
                 all_items = sb.find_elements("div[class='sc-be09943-2 gagwGV']")
+                print(all_items)
                 for item in all_items:
                     product_name = item.find_element("css selector", "h4[class='style__Title4-sc-__sc-1nwjacj-5 jrcmhy sc-be09943-0 bpfNyi']").text
                     sb.sleep(2)
