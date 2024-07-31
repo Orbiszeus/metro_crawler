@@ -445,8 +445,10 @@ def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
         with SB(uc=True, headless=True) as sb:
+            print("Chrome opening: " + str(url))
             # sb_config.no_sandbox = True
-            sb.driver.uc_open_with_reconnect(url, 10)
+            sb.driver.uc_open_with_reconnect(url, 20)
+            print("Reached the page: " + str(sb.get_title()))
             try:
                 sb.uc_gui_handle_cf()
                 sb.sleep(3)
