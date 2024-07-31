@@ -441,15 +441,14 @@ def hotel_crawl_api(hotel_area):
 #     return {"ocr_text": ocr_text, "gsc_uri": gcs_source_uri, "document_id": str(id)}
 
 #TODO: using wait attributes when gathering selectors
-def g_crawler(url, is_area):
+def g_crawler(url, is_area, locale_code="tr"):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=True, proxy="193.192.124.74:8080") as sb:
+        with SB(uc=True, headless=True) as sb:
             print("Chrome opening: " + str(url))
             # sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 20)
             print("Reached the page: " + str(sb.get_title()))
-            print(sb.get_page_source())
             try:
                 # sb.uc_gui_handle_cf() 
                 sb.sleep(3)
