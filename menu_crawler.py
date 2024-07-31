@@ -14,6 +14,7 @@ import re
 from pymongo import MongoClient
 from geopy.geocoders import GoogleV3
 import os 
+from seleniumbase import config as sb_config
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&appName=MetroAnalyst")
@@ -444,6 +445,7 @@ def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
         with SB(uc=True) as sb:
+            sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 10)
             try:
                 sb.uc_gui_handle_cf()
