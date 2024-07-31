@@ -51,7 +51,7 @@ def menu_serper_search(area):
     url = "https://google.serper.dev/search"
 
     payload = json.dumps({
-    "q": f"{area} Getir",
+    "q": f"{area} Yemeksepeti",
     "gl": "tr"
     })
     headers = {
