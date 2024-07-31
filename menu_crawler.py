@@ -444,8 +444,8 @@ def hotel_crawl_api(hotel_area):
 def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, xvfb=True) as sb:
-            sb_config.no_sandbox = True
+        with SB(uc=True, headless=True) as sb:
+            # sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 10)
             try:
                 sb.uc_gui_handle_cf()
