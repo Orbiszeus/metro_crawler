@@ -87,7 +87,7 @@ def hotel_crawler(url):
         sb.driver.uc_open_with_reconnect(url, 20) 
         try:
             sb.sleep(5)
-            sb.uc_gui_handle_cf()
+            # sb.uc_gui_handle_cf()
             print(sb.get_title())
             sb.click("button[data-element-name='search-button']")  # This will take us to the list of hotels
             sb.sleep(5)
@@ -310,7 +310,7 @@ def menu_crawler(url, is_area):
         sb.driver.uc_open_with_reconnect(url, 20)    
         try:
             sb.sleep(5)
-            sb.uc_gui_handle_cf()
+            # sb.uc_gui_handle_cf()
             sb.sleep(5)
             print(sb.get_title())
             if sb.is_element_present("div.bds-c-modal__content-window"): #closing the closed hours pop-up
