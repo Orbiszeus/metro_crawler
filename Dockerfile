@@ -1,6 +1,16 @@
 # Use a smaller base image
 FROM python:3.10-slim
 
+# Define build arguments for proxy settings
+ARG http_proxy=http://188.132.188.215:80	
+ARG https_proxy=http://188.132.150.41:8080	
+
+
+# Set environment variables for the build process
+ENV http_proxy=${http_proxy}
+ENV https_proxy=${https_proxy}
+
+
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
 ENV TZ=Europe/Istanbul
