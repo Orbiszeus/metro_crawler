@@ -83,12 +83,12 @@ import re
 
 def hotel_crawler(url):
     hotel_items = []
-    with SB(uc=True, locale_code="tr") as sb:
-        sb.driver.uc_open_with_reconnect(url, 6) 
+    with SB(uc=True, headless=True, locale_code="tr") as sb:
+        sb.driver.uc_open_with_reconnect(url, 20) 
         try:
-            sb.sleep(3)
+            sb.sleep(5)
             sb.uc_gui_handle_cf()
-
+            print(sb.get_title())
             sb.click("button[data-element-name='search-button']")  # This will take us to the list of hotels
             sb.sleep(5)
             first_tab_handle = sb.driver.current_window_handle
@@ -306,12 +306,13 @@ def get_coordinates(address):
     
 def menu_crawler(url, is_area):
     menu_items = []
-    with SB(uc=True, locale_code="tr") as sb:
-        sb.driver.uc_open_with_reconnect(url, 6)    
+    with SB(uc=True, headless=True, locale_code="tr") as sb:
+        sb.driver.uc_open_with_reconnect(url, 20)    
         try:
-            sb.sleep(3)
+            sb.sleep(5)
             sb.uc_gui_handle_cf()
             sb.sleep(5)
+            print(sb.get_title())
             if sb.is_element_present("div.bds-c-modal__content-window"): #closing the closed hours pop-up
                 sb.click("button[data-testid='dialogue-cancel-cta']")
             sb.sleep(5)
@@ -320,6 +321,7 @@ def menu_crawler(url, is_area):
             sb.sleep(5)   
             if is_area:
                 grid_items = sb.find_elements("div.bds-c-grid-item.vendor")
+                print(grid_items)
                 for index, item in enumerate(grid_items):
                     menu_items = []
                     print(len(sb.get_attribute(selector="div.bds-c-grid-item.vendor:nth-child(" + str(index + 1) + ") a", attribute="href", by="css selector")))
@@ -354,7 +356,7 @@ def menu_crawler(url, is_area):
                         print("Recaptha!!")      
             
             else:
-                
+                print("Crawling a single page.")
                 if sb.is_element_present("iframe[title*='recaptcha']"):
                     print("Recatptha!!!")  
                 all_items = sb.find_elements("li[data-testid='menu-product']")
@@ -375,16 +377,16 @@ def menu_crawler(url, is_area):
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
                 menu_items_list = json.loads(menu_items_json) 
                 df = pd.DataFrame(menu_items_list)
-                title = sb.get_title()
-                excel_file = f'{title}_menu.xlsx'
-                df.to_excel(excel_file, index=False)
+                # title = sb.get_title()
+                # excel_file = f'{title}_menu.xlsx'
+                # df.to_excel(excel_file, index=False)
                 sb.go_back()
                 sb.sleep(5)                            
                         
         except Exception as e:
             print(f"Exception : {e}")
             logging.info("No CAPTCHA iframe found, assuming automatic verification")
-    return menu_items  
+    return df.to_json(orient='split')        
 
 @app.post("/crawl_menu")
 def crawler_endpoint(request: CrawlRequest):
@@ -399,7 +401,7 @@ def crawler_endpoint(request: CrawlRequest):
     serper_y_results = menu_serper_search(area)
     for url in serper_y_results:
         # menu_crawler(url, is_area)
-        df_json = g_crawler(url, is_area)
+        df_json = menu_crawler(url, is_area)
         if df_json:
             return {"dataframe": df_json}
         else:
