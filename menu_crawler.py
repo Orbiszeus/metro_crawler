@@ -309,7 +309,7 @@ def get_coordinates(address):
 def menu_crawler(url, is_area):
     menu_items = []
     with SB(uc=True, xvfb=True, locale_code="tr") as sb:
-        sb.driver.uc_open_with_reconnect(url, 20)    
+        sb.driver.uc_open_with_reconnect(url, 20)       
         try:
             print("Locale Code: " +str(sb.get_locale_code()))
             print(sb.save_screenshot_to_logs(name=None, selector=None, by="css selector"))

@@ -1,5 +1,5 @@
 # Use a smaller base image
-FROM python:3.10-slim
+FROM ubuntu:22.04
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
@@ -10,7 +10,7 @@ ENV LANG=tr_TR.UTF-8
 # Set the working directory in the container
 WORKDIR /app
 
-# Install dependencies and Chrome in one layer to keep image size smaller
+# Install dependencies, Python, and Chrome in one layer to keep image size smaller
 RUN apt-get update && apt-get install -y \
      wget \
      gnupg \
@@ -33,6 +33,8 @@ RUN apt-get update && apt-get install -y \
      libxrandr2 \
      xdg-utils \
      locales \
+     python3 \
+     python3-pip \
      --no-install-recommends \
      && ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone \
      && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb \
@@ -47,7 +49,7 @@ RUN echo "LC_ALL=tr_TR.UTF-8" >> /etc/environment \
 
 # Copy and install Python dependencies
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
 # Copy the rest of the application
 COPY . .
