@@ -308,7 +308,7 @@ def get_coordinates(address):
     
 def menu_crawler(url, is_area):
     menu_items = []
-    with SB(uc=True, xvfb=True, locale_code="tr") as sb:
+    with SB(uc=True, headless=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 20)       
         try:
             print("Locale Code: " +str(sb.get_locale_code()))
@@ -406,7 +406,7 @@ def crawler_endpoint(request: CrawlRequest):
     serper_y_results = menu_serper_search(area)
     for url in serper_y_results:
         # menu_crawler(url, is_area)
-        df_json = menu_crawler(url, is_area)
+        df_json = g_crawler(url, is_area)
         if df_json:
             return {"dataframe": df_json}
         else:
@@ -451,12 +451,11 @@ def hotel_crawl_api(hotel_area):
 def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=True, locale_code="tr") as sb:
+        with SB(uc=True, headless=True) as sb:
             # sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 20)
             try:
                 print("Chrome opening: " + str(url))
-                print(sb.save_screenshot_to_logs(name=None, selector=None, by="css selector"))
                 print("Reached the page: " + str(sb.get_title()))
                 print("Locale code:" + str(sb.get_locale_code()))
                 # sb.uc_gui_handle_cf() 
