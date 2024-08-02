@@ -83,8 +83,8 @@ import re
 
 def hotel_crawler(url):
     hotel_items = []
-    with SB(uc=True, headless=True, locale_code="tr") as sb:
-        sb.driver.uc_open_with_reconnect(url, 20) 
+    with SB(uc=True, headless=True) as sb:
+        sb.driver.uc_open_with_reconnect(url, 10) 
         try:
             sb.sleep(5)
             # sb.uc_gui_handle_cf()
@@ -453,7 +453,7 @@ def g_crawler(url, is_area):
     if not is_area: 
         with SB(uc=True, headless=True) as sb:
             # sb_config.no_sandbox = True
-            sb.driver.uc_open_with_reconnect(url, 20)
+            sb.driver.uc_open_with_reconnect(url, 10)
             try:
                 print("Chrome opening: " + str(url))
                 print("Reached the page: " + str(sb.get_title()))
