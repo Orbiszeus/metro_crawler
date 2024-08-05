@@ -51,7 +51,7 @@ def menu_serper_search(area):
     url = "https://google.serper.dev/search"
 
     payload = json.dumps({
-    "q": f"{area} Yemeksepeti",
+    "q": f"{area} Getir",
     "gl": "tr"
     })
     headers = {
@@ -306,7 +306,7 @@ def get_coordinates(address):
     
 def y_crawler(url, is_area):
     menu_items = []
-    with SB(uc=True, headless=False) as sb:
+    with SB(uc=True, headless=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 20)       
         try:
             print("Locale Code: " +str(sb.get_locale_code()))
@@ -451,7 +451,7 @@ def hotel_crawl_api(hotel_area):
 def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=False) as sb:
+        with SB(uc=True, headless=True) as sb:
             # sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 10)
             try:
@@ -467,7 +467,7 @@ def g_crawler(url, is_area):
                     sb.sleep(1)
                 sb.sleep(3)
                 all_items = sb.find_elements("div[class='sc-be09943-2 gagwGV']")
-                print(all_items)
+                print(len(all_items))
                 for item in all_items:
                     product_name = item.find_element("css selector", "h4[class='style__Title4-sc-__sc-1nwjacj-5 jrcmhy sc-be09943-0 bpfNyi']").text
                     sb.sleep(2)

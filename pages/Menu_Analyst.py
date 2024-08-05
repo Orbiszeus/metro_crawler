@@ -41,6 +41,7 @@ with st.container():
                 df = pd.read_json(StringIO(df_json), orient='split')
                 st.write(df)
             if "url" in data:
+                st.write("Extracted URL: ")
                 st.write(data["url"])
                 
                 # Provide download button
