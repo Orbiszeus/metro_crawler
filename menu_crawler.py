@@ -83,18 +83,17 @@ import re
 
 def hotel_crawler(url):
     hotel_items = []
-    with SB(uc=True, headless=True) as sb:
+    with SB(uc=True, headless=False) as sb:
         sb.driver.uc_open_with_reconnect(url, 10) 
         try:
             sb.sleep(5)
             # sb.uc_gui_handle_cf()
-            print("Locale code:" + str(sb.get_locale_code()))
+            print("Locale code:" + str(sb.get_locale_code())) #this ref
             print(sb.get_title())
-            print(sb.save_screenshot_to_logs(name=None, selector=None, by="css selector"))
-            sb.click("button[data-element-name='search-button']")  # This will take us to the list of hotels
+            sb.click("button[data-element-name='search-button']")
             sb.sleep(5)
             first_tab_handle = sb.driver.current_window_handle
-            hotel_counter = 0
+            hotel_counter = 0 #number of hotels we want to crawl on single go.
             # sb.click("span[aria-label='Marriott']")
             sb.sleep(4)
             # sb.scroll_to_bottom()
@@ -102,7 +101,6 @@ def hotel_crawler(url):
                 sb.slow_scroll_to("css selector", "button[id='paginationNext']")
             except:
                 print("One page search.")
-                
             sb.sleep(5)
             #TODO: Add the page by page crawling by clicking "next"
             grid_items = sb.find_elements("div[data-element-name='PropertyCardBaseJacket']")
@@ -306,9 +304,9 @@ def get_coordinates(address):
         print(f"Error geocoding address '{address}': {e}")
         return None, None
     
-def menu_crawler(url, is_area):
+def y_crawler(url, is_area):
     menu_items = []
-    with SB(uc=True, headless=True) as sb:
+    with SB(uc=True, headless=False) as sb:
         sb.driver.uc_open_with_reconnect(url, 20)       
         try:
             print("Locale Code: " +str(sb.get_locale_code()))
@@ -405,10 +403,12 @@ def crawler_endpoint(request: CrawlRequest):
         
     serper_y_results = menu_serper_search(area)
     for url in serper_y_results:
-        # menu_crawler(url, is_area)
+        # df_json = y_crawler(url, is_area)
         df_json = g_crawler(url, is_area)
         if df_json:
-            return {"dataframe": df_json}
+            return {"dataframe": df_json,
+                    "url": url
+                    }
         else:
             return {"error": "Crawling failed"}
         
@@ -451,7 +451,7 @@ def hotel_crawl_api(hotel_area):
 def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=True) as sb:
+        with SB(uc=True, headless=False) as sb:
             # sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 10)
             try:

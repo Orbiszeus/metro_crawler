@@ -40,6 +40,8 @@ with st.container():
                 df_json = data["dataframe"]
                 df = pd.read_json(StringIO(df_json), orient='split')
                 st.write(df)
+            if "url" in data:
+                st.write(data["url"])
                 
                 # Provide download button
                 # excel_file = BytesIO()
