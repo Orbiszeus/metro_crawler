@@ -4,17 +4,13 @@ import json
 import pandas as pd
 from seleniumbase import SB
 from curl_cffi import requests
-from typing import Union
-from fastapi import FastAPI, HTTPException, File, UploadFile
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 import uvicorn
-from tempfile import NamedTemporaryFile
-from uuid import uuid4
 import re
 from pymongo import MongoClient
 from geopy.geocoders import GoogleV3
 import os 
-from seleniumbase import config as sb_config
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&appName=MetroAnalyst")
@@ -401,34 +397,44 @@ def y_crawler(url, is_area):
 
 @app.post("/crawl_menu")
 def crawler_endpoint(request: CrawlRequest):
-    area = ""
-    is_area = True
-    if request.area:
-        area += request.area
-    elif request.restaurant:
-        area += request.restaurant    
-        is_area = False
-        
-    serper_y_results = menu_serper_search(area)
-    for url in serper_y_results:
-        # df_json = y_crawler(url, is_area)
-        df_json = g_crawler(url, is_area)
-        if df_json:
-            return {"dataframe": df_json,
-                    "url": url
-                    }
-        else:
-            return {"error": "Crawling failed"}
-        
+    try:
+        area = ""
+        is_area = True
+        if request.area:
+            area += request.area
+        elif request.restaurant:
+            area += request.restaurant    
+            is_area = False
+        serper_y_results = menu_serper_search(area)
+        for url in serper_y_results:
+            # df_json = y_crawler(url, is_area)
+            df_json = g_crawler(url, is_area)
+            if df_json:
+                return {"dataframe": df_json,
+                        "url": url}
+            else:
+                return {"error": "Crawling failed"}
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        raise HTTPException(status_code=500, detail="An internal server error occurred")
+    
 @app.post("/crawl_hotels")
-def hotel_crawl_api(hotel_area):
-    # hotel_serper_results = hotel_serper_search("İstanbul")
-    # for url in hotel_serper_results:
-    if hotel_area:
+def hotel_crawl_api(hotel_area: str):
+    try:
+        if not hotel_area:
+            raise HTTPException(status_code=400, detail="Hotel area is required")
         search_url = f"https://www.agoda.com/tr-tr/city/{hotel_area}-tr.html"
-        hotel_crawler(search_url)      
-    return get_from_mongo()  
-
+        hotel_crawler(search_url)
+        results = get_from_mongo()
+        if not results:
+            raise HTTPException(status_code=404, detail="No data found in MongoDB")
+        return results
+    except HTTPException as e:
+        raise e
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        raise HTTPException(status_code=500, detail="An internal server error occurred")
+    
 # @app.post("/upload_pdf/")
 # async def upload_pdf(file: UploadFile = File(...)):
 #     id = uuid4()
