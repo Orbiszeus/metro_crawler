@@ -58,4 +58,4 @@ COPY . .
 EXPOSE 8000 8501
 
 # Command to run FastAPI and Streamlit
-CMD ["sh", "-c", "uvicorn menu_crawler:app --host 0.0.0.0 --port 8000 & streamlit run Hotel_Analyst.py"]
+CMD ["sh", "-c", "uvicorn crawler:app --host 0.0.0.0 --port 8000 & streamlit run Hotel_Analyst.py"]

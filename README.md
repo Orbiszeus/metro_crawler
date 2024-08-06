@@ -1,7 +1,7 @@
 To Run Locally:
 
 1. Running UI: streamlit run Hotel_Analyst.py
-2. Running Backend: fastapi run menu_crawler.py 
+2. Running Backend: fastapi run crawler.py 
 
 Building and Running with Docker: 
 
