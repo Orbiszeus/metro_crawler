@@ -84,24 +84,31 @@ import re
 def hotel_crawler(url):
     hotel_items = []
     with SB(uc=True, headless=False) as sb:
-        sb.driver.uc_open_with_reconnect(url, 10) 
+        sb.driver.uc_open_with_reconnect(url, 5) 
         try:
             sb.sleep(5)
-            # sb.uc_gui_handle_cf()
-            print("Locale code:" + str(sb.get_locale_code())) #this ref
+            sb.uc_gui_handle_cf()
+            print("Locale code:" + str(sb.get_locale_code()))
             print(sb.get_title())
             sb.click("button[data-element-name='search-button']")
             sb.sleep(5)
             first_tab_handle = sb.driver.current_window_handle
             hotel_counter = 0 #number of hotels we want to crawl on single go.
-            # sb.click("span[aria-label='Marriott']")
-            sb.sleep(4)
-            # sb.scroll_to_bottom()
+            sb.sleep(1)
+            current_url = sb.get_current_url()
+            if "tr-tr" not in current_url:
+                try:
+                    sb.click("div[data-element-name='language-container-selected-language']")
+                    sb.click("div[data-value='tr-tr']")
+                    sb.sleep(5)           
+                except:
+                    print("Language change to Turkish is not working!") 
             try:   
-                sb.slow_scroll_to("css selector", "button[id='paginationNext']")
+                sb.scroll_to("css selector", "button[id='paginationNext']")
+                sb.scroll_to_bottom()
             except:
                 print("One page search.")
-            sb.sleep(5)
+            sb.sleep(1)
             #TODO: Add the page by page crawling by clicking "next"
             grid_items = sb.find_elements("div[data-element-name='PropertyCardBaseJacket']")
             total_grid_item = len(grid_items)
@@ -114,7 +121,6 @@ def hotel_crawler(url):
                         sb.click_nth_visible_element("div[data-element-name='PropertyCardBaseJacket'] a", index + 1)
                     except:
                         continue
-                    # sb.click_nth_visible_element("a[class='PropertyCard__Link']", index + 1)
                     sb.sleep(5)
                     all_facility_restaurant_details = []
                     hotel_name = ""
@@ -132,7 +138,6 @@ def hotel_crawler(url):
                             hotel_name = hotel_name_elements[0].text
                     except:
                         hotel_name = "N/A"
-
                     try:
                         hotel_location = sb.find_element("css selector", "span[data-selenium='hotel-address-map']").text
                     except:
@@ -222,27 +227,30 @@ def hotel_crawler(url):
                                 
                             all_divs = parent_restaurant_details.find_elements("css selector", "div.Box-sc-kv6pi1-0.dtSdUZ")
                             for div in all_divs:
-                                try:
-                                     restaurant_name = div.find_element("css selector", "h5.sc-jrAGrp.sc-kEjbxe.bmFdwl.kGfVSb").text
-                                except : 
-                                    restaurant_name = "Otelin içerisinde restoran yer almıyor."
-                                try:
-                                    pattern = r'Mutfak:(.*)'
-                                    kitchen_name = div.find_element("css selector", "div.a9733-box.a9733-fill-inherit.a9733-text-inherit.a9733-items-center.a9733-inline-flex").text
-                                    match = re.search(pattern, kitchen_name)
-                                    if match:
-                                        kitchen_name = match.group(1).strip()
-                                    else:
-                                        print("No match found")
-                                except: 
-                                    kitchen_name = "Mutfak bilgisi içeriği yer almıyor."
+                                restaurant_divs = div.find_elements("css selector", "data-element-name['restaurants-on-site']")
+                                if restaurant_divs:
+                                    for rests in restaurant_divs:
+                                        try:
+                                            restaurant_name = rests.find_element("css selector", "h5.sc-jrAGrp.sc-kEjbxe.bmFdwl.kGfVSb").text
+                                        except:
+                                            restaurant_name = "Otelin içerisinde restoran bulunmuyor."
+                                    try:
+                                        pattern = r'Mutfak:(.*)'
+                                        kitchen_name = div.find_element("css selector", "div.a9733-box.a9733-fill-inherit.a9733-text-inherit.a9733-items-center.a9733-inline-flex").text
+                                        match = re.search(pattern, kitchen_name)
+                                        if match:
+                                            kitchen_name = match.group(1).strip()
+                                        else:
+                                            print("No match found")
+                                    except: 
+                                        kitchen_name = "Mutfak bilgisi içeriği yer almıyor."
                                 
-                                facility_restaurant_details = {
-                                    "Restaurant Name": restaurant_name,
-                                    "Kitchen": kitchen_name,
-                                    "Menu" : "A la carte"
-                                }
-                                all_facility_restaurant_details.append(facility_restaurant_details)
+                                    facility_restaurant_details = {
+                                        "Restaurant Name": restaurant_name,
+                                        "Kitchen": kitchen_name,
+                                        "Menu" : "A la carte"
+                                    }
+                                    all_facility_restaurant_details.append(facility_restaurant_details)
                                 break
                             facility_restaurant_details["Breakfast Options"] =  breakfast_types_list
                             
