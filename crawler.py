@@ -132,6 +132,7 @@ def hotel_crawler(url):
                         hotel_name_elements = sb.find_elements("css selector", "h2[data-selenium='hotel-header-name'], p[data-selenium='hotel-header-name']")
                         if hotel_name_elements:
                             hotel_name = hotel_name_elements[0].text
+                            print("Hotel Name: " + str(hotel_name))
                     except:
                         hotel_name = "N/A"
                     try:
