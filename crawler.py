@@ -501,6 +501,7 @@ def g_crawler(url, is_area):
                     if product_name == "Poşet":
                         continue
                     menu_items.append(menu_item)
+                print(menu_items)
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
                 menu_items_list = json.loads(menu_items_json) 
                 df = pd.DataFrame(menu_items_list)
