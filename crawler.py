@@ -11,6 +11,7 @@ import re
 from pymongo import MongoClient
 from geopy.geocoders import GoogleV3
 import os 
+import pdb
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&appName=MetroAnalyst")
@@ -79,7 +80,7 @@ import re
 
 def hotel_crawler(url):
     hotel_items = []
-    with SB(uc=True, headless=False) as sb:
+    with SB(uc=True, headless=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 5) 
         try:
             sb.sleep(5)
@@ -92,6 +93,7 @@ def hotel_crawler(url):
             hotel_counter = 0 #number of hotels we want to crawl on single go.
             sb.sleep(1)
             current_url = sb.get_current_url()
+            pdb.set_trace() #debugger
             if "tr-tr" not in current_url:
                 try:
                     sb.click("div[data-element-name='language-container-selected-language']")
