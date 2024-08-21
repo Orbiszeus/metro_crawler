@@ -7,7 +7,7 @@ from io import StringIO
 
 st.set_page_config(page_title="Metro Analyst", layout="wide")
 
-with st.container():
+with st.container(): 
     st.subheader("This is the menu extractor!")
     st.title("Metro Analyst")
     

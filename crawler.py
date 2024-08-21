@@ -81,10 +81,14 @@ import re
 def hotel_crawler(url):
     hotel_items = []
     with SB(uc=True, headless=True) as sb:
+<<<<<<< HEAD
         sb.driver.uc_open_with_reconnect(url, 5) 
+=======
+        sb.driver.uc_open_with_reconnect(url, 10) 
+>>>>>>> 1ed40521aee8394fe7a8af53e8fab1dac8593961
         try:
             sb.sleep(5)
-            sb.uc_gui_handle_cf()
+            # sb.uc_gui_handle_cf() --> this method is used only if there is CF involved
             print("Locale code:" + str(sb.get_locale_code()))
             print(sb.get_title())
             sb.click("button[data-element-name='search-button']")
@@ -138,6 +142,7 @@ def hotel_crawler(url):
                     except:
                         hotel_name = "N/A"
                     try:
+                        sb.sleep(3)
                         hotel_location = sb.find_element("css selector", "span[data-selenium='hotel-address-map']").text
                     except:
                         hotel_location = "N/A"
@@ -230,6 +235,7 @@ def hotel_crawler(url):
                                 if restaurant_divs:
                                     for rests in restaurant_divs:
                                         try:
+                                            restaurant_in_hotel_count += 1
                                             restaurant_name = rests.find_element("css selector", "h5.sc-jrAGrp.sc-kEjbxe.bmFdwl.kGfVSb").text
                                         except:
                                             restaurant_name = "Otelin içerisinde restoran bulunmuyor."
@@ -468,7 +474,7 @@ def hotel_crawl_api(hotel_area: str):
 def g_crawler(url, is_area):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=True) as sb:
+        with SB(uc=True, headless=False) as sb:
             # sb_config.no_sandbox = True
             sb.driver.uc_open_with_reconnect(url, 10)
             try:
@@ -503,6 +509,7 @@ def g_crawler(url, is_area):
                     if product_name == "Poşet":
                         continue
                     menu_items.append(menu_item)
+                print(menu_items)
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
                 menu_items_list = json.loads(menu_items_json) 
                 df = pd.DataFrame(menu_items_list)
