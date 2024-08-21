@@ -81,11 +81,7 @@ import re
 def hotel_crawler(url):
     hotel_items = []
     with SB(uc=True, headless=True) as sb:
-<<<<<<< HEAD
-        sb.driver.uc_open_with_reconnect(url, 5) 
-=======
         sb.driver.uc_open_with_reconnect(url, 10) 
->>>>>>> 1ed40521aee8394fe7a8af53e8fab1dac8593961
         try:
             sb.sleep(5)
             # sb.uc_gui_handle_cf() --> this method is used only if there is CF involved
