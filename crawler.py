@@ -101,7 +101,8 @@ def hotel_crawler(url):
                     sb.sleep(5)           
                 except:
                     print("Language change to Turkish is not working!") 
-            try:   
+            try:
+                sb.sleep(5)
                 sb.scroll_to("css selector", "button[id='paginationNext']")
                 sb.scroll_to_bottom()
             except:
@@ -144,6 +145,7 @@ def hotel_crawler(url):
                         hotel_location = "N/A"
 
                     try:
+                        sb.sleep(3)
                         hotel_rating = sb.find_element("css selector", "span[class='sc-jrAGrp sc-kEjbxe fzPhrN ehWyCi']").text
                     except:
                         hotel_rating = "N/A"
@@ -215,6 +217,7 @@ def hotel_crawler(url):
 
                     try:
                         sb.sleep(3)
+                        pdb.set_trace() #debugger
                         parent_restaurant_details = sb.find_element("css selector", "div[id='abouthotel-restaurant']")
                         if parent_restaurant_details:
                             try:
@@ -225,8 +228,8 @@ def hotel_crawler(url):
                             except:
                                 breakfast_types = "Otelin içerisinde kahvaltı içeriği bilgisi yer almıyor."                            
                                 
-                            all_divs = parent_restaurant_details.find_elements("css selector", "div.Box-sc-kv6pi1-0.dtSdUZ")
-                            for div in all_divs:
+                           # all_divs = parent_restaurant_details.find_elements("css selector", "div.Box-sc-kv6pi1-0.dtSdUZ")
+                            for div in parent_restaurant_details:
                                 restaurant_divs = div.find_elements("css selector", "data-element-name['restaurants-on-site']")
                                 if restaurant_divs:
                                     for rests in restaurant_divs:
@@ -254,7 +257,7 @@ def hotel_crawler(url):
                                     all_facility_restaurant_details.append(facility_restaurant_details)
                                 break
                             facility_restaurant_details["Breakfast Options"] =  breakfast_types_list
-                            
+                            pdb.set_trace()
                     except Exception as e:
                         print(e)
                         
