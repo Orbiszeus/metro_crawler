@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_extras.stylable_container import stylable_container
 import pandas as pd
 import requests
 from io import BytesIO
@@ -11,16 +10,16 @@ with st.container():
     st.subheader("This is the menu extractor!")
     st.title("Metro Analyst")
     
-    with stylable_container(
-        key="input_header",
-        css_styles="""
-        div[data-testid="stMarkdownContainer"] > p {
-            font-size: 18px;
-            margin-top: 30px;
-        }
-        """,
-    ):
-        input_text = st.text_input("Please type your desired restaurant area or restaurant name.", key="disabled")
+    # with stylable_container(
+    #     key="input_header",
+    #     css_styles="""
+    #     div[data-testid="stMarkdownContainer"] > p {
+    #         font-size: 18px;
+    #         margin-top: 30px;
+    #     }
+    #     """,
+    # ):
+    input_text = st.text_input("Please type your desired restaurant area or restaurant name.", key="disabled")
     single_restaurant = st.checkbox("I want a single restaurant")
 
     if st.button("Search"):
