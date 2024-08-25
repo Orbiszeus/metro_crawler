@@ -19,7 +19,7 @@ with st.container():
     #     }
     #     """,
     # ):
-    input_text = st.text_input("Please type your desired restaurant area or restaurant name.", key="disabled")
+    input_text = st.text_input("Please type your desired restaurant area or restaurant name.", key="placeholder")
     single_restaurant = st.checkbox("I want a single restaurant")
 
     if st.button("Search"):
