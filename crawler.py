@@ -93,7 +93,7 @@ def hotel_crawler(url):
             hotel_counter = 0 #number of hotels we want to crawl on single go.
             sb.sleep(1)
             current_url = sb.get_current_url()
-            pdb.set_trace() #debugger
+            # pdb.set_trace() #debugger
             if "tr-tr" not in current_url:
                 try:
                     sb.click("div[data-element-name='language-container-selected-language']")
@@ -102,11 +102,12 @@ def hotel_crawler(url):
                 except:
                     print("Language change to Turkish is not working!") 
             try:
-                sb.sleep(5)
+                sb.sleep(2)
                 sb.scroll_to("css selector", "button[id='paginationNext']")
+                sb.sleep(2)
                 sb.scroll_to_bottom()
             except:
-                print("One page search.")
+                print("One page search or scroll failed.")
             sb.sleep(1)
             #TODO: Add the page by page crawling by clicking "next"
             grid_items = sb.find_elements("div[data-element-name='PropertyCardBaseJacket']")
@@ -217,8 +218,8 @@ def hotel_crawler(url):
 
                     try:
                         sb.sleep(3)
-                        pdb.set_trace() #debugger
-                        parent_restaurant_details = sb.find_element("css selector", "div[id='abouthotel-restaurant']")
+                        # pdb.set_trace() #debugger
+                        parent_restaurant_details = sb.find_elements("css selector", "div[id='abouthotel-restaurant']")
                         if parent_restaurant_details:
                             try:
                                 breakfast_details = sb.find_element("css selector", "ul[data-element-name='breakfast-options']")
@@ -229,8 +230,9 @@ def hotel_crawler(url):
                                 breakfast_types = "Otelin içerisinde kahvaltı içeriği bilgisi yer almıyor."                            
                                 
                            # all_divs = parent_restaurant_details.find_elements("css selector", "div.Box-sc-kv6pi1-0.dtSdUZ")
-                            for div in parent_restaurant_details:
-                                restaurant_divs = div.find_elements("css selector", "data-element-name['restaurants-on-site']")
+                            # for div in parent_restaurant_details:
+                            try:
+                                restaurant_divs = div.find_elements("css selector", "div[data-element-name='restaurants-on-site']")
                                 if restaurant_divs:
                                     for rests in restaurant_divs:
                                         try:
@@ -238,24 +240,26 @@ def hotel_crawler(url):
                                             restaurant_name = rests.find_element("css selector", "h5.sc-jrAGrp.sc-kEjbxe.bmFdwl.kGfVSb").text
                                         except:
                                             restaurant_name = "Otelin içerisinde restoran bulunmuyor."
-                                    try:
-                                        pattern = r'Mutfak:(.*)'
-                                        kitchen_name = div.find_element("css selector", "div.a9733-box.a9733-fill-inherit.a9733-text-inherit.a9733-items-center.a9733-inline-flex").text
-                                        match = re.search(pattern, kitchen_name)
-                                        if match:
-                                            kitchen_name = match.group(1).strip()
-                                        else:
-                                            print("No match found")
-                                    except: 
-                                        kitchen_name = "Mutfak bilgisi içeriği yer almıyor."
+                                        try:
+                                            pattern = r'Mutfak:(.*)'
+                                            kitchen_name = div.find_element("css selector", "div.a9733-box.a9733-fill-inherit.a9733-text-inherit.a9733-items-center.a9733-inline-flex").text
+                                            match = re.search(pattern, kitchen_name)
+                                            if match:
+                                                kitchen_name = match.group(1).strip()
+                                            else:
+                                                print("No match found")
+                                        except: 
+                                            kitchen_name = "Mutfak bilgisi içeriği yer almıyor."
                                 
-                                    facility_restaurant_details = {
-                                        "Restaurant Name": restaurant_name,
-                                        "Kitchen": kitchen_name,
-                                        "Menu" : "A la carte"
-                                    }
-                                    all_facility_restaurant_details.append(facility_restaurant_details)
-                                break
+                                        facility_restaurant_details = {
+                                            "Restaurant Name": restaurant_name,
+                                            "Kitchen": kitchen_name + " Mutfağı",
+                                            "Menu" : "A la carte"
+                                        }
+                                        all_facility_restaurant_details.append(facility_restaurant_details)
+                            except:
+                                print("No restaurant details are present.")
+                                # break
                             facility_restaurant_details["Breakfast Options"] =  breakfast_types_list
                             pdb.set_trace()
                     except Exception as e:

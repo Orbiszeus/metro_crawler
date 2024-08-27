@@ -976,5 +976,35 @@
             "latitude": 40.978617,
             "longitude": 29.1393792
         }
+    },
+    {
+        "Hotel Name": "Sheraton Istanbul City Center",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "23 Kurtuluş Deresi Cd., Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "254",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "4",
+        "Breakfast Price": "15 EUR",
+        "Total Number of Rooms with Breakfast": "16",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.039266,
+            "longitude": 28.97456
+        }
+    },
+    {
+        "Hotel Name": "Cityloft 161",
+        "Hotel Rating": "7,9",
+        "Hotel Location": "Zümrüt Sokak, Ataşehir, İstanbul, Türkiye, 34755",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "39",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.9761262,
+            "longitude": 29.1487875
+        }
     }
 ]
