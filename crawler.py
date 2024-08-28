@@ -15,9 +15,13 @@ import pdb
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&appName=MetroAnalyst")
+
 db = client["MetroAnalyst"]
-collection = db["hotels"]
+hotel_collection = db["hotels"]
+restaurants_collection = db["restaurants"]
+
 api_key = os.getenv('GOOGLE_MAPS_API_KEY')
+
 headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
 
@@ -137,6 +141,10 @@ def hotel_crawler(url):
                         if hotel_name_elements:
                             hotel_name = hotel_name_elements[0].text
                             print("Hotel Name: " + str(hotel_name))
+                        existing_hotel = hotel_collection.find_one({"Hotel Name": hotel_name})
+                        if existing_hotel:
+                            print(f"Hotel '{hotel_name}' already exists in the database.")
+                            continue
                     except:
                         hotel_name = "N/A"
                     try:
@@ -232,7 +240,7 @@ def hotel_crawler(url):
                            # all_divs = parent_restaurant_details.find_elements("css selector", "div.Box-sc-kv6pi1-0.dtSdUZ")
                             # for div in parent_restaurant_details:
                             try:
-                                restaurant_divs = div.find_elements("css selector", "div[data-element-name='restaurants-on-site']")
+                                restaurant_divs = sb.find_elements("css selector", "div[data-element-name='restaurants-on-site']")
                                 if restaurant_divs:
                                     for rests in restaurant_divs:
                                         try:
@@ -264,8 +272,9 @@ def hotel_crawler(url):
                             pdb.set_trace()
                     except Exception as e:
                         print(e)
-                        
+
                     latitude, longitude = get_coordinates(hotel_location)
+
                     hotel_item = {
                         "Hotel Name": hotel_name,
                         "Hotel Rating": hotel_rating,
@@ -281,18 +290,9 @@ def hotel_crawler(url):
                             "longitude": longitude if longitude is not None else 0.0
                         }
                     }
-
-                    result = collection.insert_one(hotel_item)
+                    
+                    result = hotel_collection.insert_one(hotel_item)
                     print(f"Document inserted with ID: {result.inserted_id}")
-
-                    """Converting array object into an excel format"""
-                    # hotel_items.append(hotel_item)
-                    # hotel_json = json.dumps(hotel_items, ensure_ascii=False, indent=4)
-                    # print(hotel_json)
-                    # hotel_items_list = json.loads(hotel_json)
-                    # df = pd.DataFrame(hotel_items_list)
-                    # excel_file = f'{hotel_name}_HOTEL_ANALYSIS.xlsx'
-                    # df.to_excel(excel_file, index=False)
                     sb.sleep(1)
                     sb.driver.switch_to.window(first_tab_handle)   
         except Exception as e:
@@ -300,7 +300,7 @@ def hotel_crawler(url):
     return get_from_mongo()
 
 def get_from_mongo():
-    cursor = collection.find({}, {'_id': 0}) 
+    cursor = hotel_collection.find({}, {'_id': 0}) 
     documents = list(cursor)
     documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
     output_file = "hotel_data.json"
@@ -396,9 +396,6 @@ def y_crawler(url, is_area):
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
                 menu_items_list = json.loads(menu_items_json) 
                 df = pd.DataFrame(menu_items_list)
-                # title = sb.get_title()
-                # excel_file = f'{title}_menu.xlsx'
-                # df.to_excel(excel_file, index=False)
                 sb.go_back()
                 sb.sleep(5)                            
                         
@@ -420,7 +417,7 @@ def crawler_endpoint(request: CrawlRequest):
         serper_y_results = menu_serper_search(area)
         for url in serper_y_results:
             # df_json = y_crawler(url, is_area)
-            df_json = g_crawler(url, is_area)
+            df_json = g_crawler(url, is_area, area)
             if df_json:
                 return {"dataframe": df_json,
                         "url": url}
@@ -473,12 +470,10 @@ def hotel_crawl_api(hotel_area: str):
     
 #     return {"ocr_text": ocr_text, "gsc_uri": gcs_source_uri, "document_id": str(id)}
 
-#TODO: using wait attributes when gathering selectors
-def g_crawler(url, is_area):
+def g_crawler(url, is_area, restaurant_name):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=False) as sb:
-            # sb_config.no_sandbox = True
+        with SB(uc=True, headless=True) as sb:
             sb.driver.uc_open_with_reconnect(url, 10)
             try:
                 print("Chrome opening: " + str(url))
@@ -515,10 +510,15 @@ def g_crawler(url, is_area):
                 print(menu_items)
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
                 menu_items_list = json.loads(menu_items_json) 
-                df = pd.DataFrame(menu_items_list)
-                # title = sb.get_title()
-                # excel_file = f'{title}_getir_menu.xlsx'
-                # df.to_excel(excel_file, index=False)  
+
+                #Inserting items to Mongo
+                restaurant_data = {
+                "Restaurant Name": restaurant_name,
+                "Menu": menu_items_list}
+                result = restaurants_collection.insert_one(restaurant_data)
+                (f"Document inserted with ID: {result.inserted_id}")
+
+                df = pd.DataFrame(menu_items_list) 
                 return df.to_json(orient='split')                  
             except Exception as e:
                 print(f"Exception in Getir Crawler:  {e}")

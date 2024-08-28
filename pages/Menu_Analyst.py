@@ -3,6 +3,7 @@ import pandas as pd
 import requests
 from io import BytesIO
 from io import StringIO
+import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Metro Analyst", layout="wide")
 
@@ -19,7 +20,7 @@ with st.container():
     #     }
     #     """,
     # ):
-    input_text = st.text_input("Please type your desired restaurant area or restaurant name.", key="placeholder")
+    input_text = st.text_input("", key="placeholder")
     single_restaurant = st.checkbox("I want a single restaurant")
 
     if st.button("Search"):
