@@ -623,21 +623,6 @@
         }
     },
     {
-        "Hotel Name": "",
-        "Hotel Rating": "N/A",
-        "Hotel Location": "N/A",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "0",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 0.0,
-            "longitude": 0.0
-        }
-    },
-    {
         "Hotel Name": "JW Marriott Hotel Ankara",
         "Hotel Rating": "8,6",
         "Hotel Location": "1423 Cadde, 48 Kizilirmak Mahallesi, Çankaya, Ankara, Türkiye, 06520",
@@ -663,36 +648,6 @@
         "coordinates": {
             "latitude": 39.8845495,
             "longitude": 32.8155018
-        }
-    },
-    {
-        "Hotel Name": "",
-        "Hotel Rating": "8,3",
-        "Hotel Location": "N/A",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "0",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 0.0,
-            "longitude": 0.0
-        }
-    },
-    {
-        "Hotel Name": "Izmir Marriott Hotel",
-        "Hotel Rating": "9,3",
-        "Hotel Location": "Akdeniz Mahallesi Gazi Bulvari No 1 Alsancak, Konak, Kordon, İzmir, Türkiye, 35220",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "72",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 38.4243171,
-            "longitude": 27.1403452
         }
     },
     {
@@ -726,36 +681,6 @@
     {
         "Hotel Name": "",
         "Hotel Rating": "8,4",
-        "Hotel Location": "N/A",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "0",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 0.0,
-            "longitude": 0.0
-        }
-    },
-    {
-        "Hotel Name": "ROYAL TERMAL HOTEL",
-        "Hotel Rating": "8,5",
-        "Hotel Location": "Çekirge, Çekirge Cd. No: 135, Bursa Şehir Merkezi, Bursa, Türkiye, 16340",
-        "Total Room Number": "86",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "40",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.200116,
-            "longitude": 29.031674
-        }
-    },
-    {
-        "Hotel Name": "",
-        "Hotel Rating": "N/A",
         "Hotel Location": "N/A",
         "Total Room Number": "0",
         "Total Restaurant Number": "0",
@@ -813,198 +738,52 @@
         }
     },
     {
-        "Hotel Name": "Lara Beach Homes",
-        "Hotel Rating": "7,0",
-        "Hotel Location": "guzeloba mah 2382. Sk. no.12 , Lara Plajı, Antalya, Türkiye, 07230",
-        "Total Room Number": "48",
-        "Total Restaurant Number": "1",
-        "Total Bar Number": "0",
-        "Breakfast Price": "7 EUR",
-        "Total Number of Rooms with Breakfast": "23",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 36.8610371,
-            "longitude": 30.8332306
-        }
-    },
-    {
-        "Hotel Name": "C Suites Antalia Airport",
-        "Hotel Rating": "8,8",
-        "Hotel Location": "alınova orta mah. perge sokak, no:7-A d:9, Antalya Havaalanı, Antalya, Türkiye, 07170",
-        "Total Room Number": "60",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "0",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 36.9311428,
-            "longitude": 30.7790739
-        }
-    },
-    {
-        "Hotel Name": "Ador Troia Hotel",
-        "Hotel Rating": "8,5",
-        "Hotel Location": "No:67 Hacıoğlu Sk., Kemalpaşa, Çanakkale, Türkiye, 17000",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "6",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.14708,
-            "longitude": 26.4067875
-        }
-    },
-    {
-        "Hotel Name": "",
-        "Hotel Rating": "5,0",
-        "Hotel Location": "N/A",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "0",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 0.0,
-            "longitude": 0.0
-        }
-    },
-    {
         "Hotel Name": "Cityloft 161",
-        "Hotel Rating": "7,9",
-        "Hotel Location": "Zümrüt Sokak, Ataşehir, İstanbul, Türkiye, 34755",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "37",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.9761262,
-            "longitude": 29.1487875
-        }
-    },
-    {
-        "Hotel Name": "Hippodrome Hotel",
-        "Hotel Rating": "7,9",
-        "Hotel Location": "Mimar Mehmet Aga Cad. No.38 , Sultanahmet, Sultanahmet, İstanbul, Türkiye, 34122",
-        "Total Room Number": "28",
-        "Total Restaurant Number": "1",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "16",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 41.0055406,
-            "longitude": 28.9782704
-        }
-    },
-    {
-        "Hotel Name": "KA Hotel Suites",
-        "Hotel Rating": "9,0",
-        "Hotel Location": "Kadırga Limanı Caddesi, Sultanahmet, İstanbul, Türkiye, 34122",
-        "Total Room Number": "14",
-        "Total Restaurant Number": "1",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "0",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 41.0049197,
-            "longitude": 28.9707045
-        }
-    },
-    {
-        "Hotel Name": "The Bostancı Hotel",
-        "Hotel Rating": "7,6",
-        "Hotel Location": "bostanci mh.mehmetşevki paşa cad.no:20, Kadıköy, İstanbul, Türkiye, 34744",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "27",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.9594078,
-            "longitude": 29.1023407
-        }
-    },
-    {
-        "Hotel Name": "Cityloft 81",
         "Hotel Rating": "N/A",
-        "Hotel Location": "Kayışdağı Caddesi No185, Ataşehir, İstanbul, Türkiye, 34755",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "2",
-        "Total Bar Number": "2",
-        "Breakfast Price": "7 EUR",
-        "Total Number of Rooms with Breakfast": "23",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.978617,
-            "longitude": 29.1393792
-        }
-    },
-    {
-        "Hotel Name": "Cityloft 81",
-        "Hotel Rating": "N/A",
-        "Hotel Location": "Kayışdağı Caddesi No185, Ataşehir, İstanbul, Türkiye, 34755",
-        "Total Room Number": "81",
-        "Total Restaurant Number": "2",
-        "Total Bar Number": "2",
-        "Breakfast Price": "7 EUR",
-        "Total Number of Rooms with Breakfast": "23",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.978617,
-            "longitude": 29.1393792
-        }
-    },
-    {
-        "Hotel Name": "Cityloft 81",
-        "Hotel Rating": "7,5",
-        "Hotel Location": "Kayışdağı Caddesi No185, Ataşehir, İstanbul, Türkiye, 34755",
-        "Total Room Number": "81",
-        "Total Restaurant Number": "2",
-        "Total Bar Number": "2",
-        "Breakfast Price": "7 EUR",
-        "Total Number of Rooms with Breakfast": "23",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.978617,
-            "longitude": 29.1393792
-        }
-    },
-    {
-        "Hotel Name": "Sheraton Istanbul City Center",
-        "Hotel Rating": "8,2",
-        "Hotel Location": "23 Kurtuluş Deresi Cd., Beyoğlu, İstanbul, Türkiye, 34440",
-        "Total Room Number": "254",
-        "Total Restaurant Number": "3",
-        "Total Bar Number": "4",
-        "Breakfast Price": "15 EUR",
-        "Total Number of Rooms with Breakfast": "16",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 41.039266,
-            "longitude": 28.97456
-        }
-    },
-    {
-        "Hotel Name": "Cityloft 161",
-        "Hotel Rating": "7,9",
         "Hotel Location": "Zümrüt Sokak, Ataşehir, İstanbul, Türkiye, 34755",
         "Total Room Number": "0",
         "Total Restaurant Number": "0",
         "Total Bar Number": "0",
         "Breakfast Price": "0 EUR",
         "Total Number of Rooms with Breakfast": "39",
-        "Menu and Restaurant Details: ": [],
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
         "coordinates": {
             "latitude": 40.9761262,
             "longitude": 29.1487875
+        }
+    },
+    {
+        "Hotel Name": "Movenpick Hotel Istanbul Golden Horn",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "Silahtarağa Caddesi, No. 87 Eyüp, İstanbul, Eyüp, İstanbul, Türkiye, 34050",
+        "Total Room Number": "136",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "10 EUR",
+        "Total Number of Rooms with Breakfast": "50",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0590421,
+            "longitude": 28.9438254
         }
     }
 ]
