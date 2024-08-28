@@ -97,7 +97,6 @@ def hotel_crawler(url):
             hotel_counter = 0 #number of hotels we want to crawl on single go.
             sb.sleep(1)
             current_url = sb.get_current_url()
-            # pdb.set_trace() #debugger
             if "tr-tr" not in current_url:
                 try:
                     sb.click("div[data-element-name='language-container-selected-language']")
@@ -226,7 +225,6 @@ def hotel_crawler(url):
 
                     try:
                         sb.sleep(3)
-                        # pdb.set_trace() #debugger
                         parent_restaurant_details = sb.find_elements("css selector", "div[id='abouthotel-restaurant']")
                         if parent_restaurant_details:
                             try:
@@ -269,7 +267,6 @@ def hotel_crawler(url):
                                 print("No restaurant details are present.")
                                 # break
                             facility_restaurant_details["Breakfast Options"] =  breakfast_types_list
-                            pdb.set_trace()
                     except Exception as e:
                         print(e)
 
