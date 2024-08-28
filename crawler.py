@@ -51,7 +51,11 @@ def menu_serper_search(area):
     
     url = "https://google.serper.dev/search"
 
-    payload = json.dumps({
+    payload_y = json.dumps({
+    "q": f"{area} Yemeksepeti",
+    "gl": "tr"
+    })
+    payload_g = json.dumps({
     "q": f"{area} Getir",
     "gl": "tr"
     })
@@ -60,7 +64,7 @@ def menu_serper_search(area):
     'Content-Type': 'application/json'
     }
 
-    response = requests.request("POST", url, headers=headers, data=payload)
+    response = requests.request("POST", url, headers=headers, data=payload_y)
     data = response.json()
     search_results = []
     
@@ -317,16 +321,16 @@ def get_coordinates(address):
         print(f"Error geocoding address '{address}': {e}")
         return None, None
     
-def y_crawler(url, is_area):
+def y_crawler(url, is_area, restaurant_name):
     menu_items = []
-    with SB(uc=True, headless=True) as sb:
+    with SB(uc=True, xvfb=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 20)       
         try:
             print("Locale Code: " +str(sb.get_locale_code()))
-            print(sb.save_screenshot_to_logs(name=None, selector=None, by="css selector"))
+            # print(sb.save_screenshot_to_logs(name=None, selector=None, by="css selector"))
             print("Page title: " + str(sb.get_title()))
             sb.sleep(5)
-            # sb.uc_gui_handle_cf()
+            sb.uc_gui_handle_cf()
             sb.sleep(5)
 
             if sb.is_element_present("div.bds-c-modal__content-window"): #closing the closed hours pop-up
@@ -339,6 +343,10 @@ def y_crawler(url, is_area):
                 grid_items = sb.find_elements("div.bds-c-grid-item.vendor")
                 print(grid_items)
                 for index, item in enumerate(grid_items):
+                    existing_restaurant = hotel_collection.find_one({"Restaurant Name": restaurant_name})
+                    if existing_restaurant:
+                        print(f"Restaurant '{restaurant_name}' already exists in the database.")
+                        continue
                     menu_items = []
                     print(len(sb.get_attribute(selector="div.bds-c-grid-item.vendor:nth-child(" + str(index + 1) + ") a", attribute="href", by="css selector")))
                     sb.click_nth_visible_element("div.bds-c-grid-item.vendor a", index)
@@ -392,6 +400,14 @@ def y_crawler(url, is_area):
                     menu_items.append(menu_item)
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
                 menu_items_list = json.loads(menu_items_json) 
+
+                #Inserting items to Mongo
+                restaurant_data = {
+                "Restaurant Name": restaurant_name,
+                "Menu": menu_items_list}
+                result = restaurants_collection.insert_one(restaurant_data)
+                (f"Document inserted with ID: {result.inserted_id}")
+
                 df = pd.DataFrame(menu_items_list)
                 sb.go_back()
                 sb.sleep(5)                            
@@ -413,8 +429,8 @@ def crawler_endpoint(request: CrawlRequest):
             is_area = False
         serper_y_results = menu_serper_search(area)
         for url in serper_y_results:
-            # df_json = y_crawler(url, is_area)
-            df_json = g_crawler(url, is_area, area)
+            df_json = y_crawler(url, is_area, area)
+            # df_json = g_crawler(url, is_area, area)
             if df_json:
                 return {"dataframe": df_json,
                         "url": url}
