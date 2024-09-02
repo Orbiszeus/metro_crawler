@@ -298,13 +298,22 @@ def hotel_crawler(url):
                     sb.driver.switch_to.window(first_tab_handle)   
         except Exception as e:
             print(f"Exception: {e}")
-    return get_from_mongo()
+    return get_from_mongo("hotel")
 
-def get_from_mongo():
-    cursor = hotel_collection.find({}, {'_id': 0}) 
-    documents = list(cursor)
-    documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
-    output_file = "hotel_data.json"
+def get_from_mongo(collection_name):
+    output_file = ""
+    if collection_name == "hotel":
+        cursor = hotel_collection.find({}, {'_id': 0}) 
+        documents = list(cursor)
+        documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
+        output_file += "hotel_data.json"
+
+    if collection_name == "restaurant":
+        cursor = restaurants_collection.find({}, {'_id': 0}) 
+        documents = list(cursor)
+        documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
+        output_file += "restaurant_data.json"
+
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(documents_json)
     client.close()
@@ -532,6 +541,7 @@ def g_crawler(url, is_area, restaurant_name):
                 (f"Document inserted with ID: {result.inserted_id}")
 
                 df = pd.DataFrame(menu_items_list) 
+                get_from_mongo("restaurant")
                 return df.to_json(orient='split')                  
             except Exception as e:
                 print(f"Exception in Getir Crawler:  {e}")
