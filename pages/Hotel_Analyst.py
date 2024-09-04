@@ -9,7 +9,7 @@ import os
 st.set_page_config(page_title="Hotel Analyst", layout="wide")
 
 if not st.session_state.get('connected'):
-    st.write("You must log in to access this page.")
+    st.subheader("You must log in to access this page.")
     st.stop()  # Stop the page from loading further
 
 # Set the title and subtitle

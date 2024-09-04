@@ -1,6 +1,9 @@
 import streamlit as st
 from streamlit_google_auth import Authenticate
 
+st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
+st.title("AI ANALYST")
+
 # Initialize session state for authentication if not already done
 if 'connected' not in st.session_state:
     authenticator = Authenticate(
@@ -19,9 +22,10 @@ st.session_state["authenticator"].login()
 
 # If the user is logged in, show the profile page
 if st.session_state.get('connected'):
-    st.title('Profile')
+    st.header('My Profile')
     st.image(st.session_state['user_info'].get('picture'))
-    st.write('Hello, ' + st.session_state['user_info'].get('name'))
+    st.subheader('Hello, ' + st.session_state['user_info'].get('name'))
+    st.write('Email: ' + st.session_state['user_info'].get('email'))
     if st.button('Log Out'):
         st.session_state["authenticator"].logout()
         st.rerun()  # Refresh to reflect the logged-out state
