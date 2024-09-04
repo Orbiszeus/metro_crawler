@@ -7,7 +7,17 @@ import os
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Hotel Analyst", layout="wide")
-
+st.markdown("""
+    <style>
+        .reportview-container {
+            margin-top: -2em;
+        }
+        #MainMenu {visibility: hidden;}
+        .stDeployButton {display:none;}
+        footer {visibility: hidden;}
+        #stDecoration {display:none;}
+    </style>
+""", unsafe_allow_html=True)
 if not st.session_state.get('connected'):
     st.subheader("You must log in to access this page.")
     st.stop()  # Stop the page from loading further

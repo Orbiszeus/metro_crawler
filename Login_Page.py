@@ -4,6 +4,18 @@ from streamlit_google_auth import Authenticate
 st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 st.title("AI ANALYST")
 
+st.markdown("""
+    <style>
+        .reportview-container {
+            margin-top: -2em;
+        }
+        #MainMenu {visibility: hidden;}
+        .stDeployButton {display:none;}
+        footer {visibility: hidden;}
+        #stDecoration {display:none;}
+    </style>
+""", unsafe_allow_html=True)
+
 # Initialize session state for authentication if not already done
 if 'connected' not in st.session_state:
     authenticator = Authenticate(
