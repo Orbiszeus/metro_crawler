@@ -7,6 +7,10 @@ import streamlit.components.v1 as components
 
 st.set_page_config(page_title="Metro Analyst", layout="wide")
 
+if not st.session_state.get('connected'):
+    st.write("You must log in to access this page.")
+    st.stop()  # Stop the page from loading further
+    
 with st.container(): 
     st.subheader("This is the menu extractor!")
     st.title("Metro Analyst")

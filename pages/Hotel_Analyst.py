@@ -6,7 +6,11 @@ import time
 import os
 
 # Set up Streamlit page configuration
-st.set_page_config(page_title="Hotel Analyst", page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title="Hotel Analyst", layout="wide")
+
+if not st.session_state.get('connected'):
+    st.write("You must log in to access this page.")
+    st.stop()  # Stop the page from loading further
 
 # Set the title and subtitle
 st.title("AI Analysts for Hotels")
