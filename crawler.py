@@ -12,9 +12,14 @@ from pymongo import MongoClient
 from geopy.geocoders import GoogleV3
 import os 
 import pdb
+import json
+import pandas as pd
+import re
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&appName=MetroAnalyst")
+
+app = FastAPI()
 
 db = client["MetroAnalyst"]
 hotel_collection = db["hotels"]
@@ -50,7 +55,7 @@ def hotel_serper_search(area):
 def menu_serper_search(area):
     
     url = "https://google.serper.dev/search"
-
+    
     payload_y = json.dumps({
     "q": f"{area} Yemeksepeti",
     "gl": "tr"
@@ -72,8 +77,6 @@ def menu_serper_search(area):
         search_results.append(result['link'])
     
     return search_results
-        
-app = FastAPI()
 
 class CrawlRequest(BaseModel):
     area: str = Field(default=None, description="The area to search for restaurants")
@@ -81,10 +84,7 @@ class CrawlRequest(BaseModel):
     
 class HotelCrawlRequest(BaseModel):
     hotel_area: str = Field(default=None, description="The area to search for hotels")
-    
-import json
-import pandas as pd
-import re
+
 
 def hotel_crawler(url):
     hotel_items = []
