@@ -19,7 +19,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-if not st.session_state.get('connected'):
+if not st.session_state['authenticated']:
     st.subheader("You must log in to access this page.")
     st.stop()  # Stop the page from loading further
     
