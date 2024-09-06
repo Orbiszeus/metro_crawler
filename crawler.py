@@ -332,7 +332,7 @@ def get_coordinates(address):
     
 def y_crawler(url, is_area, restaurant_name):
     menu_items = []
-    with SB(uc=True, xvfb=True) as sb:
+    with SB(uc=True, headless=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 20)       
         try:
             print("Locale Code: " +str(sb.get_locale_code()))
