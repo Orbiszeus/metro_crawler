@@ -23,7 +23,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 if st.session_state['authenticated']:
-    st.write(st.session_state['username'])
+    st.subheader('Hello, ' + st.session_state['username'])
+    
 # # Initialize session state for authentication if not already done
 # if 'connected' not in st.session_state:
 #     authenticator = Authenticate(
