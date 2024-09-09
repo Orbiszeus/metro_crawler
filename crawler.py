@@ -332,19 +332,19 @@ def get_coordinates(address):
     
 def y_crawler(url, is_area, restaurant_name):
     menu_items = []
-    with SB(uc=True, headless=True) as sb:
+    with SB(uc=True, headless=False) as sb:
         sb.driver.uc_open_with_reconnect(url, 20)       
         try:
             print("Locale Code: " +str(sb.get_locale_code()))
             # print(sb.save_screenshot_to_logs(name=None, selector=None, by="css selector"))
             print("Page title: " + str(sb.get_title()))
-            sb.sleep(5)
+            print("Current page: " + str(sb.get_current_url()))
+            sb.sleep(3)
             sb.uc_gui_handle_cf()
-            sb.sleep(5)
-
+            sb.sleep(5) 
             if sb.is_element_present("div.bds-c-modal__content-window"): #closing the closed hours pop-up
                 sb.click("button[data-testid='dialogue-cancel-cta']")
-            sb.sleep(5)
+            sb.sleep(2)
             if not is_area:
                 sb.execute_script("UC_UI.denyAllConsents().then(UC_UI.closeCMP);") #closing the cookies
             sb.sleep(5)   
@@ -366,9 +366,9 @@ def y_crawler(url, is_area, restaurant_name):
                     sb.sleep(1)
                     for li in all_items:
                         product_name = li.find_element("css selector", "[data-testid='menu-product-name']").text
-                        sb.sleep(3)
+                        sb.sleep(1)
                         product_description = li.find_element("css selector", "[data-testid='menu-product-description']").text
-                        sb.sleep(3)
+                        sb.sleep(1)
                         product_price = li.find_element("css selector", "[data-testid='menu-product-price']").text            
                         menu_item = {
                             "Menu Item": product_name,
