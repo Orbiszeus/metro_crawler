@@ -505,13 +505,13 @@ def hotel_crawl_api(hotel_area: str):
 def g_crawler(url, is_area, restaurant_name):
     menu_items = []
     if not is_area: 
-        with SB(uc=True) as sb:
+        with SB(uc=True, headless=True) as sb:
             sb.driver.uc_open_with_reconnect(url, 10)
             try:
                 print("Chrome opening: " + str(url))
                 print("Reached the page: " + str(sb.get_title()))
                 print("Locale code:" + str(sb.get_locale_code()))
-                sb.uc_gui_click_captcha() #clicking CF turnstile 
+                # sb.uc_gui_click_captcha() #clicking CF turnstile 
                 sb.sleep(3)
                 try:
                     sb.click("button[aria-label='Tümünü Reddet']")
