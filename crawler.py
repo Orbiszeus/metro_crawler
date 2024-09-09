@@ -340,15 +340,17 @@ def get_coordinates(address):
     
 def y_crawler(url, is_area, restaurant_name):
     menu_items = []
-    with SB(uc=True, headless=False) as sb:
+    with SB(uc=True, headless=False ) as sb:
         sb.driver.uc_open_with_reconnect(url, 20)       
         try:
+            if sb.is_element_present("iframe[title*='recaptcha']"):
+                sb.uc_click("iframe[title*='recaptcha']", 4)
             print("Locale Code: " +str(sb.get_locale_code()))
             # print(sb.save_screenshot_to_logs(name=None, selector=None, by="css selector"))
             print("Page title: " + str(sb.get_title()))
             print("Current page: " + str(sb.get_current_url()))
             sb.sleep(3)
-            sb.uc_gui_handle_cf()
+            sb.uc_gui_click_captcha()
             sb.sleep(5) 
             if sb.is_element_present("div.bds-c-modal__content-window"): #closing the closed hours pop-up
                 sb.click("button[data-testid='dialogue-cancel-cta']")
@@ -360,7 +362,7 @@ def y_crawler(url, is_area, restaurant_name):
                 grid_items = sb.find_elements("div.bds-c-grid-item.vendor")
                 print(grid_items)
                 for index, item in enumerate(grid_items):
-                    existing_restaurant = hotel_collection.find_one({"Restaurant Name": restaurant_name})
+                    existing_restaurant = restaurants_collection.find_one({"Restaurant Name": restaurant_name})
                     if existing_restaurant:
                         print(f"Restaurant '{restaurant_name}' already exists in the database.")
                         continue
@@ -503,13 +505,13 @@ def hotel_crawl_api(hotel_area: str):
 def g_crawler(url, is_area, restaurant_name):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=False) as sb:
+        with SB(uc=True) as sb:
             sb.driver.uc_open_with_reconnect(url, 10)
             try:
                 print("Chrome opening: " + str(url))
                 print("Reached the page: " + str(sb.get_title()))
                 print("Locale code:" + str(sb.get_locale_code()))
-                # sb.uc_gui_handle_cf() 
+                sb.uc_gui_click_captcha() #clicking CF turnstile 
                 sb.sleep(3)
                 try:
                     sb.click("button[aria-label='Tümünü Reddet']")
@@ -517,6 +519,11 @@ def g_crawler(url, is_area, restaurant_name):
                 except:
                     sb.sleep(1)
                 sb.sleep(3)
+                restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
+                result = re.search(r'\((.*?)\)', restaurant_location)
+                if result:
+                    restaurant_location = result.group(1) + " ,İstanbul, Türkiye"
+                latitude, longitude = get_coordinates(restaurant_location)
                 all_items = sb.find_elements("div[class='sc-be09943-2 gagwGV']")
                 print(len(all_items))
                 for item in all_items:
@@ -540,11 +547,16 @@ def g_crawler(url, is_area, restaurant_name):
                 print(menu_items)
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
                 menu_items_list = json.loads(menu_items_json) 
-
+                
                 #Inserting items to Mongo
                 restaurant_data = {
                 "Restaurant Name": restaurant_name,
-                "Menu": menu_items_list}
+                "Menu": menu_items_list,
+                "coordinates" : {
+                    "latitude" : latitude if latitude is not None else 0.0,
+                    "longitude": longitude if longitude is not None else 0.0
+                }
+                }
                 result = restaurants_collection.insert_one(restaurant_data)
                 (f"Document inserted with ID: {result.inserted_id}")
 
