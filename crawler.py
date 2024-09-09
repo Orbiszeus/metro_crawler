@@ -15,9 +15,11 @@ import pdb
 import json
 import pandas as pd
 import re
+import certifi
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
-client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&appName=MetroAnalyst")
+connection = "mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&ssl=true&ssl_cert_reqs=CERT_NONE&appName=MetroAnalyst"
+client = MongoClient(connection, tlsCAFile=certifi.where())
 
 app = FastAPI()
 
@@ -69,13 +71,19 @@ def menu_serper_search(area):
     'Content-Type': 'application/json'
     }
 
-    response = requests.request("POST", url, headers=headers, data=payload_y)
+    response = requests.request("POST", url, headers=headers, data=payload_g)
+    
     data = response.json()
     search_results = []
-    
-    for result in data['organic'][:1]:
-        search_results.append(result['link'])
-    
+    first_two_items = data["organic"][:2]
+
+    for index, item in enumerate(first_two_items, 1):
+        if "marka" in item.get('link'):
+            print(f"  Link: {item.get('link')}")
+            continue
+        else:
+            search_results.append(item.get('link'))
+        
     return search_results
 
 class CrawlRequest(BaseModel):
@@ -344,10 +352,10 @@ def y_crawler(url, is_area, restaurant_name):
             sb.sleep(5) 
             if sb.is_element_present("div.bds-c-modal__content-window"): #closing the closed hours pop-up
                 sb.click("button[data-testid='dialogue-cancel-cta']")
-            sb.sleep(2)
+            sb.sleep(1)
             if not is_area:
                 sb.execute_script("UC_UI.denyAllConsents().then(UC_UI.closeCMP);") #closing the cookies
-            sb.sleep(5)   
+            sb.sleep(2)   
             if is_area:
                 grid_items = sb.find_elements("div.bds-c-grid-item.vendor")
                 print(grid_items)
@@ -438,8 +446,8 @@ def crawler_endpoint(request: CrawlRequest):
             is_area = False
         serper_y_results = menu_serper_search(area)
         for url in serper_y_results:
-            df_json = y_crawler(url, is_area, area)
-            # df_json = g_crawler(url, is_area, area)
+            # df_json = y_crawler(url, is_area, area)
+            df_json = g_crawler(url, is_area, area)
             if df_json:
                 return {"dataframe": df_json,
                         "url": url}
@@ -495,7 +503,7 @@ def hotel_crawl_api(hotel_area: str):
 def g_crawler(url, is_area, restaurant_name):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=True) as sb:
+        with SB(uc=True, headless=False) as sb:
             sb.driver.uc_open_with_reconnect(url, 10)
             try:
                 print("Chrome opening: " + str(url))
