@@ -53,14 +53,14 @@ with st.container():
         response = requests.post("http://0.0.0.0:8000/crawl_menu", json=payload)
         if response.status_code == 200:
             data = response.json()
+            if "url" in data:
+                st.write("Extracted URL: " , data["url"])
             if "dataframe" in data:
                 df_json = data["dataframe"]
                 df = pd.read_json(StringIO(df_json), orient='split')
                 st.write(df)
-            if "url" in data:
-                st.write("Extracted URL: ")
-                st.write(data["url"])
-                
+            
+            
                 # Provide download button
                 # excel_file = BytesIO()
                 # with pd.ExcelWriter(excel_file, engine='xlsxwriter') as writer:

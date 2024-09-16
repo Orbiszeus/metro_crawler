@@ -324,7 +324,7 @@ def get_from_mongo(collection_name):
 
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(documents_json)
-    client.close()
+    # client.close()
     
 def get_coordinates(address):
     geolocator = GoogleV3(api_key="AIzaSyCA8FOwQt4JhWVrLzJVJaJqbEwQgTLpRvM")
@@ -505,20 +505,19 @@ def hotel_crawl_api(hotel_area: str):
 def g_crawler(url, is_area, restaurant_name):
     menu_items = []
     if not is_area: 
-        with SB(uc=True, headless=True) as sb:
-            sb.driver.uc_open_with_reconnect(url, 10)
+        with SB(uc=True, headless=False) as sb:
+            sb.driver.uc_open_with_reconnect("https://getir.com/yemek/", 10)
             try:
-                print("Chrome opening: " + str(url))
+                print("Chrome opening: " + str("url"))
                 print("Reached the page: " + str(sb.get_title()))
                 print("Locale code:" + str(sb.get_locale_code()))
                 # sb.uc_gui_click_captcha() #clicking CF turnstile 
-                sb.sleep(3)
                 try:
                     sb.click("button[aria-label='Tümünü Reddet']")
                     print("clicked cookies.")
                 except:
-                    sb.sleep(1)
-                sb.sleep(3)
+                    print("Cannot reject/accept cookies")
+                sb.sleep(1)
                 restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
                 result = re.search(r'\((.*?)\)', restaurant_location)
                 if result:
@@ -528,14 +527,14 @@ def g_crawler(url, is_area, restaurant_name):
                 print(len(all_items))
                 for item in all_items:
                     product_name = item.find_element("css selector", "h4[class='style__Title4-sc-__sc-1nwjacj-5 jrcmhy sc-be09943-0 bpfNyi']").text
-                    sb.sleep(2)
+                    print("Product Name: ", str(product_name))
                     try:
                         product_description = item.find_element("css selector", "p[contenteditable='false']").text
+                        print("Product Description: ", str(product_description))
                     except:
                         product_description = "No description for this product."
-                    sb.sleep(2)
                     product_price = item.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-be09943-5 kA-DgzG']").text
-                    sb.sleep(2)
+                    print("Product Price: ", str(product_price))
                     menu_item = {
                         "Menu Item": product_name,
                         "Menu Ingredients": product_description,

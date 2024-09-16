@@ -12,5 +12,5 @@ echo "Streamlit app is running with PID: $STREAMLIT_PID"
 python3 crawler.py
 
 # Optionally, wait for FastAPI to complete before killing Streamlit (uncomment if needed)
-# wait $!
-# kill $STREAMLIT_PID
+wait $!
+kill $STREAMLIT_PID

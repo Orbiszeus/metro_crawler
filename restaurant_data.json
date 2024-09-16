@@ -1,5 +1,200 @@
 [
     {
+        "Restaurant Name": "Snob",
+        "Menu": [
+            {
+                "Menu Item": "Benji Burger Menü",
+                "Menu Ingredients": "Benji Burger (burger köftesi, brioche ekmek, double cheddar, double dana bacon, tatlı relish sos, sumaklı mayonez ve mac&cheese topu), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Classic Burger Menü",
+                "Menu Ingredients": "Classic Burger (burger köftesi, brioche ekmek, çedar, snob sos.), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺350,00"
+            },
+            {
+                "Menu Item": "Zinger Rock Burger Menü",
+                "Menu Ingredients": "Zinger Rock Burger (coleslaw, aşırı çıtır tavuk, cheddar, sweet chili ve sumaklı mayonez), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺350,00"
+            },
+            {
+                "Menu Item": "Black Truffle Burger Menü",
+                "Menu Ingredients": "(brioche, black truffle sos, çedar, çıtır soğan. ), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Baharatlı Patates Kızartması",
+                "Menu Ingredients": "Sumaklı mayonez ile",
+                "Price": "₺95,00"
+            },
+            {
+                "Menu Item": "Black Truffle Burger Menü",
+                "Menu Ingredients": "(brioche, black truffle sos, çedar, çıtır soğan. ), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Zinger Rock Burger Menü",
+                "Menu Ingredients": "Zinger Rock Burger (coleslaw, aşırı çıtır tavuk, cheddar, sweet chili ve sumaklı mayonez), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺350,00"
+            },
+            {
+                "Menu Item": "Classic Burger Menü",
+                "Menu Ingredients": "Classic Burger (burger köftesi, brioche ekmek, çedar, snob sos.), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺350,00"
+            },
+            {
+                "Menu Item": "Benji Burger Menü",
+                "Menu Ingredients": "Benji Burger (burger köftesi, brioche ekmek, double cheddar, double dana bacon, tatlı relish sos, sumaklı mayonez ve mac&cheese topu), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Bıg Bang Menü",
+                "Menu Ingredients": "Çift köfte, ekmek, göbek marul, çıtır soğan, kornişon turşu), baharatlı patates kızartması ve kutu içecek",
+                "Price": "₺395,00"
+            },
+            {
+                "Menu Item": "Classic Burger",
+                "Menu Ingredients": "Burger köftesi, brioche ekmek, cheddar, tatlı relish sos, acılı mayonez ve karamelize soğan",
+                "Price": "₺245,00"
+            },
+            {
+                "Menu Item": "Benji Burger",
+                "Menu Ingredients": "Burger köftesi, brioche ekmek, double cheddar, double dana bacon, tatlı relish sos, sumaklı mayonez ve mac&cheese topu",
+                "Price": "₺295,00"
+            },
+            {
+                "Menu Item": "Black Truffle Burger",
+                "Menu Ingredients": "brioche, black truffle sos, çedar, çıtır soğan.",
+                "Price": "₺255,00"
+            },
+            {
+                "Menu Item": "Zinger Rock Burger",
+                "Menu Ingredients": "Coleslaw, aşırı çıtır tavuk, cheddar, sweet chili ve sumaklı mayonez",
+                "Price": "₺245,00"
+            },
+            {
+                "Menu Item": "Bao Burger",
+                "Menu Ingredients": "2 adet bun ekmeği, sumaklı mayonez, çıtır tavuk, sweet chili, marul, salatalık, mavi haşhaş, kornişon turşu",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Bun-Truffle",
+                "Menu Ingredients": "köfte, bun, black tru\u001be mayo, çedar, çıtır soğan.",
+                "Price": "₺255,00"
+            },
+            {
+                "Menu Item": "Vegy Burger",
+                "Menu Ingredients": "sebze köfte, relish, coleslaw, çıtır sogan, sumaklı mayo, mac & cheese topu.",
+                "Price": "₺250,00"
+            },
+            {
+                "Menu Item": "Bıg Bang Burger",
+                "Menu Ingredients": "Çift köfte, ekmek, göbek marul, çıtır soğan, kornişon turşu",
+                "Price": "₺320,00"
+            },
+            {
+                "Menu Item": "Çıtır Tavuk",
+                "Menu Ingredients": "4 adet çıtır tavuk, sweet chili ve acılı mayonez ile",
+                "Price": "₺265,00"
+            },
+            {
+                "Menu Item": "Parmesanlı Patates Kızartması",
+                "Menu Ingredients": "Sumaklı sarımsaklı mayonez ile",
+                "Price": "₺165,00"
+            },
+            {
+                "Menu Item": "Mac & Cheese Topları",
+                "Menu Ingredients": "Yanında ekstra acı mayonez ve parmesan ile",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Baharatlı Patates Kızartması",
+                "Menu Ingredients": "Sumaklı mayonez ile",
+                "Price": "₺95,00"
+            },
+            {
+                "Menu Item": "Humus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺145,00"
+            },
+            {
+                "Menu Item": "Çok Snob Tavuklu Sezar",
+                "Menu Ingredients": "Marul, maydanoz, parmesan, kruton, sezar sos ve çıtır tavuk",
+                "Price": "₺290,00"
+            },
+            {
+                "Menu Item": "Tahin & Cevizli Kabak",
+                "Menu Ingredients": "Çıtır kabak, tahin, ceviz",
+                "Price": "₺190,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺60,00"
+            },
+            {
+                "Menu Item": "Coca Cola Şekersiz (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺60,00"
+            },
+            {
+                "Menu Item": "Sprite (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺60,00"
+            },
+            {
+                "Menu Item": "Ayran (300 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺60,00"
+            },
+            {
+                "Menu Item": "Şalgam Suyu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺65,00"
+            },
+            {
+                "Menu Item": "Soda",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺40,00"
+            },
+            {
+                "Menu Item": "Su",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺30,00"
+            },
+            {
+                "Menu Item": "Ayran (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺70,00"
+            },
+            {
+                "Menu Item": "Coca Cola Şekersiz (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺70,00"
+            },
+            {
+                "Menu Item": "Sumaklı Mayonez",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺20,00"
+            },
+            {
+                "Menu Item": "Trüflü Mayonez",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺20,00"
+            },
+            {
+                "Menu Item": "Acılı Mayonez",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺20,00"
+            },
+            {
+                "Menu Item": "Relish Sos",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺20,00"
+            }
+        ]
+    },
+    {
         "Restaurant Name": "Grungy",
         "Menu": [
             {
@@ -92,10 +287,3345 @@
                 "Menu Ingredients": "Paket",
                 "Price": "6 TL"
             }
+        ]
+    },
+    {
+        "Restaurant Name": "develi kebab",
+        "Menu": [
+            {
+                "Menu Item": "Çiğ Köfte (8 Sıkım)",
+                "Menu Ingredients": "Göbek marul, roka, turp, limon, 1 adet lavaş ile",
+                "Price": "295 TL"
+            },
+            {
+                "Menu Item": "Adana Kebap",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "590 TL"
+            },
+            {
+                "Menu Item": "Çıtır Tavuk Kanat",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "575 TL"
+            },
+            {
+                "Menu Item": "Karışık Kebap (1 Kişilik)",
+                "Menu Ingredients": "Tavuk şiş, terbiyeli kuzu şiş, fıstıklı kebap, Adana kebap, Urfa kebap, kanat, tandır veya döner. Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "905 TL"
+            },
+            {
+                "Menu Item": "Çoban Kavurma",
+                "Menu Ingredients": "Sumaklı soğan, mevsim yeşilliği, pide lavaş ile",
+                "Price": "780 TL"
+            },
+            {
+                "Menu Item": "Fıstıklı Kebap",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "770 TL"
+            },
+            {
+                "Menu Item": "Beyaz Peynir",
+                "Menu Ingredients": "2 dilim beyaz peynir",
+                "Price": "220 TL"
+            },
+            {
+                "Menu Item": "Çiğ Köfte (8 Sıkım)",
+                "Menu Ingredients": "Göbek marul, roka, turp, limon, 1 adet lavaş ile",
+                "Price": "295 TL"
+            },
+            {
+                "Menu Item": "Tereyağı & Tulum Peyniri",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "145 TL"
+            },
+            {
+                "Menu Item": "Dana Spaghetti",
+                "Menu Ingredients": "Izgara istiridye mantarı, kremalı mantar sos. Patates kızartması ile",
+                "Price": "1.490 TL"
+            },
+            {
+                "Menu Item": "Dana Antrikot",
+                "Menu Ingredients": "Izgara istiridye mantarı, kremalı mantar sos, patates kızartması ile",
+                "Price": "985 TL"
+            },
+            {
+                "Menu Item": "Dallas Steak",
+                "Menu Ingredients": "Izgara istiridye mantarı, kremalı mantar sos, patates kızartması ile",
+                "Price": "1.740 TL"
+            },
+            {
+                "Menu Item": "T-Bone",
+                "Menu Ingredients": "Izgara istiridye mantar, kremalı mantar sos, patates tava",
+                "Price": "1.490 TL"
+            },
+            {
+                "Menu Item": "Günün Çorbası",
+                "Menu Ingredients": "Ekmek ile",
+                "Price": "150 TL"
+            },
+            {
+                "Menu Item": "Patates Kızartması",
+                "Menu Ingredients": "Parmak dilim",
+                "Price": "165 TL"
+            },
+            {
+                "Menu Item": "Sebzeli Bulgur Pilavı",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "165 TL"
+            },
+            {
+                "Menu Item": "Közlenmiş Patlıcan",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "225 TL"
+            },
+            {
+                "Menu Item": "Alinazik Sos (Sıcak)",
+                "Menu Ingredients": "Süzme yoğurt, közlenmiş patlıcan, sarımsak",
+                "Price": "225 TL"
+            },
+            {
+                "Menu Item": "Semsek Pide",
+                "Menu Ingredients": "Tek kişilik",
+                "Price": "125 TL"
+            },
+            {
+                "Menu Item": "Pirinç Pilavı",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "165 TL"
+            },
+            {
+                "Menu Item": "Humus",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "225 TL"
+            },
+            {
+                "Menu Item": "Pastırmalı Humus",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "360 TL"
+            },
+            {
+                "Menu Item": "Kızartma İçli Köfte (Adet)",
+                "Menu Ingredients": "Bulgurun içerisine doldurulan kıyma, soğan ve baharatlarla hazırlanan bir yemektir.",
+                "Price": "145 TL"
+            },
+            {
+                "Menu Item": "Tereyağlı Kaşarlı Mantar",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "295 TL"
+            },
+            {
+                "Menu Item": "Abugannuş Sos (Sıcak)",
+                "Menu Ingredients": "Közlenmiş patlıcan, domates, biber, sarımsak",
+                "Price": "225 TL"
+            },
+            {
+                "Menu Item": "Biber Kızartma",
+                "Menu Ingredients": "Domates sos, süzme yoğurt",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Patlıcan Kızartma",
+                "Menu Ingredients": "Domates sos, yoğurt ile",
+                "Price": "225 TL"
+            },
+            {
+                "Menu Item": "Adana Kebap",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "590 TL"
+            },
+            {
+                "Menu Item": "Alinazik Kebap (Kıymadan)",
+                "Menu Ingredients": "Yoğurtlu alinazik sos. Sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Alinazik Kebap (Kuzu Şişten)",
+                "Menu Ingredients": "Yoğurtlu alinazik sos. Sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "765 TL"
+            },
+            {
+                "Menu Item": "Alinazik Kebap (Tavuk Şişten)",
+                "Menu Ingredients": "Yoğurtlu alinazik sos. Sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "675 TL"
+            },
+            {
+                "Menu Item": "Altı Ezmeli Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, biber sos. Ssumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Altı Ezmeli Kuzu Şiş",
+                "Menu Ingredients": "Közlenmiş domates, biber sos. Ssumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "765 TL"
+            },
+            {
+                "Menu Item": "Beğendili Kebap",
+                "Menu Ingredients": "Beğendi sos. Sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "765 TL"
+            },
+            {
+                "Menu Item": "Açık Beyti Kebap",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Burma Kebabı",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "905 TL"
+            },
+            {
+                "Menu Item": "Domatesli Kebap",
+                "Menu Ingredients": "Firik pilavı ,közlenmiş biber, pide, lavaş ile",
+                "Price": "915 TL"
+            },
+            {
+                "Menu Item": "Fıstıklı Kebap",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "770 TL"
+            },
+            {
+                "Menu Item": "Karışık Kebap (1 Kişilik)",
+                "Menu Ingredients": "Tavuk şiş, terbiyeli kuzu şiş, fıstıklı kebap, Adana kebap, Urfa kebap, kanat, tandır veya döner. Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "905 TL"
+            },
+            {
+                "Menu Item": "Karışık Kebap (Tavuksuz) (1 Kişilik)",
+                "Menu Ingredients": "Terbiyeli kuzu şiş, fıstıklı kebap, Adana kebap, Urfa kebap, tandır veya döner. Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "985 TL"
+            },
+            {
+                "Menu Item": "Patlıcanlı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş biber, soğan, lavaş ile",
+                "Price": "815 TL"
+            },
+            {
+                "Menu Item": "Sarma Beyti Kebap",
+                "Menu Ingredients": "Domates sos, yoğurt, közlenmiş domates, közlenmiş biber ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Urfa Kebap",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "590 TL"
+            },
+            {
+                "Menu Item": "Yoğurtlu Kebap (Kıymadan)",
+                "Menu Ingredients": "Kıtır pide yoğurt, domates sos. Sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Yoğurtlu Kebap (Kuzu Şişten)",
+                "Menu Ingredients": "Kıtır pide yoğurt, domates sos. Sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "765 TL"
+            },
+            {
+                "Menu Item": "Beğendili Kuzu Şiş",
+                "Menu Ingredients": "Beğendi sos. Sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "830 TL"
+            },
+            {
+                "Menu Item": "Kallavi",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "1.175 TL"
+            },
+            {
+                "Menu Item": "Çıtır Tavuk Kanat",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "575 TL"
+            },
+            {
+                "Menu Item": "Çoban Kavurma",
+                "Menu Ingredients": "Sumaklı soğan, mevsim yeşilliği, pide lavaş ile",
+                "Price": "780 TL"
+            },
+            {
+                "Menu Item": "Çöp Şiş",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Dana Şaşlık",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "905 TL"
+            },
+            {
+                "Menu Item": "Kuzu Külbastı",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "830 TL"
+            },
+            {
+                "Menu Item": "Kuzu Küşleme",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "845 TL"
+            },
+            {
+                "Menu Item": "Kuzu Pirzola",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "860 TL"
+            },
+            {
+                "Menu Item": "Kuzu Şiş",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Kuzu Tandır",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "830 TL"
+            },
+            {
+                "Menu Item": "Tavuk Kanat",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "575 TL"
+            },
+            {
+                "Menu Item": "Tavuk Şiş",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "575 TL"
+            },
+            {
+                "Menu Item": "Terbiyeli Çöp Şiş (Acılı)",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Terbiyeli Kuzu Şiş (Acılı)",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Terbiyeli Tavuk Kanat (Acılı)",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "575 TL"
+            },
+            {
+                "Menu Item": "Terbiyeli Tavuk Şiş (Acılı)",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "575 TL"
+            },
+            {
+                "Menu Item": "Çocuk Izgara Köfte",
+                "Menu Ingredients": "Pirinç pilavı, patates kızartması, pide lavaş ile",
+                "Price": "610 TL"
+            },
+            {
+                "Menu Item": "Develi Köfte",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "675 TL"
+            },
+            {
+                "Menu Item": "Izgara Köfte",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "610 TL"
+            },
+            {
+                "Menu Item": "Dana Lokum",
+                "Menu Ingredients": "Firik pilavı, közlenmiş biber, közlenmiş domates, sumaklı soğan, mevsim yeşilliği, pide, lavaş ile",
+                "Price": "910 TL"
+            },
+            {
+                "Menu Item": "Sarımsaklı Fındık Lahmacun",
+                "Menu Ingredients": "Mevsim yeşillikleri, domates, limon, sumaklı soğan ile",
+                "Price": "90 TL"
+            },
+            {
+                "Menu Item": "Sarımsaklı Lahmacun",
+                "Menu Ingredients": "Mevsim yeşillikleri, domates, limon, sumaklı soğan ile",
+                "Price": "160 TL"
+            },
+            {
+                "Menu Item": "Sarımsaklı Ceviz Lahmacun",
+                "Menu Ingredients": "Mevsim yeşillikleri, domates, limon, sumaklı soğan ile",
+                "Price": "105 TL"
+            },
+            {
+                "Menu Item": "Sarımsaklı Başpınar Lahmacun",
+                "Menu Ingredients": "Mevsim yeşillikleri, domates, limon, sumaklı soğan ile",
+                "Price": "260 TL"
+            },
+            {
+                "Menu Item": "Nar Ekşili Soğanlı Fındık Lahmacun (Az Acılı)",
+                "Menu Ingredients": "Mevsim yeşillikleri, domates, limon, sumaklı soğan ile",
+                "Price": "95 TL"
+            },
+            {
+                "Menu Item": "Nar Ekşili Soğanlı Lahmacun (Az Acılı)",
+                "Menu Ingredients": "Mevsim yeşillikleri, domates, limon, sumaklı soğan ile",
+                "Price": "170 TL"
+            },
+            {
+                "Menu Item": "Nar Ekşili Soğanlı Ceviz Lahmacun (Az Acılı)",
+                "Menu Ingredients": "Mevsim yeşillikleri, domates, limon, sumaklı soğan ile",
+                "Price": "110 TL"
+            },
+            {
+                "Menu Item": "Nar Ekşili Soğanlı Başpınar Lahmacun (Az Acılı)",
+                "Menu Ingredients": "Mevsim yeşillikleri, domates, limon, sumaklı soğan ile",
+                "Price": "280 TL"
+            },
+            {
+                "Menu Item": "Et Döner",
+                "Menu Ingredients": "Pirinç pilavı, patates kızartması, közlenmiş domates, közlenmiş biber, pide, lavaş ile",
+                "Price": "650 TL"
+            },
+            {
+                "Menu Item": "Pilav Üstü Et Döner",
+                "Menu Ingredients": "Pirinç pilavı, patates kızartması, közlenmiş domates, közlenmiş biber, pide, lavaş ile",
+                "Price": "680 TL"
+            },
+            {
+                "Menu Item": "İskender (Yaprak Et Dönerden)",
+                "Menu Ingredients": "İskender sos, közlenmiş biber, közlenmiş domates, yoğurt ile",
+                "Price": "745 TL"
+            },
+            {
+                "Menu Item": "Et Döner Dürüm",
+                "Menu Ingredients": "Patates kızartması, domates",
+                "Price": "650 TL"
+            },
+            {
+                "Menu Item": "Tombik Pide Arası Et Döner",
+                "Menu Ingredients": "Domates, patates kızartması",
+                "Price": "560 TL"
+            },
+            {
+                "Menu Item": "Kaşarlı Pide",
+                "Menu Ingredients": "Rendelenmiş kaşar peyniri ile hazırlanan bir pide çeşididir.",
+                "Price": "355 TL"
+            },
+            {
+                "Menu Item": "Kıymalı Pide",
+                "Menu Ingredients": "Kıyma ile hazırlanan bir pide çeşididir.",
+                "Price": "430 TL"
+            },
+            {
+                "Menu Item": "Kıymalı Kaşarlı Pide",
+                "Menu Ingredients": "Kıyma ve rendelenmiş kaşar peyniri ile hazırlanan bir pide çeşididir.",
+                "Price": "465 TL"
+            },
+            {
+                "Menu Item": "Kuşbaşılı Pide",
+                "Menu Ingredients": "Kuşbaşı eti ile hazırlanan bir pide çeşididir.",
+                "Price": "465 TL"
+            },
+            {
+                "Menu Item": "Kuşbaşılı Kaşarlı Pide",
+                "Menu Ingredients": "Kuşbaşı et ve kaşar peyniri ile hazırlanan bir pide çeşididir.",
+                "Price": "465 TL"
+            },
+            {
+                "Menu Item": "Karışık Pide",
+                "Menu Ingredients": "Kıyma, kaşar peyniri, kuşbaşı et, domates, yeşil biber",
+                "Price": "465 TL"
+            },
+            {
+                "Menu Item": "Adana Dürüm",
+                "Menu Ingredients": "Mevsim yeşillikleri, isteğe göre soğan",
+                "Price": "590 TL"
+            },
+            {
+                "Menu Item": "Urfa Dürüm",
+                "Menu Ingredients": "Mevsim yeşillikleri, isteğe göre soğan",
+                "Price": "590 TL"
+            },
+            {
+                "Menu Item": "Tavuk Şiş Dürüm",
+                "Menu Ingredients": "Mevsim yeşillikleri, isteğe göre soğan",
+                "Price": "575 TL"
+            },
+            {
+                "Menu Item": "Kuzu Şiş Dürüm",
+                "Menu Ingredients": "Mevsim yeşillikleri, isteğe göre soğan",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Çöp Şiş Dürüm",
+                "Menu Ingredients": "Mevsim yeşillikleri, isteğe göre soğan",
+                "Price": "690 TL"
+            },
+            {
+                "Menu Item": "Zeytinyağlı Yaprak Sarma",
+                "Menu Ingredients": "4 adet",
+                "Price": "235 TL"
+            },
+            {
+                "Menu Item": "Acılı Ezme",
+                "Menu Ingredients": "Tek kişilik",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Köpoğlu",
+                "Menu Ingredients": "Süzme yoğurt, patlıcan, domates sos",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Muhammara",
+                "Menu Ingredients": "Kıtır ekmek, ceviz, pul biber",
+                "Price": "225 TL"
+            },
+            {
+                "Menu Item": "Patlıcan Soslu Şakşuka",
+                "Menu Ingredients": "Domates, biber, patlıcan, domates sos, sarımsak",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Pancarlı Yoğurt",
+                "Menu Ingredients": "Tek kişilik",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Atom",
+                "Menu Ingredients": "Kurutulmuş acı biberlerin yağda pişirilmesiyle yapılan yoğurtlu bir meze çeşididir.",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Girit Mezesi",
+                "Menu Ingredients": "Tek kişilik",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Abugannuş",
+                "Menu Ingredients": "Tek kişilik",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Haydari",
+                "Menu Ingredients": "Yoğurt, sarımsak ve baharatların karıştırılmasıyla hazırlanan bir mezedir.",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Cacık",
+                "Menu Ingredients": "Yoğurdun içerisine doğranmış salatalık, nane, sarımsak ve tuz eklenerek yapılan meze çeşididir.",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Süzme Yoğurt",
+                "Menu Ingredients": "Tek kişilik",
+                "Price": "215 TL"
+            },
+            {
+                "Menu Item": "Lavaş (Adet)",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "15 TL"
+            },
+            {
+                "Menu Item": "Tırnak Pide (Adet)",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "15 TL"
+            },
+            {
+                "Menu Item": "Çoban Salata",
+                "Menu Ingredients": "Domates, salatalık, yeşil biber, maydanoz, isteğe göre soğan",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Roka Salata",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Peynirli Roka Salatası",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "270 TL"
+            },
+            {
+                "Menu Item": "Acur Turşulu Terbiyeli Çoban Salata",
+                "Menu Ingredients": "İsteğe göre soğan",
+                "Price": "245 TL"
+            },
+            {
+                "Menu Item": "Söğüş Salata",
+                "Menu Ingredients": "Domates, salatalık, yeşil biber",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Göbek Salata",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Mevsim Salata",
+                "Menu Ingredients": "Mevsim yeşillikleri ile",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Peynirli Mevsim Salata",
+                "Menu Ingredients": "Beyaz peynir, mevsim yeşillikleri",
+                "Price": "315 TL"
+            },
+            {
+                "Menu Item": "Gavurdağı Salata",
+                "Menu Ingredients": "Domates, ceviz, nar ekşisi, yeşil biber, isteğe göre soğan",
+                "Price": "290 TL"
+            },
+            {
+                "Menu Item": "Kaşık Salata",
+                "Menu Ingredients": "Domates, yeşil biber, salatalık, maydanoz, zeytinyağı, limon, isteğe göre soğan",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Avokadolu Yeşil Salata",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "370 TL"
+            },
+            {
+                "Menu Item": "Fırın Sütlaç",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "195 TL"
+            },
+            {
+                "Menu Item": "Fistıklı Midye Baklava (3 Adet)",
+                "Menu Ingredients": "Antep fıstığı, şerbet",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Havuç Dilimi Baklava",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Karışık Baklava",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "305 TL"
+            },
+            {
+                "Menu Item": "Katmer",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "485 TL"
+            },
+            {
+                "Menu Item": "Künefe (Küçük)",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "205 TL"
+            },
+            {
+                "Menu Item": "Künefe (Büyük)",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "290 TL"
+            },
+            {
+                "Menu Item": "Şöbiyet",
+                "Menu Ingredients": "Şerbetli",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Yaprak Şöbiyet",
+                "Menu Ingredients": "1 kişilik",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Kare Dilim Fıstıklı Baklava",
+                "Menu Ingredients": "3 adet",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Antep Fıstıklı Soğuk Baklava (2 Adet)",
+                "Menu Ingredients": "Antep fıstığı, çikolata, süt",
+                "Price": "230 TL"
+            },
+            {
+                "Menu Item": "Meyve Tabağı (2 Kişilik)",
+                "Menu Ingredients": "Mevsim meyveleri",
+                "Price": "265 TL"
+            },
+            {
+                "Menu Item": "Coca-Cola Zero Sugar (33 cl.)",
+                "Menu Ingredients": "Kutu içecek",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Coca-Cola (33 cl.)",
+                "Menu Ingredients": "Kutu içecek",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Fanta (33 cl.)",
+                "Menu Ingredients": "Kutu içecek",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Sprite (33 cl.)",
+                "Menu Ingredients": "Kutu içecek",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Cappy (33 cl.)",
+                "Menu Ingredients": "Kutu içecek",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Ayran (30 cl.)",
+                "Menu Ingredients": "Büyük",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Soda (20 cl.)",
+                "Menu Ingredients": "Cam şişe",
+                "Price": "70 TL"
+            },
+            {
+                "Menu Item": "Coca-Cola (1 L.)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "110 TL"
+            },
+            {
+                "Menu Item": "Coca-Cola Zero Sugar (1 L.)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "110 TL"
+            },
+            {
+                "Menu Item": "Şalgam Suyu (1 L.)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "160 TL"
+            },
+            {
+                "Menu Item": "Su (1,5 L.)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "40 TL"
+            },
+            {
+                "Menu Item": "Coca-Cola Şekersiz (33 cl.)",
+                "Menu Ingredients": "Kutu içecek",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Coca-Cola Şekersiz (1 L.)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "110 TL"
+            },
+            {
+                "Menu Item": "Acısız Şalgam Suyu (33 cl.)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Acılı Şalgam Suyu (33 cl.)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Red Bull (25 cl.)",
+                "Menu Ingredients": "Enerji içeceği",
+                "Price": "85 TL"
+            },
+            {
+                "Menu Item": "Şalgam Suyu Acılı (33 cl.)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Şalgam Suyu (33 cl.) (Acısız)",
+                "Menu Ingredients": "Pet şişe",
+                "Price": "80 TL"
+            },
+            {
+                "Menu Item": "Silivri Aslan Ayran (1 L.)",
+                "Menu Ingredients": "Cam şişe",
+                "Price": "125 TL"
+            },
+            {
+                "Menu Item": "Çiğ Köfte (500 gr.)",
+                "Menu Ingredients": "Göbek marul, limon, roka, lavaş ile",
+                "Price": "667,50 TL"
+            },
+            {
+                "Menu Item": "Antep Fıstığı (1 kg.)",
+                "Menu Ingredients": "1 kg.",
+                "Price": "1.155 TL"
+            },
+            {
+                "Menu Item": "Antep Fıstığı (500 gr.)",
+                "Menu Ingredients": "500 gr.",
+                "Price": "577,50 TL"
+            },
+            {
+                "Menu Item": "Fistıklı Midye Baklava (500 gr.)",
+                "Menu Ingredients": "Antep fıstığı, şerbet",
+                "Price": "620 TL"
+            },
+            {
+                "Menu Item": "Havuç Dilimi Baklava (500 gr.)",
+                "Menu Ingredients": "Antep fıstık, şerbet",
+                "Price": "615 TL"
+            },
+            {
+                "Menu Item": "Karışık Baklava (500 gr.)",
+                "Menu Ingredients": "Şerbetli",
+                "Price": "615 TL"
+            },
+            {
+                "Menu Item": "Şöbiyet (500 gr.)",
+                "Menu Ingredients": "Antep fıstığı dolgulu şerbetli bir tatlıdır.",
+                "Price": "615 TL"
+            },
+            {
+                "Menu Item": "Yaprak Şöbiyet (500 gr.)",
+                "Menu Ingredients": "Şerbetli",
+                "Price": "640 TL"
+            },
+            {
+                "Menu Item": "Kare Dilim Fıstıklı Baklava (500 gr.)",
+                "Menu Ingredients": "Antep fıstığı, şerbet",
+                "Price": "615 TL"
+            },
+            {
+                "Menu Item": "Antep Fıstıklı Soğuk Baklava (500 gr.)",
+                "Menu Ingredients": "Antep fıstığı, süt, çikolata",
+                "Price": "615 TL"
+            }
+        ]
+    },
+    {
+        "Restaurant Name": "HD İskender",
+        "Menu": [
+            {
+                "Menu Item": "1,5 Porsiyon İskender",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺339,00"
+            },
+            {
+                "Menu Item": "HD İskender Menü",
+                "Menu Ingredients": "1 Porsiyon İskender ve içecek (450 ml)",
+                "Price": "₺279,00"
+            },
+            {
+                "Menu Item": "HD İskender Ziyafet Menüsü",
+                "Menu Ingredients": "1 Porsiyon İskender, Patates Kızartması, Kornişon Turşu ve içecek (450 ml)",
+                "Price": "₺319,00"
+            },
+            {
+                "Menu Item": "Kornişon Turşu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺49,00"
+            },
+            {
+                "Menu Item": "Patates Kızartması",
+                "Menu Ingredients": "Ketçap ve mayonez ile",
+                "Price": "₺79,00"
+            },
+            {
+                "Menu Item": "HD İskender Menü",
+                "Menu Ingredients": "1 Porsiyon İskender ve içecek (450 ml)",
+                "Price": "₺279,00"
+            },
+            {
+                "Menu Item": "HD İskender & Tatlı Menü",
+                "Menu Ingredients": "1 Porsiyon İskender ve sütlaç",
+                "Price": "₺299,00"
+            },
+            {
+                "Menu Item": "HD İskender Ziyafet Menüsü",
+                "Menu Ingredients": "1 Porsiyon İskender, Patates Kızartması, Kornişon Turşu ve içecek (450 ml)",
+                "Price": "₺319,00"
+            },
+            {
+                "Menu Item": "HD İskender Lezzeti Bol Menü",
+                "Menu Ingredients": "1 Porsiyon İskender, sütlaç ve içecek (450 ml)",
+                "Price": "₺329,00"
+            },
+            {
+                "Menu Item": "HD İskender Çifte Lezzet Menüsü",
+                "Menu Ingredients": "2 adet 1 Porsiyon İskender ve içecek (1 L)",
+                "Price": "₺499,00"
+            },
+            {
+                "Menu Item": "HD İskender Masayı Donat Menüsü",
+                "Menu Ingredients": "2 adet 1 Porsiyon İskender, Patates Kızartması, Kornişon Turşu ve içecek (1 L)",
+                "Price": "₺549,00"
+            },
+            {
+                "Menu Item": "Mercimek Çorbası",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺79,00"
+            },
+            {
+                "Menu Item": "1 Porsiyon İskender",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺269,00"
+            },
+            {
+                "Menu Item": "1,5 Porsiyon İskender",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺339,00"
+            },
+            {
+                "Menu Item": "1 Porsiyon Acılı İskender",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺269,00"
+            },
+            {
+                "Menu Item": "1,5 Porsiyon Acılı İskender",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺339,00"
+            },
+            {
+                "Menu Item": "Mevsim Salata",
+                "Menu Ingredients": "Marul, mısır, domates, salatalık, havuç, limon, nar ekşisi, acı biber turşusu",
+                "Price": "₺169,00"
+            },
+            {
+                "Menu Item": "Hellim Salata",
+                "Menu Ingredients": "Marul, mısır, hellim peyniri, domates, salatalık, kıvırcık salata, nar ekşisi, kurutulmuş domates",
+                "Price": "₺199,00"
+            },
+            {
+                "Menu Item": "Kornişon Turşu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺49,00"
+            },
+            {
+                "Menu Item": "Patates Kızartması",
+                "Menu Ingredients": "Ketçap ve mayonez ile",
+                "Price": "₺79,00"
+            },
+            {
+                "Menu Item": "Patates Kızartması & Kornişon Turşu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺99,00"
+            },
+            {
+                "Menu Item": "Yoğurt (150 g)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺30,00"
+            },
+            {
+                "Menu Item": "Fındıklı Fırın Sütlaç",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺89,00"
+            },
+            {
+                "Menu Item": "Coca Cola (450 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺49,00"
+            },
+            {
+                "Menu Item": "Coca Cola Zero Sugar (450 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺49,00"
+            },
+            {
+                "Menu Item": "Fuse Tea Şeftali (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺49,00"
+            },
+            {
+                "Menu Item": "İçim Ayran (285 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺39,00"
+            },
+            {
+                "Menu Item": "Coca Cola (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺59,00"
+            },
+            {
+                "Menu Item": "Coca Cola Zero Sugar (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺59,00"
+            },
+            {
+                "Menu Item": "Fuse Tea Şeftali (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺59,00"
+            },
+            {
+                "Menu Item": "İçim Ayran (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺59,00"
+            },
+            {
+                "Menu Item": "Damla Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺15,00"
+            },
+            {
+                "Menu Item": "Damla Soda (200 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺25,00"
+            }
+        ]
+    },
+    {
+        "Restaurant Name": "The Grungy",
+        "Menu": [
+            {
+                "Menu Item": "Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Sade Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺114,00"
+            },
+            {
+                "Menu Item": "Truf & Parmesanli Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Kajun Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺128,00"
+            },
+            {
+                "Menu Item": "Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Bacon Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, domuz bacon, grungy sos",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Keçi Peynirli Burger",
+                "Menu Ingredients": "120 g burger köftesi, keçi peyniri, kırmızı soğan marmelatı",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Brie & Bal Burger",
+                "Menu Ingredients": "120 g burger köftesi, brie peyniri, bal",
+                "Price": "₺460,00"
+            },
+            {
+                "Menu Item": "Jalapeno Burger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, jalapeno turşusu, pickled jalapeno sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Double Cheeseburger",
+                "Menu Ingredients": "Burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺510,00"
+            },
+            {
+                "Menu Item": "Double Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Double Bacon Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, karamelize soğan, domuz bacon, grungy sos",
+                "Price": "₺620,00"
+            },
+            {
+                "Menu Item": "Double Keçi Peynirli Burger",
+                "Menu Ingredients": "240 g burger köftesi, keçi peyniri, kırmızı soğan marmelatı",
+                "Price": "₺540,00"
+            },
+            {
+                "Menu Item": "Double Brie & Bal Burger",
+                "Menu Ingredients": "240 g burger köftesi, brie peyniri, bal",
+                "Price": "₺630,00"
+            },
+            {
+                "Menu Item": "Double Jalapeno Burger",
+                "Menu Ingredients": "Burger köftesi (240 g), cheddar peyniri, jalapeno tursusu ve pickled jalapeno sos",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Chipotle Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, chipotle sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Double Chipotle Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, chipotle sos",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Kajun Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺128,00"
+            },
+            {
+                "Menu Item": "Truf & Parmesanli Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Sade Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺114,00"
+            },
+            {
+                "Menu Item": "Coca Cola (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Coca Cola Şekersiz (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Ayran (245 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺78,00"
+            },
+            {
+                "Menu Item": "Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺56,00"
+            },
+            {
+                "Menu Item": "Mineralli Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺56,00"
+            },
+            {
+                "Menu Item": "Sprite",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Sriracha",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺10,00"
+            }
         ],
         "coordinates": {
-            "latitude": 41.0406051,
-            "longitude": 28.992067
+            "latitude": 41.0527023,
+            "longitude": 28.99798049999999
+        }
+    },
+    {
+        "Restaurant Name": "The Grungy",
+        "Menu": [
+            {
+                "Menu Item": "Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Sade Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺114,00"
+            },
+            {
+                "Menu Item": "Truf & Parmesanli Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Kajun Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺128,00"
+            },
+            {
+                "Menu Item": "Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Bacon Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, domuz bacon, grungy sos",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Keçi Peynirli Burger",
+                "Menu Ingredients": "120 g burger köftesi, keçi peyniri, kırmızı soğan marmelatı",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Brie & Bal Burger",
+                "Menu Ingredients": "120 g burger köftesi, brie peyniri, bal",
+                "Price": "₺460,00"
+            },
+            {
+                "Menu Item": "Jalapeno Burger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, jalapeno turşusu, pickled jalapeno sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Double Cheeseburger",
+                "Menu Ingredients": "Burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺510,00"
+            },
+            {
+                "Menu Item": "Double Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Double Bacon Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, karamelize soğan, domuz bacon, grungy sos",
+                "Price": "₺620,00"
+            },
+            {
+                "Menu Item": "Double Keçi Peynirli Burger",
+                "Menu Ingredients": "240 g burger köftesi, keçi peyniri, kırmızı soğan marmelatı",
+                "Price": "₺540,00"
+            },
+            {
+                "Menu Item": "Double Brie & Bal Burger",
+                "Menu Ingredients": "240 g burger köftesi, brie peyniri, bal",
+                "Price": "₺630,00"
+            },
+            {
+                "Menu Item": "Double Jalapeno Burger",
+                "Menu Ingredients": "Burger köftesi (240 g), cheddar peyniri, jalapeno tursusu ve pickled jalapeno sos",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Chipotle Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, chipotle sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Double Chipotle Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, chipotle sos",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Kajun Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺128,00"
+            },
+            {
+                "Menu Item": "Truf & Parmesanli Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Sade Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺114,00"
+            },
+            {
+                "Menu Item": "Coca Cola (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Coca Cola Şekersiz (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Ayran (245 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺78,00"
+            },
+            {
+                "Menu Item": "Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺56,00"
+            },
+            {
+                "Menu Item": "Mineralli Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺56,00"
+            },
+            {
+                "Menu Item": "Sprite",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Sriracha",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺10,00"
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0527023,
+            "longitude": 28.99798049999999
+        }
+    },
+    {
+        "Restaurant Name": "The Grungy",
+        "Menu": [
+            {
+                "Menu Item": "Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Sade Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺114,00"
+            },
+            {
+                "Menu Item": "Truf & Parmesanli Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Kajun Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺128,00"
+            },
+            {
+                "Menu Item": "Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Bacon Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, domuz bacon, grungy sos",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Keçi Peynirli Burger",
+                "Menu Ingredients": "120 g burger köftesi, keçi peyniri, kırmızı soğan marmelatı",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Brie & Bal Burger",
+                "Menu Ingredients": "120 g burger köftesi, brie peyniri, bal",
+                "Price": "₺460,00"
+            },
+            {
+                "Menu Item": "Jalapeno Burger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, jalapeno turşusu, pickled jalapeno sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Double Cheeseburger",
+                "Menu Ingredients": "Burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺510,00"
+            },
+            {
+                "Menu Item": "Double Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Double Bacon Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, karamelize soğan, domuz bacon, grungy sos",
+                "Price": "₺620,00"
+            },
+            {
+                "Menu Item": "Double Keçi Peynirli Burger",
+                "Menu Ingredients": "240 g burger köftesi, keçi peyniri, kırmızı soğan marmelatı",
+                "Price": "₺540,00"
+            },
+            {
+                "Menu Item": "Double Brie & Bal Burger",
+                "Menu Ingredients": "240 g burger köftesi, brie peyniri, bal",
+                "Price": "₺630,00"
+            },
+            {
+                "Menu Item": "Double Jalapeno Burger",
+                "Menu Ingredients": "Burger köftesi (240 g), cheddar peyniri, jalapeno tursusu ve pickled jalapeno sos",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Chipotle Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, chipotle sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Double Chipotle Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, chipotle sos",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Kajun Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺128,00"
+            },
+            {
+                "Menu Item": "Truf & Parmesanli Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Sade Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺114,00"
+            },
+            {
+                "Menu Item": "Coca Cola (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Coca Cola Şekersiz (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Ayran (245 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺78,00"
+            },
+            {
+                "Menu Item": "Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺56,00"
+            },
+            {
+                "Menu Item": "Mineralli Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺56,00"
+            },
+            {
+                "Menu Item": "Sprite",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Sriracha",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺10,00"
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0527023,
+            "longitude": 28.99798049999999
+        }
+    },
+    {
+        "Restaurant Name": "Develi",
+        "Menu": [
+            {
+                "Menu Item": "Çiğ Köfte (8 Sıkım)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺270,00"
+            },
+            {
+                "Menu Item": "Kızartma İçli Köfte (Adet)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺120,00"
+            },
+            {
+                "Menu Item": "Fıstıklı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺590,00"
+            },
+            {
+                "Menu Item": "Patlıcanlı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺660,00"
+            },
+            {
+                "Menu Item": "Acılı Antep Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Günün Çorbası",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺110,00"
+            },
+            {
+                "Menu Item": "Çiğ Köfte (8 Sıkım)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺270,00"
+            },
+            {
+                "Menu Item": "Kızartma İçli Köfte (Adet)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺120,00"
+            },
+            {
+                "Menu Item": "Kaşarlı Mantar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Pirinç Pilavı",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺190,00"
+            },
+            {
+                "Menu Item": "Semsek Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺100,00"
+            },
+            {
+                "Menu Item": "Tereyağı",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺130,00"
+            },
+            {
+                "Menu Item": "Tulum Peyniri",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺130,00"
+            },
+            {
+                "Menu Item": "Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Urfa Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Fıstıklı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺590,00"
+            },
+            {
+                "Menu Item": "Acılı Antep Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Yoğurtlu Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺650,00"
+            },
+            {
+                "Menu Item": "Bıçak Arası Urfa Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺910,00"
+            },
+            {
+                "Menu Item": "Karışık Kebap",
+                "Menu Ingredients": "Adana kebap, urfa kebap, tavuk şiş, közlenmiş domates, közlenmiş yeşilbiber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺910,00"
+            },
+            {
+                "Menu Item": "Bıçak Arası Adana Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺910,00"
+            },
+            {
+                "Menu Item": "Kilis Alinazik Kebap (Kuzu Şişten)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺640,00"
+            },
+            {
+                "Menu Item": "Fırın Beyti Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺730,00"
+            },
+            {
+                "Menu Item": "Sebzeli Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Beyti Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Kuzu Tandır",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz",
+                "Price": "₺690,00"
+            },
+            {
+                "Menu Item": "Altı Ezmeli Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺570,00"
+            },
+            {
+                "Menu Item": "Domatesli Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺600,00"
+            },
+            {
+                "Menu Item": "Simit Kebabı",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺570,00"
+            },
+            {
+                "Menu Item": "Şaşlık Kebabı",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺720,00"
+            },
+            {
+                "Menu Item": "Kilis Alinazik Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺569,00"
+            },
+            {
+                "Menu Item": "Yoğurtlu Kebap (Şişten)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺700,00"
+            },
+            {
+                "Menu Item": "Develi Köfte Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Alinazik Kebap (Kuzu Şişten)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺640,00"
+            },
+            {
+                "Menu Item": "Patlıcanlı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺660,00"
+            },
+            {
+                "Menu Item": "Alinazik Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺560,00"
+            },
+            {
+                "Menu Item": "Sarma Beyti Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Altı Ezmeli Kebap (Kuzu Şişten)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺640,00"
+            },
+            {
+                "Menu Item": "Lokum",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺900,00"
+            },
+            {
+                "Menu Item": "Kuzu Pirzola (Adet)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺280,00"
+            },
+            {
+                "Menu Item": "Kuzu Pirzola",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺700,00"
+            },
+            {
+                "Menu Item": "Terbiyeli Kuzu Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Develi Köfte",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Tavuk Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Tavuk Kanat",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Kuzu Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Domatesli Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺600,00"
+            },
+            {
+                "Menu Item": "Çöp Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Kuzu Kaburga",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺580,00"
+            },
+            {
+                "Menu Item": "Kuzu Küşleme",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺860,00"
+            },
+            {
+                "Menu Item": "Et Sote",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺650,00"
+            },
+            {
+                "Menu Item": "Çoban Kavurma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺650,00"
+            },
+            {
+                "Menu Item": "Baş Pınar Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺255,00"
+            },
+            {
+                "Menu Item": "Ceviz Lahmacun",
+                "Menu Ingredients": "Havuç, kıvırcık marul, limon, kırmızı lahana ve maydanoz ile",
+                "Price": "₺130,00"
+            },
+            {
+                "Menu Item": "Nar Ekşili Cevizli Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Nar Ekşili Cevizli Fındık Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺72,00"
+            },
+            {
+                "Menu Item": "Nar Ekşili Cevizli Ceviz Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺130,00"
+            },
+            {
+                "Menu Item": "Sarımsaklı Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Karışık Pide",
+                "Menu Ingredients": "Domates, kaşar peyniri, sucuk, salam ve sosis",
+                "Price": "₺410,00"
+            },
+            {
+                "Menu Item": "Sucuklu Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺400,00"
+            },
+            {
+                "Menu Item": "Kıymalı Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺380,00"
+            },
+            {
+                "Menu Item": "Kaşarlı Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺350,00"
+            },
+            {
+                "Menu Item": "Kuşbaşılı Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺420,00"
+            },
+            {
+                "Menu Item": "Kavurmalı Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Biber Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺160,00"
+            },
+            {
+                "Menu Item": "Patates Tava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Patlıcan Tava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Tavuk Şiş Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Adana Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Çöp Şiş Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Sebzeli Dürüm",
+                "Menu Ingredients": "Et, mevsim sebzeleri ve tercihe göre soğan",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Urfa Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Kuzu Şiş Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Develi Köfte Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Soslu Patlıcan",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Yoğurtlu Semizotu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Acılı Ezme",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Haydari",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Muhammara",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Pastırmalı Humus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺275,00"
+            },
+            {
+                "Menu Item": "Süzme Yoğurt",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Közlenmiş Domates & Biber & Sarımsak",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺310,00"
+            },
+            {
+                "Menu Item": "Kağıtta Pastırma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Mütebbel",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺270,00"
+            },
+            {
+                "Menu Item": "Firik Pilavı",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Humus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Patlıcan Söğürme",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺340,00"
+            },
+            {
+                "Menu Item": "Beyaz Peynir",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺165,00"
+            },
+            {
+                "Menu Item": "Abugannuş",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Tereyağlı Mantar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Közlenmiş Patlıcan",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Enginar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Semizotu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Barbunya Pilaki",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Zeytinyağlı Enginar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Zeytinyağlı Yaprak Sarma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Antep Peyniri",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Karışık Turşu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Közlenmiş Soğan & Domates & Sarımsak",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺310,00"
+            },
+            {
+                "Menu Item": "Cacık",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Patlıcan & Biber Kızartma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Pancar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Atom Acılı",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Havuç Tarator",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Kopoglu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Fava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Girit Ezme",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺215,00"
+            },
+            {
+                "Menu Item": "Kuru Patlıcan Dolma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺120,00"
+            },
+            {
+                "Menu Item": "Gavurdağı Salata",
+                "Menu Ingredients": "Domates, soğan, maydanoz, ceviz ve nar ekşisi",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Patlıcan Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Roka Salatası",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Beyaz Peynirli Mevsim Salata",
+                "Menu Ingredients": "Beyaz peynir, kıvırcık marul, havuç, kırmızı lahana, domates ve salatalık",
+                "Price": "₺250,00"
+            },
+            {
+                "Menu Item": "Karışık Mevsim Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Çoban Salata",
+                "Menu Ingredients": "Domates, salatalık, yeşil biber, maydanoz ve tercihe göre soğan",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Tulum Peynirli Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺300,00"
+            },
+            {
+                "Menu Item": "Göbek Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Karışık Salata",
+                "Menu Ingredients": "Domates, kıvırcık marul, göbek marul, roka, maydanoz ve salatalık",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Katmer (4 Kişilik)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺470,00"
+            },
+            {
+                "Menu Item": "Havuç Dilim Baklava",
+                "Menu Ingredients": "Adet",
+                "Price": "₺350,00"
+            },
+            {
+                "Menu Item": "Kavun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Kaymaklı Künefe (Küçük)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Fırın Sütlaç",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Kaymaklı Künefe (Büyük)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺250,00"
+            },
+            {
+                "Menu Item": "İncir Tatlısı",
+                "Menu Ingredients": "4 adet",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Coca Cola Şekersiz (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Fanta (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Sprite (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Ayran (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Şalgam Suyu (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺250,00"
+            },
+            {
+                "Menu Item": "Ayran (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Soda (200 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Su (1.5 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺130,00"
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0870419,
+            "longitude": 29.0372643
+        }
+    },
+    {
+        "Restaurant Name": "develi",
+        "Menu": [
+            {
+                "Menu Item": "Çiğ Köfte (8 Sıkım)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺270,00"
+            },
+            {
+                "Menu Item": "Kızartma İçli Köfte (Adet)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺120,00"
+            },
+            {
+                "Menu Item": "Fıstıklı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺590,00"
+            },
+            {
+                "Menu Item": "Patlıcanlı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺660,00"
+            },
+            {
+                "Menu Item": "Acılı Antep Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Günün Çorbası",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺110,00"
+            },
+            {
+                "Menu Item": "Çiğ Köfte (8 Sıkım)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺270,00"
+            },
+            {
+                "Menu Item": "Kızartma İçli Köfte (Adet)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺120,00"
+            },
+            {
+                "Menu Item": "Kaşarlı Mantar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Pirinç Pilavı",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺190,00"
+            },
+            {
+                "Menu Item": "Semsek Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺100,00"
+            },
+            {
+                "Menu Item": "Tereyağı",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺130,00"
+            },
+            {
+                "Menu Item": "Tulum Peyniri",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺130,00"
+            },
+            {
+                "Menu Item": "Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Urfa Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Fıstıklı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺590,00"
+            },
+            {
+                "Menu Item": "Acılı Antep Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Yoğurtlu Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺650,00"
+            },
+            {
+                "Menu Item": "Bıçak Arası Urfa Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺910,00"
+            },
+            {
+                "Menu Item": "Karışık Kebap",
+                "Menu Ingredients": "Adana kebap, urfa kebap, tavuk şiş, közlenmiş domates, közlenmiş yeşilbiber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺910,00"
+            },
+            {
+                "Menu Item": "Bıçak Arası Adana Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺910,00"
+            },
+            {
+                "Menu Item": "Kilis Alinazik Kebap (Kuzu Şişten)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺640,00"
+            },
+            {
+                "Menu Item": "Fırın Beyti Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺730,00"
+            },
+            {
+                "Menu Item": "Sebzeli Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Beyti Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Kuzu Tandır",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz",
+                "Price": "₺690,00"
+            },
+            {
+                "Menu Item": "Altı Ezmeli Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺570,00"
+            },
+            {
+                "Menu Item": "Domatesli Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺600,00"
+            },
+            {
+                "Menu Item": "Simit Kebabı",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺570,00"
+            },
+            {
+                "Menu Item": "Şaşlık Kebabı",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺720,00"
+            },
+            {
+                "Menu Item": "Kilis Alinazik Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺569,00"
+            },
+            {
+                "Menu Item": "Yoğurtlu Kebap (Şişten)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺700,00"
+            },
+            {
+                "Menu Item": "Develi Köfte Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Alinazik Kebap (Kuzu Şişten)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺640,00"
+            },
+            {
+                "Menu Item": "Patlıcanlı Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺660,00"
+            },
+            {
+                "Menu Item": "Alinazik Kebap (Kıymadan)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺560,00"
+            },
+            {
+                "Menu Item": "Sarma Beyti Kebap",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Altı Ezmeli Kebap (Kuzu Şişten)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺640,00"
+            },
+            {
+                "Menu Item": "Lokum",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺900,00"
+            },
+            {
+                "Menu Item": "Kuzu Pirzola (Adet)",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺280,00"
+            },
+            {
+                "Menu Item": "Kuzu Pirzola",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺700,00"
+            },
+            {
+                "Menu Item": "Terbiyeli Kuzu Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Develi Köfte",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Tavuk Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Tavuk Kanat",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Kuzu Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Domatesli Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺600,00"
+            },
+            {
+                "Menu Item": "Çöp Şiş",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Kuzu Kaburga",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺580,00"
+            },
+            {
+                "Menu Item": "Kuzu Küşleme",
+                "Menu Ingredients": "Közlenmiş domates, közlenmiş yeşil biber, tırnak pide, soğan ve maydanoz ile",
+                "Price": "₺860,00"
+            },
+            {
+                "Menu Item": "Et Sote",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺650,00"
+            },
+            {
+                "Menu Item": "Çoban Kavurma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺650,00"
+            },
+            {
+                "Menu Item": "Baş Pınar Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺255,00"
+            },
+            {
+                "Menu Item": "Ceviz Lahmacun",
+                "Menu Ingredients": "Havuç, kıvırcık marul, limon, kırmızı lahana ve maydanoz ile",
+                "Price": "₺130,00"
+            },
+            {
+                "Menu Item": "Nar Ekşili Cevizli Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Nar Ekşili Cevizli Fındık Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺72,00"
+            },
+            {
+                "Menu Item": "Nar Ekşili Cevizli Ceviz Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺130,00"
+            },
+            {
+                "Menu Item": "Sarımsaklı Lahmacun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Karışık Pide",
+                "Menu Ingredients": "Domates, kaşar peyniri, sucuk, salam ve sosis",
+                "Price": "₺410,00"
+            },
+            {
+                "Menu Item": "Sucuklu Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺400,00"
+            },
+            {
+                "Menu Item": "Kıymalı Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺380,00"
+            },
+            {
+                "Menu Item": "Kaşarlı Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺350,00"
+            },
+            {
+                "Menu Item": "Kuşbaşılı Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺420,00"
+            },
+            {
+                "Menu Item": "Kavurmalı Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Biber Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺160,00"
+            },
+            {
+                "Menu Item": "Patates Tava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Patlıcan Tava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Tavuk Şiş Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Adana Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Çöp Şiş Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Sebzeli Dürüm",
+                "Menu Ingredients": "Et, mevsim sebzeleri ve tercihe göre soğan",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Urfa Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Kuzu Şiş Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺610,00"
+            },
+            {
+                "Menu Item": "Develi Köfte Dürüm",
+                "Menu Ingredients": "Tercihe göre soğan",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Soslu Patlıcan",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Yoğurtlu Semizotu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Acılı Ezme",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Haydari",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Muhammara",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Pastırmalı Humus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺275,00"
+            },
+            {
+                "Menu Item": "Süzme Yoğurt",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Közlenmiş Domates & Biber & Sarımsak",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺310,00"
+            },
+            {
+                "Menu Item": "Kağıtta Pastırma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Mütebbel",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺270,00"
+            },
+            {
+                "Menu Item": "Firik Pilavı",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Humus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Patlıcan Söğürme",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺340,00"
+            },
+            {
+                "Menu Item": "Beyaz Peynir",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺165,00"
+            },
+            {
+                "Menu Item": "Abugannuş",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Tereyağlı Mantar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Közlenmiş Patlıcan",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Enginar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Semizotu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Barbunya Pilaki",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Zeytinyağlı Enginar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Zeytinyağlı Yaprak Sarma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Antep Peyniri",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Karışık Turşu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Közlenmiş Soğan & Domates & Sarımsak",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺310,00"
+            },
+            {
+                "Menu Item": "Cacık",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Patlıcan & Biber Kızartma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Pancar",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Atom Acılı",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Havuç Tarator",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Kopoglu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Fava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Girit Ezme",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺215,00"
+            },
+            {
+                "Menu Item": "Kuru Patlıcan Dolma",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺120,00"
+            },
+            {
+                "Menu Item": "Gavurdağı Salata",
+                "Menu Ingredients": "Domates, soğan, maydanoz, ceviz ve nar ekşisi",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Patlıcan Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺195,00"
+            },
+            {
+                "Menu Item": "Roka Salatası",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Beyaz Peynirli Mevsim Salata",
+                "Menu Ingredients": "Beyaz peynir, kıvırcık marul, havuç, kırmızı lahana, domates ve salatalık",
+                "Price": "₺250,00"
+            },
+            {
+                "Menu Item": "Karışık Mevsim Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Çoban Salata",
+                "Menu Ingredients": "Domates, salatalık, yeşil biber, maydanoz ve tercihe göre soğan",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Tulum Peynirli Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺300,00"
+            },
+            {
+                "Menu Item": "Göbek Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺210,00"
+            },
+            {
+                "Menu Item": "Karışık Salata",
+                "Menu Ingredients": "Domates, kıvırcık marul, göbek marul, roka, maydanoz ve salatalık",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Katmer (4 Kişilik)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺470,00"
+            },
+            {
+                "Menu Item": "Havuç Dilim Baklava",
+                "Menu Ingredients": "Adet",
+                "Price": "₺350,00"
+            },
+            {
+                "Menu Item": "Kavun",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺220,00"
+            },
+            {
+                "Menu Item": "Kaymaklı Künefe (Küçük)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Fırın Sütlaç",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Kaymaklı Künefe (Büyük)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺250,00"
+            },
+            {
+                "Menu Item": "İncir Tatlısı",
+                "Menu Ingredients": "4 adet",
+                "Price": "₺230,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Coca Cola Şekersiz (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Fanta (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Sprite (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Ayran (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Şalgam Suyu (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺250,00"
+            },
+            {
+                "Menu Item": "Ayran (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺200,00"
+            },
+            {
+                "Menu Item": "Soda (200 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺90,00"
+            },
+            {
+                "Menu Item": "Su (1.5 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺130,00"
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0870419,
+            "longitude": 29.0372643
+        }
+    },
+    {
+        "Restaurant Name": "Papa Johns",
+        "Menu": [
+            {
+                "Menu Item": "Margarita Pizza (Büyük)",
+                "Menu Ingredients": "Pizza sosu ve mozzarella peyniri (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Elma Dilim Patates",
+                "Menu Ingredients": "Fırında altın rengini alana kadar pişirilen 200 g elma dilim patates. bbq kenar sosu ile",
+                "Price": "₺89,99"
+            },
+            {
+                "Menu Item": "Peynirli Çubuk",
+                "Menu Ingredients": "Papa john's taze hamuru, özel sarımsak sosu ve mozzarella peyniri, pizza sosu ile",
+                "Price": "₺189,99"
+            },
+            {
+                "Menu Item": "Hawaii Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, jambon, ananas ve ekstra peynir (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺489,99"
+            },
+            {
+                "Menu Item": "Quattro Formaggi Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, hellim peyniri, taze kaşar peyniri ve parmesan peyniri(Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺399,99"
+            },
+            {
+                "Menu Item": "Elma Dilim Patates",
+                "Menu Ingredients": "Fırında altın rengini alana kadar pişirilen 200 g elma dilim patates. bbq kenar sosu ile",
+                "Price": "₺89,99"
+            },
+            {
+                "Menu Item": "Peynirli Çubuk",
+                "Menu Ingredients": "Papa john's taze hamuru, özel sarımsak sosu ve mozzarella peyniri, pizza sosu ile",
+                "Price": "₺189,99"
+            },
+            {
+                "Menu Item": "Biber Turşusu (6 Adet)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺22,99"
+            },
+            {
+                "Menu Item": "Biber Turşusu (20 Adet)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺59,99"
+            },
+            {
+                "Menu Item": "Tavuk Kanat (8 Adet)",
+                "Menu Ingredients": "BBQ kenar sosu ile",
+                "Price": "₺299,99"
+            },
+            {
+                "Menu Item": "Papa'nın Ziyafet Tabağı",
+                "Menu Ingredients": "4 adet tavuk kanat, 200 g elma dilim patates, 5 adet chicken poppers. Acı sos ve BBQ kenar sosu ile",
+                "Price": "₺329,99"
+            },
+            {
+                "Menu Item": "Chicken Poppers",
+                "Menu Ingredients": "10 adet tavuk nugget. BBQ kenar sosu ile",
+                "Price": "₺249,99"
+            },
+            {
+                "Menu Item": "Biber Turşusu (4 Adet)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺16,99"
+            },
+            {
+                "Menu Item": "Margarita Pizza (Orta)",
+                "Menu Ingredients": "Pizza sosu ve mozzarella peyniri (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺379,99"
+            },
+            {
+                "Menu Item": "Pepperoni Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, ekstra pepperoni ve pizza sosu (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺389,99"
+            },
+            {
+                "Menu Item": "Etobur Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, i̇talyan köfte, özel kıyma ve jambon (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Ateşte Kırmızı Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, sucuk, kırmızı köz biber, mantar ve siyah zeytin (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺399,99"
+            },
+            {
+                "Menu Item": "Bahçe Keyfi Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, dilimlenmiş taze domates, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin ve mısır (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺379,99"
+            },
+            {
+                "Menu Item": "Super Papa's Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, italyan köfte, jambon, taze mantar, beyaz soğan, yeşilbiber ve siyah zeytin (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Denizci Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, mısır, ton balığı, soğan ve domates (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺399,99"
+            },
+            {
+                "Menu Item": "Karışık Papa Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, sosis, mantar, mısır, siyah zeytin ve sucuk (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺399,99"
+            },
+            {
+                "Menu Item": "Quattro Formaggi Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, hellim peyniri, taze kaşar peyniri ve parmesan peyniri(Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺399,99"
+            },
+            {
+                "Menu Item": "Vegan Pizza (Orta)",
+                "Menu Ingredients": "Pizza sosu, domates, mantar, soğan, yeşilbiber, zeytin ve mısır (Hayvansal gıda ve peynir içermemektedir.)(Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺249,99"
+            },
+            {
+                "Menu Item": "Meksika Dalgası Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, ızgara tavuk, dilimlenmiş taze domates, beyaz soğan, yeşilbiber, jalapeno biberi ve mısır (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺399,99"
+            },
+            {
+                "Menu Item": "Hawaii Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, jambon, ananas ve ekstra peynir. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺399,99"
+            },
+            {
+                "Menu Item": "Karnaval Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, pizza sosu, pepperoni, mantar ve siyah zeytin (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺389,99"
+            },
+            {
+                "Menu Item": "Osmanlı Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, sucuk, pastırma, beyaz peynir, yeşilbiber ve siyah zeytin(Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Akdeniz Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, beyaz soğan, domates, siyah zeytin ve beyaz peynir(Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺379,99"
+            },
+            {
+                "Menu Item": "Küçük İtalya Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, i̇talyan köfte, mantar, siyah zeytin ve kekik (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Kanka Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, sosis, mantar, soğan, yeşilbiber ve jambon (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺389,99"
+            },
+            {
+                "Menu Item": "BBQ Soslu Tavuklu Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, ızgara tavuk, beyaz soğan, taze mantar ve barbekü sosu (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺389,99"
+            },
+            {
+                "Menu Item": "Favorite Pizza (Orta)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, mantar ve mısır (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺379,99"
+            },
+            {
+                "Menu Item": "Kendi Pizzanı Yarat (Orta)",
+                "Menu Ingredients": "Pizza sosu ve mozzarella peyniri ve tercih edeceğiniz malzemeler ile. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺379,99"
+            },
+            {
+                "Menu Item": "Bodrum Pizza (Orta)",
+                "Menu Ingredients": "Pizza sosu, mozzarella peyniri, dilim domates. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺379,99"
+            },
+            {
+                "Menu Item": "BBQ Ateşi Pizza (Orta)",
+                "Menu Ingredients": "BBQ sos üzerine; mozzarella peyniri, top köfte, pepperoni, mantar, jalapeno biberi. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺379,99"
+            },
+            {
+                "Menu Item": "Kavurmalı Pizza (Orta)",
+                "Menu Ingredients": "Yeşilbiber, soğan, kavurma ve kırmızı köz biber. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Suda Mozerellalı Pizza (Orta)",
+                "Menu Ingredients": "Suda mozerella, yeşilbiber, domates, kırmızı köz biber. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Et Sever Pizza (Orta)",
+                "Menu Ingredients": "Küp sucuk, pepperoni, jambon. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺379,99"
+            },
+            {
+                "Menu Item": "Pera Pizza (Orta)",
+                "Menu Ingredients": "Özel pizza sosu, mozzarella peyniri, ızgara tavuk, mantar, köz biber, jalapeno biber",
+                "Price": "₺399,99"
+            },
+            {
+                "Menu Item": "Margarita Pizza (Büyük)",
+                "Menu Ingredients": "Pizza sosu ve mozzarella peyniri (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Pepperoni Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, ekstra pepperoni ve pizza sosu (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺469,99"
+            },
+            {
+                "Menu Item": "Super Papa's Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, i̇talyan köfte, jambon, taze mantar, beyaz soğan, yeşilbiber ve siyah zeytin (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺549,99"
+            },
+            {
+                "Menu Item": "Ateşte Kırmızı Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, sucuk, kırmızı köz biber, mantar ve siyah zeytin (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺489,99"
+            },
+            {
+                "Menu Item": "Akdeniz Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, beyaz soğan, domates, siyah zeytin ve beyaz peynir (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Bahçe Keyfi Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, dilimlenmiş taze domates, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin ve mısır (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "BBQ Soslu Tavuklu Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, ızgara tavuk, beyaz soğan, taze mantar ve barbekü sosu (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺469,99"
+            },
+            {
+                "Menu Item": "Karışık Papa Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, sosis, mantar, mısır, siyah zeytin ve sucuk (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺489,99"
+            },
+            {
+                "Menu Item": "Hawaii Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, jambon, ananas ve ekstra peynir (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺489,99"
+            },
+            {
+                "Menu Item": "Osmanlı Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, sucuk, pastırma, beyaz peynir, yeşilbiber ve siyah zeytin (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺549,99"
+            },
+            {
+                "Menu Item": "Denizci Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, mısır, ton balığı, soğan ve domates (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺489,99"
+            },
+            {
+                "Menu Item": "Etobur Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, i̇talyan köfte, özel kıyma ve jambon (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺549,99"
+            },
+            {
+                "Menu Item": "Meksika Dalgası Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, ızgara tavuk, dilimlenmiş taze domates, beyaz soğan, yeşilbiber, jalapeno biberi ve mısır (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺489,99"
+            },
+            {
+                "Menu Item": "Quattro Formaggi Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, hellim peyniri, taze kaşar peyniri ve parmesan peyniri (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺489,99"
+            },
+            {
+                "Menu Item": "Vegan Pizza (Büyük)",
+                "Menu Ingredients": "Pizza sosu, domates, mantar, soğan, yeşilbiber, zeytin ve mısır (Hayvansal gıda ve peynir içermemektedir.) (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺369,99"
+            },
+            {
+                "Menu Item": "Kanka Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, sosis, mantar, soğan, yeşilbiber ve jambon (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺469,99"
+            },
+            {
+                "Menu Item": "Karnaval Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, pizza sosu, pepperoni, mantar ve siyah zeytin (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺469,99"
+            },
+            {
+                "Menu Item": "Küçük İtalya Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, i̇talyan köfte, mantar, siyah zeytin ve kekik (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺549,99"
+            },
+            {
+                "Menu Item": "Favorite Pizza (Büyük)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, mantar ve mısır (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺469,99"
+            },
+            {
+                "Menu Item": "Kendi Pizzanı Yarat (Büyük)",
+                "Menu Ingredients": "Pizza sosu ve mozzarella peyniri ve tercih edeceğiniz malzemeler ile (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "Bodrum Pizza (Büyük)",
+                "Menu Ingredients": "Pizza sosu ve mozzarella peyniri (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺439,99"
+            },
+            {
+                "Menu Item": "BBQ Ateşi Pizza (Büyük)",
+                "Menu Ingredients": "BBQ sos üzerine; mozzarella peyniri, top köfte, pepperoni, mantar, jalapeno biberi (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺469,99"
+            },
+            {
+                "Menu Item": "Kavurmalı Pizza (Büyük)",
+                "Menu Ingredients": "Yeşilbiber, soğan, kavurma ve kırmızı köz biber (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺549,99"
+            },
+            {
+                "Menu Item": "Suda Mozerellalı Pizza (Büyük)",
+                "Menu Ingredients": "Suda mozerella, yeşilbiber, domates, kırmızı köz biber (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺549,99"
+            },
+            {
+                "Menu Item": "Et Sever Pizza (Büyük)",
+                "Menu Ingredients": "Küp sucuk, pepperoni, jambon (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺469,99"
+            },
+            {
+                "Menu Item": "Pera Pizza (Büyük)",
+                "Menu Ingredients": "Özel pizza sosu, mozzarella peyniri, ızgara tavuk, mantar, köz biber, jalapeno biber",
+                "Price": "₺489,99"
+            },
+            {
+                "Menu Item": "Margarita Pizza (Küçük)",
+                "Menu Ingredients": "Pizza sosu ve mozzarella peyniri. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺229,99"
+            },
+            {
+                "Menu Item": "Karnaval Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, pizza sosu, pepperoni, mantar ve siyah zeytin. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺239,99"
+            },
+            {
+                "Menu Item": "Vegan Pizza (Küçük)",
+                "Menu Ingredients": "Pizza sosu, domates, mantar, soğan, yeşilbiber, zeytin ve mısır (Hayvansal gıda ve peynir içermemektedir.) (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺169,99"
+            },
+            {
+                "Menu Item": "Osmanlı Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, sucuk, pastırma, beyaz peynir, yeşilbiber ve siyah zeytin. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺289,99"
+            },
+            {
+                "Menu Item": "BBQ Soslu Tavuklu Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, ızgara tavuk, beyaz soğan, taze mantar ve barbekü sosu. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺239,99"
+            },
+            {
+                "Menu Item": "Super Papa's Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, i̇talyan köfte, jambon, taze mantar, beyaz soğan, yeşilbiber ve siyah zeytin. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺289,99"
+            },
+            {
+                "Menu Item": "Karışık Papa Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, sosis, mantar, mısır, siyah zeytin ve sucuk. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺259,99"
+            },
+            {
+                "Menu Item": "Kanka Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, sosis, mantar, soğan, yeşilbiber ve jambon (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺239,99"
+            },
+            {
+                "Menu Item": "Ateşte Kırmızı Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, sucuk, kırmızı köz biber, mantar ve siyah zeytin. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺259,99"
+            },
+            {
+                "Menu Item": "Bahçe Keyfi Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, dilimlenmiş taze domates, taze mantar, beyaz soğan, yeşilbiber, siyah zeytin ve mısır. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺229,99"
+            },
+            {
+                "Menu Item": "Küçük İtalya Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, i̇talyan köfte, mantar, siyah zeytin ve kekik. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺289,99"
+            },
+            {
+                "Menu Item": "Akdeniz Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, beyaz soğan, domates, siyah zeytin ve beyaz peynir. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺229,99"
+            },
+            {
+                "Menu Item": "Quattro Formaggi Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, hellim peyniri, taze kaşar peyniri ve parmesan peyniri. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺259,99"
+            },
+            {
+                "Menu Item": "Denizci Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, mısır, ton balığı, soğan ve domates. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺259,99"
+            },
+            {
+                "Menu Item": "Meksika Dalgası Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, ızgara tavuk, dilimlenmiş taze domates, beyaz soğan, yeşilbiber, jalapeno biberi ve mısır. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺259,99"
+            },
+            {
+                "Menu Item": "Hawaii Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, jambon, ananas ve ekstra peynir. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺259,99"
+            },
+            {
+                "Menu Item": "Etobur Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, i̇talyan köfte, özel kıyma ve jambon. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺289,99"
+            },
+            {
+                "Menu Item": "Pepperoni Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, ekstra pepperoni ve pizza sosu. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺239,99"
+            },
+            {
+                "Menu Item": "Favorite Pizza (Küçük)",
+                "Menu Ingredients": "Mozzarella peyniri, pepperoni, mantar ve mısır. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺239,99"
+            },
+            {
+                "Menu Item": "Kendi Pizzanı Yarat (Küçük)",
+                "Menu Ingredients": "Pizza sosu ve mozzarella peyniri ve tercih edeceğiniz malzemeler ile. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺229,99"
+            },
+            {
+                "Menu Item": "Bodrum Pizza (Küçük)",
+                "Menu Ingredients": "Pizza sosu, mozzarella peyniri, dilim domates. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺229,99"
+            },
+            {
+                "Menu Item": "Kavurmalı Pizza (Küçük)",
+                "Menu Ingredients": "Yeşilbiber, soğan, kavurma ve kırmızı köz biber. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺289,99"
+            },
+            {
+                "Menu Item": "Suda Mozerellalı Pizza (Küçük)",
+                "Menu Ingredients": "Suda mozerella, yeşilbiber, domates, kırmızı köz biber. (Pizzanın yanında gönderilen pepperoncini biber turşusu ve sarımsak sosu ücrete tabidir.)",
+                "Price": "₺289,99"
+            },
+            {
+                "Menu Item": "Pera Pizza (Küçük)",
+                "Menu Ingredients": "Özel pizza sosu, mozzarella peyniri, ızgara tavuk, mantar, köz biber, jalapeno biber",
+                "Price": "₺259,99"
+            },
+            {
+                "Menu Item": "Pepsi Zero Sugar (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺69,99"
+            },
+            {
+                "Menu Item": "Yedigün Portakal (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺69,99"
+            },
+            {
+                "Menu Item": "Fruko Cool Lime (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺69,99"
+            },
+            {
+                "Menu Item": "Lipton Ice Tea Şeftali (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺69,99"
+            },
+            {
+                "Menu Item": "Lipton Ice Tea Limon (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺69,99"
+            },
+            {
+                "Menu Item": "Red Bull (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺89,99"
+            },
+            {
+                "Menu Item": "Su (500 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺32,99"
+            },
+            {
+                "Menu Item": "Yedigün Portakal (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺79,99"
+            },
+            {
+                "Menu Item": "Yedigün Mandalina (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺79,99"
+            },
+            {
+                "Menu Item": "Fruko Cool Lime (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺79,99"
+            },
+            {
+                "Menu Item": "Sütaş Ayran (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺79,99"
+            },
+            {
+                "Menu Item": "Red Bull Peach Edition (250 ml)",
+                "Menu Ingredients": "Şeftali lezzetli enerji içeceği",
+                "Price": "₺89,99"
+            },
+            {
+                "Menu Item": "Red Bull Red Edition (250 ml)",
+                "Menu Ingredients": "Karpuz lezzetli enerji içeceği",
+                "Price": "₺89,99"
+            },
+            {
+                "Menu Item": "BBQ Kenar Sosu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺14,99"
+            },
+            {
+                "Menu Item": "Sarımsak Sosu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺24,99"
+            },
+            {
+                "Menu Item": "Ballı Hardallı Sos",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺14,99"
+            },
+            {
+                "Menu Item": "Ranch Sos",
+                "Menu Ingredients": "20 g",
+                "Price": "₺17,99"
+            },
+            {
+                "Menu Item": "Acı Sos",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺14,99"
+            },
+            {
+                "Menu Item": "Sos Paketi (6'lı)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺59,99"
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0370205,
+            "longitude": 28.98233699999999
         }
     }
 ]
