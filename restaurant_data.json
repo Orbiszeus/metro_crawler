@@ -3627,5 +3627,164 @@
             "latitude": 41.0370205,
             "longitude": 28.98233699999999
         }
+    },
+    {
+        "Restaurant Name": "The Grungy",
+        "Menu": [
+            {
+                "Menu Item": "Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Sade Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺114,00"
+            },
+            {
+                "Menu Item": "Truf & Parmesanli Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Kajun Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺128,00"
+            },
+            {
+                "Menu Item": "Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺370,00"
+            },
+            {
+                "Menu Item": "Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Bacon Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, karamelize soğan, domuz bacon, grungy sos",
+                "Price": "₺480,00"
+            },
+            {
+                "Menu Item": "Keçi Peynirli Burger",
+                "Menu Ingredients": "120 g burger köftesi, keçi peyniri, kırmızı soğan marmelatı",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Brie & Bal Burger",
+                "Menu Ingredients": "120 g burger köftesi, brie peyniri, bal",
+                "Price": "₺460,00"
+            },
+            {
+                "Menu Item": "Jalapeno Burger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, jalapeno turşusu, pickled jalapeno sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Double Cheeseburger",
+                "Menu Ingredients": "Burger köftesi, cheddar peyniri, karamelize soğan, grungy sos",
+                "Price": "₺510,00"
+            },
+            {
+                "Menu Item": "Double Füme Antrikot Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, karamelize soğan, füme antrikot, grungy sos",
+                "Price": "₺550,00"
+            },
+            {
+                "Menu Item": "Double Bacon Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, karamelize soğan, domuz bacon, grungy sos",
+                "Price": "₺620,00"
+            },
+            {
+                "Menu Item": "Double Keçi Peynirli Burger",
+                "Menu Ingredients": "240 g burger köftesi, keçi peyniri, kırmızı soğan marmelatı",
+                "Price": "₺540,00"
+            },
+            {
+                "Menu Item": "Double Brie & Bal Burger",
+                "Menu Ingredients": "240 g burger köftesi, brie peyniri, bal",
+                "Price": "₺630,00"
+            },
+            {
+                "Menu Item": "Double Jalapeno Burger",
+                "Menu Ingredients": "Burger köftesi (240 g), cheddar peyniri, jalapeno tursusu ve pickled jalapeno sos",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Chipotle Cheeseburger",
+                "Menu Ingredients": "120 g burger köftesi, cheddar peyniri, chipotle sos",
+                "Price": "₺390,00"
+            },
+            {
+                "Menu Item": "Double Chipotle Cheeseburger",
+                "Menu Ingredients": "240 g burger köftesi, cheddar peyniri, chipotle sos",
+                "Price": "₺530,00"
+            },
+            {
+                "Menu Item": "Kajun Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺128,00"
+            },
+            {
+                "Menu Item": "Truf & Parmesanli Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺180,00"
+            },
+            {
+                "Menu Item": "Sade Patates Kızartması",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺114,00"
+            },
+            {
+                "Menu Item": "Coca Cola (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Coca Cola Şekersiz (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Ayran (245 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺78,00"
+            },
+            {
+                "Menu Item": "Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺56,00"
+            },
+            {
+                "Menu Item": "Mineralli Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺56,00"
+            },
+            {
+                "Menu Item": "Sprite",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺88,00"
+            },
+            {
+                "Menu Item": "Sriracha",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "₺10,00"
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0527023,
+            "longitude": 28.99798049999999
+        }
     }
 ]
