@@ -1,5 +1,6 @@
 /my-env
 /downloaded_files
-/__pycache__/*
+* .pyc
+__pycache__
 /.venv
 /.streamlit
