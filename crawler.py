@@ -310,6 +310,31 @@ async def extract_menu_region(sb):
         print(f"Exception in {e}")
     return menu_items
 
+async def locate_order_address(restaurant_name, sb):
+    try:
+        print(f"Starting to locate {restaurant_name}..")
+        sb.click("button[aria-label='Find Location']")
+        # sb.click("css selector", "input[type='text']")
+        sb.sleep(3)
+        sb.type('input[class="style__Input-sc-__sc-1wqqe47-4 eWUYjb react-autosuggest__input"]',f"{restaurant_name}/Kadiköy, İstanbul")
+        sb.sleep(3)
+        # sb.driver.uc_gui_press_key(Keys.SPACE) --> PyAutoGUI that presses keys if needed 
+        sb.click("li[id='react-autowhatever-1--item-0']")
+        sb.click("div[kind='primary']")
+        # sb.click("button.style__Button-sc-__sc-6ivys6-0.eGRCCQ:nth-of-type(1)")
+        sb.sleep(1)
+        sb.click("button[aria-label='Step Button']") #accept address 
+        print("Accept address button clicked..") 
+        sb.click("button[aria-label='Save Button']") #save address
+        print("Saved address..")
+        sb.click("button[type='button']") #agree button 
+        sb.sleep(1)
+        sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 GDAK style__Close-sc-__sc-vk2nyz-5 fsISSX']") #changing language (being forced)
+        sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 BpZxo style__OkButton-sc-__sc-vk2nyz-8 ezpKor']") #agreeing on the final location and language
+        print("Agreed the language settings..")
+        sb.sleep(3)
+    except Exception as e:
+        print(f"Exception in locating order address: {e}")
 
 #TODO: We can add /marka + {restaurant_name} to gather all the rests
 async def g_crawler(url, is_area, restaurant_name):
@@ -329,29 +354,10 @@ async def g_crawler(url, is_area, restaurant_name):
             except Exception as e:
                 print("Cannot reject/accept cookies or ", e)
 
-            if is_area: # Statement is only true when there is an area that will be crawlerd
+            if is_area: # Statement is only true when there is an area that can be crawled
                 try:
                     print(f"Starting to locate {restaurant_name}..")
-                    sb.click("button[aria-label='Find Location']")
-                    # sb.click("css selector", "input[type='text']")
-                    sb.sleep(3)
-                    sb.type('input[class="style__Input-sc-__sc-1wqqe47-4 eWUYjb react-autosuggest__input"]',f"{restaurant_name}/Kadiköy, İstanbul")
-                    sb.sleep(3)
-                    # sb.driver.uc_gui_press_key(Keys.SPACE) --> PyAutoGUI that presses keys if needed 
-                    sb.click("li[id='react-autowhatever-1--item-0']")
-                    sb.click("div[kind='primary']")
-                    # sb.click("button.style__Button-sc-__sc-6ivys6-0.eGRCCQ:nth-of-type(1)")
-                    sb.sleep(1)
-                    sb.click("button[aria-label='Step Button']") #accept address 
-                    print("Accept address button clicked..") 
-                    sb.click("button[aria-label='Save Button']") #save address
-                    print("Saved address..")
-                    sb.click("button[type='button']") #agree button 
-                    sb.sleep(1)
-                    sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 GDAK style__Close-sc-__sc-vk2nyz-5 fsISSX']") #changing language (being forced)
-                    sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 BpZxo style__OkButton-sc-__sc-vk2nyz-8 ezpKor']") #agreeing on the final location and language
-                    print("Agreed the language settings..")
-                    sb.sleep(3)
+                    await locate_order_address()
                     grid_restaurants = sb.find_elements("css selector", "div[class='sc-128155de-12 bEAREJ']")
                     print("Number of restaurant in this page is " + str(len(grid_restaurants)))
                     sb.scroll_to("css selector", "button[class='style__Button-sc-__sc-6ivys6-0 hqQsnw']")
@@ -391,7 +397,6 @@ async def g_crawler(url, is_area, restaurant_name):
             return df.to_json(orient='split')                  
         except Exception as e:
             print(f"Exception in Getir Crawler:  {e}")
-    
                 
 async def main():
     config = uvicorn.Config("app:app", host="0.0.0.0", port=8000)
