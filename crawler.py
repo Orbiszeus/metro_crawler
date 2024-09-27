@@ -487,43 +487,47 @@ async def g_crawler(url, is_area, restaurant_name):
                 print("Cannot reject/accept cookies or ", e)
 
             if is_area: # Statement is only true when there is an area that will be crawlerd
-                sb.click("button[aria-label='Find Location']")
-                # sb.click("css selector", "input[type='text']")
-                sb.sleep(3)
-                sb.type('input[class="style__Input-sc-__sc-1wqqe47-4 eWUYjb react-autosuggest__input"]',f"{restaurant_name}/Kadiköy, İstanbul")
-                sb.sleep(3)
-                # sb.driver.uc_gui_press_key(Keys.SPACE) --> PyAutoGUI that presses keys if needed 
-                sb.click("li[id='react-autowhatever-1--item-0']")
-                sb.click("div[kind='primary']")
-                # sb.click("button.style__Button-sc-__sc-6ivys6-0.eGRCCQ:nth-of-type(1)")
-                sb.sleep(1)
-                sb.click("button[aria-label='Step Button']") #accept address  
-                sb.click("button[aria-label='Save Button']") #save address
-                sb.click("button[type='button']") #agree button 
-                sb.sleep(1)
-                sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 GDAK style__Close-sc-__sc-vk2nyz-5 fsISSX']") #changing language (being forced)
-                sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 BpZxo style__OkButton-sc-__sc-vk2nyz-8 ezpKor']") #agreeing on the final location and language
-                sb.sleep(3)
-                grid_restaurants = sb.find_elements("css selector", "div[class='sc-128155de-12 bEAREJ']")
-                sb.scroll_to("css selector", "button[class='style__Button-sc-__sc-6ivys6-0 hqQsnw']")
-                sb.sleep(3)
-                for index, item in enumerate(grid_restaurants):
+                try:
+                    print(f"Starting locating {restaurant_name}..")
+                    sb.click("button[aria-label='Find Location']")
+                    # sb.click("css selector", "input[type='text']")
+                    sb.sleep(3)
+                    sb.type('input[class="style__Input-sc-__sc-1wqqe47-4 eWUYjb react-autosuggest__input"]',f"{restaurant_name}/Kadiköy, İstanbul")
+                    sb.sleep(3)
+                    # sb.driver.uc_gui_press_key(Keys.SPACE) --> PyAutoGUI that presses keys if needed 
+                    sb.click("li[id='react-autowhatever-1--item-0']")
+                    sb.click("div[kind='primary']")
+                    # sb.click("button.style__Button-sc-__sc-6ivys6-0.eGRCCQ:nth-of-type(1)")
                     sb.sleep(1)
-                    sb.click_nth_visible_element("div.sc-128155de-12.bEAREJ a", index)
+                    sb.click("button[aria-label='Step Button']") #accept address  
+                    sb.click("button[aria-label='Save Button']") #save address
+                    sb.click("button[type='button']") #agree button 
                     sb.sleep(1)
-                    print("Now crawling restaurant: " + sb.find_element("css selector", "h1[class='style__Title1-sc-__sc-1nwjacj-2 hIkhWh sc-e4ee1871-2 gnsGCg']").text)
-                    menu_items = await extract_menu_region(sb)
-                    restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
-                    result = re.search(r'\((.*?)\)', restaurant_location)
-                    if result:
-                        restaurant_location = result.group(1) + " ,İstanbul, Türkiye"
-                        print("Restaurant address" + restaurant_location)
-                    latitude, longitude = await get_coordinates(restaurant_location)
-                    print("Restaurant coordinates: " + str(latitude, longitude))
-                    restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-e4ee1871-10 dZyWue']").text
-                    await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
-                    sb.go_back()
-                    
+                    sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 GDAK style__Close-sc-__sc-vk2nyz-5 fsISSX']") #changing language (being forced)
+                    sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 BpZxo style__OkButton-sc-__sc-vk2nyz-8 ezpKor']") #agreeing on the final location and language
+                    sb.sleep(3)
+                    grid_restaurants = sb.find_elements("css selector", "div[class='sc-128155de-12 bEAREJ']")
+                    sb.scroll_to("css selector", "button[class='style__Button-sc-__sc-6ivys6-0 hqQsnw']")
+                    sb.sleep(3)
+                    for index, item in enumerate(grid_restaurants):
+                        sb.sleep(1)
+                        sb.click_nth_visible_element("div.sc-128155de-12.bEAREJ a", index)
+                        sb.sleep(1)
+                        print("Now crawling restaurant: " + sb.find_element("css selector", "h1[class='style__Title1-sc-__sc-1nwjacj-2 hIkhWh sc-e4ee1871-2 gnsGCg']").text)
+                        menu_items = await extract_menu_region(sb)
+                        restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
+                        result = re.search(r'\((.*?)\)', restaurant_location)
+                        if result:
+                            restaurant_location = result.group(1) + " ,İstanbul, Türkiye"
+                            print("Restaurant address" + restaurant_location)
+                        latitude, longitude = await get_coordinates(restaurant_location)
+                        print("Restaurant coordinates: " + str(latitude, longitude))
+                        restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-e4ee1871-10 dZyWue']").text
+                        await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
+                        sb.go_back()
+                except Exception as e:
+                    print(f"Exception: {e}")   
+                     
             restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
             result = re.search(r'\((.*?)\)', restaurant_location)
             if result:
