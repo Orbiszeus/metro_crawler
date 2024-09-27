@@ -98,7 +98,7 @@ class HotelCrawlRequest(BaseModel):
 
 async def hotel_crawler(url):
     hotel_items = []
-    with SB(uc=True, headless=True) as sb:
+    with SB(uc=True, headless=False) as sb:
         sb.driver.uc_open_with_reconnect(url, 10) 
         try:
             sb.sleep(5)
@@ -127,183 +127,198 @@ async def hotel_crawler(url):
                 print("One page search or scroll failed.")
             sb.sleep(1)
             #TODO: Add the page by page crawling by clicking "next"
-            grid_items = sb.find_elements("div[data-element-name='PropertyCardBaseJacket']")
-            total_grid_item = len(grid_items)
-            print("Total grid number: " + str(total_grid_item))
-            if grid_items:
-                for index, item in enumerate(grid_items):
-                    hotel_items = []
-                    sb.sleep(4)
-                    try:
-                        sb.click_nth_visible_element("div[data-element-name='PropertyCardBaseJacket'] a", index + 1)
-                    except:
-                        continue
-                    sb.sleep(4)
-                    all_facility_restaurant_details = []
-                    hotel_name = ""
-                    hotel_location = ""
-                    hotel_rating = ""
-                    restaurant_in_hotel_count = "0"
-                    total_room_number = "0"
-                    breakfast_price = "0 EUR"
-                    total_bar_number = "0"
-                    rooms_with_breakfast_number = "0"
-                    breakfast_types_list = []
-                    try:
-                        hotel_name_elements = sb.find_elements("css selector", "h2[data-selenium='hotel-header-name'], p[data-selenium='hotel-header-name']")
-                        if hotel_name_elements:
-                            hotel_name = hotel_name_elements[0].text
-                            print("Hotel Name: " + str(hotel_name))
-                        existing_hotel = hotel_collection.find_one({"Hotel Name": hotel_name})
-                        if existing_hotel:
-                            print(f"Hotel '{hotel_name}' already exists in the database.")
+            #While (True), then --> when the loops it will click next
+            #There will be always a grid until there is no more "click next button"
+            #There will be an infinitive loop
+            while (True): 
+                try:   
+                    sb.scroll_to("css selector", "button[id='paginationNext']")
+                    sb.sleep(2)
+                    sb.scroll_to_bottom()
+                except:
+                    print("One page search or scroll failed.")
+                sb.sleep(2)
+                grid_items = sb.find_elements("div[data-element-name='PropertyCardBaseJacket']")
+                total_grid_item = len(grid_items)
+                print("Total grid number: " + str(total_grid_item))
+                if grid_items:
+                    for index, item in enumerate(grid_items):
+                        hotel_items = []
+                        sb.sleep(1)
+                        try:
+                            sb.click_nth_visible_element("div[data-element-name='PropertyCardBaseJacket'] a", index + 1)
+                        except:
                             continue
-                    except:
-                        hotel_name = "N/A"
-                    try:
-                        hotel_location = sb.find_element("css selector", "span[data-selenium='hotel-address-map']").text
-                    except:
-                        hotel_location = "N/A"
-
-                    try:
-                        hotel_rating = sb.find_element("css selector", "span[class='sc-jrAGrp sc-kEjbxe fzPhrN ehWyCi']").text
-                    except:
-                        hotel_rating = "N/A"
-
-                    try:
-                        parent_breakfasts_room_count = sb.find_element("css selector", "div[data-selenium='RoomGridFilter-filterGroup']")
-                        all_divs = parent_breakfasts_room_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
-                        for div in all_divs:
-                            label_span = div.find_element("css selector", "div.Box-sc-kv6pi1-0.dSOQsp")
-                            if label_span.text == "Kahvaltı dahil":
-                                number_span = div.find_element("css selector", "div.Box-sc-kv6pi1-0.jJvGxG")
-                                rooms_with_breakfast_number_raw = number_span.text
-                                pattern = r'\((\d+)\)'
-                                match = re.search(pattern, rooms_with_breakfast_number_raw)
-                                if match:
-                                    rooms_with_breakfast_number = match.group(1)
-                                    break
-                    except:
+                        sb.sleep(4)
+                        all_facility_restaurant_details = []
+                        hotel_name = ""
+                        hotel_location = ""
+                        hotel_rating = ""
+                        restaurant_in_hotel_count = "0"
+                        total_room_number = "0"
+                        breakfast_price = "0 EUR"
+                        total_bar_number = "0"
                         rooms_with_breakfast_number = "0"
+                        breakfast_types_list = []
+                        try:
+                            hotel_name_elements = sb.find_elements("css selector", "h2[data-selenium='hotel-header-name'], p[data-selenium='hotel-header-name']")
+                            if hotel_name_elements:
+                                hotel_name = hotel_name_elements[0].text
+                                print("Hotel Name: " + str(hotel_name))
+                            existing_hotel = hotel_collection.find_one({"Hotel Name": hotel_name})
+                            if existing_hotel:
+                                print(f"Hotel '{hotel_name}' already exists in the database.")
+                                continue
+                        except:
+                            hotel_name = "N/A"
+                        try:
+                            hotel_location = sb.find_element("css selector", "span[data-selenium='hotel-address-map']").text
+                        except:
+                            hotel_location = "N/A"
 
-                    try:
-                        parent_restaurant_count = sb.find_element("css selector", "div[data-element-name='about-hotel-useful-info']")
-                        all_divs = parent_restaurant_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
-                        for div in all_divs:
-                            label_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.gwICfd")
-                            if label_span.text == "Restoran Sayısı":
-                                try:
-                                    number_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk")
-                                    restaurant_in_hotel_count = number_span.text
-                                    print("Restaurant Count: " + restaurant_in_hotel_count)
-                                except:
-                                    restaurant_in_hotel_count = "0"
-                                    
-                            if label_span.text == "Oda Sayısı":
-                                try:
-                                    number_span = ""
-                                    number_span += div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk").text
-                                    if len(number_span) == 0:
-                                        pattern = r"toplam (\d+) oda seçeneği mevcut:"
+                        try:
+                            hotel_rating = sb.find_element("css selector", "span[class='sc-jrAGrp sc-kEjbxe fzPhrN ehWyCi']").text
+                        except:
+                            hotel_rating = "N/A"
+
+                        try:
+                            parent_breakfasts_room_count = sb.find_element("css selector", "div[data-selenium='RoomGridFilter-filterGroup']")
+                            all_divs = parent_breakfasts_room_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
+                            for div in all_divs:
+                                label_span = div.find_element("css selector", "div.Box-sc-kv6pi1-0.dSOQsp")
+                                if label_span.text == "Kahvaltı dahil":
+                                    number_span = div.find_element("css selector", "div.Box-sc-kv6pi1-0.jJvGxG")
+                                    rooms_with_breakfast_number_raw = number_span.text
+                                    pattern = r'\((\d+)\)'
+                                    match = re.search(pattern, rooms_with_breakfast_number_raw)
+                                    if match:
+                                        rooms_with_breakfast_number = match.group(1)
+                                        break
+                        except:
+                            rooms_with_breakfast_number = "0"
+
+                        try:
+                            parent_restaurant_count = sb.find_element("css selector", "div[data-element-name='about-hotel-useful-info']")
+                            all_divs = parent_restaurant_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
+                            for div in all_divs:
+                                label_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.gwICfd")
+                                if label_span.text == "Restoran Sayısı":
+                                    try:
+                                        number_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk")
+                                        restaurant_in_hotel_count = number_span.text
+                                        print("Restaurant Count: " + restaurant_in_hotel_count)
+                                    except:
+                                        restaurant_in_hotel_count = "0"
                                         
-                                        number_span += div.find_element("css selector", "span.RoomGrid-titleCounterNormal > span").text
-                                        match = re.search(pattern, number_span)
-                                        if match:
-                                            number = match.group(1)
-                                            total_room_number = str(number)
+                                if label_span.text == "Oda Sayısı":
+                                    try:
+                                        number_span = ""
+                                        number_span += div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk").text
+                                        if len(number_span) == 0:
+                                            pattern = r"toplam (\d+) oda seçeneği mevcut:"
                                             
-                                    total_room_number = number_span
-                                    print("Room Count: " + total_room_number)
-                                except:
-                                    total_room_number = "0"
-                                    
-                            if label_span.text == "Bar/loca sayısı":
-                                try:        
-                                    number_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk")
-                                    total_bar_number = number_span.text
-                                    print("Bar Count: " + total_bar_number)
-                                except:
-                                    total_bar_number = "0"
-                                    
-                            if label_span.text == "Kahvaltı Ücreti (oda fiyatına dahil değilse)":
-                                try:
-                                    number_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk")
-                                    breakfast_price = number_span.text
-                                    print("Breakfast Price: " + breakfast_price)
-                                except:
-                                    breakfast_price = "0"
-                    except Exception as e:
-                        print(e)
-
-                    try:
-                        sb.sleep(2)
-                        parent_restaurant_details = sb.find_elements("css selector", "div[id='abouthotel-restaurant']")
-                        if parent_restaurant_details:
-                            try:
-                                breakfast_details = sb.find_element("css selector", "ul[data-element-name='breakfast-options']")
-                                breakfast_options_lis = breakfast_details.find_elements("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.gwICfd.kite-js-Span")
-                                for breakfast_types in breakfast_options_lis:
-                                    breakfast_types_list.append(breakfast_types.text)
-                            except:
-                                breakfast_types = "Otelin içerisinde kahvaltı içeriği bilgisi yer almıyor."                            
-                                
-                           # all_divs = parent_restaurant_details.find_elements("css selector", "div.Box-sc-kv6pi1-0.dtSdUZ")
-                            # for div in parent_restaurant_details:
-                            try:
-                                restaurant_divs = sb.find_elements("css selector", "div[data-element-name='restaurants-on-site']")
-                                if restaurant_divs:
-                                    for rests in restaurant_divs:
-                                        try:
-                                            restaurant_in_hotel_count += 1
-                                            restaurant_name = rests.find_element("css selector", "h5.sc-jrAGrp.sc-kEjbxe.bmFdwl.kGfVSb").text
-                                        except:
-                                            restaurant_name = "Otelin içerisinde restoran bulunmuyor."
-                                        try:
-                                            pattern = r'Mutfak:(.*)'
-                                            kitchen_name = div.find_element("css selector", "div.a9733-box.a9733-fill-inherit.a9733-text-inherit.a9733-items-center.a9733-inline-flex").text
-                                            match = re.search(pattern, kitchen_name)
+                                            number_span += div.find_element("css selector", "span.RoomGrid-titleCounterNormal > span").text
+                                            match = re.search(pattern, number_span)
                                             if match:
-                                                kitchen_name = match.group(1).strip()
-                                            else:
-                                                print("No match found")
-                                        except: 
-                                            kitchen_name = "Mutfak bilgisi içeriği yer almıyor."
-                                
-                                        facility_restaurant_details = {
-                                            "Restaurant Name": restaurant_name,
-                                            "Kitchen": kitchen_name + " Mutfağı",
-                                            "Menu" : "A la carte"
-                                        }
-                                        all_facility_restaurant_details.append(facility_restaurant_details)
-                            except:
-                                print("No restaurant details are present.")
-                                # break
-                            facility_restaurant_details["Breakfast Options"] =  breakfast_types_list
-                    except Exception as e:
-                        print(e)
+                                                number = match.group(1)
+                                                total_room_number = str(number)
+                                                
+                                        total_room_number = number_span
+                                        print("Room Count: " + total_room_number)
+                                    except:
+                                        total_room_number = "0"
+                                        
+                                if label_span.text == "Bar/loca sayısı":
+                                    try:        
+                                        number_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk")
+                                        total_bar_number = number_span.text
+                                        print("Bar Count: " + total_bar_number)
+                                    except:
+                                        total_bar_number = "0"
+                                        
+                                if label_span.text == "Kahvaltı Ücreti (oda fiyatına dahil değilse)":
+                                    try:
+                                        number_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk")
+                                        breakfast_price = number_span.text
+                                        print("Breakfast Price: " + breakfast_price)
+                                    except:
+                                        breakfast_price = "0"
+                        except Exception as e:
+                            print(e)
 
-                    latitude, longitude = await get_coordinates(hotel_location)
+                        try:
+                            sb.sleep(2)
+                            parent_restaurant_details = sb.find_elements("css selector", "div[id='abouthotel-restaurant']")
+                            if parent_restaurant_details:
+                                try:
+                                    breakfast_details = sb.find_element("css selector", "ul[data-element-name='breakfast-options']")
+                                    breakfast_options_lis = breakfast_details.find_elements("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.gwICfd.kite-js-Span")
+                                    for breakfast_types in breakfast_options_lis:
+                                        breakfast_types_list.append(breakfast_types.text)
+                                except:
+                                    breakfast_types = "Otelin içerisinde kahvaltı içeriği bilgisi yer almıyor."                            
+                                    
+                            # all_divs = parent_restaurant_details.find_elements("css selector", "div.Box-sc-kv6pi1-0.dtSdUZ")
+                                # for div in parent_restaurant_details:
+                                try:
+                                    restaurant_divs = sb.find_elements("css selector", "div[data-element-name='restaurants-on-site']")
+                                    if restaurant_divs:
+                                        for rests in restaurant_divs:
+                                            try:
+                                                restaurant_in_hotel_count += 1
+                                                restaurant_name = rests.find_element("css selector", "h5.sc-jrAGrp.sc-kEjbxe.bmFdwl.kGfVSb").text
+                                            except:
+                                                restaurant_name = "Otelin içerisinde restoran bulunmuyor."
+                                            try:
+                                                pattern = r'Mutfak:(.*)'
+                                                kitchen_name = div.find_element("css selector", "div.a9733-box.a9733-fill-inherit.a9733-text-inherit.a9733-items-center.a9733-inline-flex").text
+                                                match = re.search(pattern, kitchen_name)
+                                                if match:
+                                                    kitchen_name = match.group(1).strip()
+                                                else:
+                                                    print("No match found")
+                                            except: 
+                                                kitchen_name = "Mutfak bilgisi içeriği yer almıyor."
+                                    
+                                            facility_restaurant_details = {
+                                                "Restaurant Name": restaurant_name,
+                                                "Kitchen": kitchen_name + " Mutfağı",
+                                                "Menu" : "A la carte"
+                                            }
+                                            all_facility_restaurant_details.append(facility_restaurant_details)
+                                except:
+                                    print("No restaurant details are present.")
+                                    # break
+                                facility_restaurant_details["Breakfast Options"] =  breakfast_types_list
+                        except Exception as e:
+                            print(e)
 
-                    hotel_item = {
-                        "Hotel Name": hotel_name,
-                        "Hotel Rating": hotel_rating,
-                        "Hotel Location": hotel_location,
-                        "Total Room Number": total_room_number,
-                        "Total Restaurant Number": restaurant_in_hotel_count,
-                        "Total Bar Number": total_bar_number,
-                        "Breakfast Price" : breakfast_price,
-                        "Total Number of Rooms with Breakfast": rooms_with_breakfast_number,
-                        "Menu and Restaurant Details: " : all_facility_restaurant_details,
-                        "coordinates" : {
-                            "latitude" : latitude if latitude is not None else 0.0,
-                            "longitude": longitude if longitude is not None else 0.0
+                        latitude, longitude = await get_coordinates(hotel_location)
+
+                        hotel_item = {
+                            "Hotel Name": hotel_name,
+                            "Hotel Rating": hotel_rating,
+                            "Hotel Location": hotel_location,
+                            "Total Room Number": total_room_number,
+                            "Total Restaurant Number": restaurant_in_hotel_count,
+                            "Total Bar Number": total_bar_number,
+                            "Breakfast Price" : breakfast_price,
+                            "Total Number of Rooms with Breakfast": rooms_with_breakfast_number,
+                            "Menu and Restaurant Details: " : all_facility_restaurant_details,
+                            "coordinates" : {
+                                "latitude" : latitude if latitude is not None else 0.0,
+                                "longitude": longitude if longitude is not None else 0.0
+                            }
                         }
-                    }
-                    
-                    result = hotel_collection.insert_one(hotel_item)
-                    print(f"Document inserted with ID: {result.inserted_id}")
-                    sb.sleep(1)
-                    sb.driver.switch_to.window(first_tab_handle)   
+                        
+                        result = hotel_collection.insert_one(hotel_item)
+                        print(f"Document inserted with ID: {result.inserted_id}")
+                        sb.sleep(1)
+                        sb.driver.switch_to.window(first_tab_handle)
+                    if (sb.is_element_present("css selector", "button[id='paginationNext']")):
+                        sb.click("css selector", "button[id='paginationNext']") 
+                    else: # Breaking out of the while loop as there is no more next page to crawl 
+                        break 
         except Exception as e:
             print(f"Exception: {e}")
     return get_from_mongo("hotel")
@@ -436,13 +451,14 @@ async def extract_menu_region(sb):
         print(f"Exception in {e}")
     return menu_items
 
-async def insert_menu_to_db(menu_items, latitude, longitude, restaurant_name):
+async def insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, rating):
     menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
     menu_items_list = json.loads(menu_items_json) 
     
     #Inserting items into MongoDB
     restaurant_data = {
     "Restaurant Name": restaurant_name,
+    "Rating" : rating,
     "Menu": menu_items_list,
     "coordinates" : {
         "latitude" : latitude if latitude is not None else 0.0,
@@ -452,17 +468,13 @@ async def insert_menu_to_db(menu_items, latitude, longitude, restaurant_name):
     result = restaurants_collection.insert_one(restaurant_data)
     (f"Document inserted with ID: {result.inserted_id}")
 
-    df = pd.DataFrame(menu_items_list) 
-    return df    
-
 #TODO: We can add /marka + {restaurant_name} to gather all the rests
 async def g_crawler(url, is_area, restaurant_name):
     menu_items = []
     if is_area: #if we are crawling restaurants inside the whole region      
         url = "https://getir.com/yemek/"
-
     with SB(uc=True, headless=False) as sb:
-        sb.driver.uc_open_with_reconnect(url, 5)
+        sb.driver.uc_open_with_reconnect(url, 10)
         try:
             print("Trying to open: " + str(url))
             print("Reached: " + str(sb.get_title()))
@@ -478,7 +490,7 @@ async def g_crawler(url, is_area, restaurant_name):
                 sb.click("button[aria-label='Find Location']")
                 # sb.click("css selector", "input[type='text']")
                 sb.sleep(3)
-                sb.type('input[class="style__Input-sc-__sc-1wqqe47-4 eWUYjb react-autosuggest__input"]',f"{restaurant_name} ")
+                sb.type('input[class="style__Input-sc-__sc-1wqqe47-4 eWUYjb react-autosuggest__input"]',f"{restaurant_name}/Kadiköy, İstanbul")
                 sb.sleep(3)
                 # sb.driver.uc_gui_press_key(Keys.SPACE) --> PyAutoGUI that presses keys if needed 
                 sb.click("li[id='react-autowhatever-1--item-0']")
@@ -491,18 +503,25 @@ async def g_crawler(url, is_area, restaurant_name):
                 sb.sleep(1)
                 sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 GDAK style__Close-sc-__sc-vk2nyz-5 fsISSX']") #changing language (being forced)
                 sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 BpZxo style__OkButton-sc-__sc-vk2nyz-8 ezpKor']") #agreeing on the final location and language
-                sb.sleep(5)
+                sb.sleep(3)
                 grid_restaurants = sb.find_elements("css selector", "div[class='sc-128155de-12 bEAREJ']")
+                sb.scroll_to("css selector", "button[class='style__Button-sc-__sc-6ivys6-0 hqQsnw']")
+                sb.sleep(3)
                 for index, item in enumerate(grid_restaurants):
+                    sb.sleep(1)
                     sb.click_nth_visible_element("div.sc-128155de-12.bEAREJ a", index)
                     sb.sleep(1)
+                    print("Now crawling restaurant: " + sb.find_element("css selector", "h1[class='style__Title1-sc-__sc-1nwjacj-2 hIkhWh sc-e4ee1871-2 gnsGCg']").text)
                     menu_items = await extract_menu_region(sb)
                     restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
                     result = re.search(r'\((.*?)\)', restaurant_location)
                     if result:
                         restaurant_location = result.group(1) + " ,İstanbul, Türkiye"
+                        print("Restaurant address" + restaurant_location)
                     latitude, longitude = await get_coordinates(restaurant_location)
-                    df = await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name)
+                    print("Restaurant coordinates: " + str(latitude, longitude))
+                    restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 iwTTHJ sc-e4ee1871-10 dacgzq']").text
+                    # df = await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
                     sb.go_back()
                     
             restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
@@ -512,8 +531,11 @@ async def g_crawler(url, is_area, restaurant_name):
             latitude, longitude = await get_coordinates(restaurant_location)
             if not is_area:
                 menu_items = await extract_menu_single(sb)
-                df = await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name)
-            await get_from_mongo("restaurant")
+                menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
+                menu_items_list = json.loads(menu_items_json)  
+                df = pd.DataFrame(menu_items_list) 
+                # await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name)
+            # await get_from_mongo("restaurant")
             return df.to_json(orient='split')                  
         except Exception as e:
             print(f"Exception in Getir Crawler:  {e}")
