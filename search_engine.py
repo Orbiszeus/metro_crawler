@@ -1,6 +1,9 @@
 import requests
 from curl_cffi import requests
 import json
+from urllib.parse import quote_plus
+
+API_KEY = "AIzaSyDOwgj0fSYvgSNMXtWyxArmahvl-NPRQ00"
 
 headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
@@ -58,3 +61,24 @@ async def menu_serper_search(area):
             search_results.append(item.get('link'))
         
     return search_results
+
+def google_maps_search(search_query):
+    encoded_query = quote_plus(search_query)
+    url = f'https://maps.googleapis.com/maps/api/place/textsearch/json?query={encoded_query}&key={API_KEY}'
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+    places = []
+    for result in data['results']:
+        place_info = {
+            'name': result['name'],
+            'address': result['formatted_address'],
+            'location': result['geometry']['location'],
+            'rating': result.get('rating', 'N/A')
+        }
+        places.append(place_info)
+        print("There are " + str(len(places)) + " restaurants.")
+    for place in places:
+        print(place)
+    return places
+    

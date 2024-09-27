@@ -9,6 +9,7 @@ import json
 import pandas as pd
 import asyncio
 import repository 
+import search_engine
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 api_key = os.getenv('GOOGLE_MAPS_API_KEY')
@@ -338,6 +339,7 @@ async def locate_order_address(restaurant_name, sb):
 
 #TODO: We can add /marka + {restaurant_name} to gather all the rests
 async def g_crawler(url, is_area, restaurant_name):
+    search_engine.google_maps_search("Kadiköy Burger")
     menu_items = []
     if is_area: #if we are crawling restaurants inside the whole region      
         url = "https://getir.com/yemek/"
@@ -397,7 +399,7 @@ async def g_crawler(url, is_area, restaurant_name):
             return df.to_json(orient='split')                  
         except Exception as e:
             print(f"Exception in Getir Crawler:  {e}")
-                
+
 async def main():
     config = uvicorn.Config("app:app", host="0.0.0.0", port=8000)
     server = uvicorn.Server(config)
