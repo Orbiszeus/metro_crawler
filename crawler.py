@@ -521,7 +521,7 @@ async def g_crawler(url, is_area, restaurant_name):
                     latitude, longitude = await get_coordinates(restaurant_location)
                     print("Restaurant coordinates: " + str(latitude, longitude))
                     restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 iwTTHJ sc-e4ee1871-10 dacgzq']").text
-                    # df = await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
+                    await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
                     sb.go_back()
                     
             restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
@@ -529,13 +529,14 @@ async def g_crawler(url, is_area, restaurant_name):
             if result:
                 restaurant_location = result.group(1) + " ,İstanbul, Türkiye"
             latitude, longitude = await get_coordinates(restaurant_location)
+            restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 iwTTHJ sc-e4ee1871-10 dacgzq']").text
             if not is_area:
                 menu_items = await extract_menu_single(sb)
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
                 menu_items_list = json.loads(menu_items_json)  
                 df = pd.DataFrame(menu_items_list) 
-                # await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name)
-            # await get_from_mongo("restaurant")
+                await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, restaurant_rating)
+            await get_from_mongo("restaurant")
             return df.to_json(orient='split')                  
         except Exception as e:
             print(f"Exception in Getir Crawler:  {e}")
