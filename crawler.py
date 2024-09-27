@@ -473,7 +473,7 @@ async def g_crawler(url, is_area, restaurant_name):
     menu_items = []
     if is_area: #if we are crawling restaurants inside the whole region      
         url = "https://getir.com/yemek/"
-    with SB(uc=True, headless=False) as sb:
+    with SB(uc=True, headless=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 10)
         try:
             print("Trying to open: " + str(url))
@@ -527,7 +527,7 @@ async def g_crawler(url, is_area, restaurant_name):
                         sb.go_back()
                 except Exception as e:
                     print(f"Exception: {e}")   
-                     
+
             restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
             result = re.search(r'\((.*?)\)', restaurant_location)
             if result:
