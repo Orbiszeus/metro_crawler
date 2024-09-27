@@ -488,7 +488,7 @@ async def g_crawler(url, is_area, restaurant_name):
 
             if is_area: # Statement is only true when there is an area that will be crawlerd
                 try:
-                    print(f"Starting locating {restaurant_name}..")
+                    print(f"Starting to locate {restaurant_name}..")
                     sb.click("button[aria-label='Find Location']")
                     # sb.click("css selector", "input[type='text']")
                     sb.sleep(3)
@@ -499,14 +499,18 @@ async def g_crawler(url, is_area, restaurant_name):
                     sb.click("div[kind='primary']")
                     # sb.click("button.style__Button-sc-__sc-6ivys6-0.eGRCCQ:nth-of-type(1)")
                     sb.sleep(1)
-                    sb.click("button[aria-label='Step Button']") #accept address  
+                    sb.click("button[aria-label='Step Button']") #accept address 
+                    print("Accept address button clicked..") 
                     sb.click("button[aria-label='Save Button']") #save address
+                    print("Saved address..")
                     sb.click("button[type='button']") #agree button 
                     sb.sleep(1)
                     sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 GDAK style__Close-sc-__sc-vk2nyz-5 fsISSX']") #changing language (being forced)
                     sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 BpZxo style__OkButton-sc-__sc-vk2nyz-8 ezpKor']") #agreeing on the final location and language
+                    print("Agreed the language settings..")
                     sb.sleep(3)
                     grid_restaurants = sb.find_elements("css selector", "div[class='sc-128155de-12 bEAREJ']")
+                    print("Number of restaurant in this page: " + str(len(grid_restaurants)))
                     sb.scroll_to("css selector", "button[class='style__Button-sc-__sc-6ivys6-0 hqQsnw']")
                     sb.sleep(3)
                     for index, item in enumerate(grid_restaurants):
