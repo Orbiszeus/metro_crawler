@@ -520,7 +520,7 @@ async def g_crawler(url, is_area, restaurant_name):
                         print("Restaurant address" + restaurant_location)
                     latitude, longitude = await get_coordinates(restaurant_location)
                     print("Restaurant coordinates: " + str(latitude, longitude))
-                    restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 iwTTHJ sc-e4ee1871-10 dacgzq']").text
+                    restaurant_rating = sb.find_element("css selector", "div[sc-e4ee1871-3.ffjObx span]").text
                     await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
                     sb.go_back()
                     
