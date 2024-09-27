@@ -1,6 +1,8 @@
 import streamlit as st
 from st_login_form import login_form
 
+"""UI for Authentication, Login and Logout"""
+
 st.set_page_config(page_title=None, page_icon=None, layout="wide", initial_sidebar_state="auto", menu_items=None)
 # st.title("AI ANALYST")
 

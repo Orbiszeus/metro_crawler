@@ -1,101 +1,18 @@
-import requests
-import logging
 import json
 import pandas as pd
 from seleniumbase import SB
-from curl_cffi import requests
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel, Field
 import uvicorn
 import re
-from pymongo import MongoClient
 from geopy.geocoders import GoogleV3
 import os 
-import pdb
 import json
 import pandas as pd
-import re
-import certifi
 import asyncio
-from selenium.webdriver.common.keys import Keys
+import repository 
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
-connection = "mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&ssl=true&ssl_cert_reqs=CERT_NONE&appName=MetroAnalyst"
-client = MongoClient(connection, tlsCAFile=certifi.where())
-
-app = FastAPI()
-
-db = client["MetroAnalyst"]
-hotel_collection = db["hotels"]
-restaurants_collection = db["restaurants"]
-
 api_key = os.getenv('GOOGLE_MAPS_API_KEY')
-
-headers = {
-    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
-
-async def hotel_serper_search(area):
     
-    url = "https://google.serper.dev/search"
-
-    payload = json.dumps({
-    "q": f"{area} Agoda",
-    "gl": "tr"
-    })
-    headers = {
-    'X-API-KEY': '576de8f38665cad7feb185636d3d3754877a8e61',
-    'Content-Type': 'application/json'
-    }
-
-    response = requests.request("POST", url, headers=headers, data=payload)
-    data = response.json()
-    search_results = []
-    
-    for result in data['organic'][:1]:
-        search_results.append(result['link'])
-    
-    return search_results
-
-async def menu_serper_search(area):
-    
-    url = "https://google.serper.dev/search"
-    
-    payload_y = json.dumps({
-    "q": f"{area} Yemeksepeti",
-    "gl": "tr"
-    })
-    payload_g = json.dumps({
-    "q": f"{area} Getir",
-    "gl": "tr"
-    })
-    headers = {
-    'X-API-KEY': '57f3e816568aee88361f0ec8bf46a98e121ac096',
-    'Content-Type': 'application/json'
-    }
-
-    response = requests.request("POST", url, headers=headers, data=payload_g)
-    
-    data = response.json()
-    search_results = []
-    first_two_items = data["organic"][:2]
-
-    for index, item in enumerate(first_two_items, 1):
-        if "marka" in item.get('link'):
-            print(f"  Link: {item.get('link')}")
-            continue
-        else:
-            search_results.append(item.get('link'))
-        
-    return search_results
-
-class CrawlRequest(BaseModel):
-    area: str = Field(default=None, description="The area to search for restaurants")
-    restaurant: str = Field(default=None, description="The specific restaurant to search for")
-    
-class HotelCrawlRequest(BaseModel):
-    hotel_area: str = Field(default=None, description="The area to search for hotels")
-
-
 async def hotel_crawler(url):
     hotel_items = []
     with SB(uc=True, headless=False) as sb:
@@ -165,7 +82,7 @@ async def hotel_crawler(url):
                             if hotel_name_elements:
                                 hotel_name = hotel_name_elements[0].text
                                 print("Hotel Name: " + str(hotel_name))
-                            existing_hotel = hotel_collection.find_one({"Hotel Name": hotel_name})
+                            existing_hotel = repository.hotel_collection.find_one({"Hotel Name": hotel_name})
                             if existing_hotel:
                                 print(f"Hotel '{hotel_name}' already exists in the database.")
                                 continue
@@ -311,7 +228,7 @@ async def hotel_crawler(url):
                             }
                         }
                         
-                        result = hotel_collection.insert_one(hotel_item)
+                        result = repository.hotel_collection.insert_one(hotel_item)
                         print(f"Document inserted with ID: {result.inserted_id}")
                         sb.sleep(1)
                         sb.driver.switch_to.window(first_tab_handle)
@@ -321,25 +238,8 @@ async def hotel_crawler(url):
                         break 
         except Exception as e:
             print(f"Exception: {e}")
-    return get_from_mongo("hotel")
+    return await repository.get_from_mongo("hotel")
 
-async def get_from_mongo(collection_name):
-    output_file = ""
-    if collection_name == "hotel":
-        cursor = hotel_collection.find({}, {'_id': 0}) 
-        documents = list(cursor)
-        documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
-        output_file += "hotel_data.json"
-
-    if collection_name == "restaurant":
-        cursor = restaurants_collection.find({}, {'_id': 0}) 
-        documents = list(cursor)
-        documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
-        output_file += "restaurant_data.json"
-
-    with open(output_file, "w", encoding="utf-8") as file:
-        file.write(documents_json)
-    # client.close()
     
 async def get_coordinates(address):
     geolocator = GoogleV3(api_key="AIzaSyCA8FOwQt4JhWVrLzJVJaJqbEwQgTLpRvM")
@@ -352,47 +252,6 @@ async def get_coordinates(address):
     except Exception as e:
         print(f"Error geocoding address '{address}': {e}")
         return None, None
-
-@app.post("/crawl_menu")
-async def crawler_endpoint(request: CrawlRequest):
-    try:
-        area = ""
-        is_area = True
-        if request.area:
-            area += request.area
-        elif request.restaurant:
-            area += request.restaurant    
-            is_area = False
-        serper_y_results = await menu_serper_search(area)
-        for url in serper_y_results:
-            # df_json = await y_crawler(url, is_area, area)
-            df_json = await g_crawler(url, is_area, area)
-            if df_json:
-                return {"dataframe": df_json,
-                        "url": url}
-            else:
-                return {"error": "Crawling failed"}
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        raise HTTPException(status_code=500, detail="An internal server error occurred")
-    
-@app.post("/crawl_hotels")
-async def hotel_crawl_api(hotel_area: str):
-    try:
-        if not hotel_area:
-            raise HTTPException(status_code=400, detail="Hotel area is required")
-        search_url = f"https://www.agoda.com/tr-tr/city/{hotel_area}-tr.html"
-        await hotel_crawler(search_url)
-        results = await get_from_mongo()
-        if not results:
-            raise HTTPException(status_code=404, detail="No data found in MongoDB")
-        return results
-    except HTTPException as e:
-        raise e
-    except Exception as e:
-        print(f"An error occurred: {e}")
-        raise HTTPException(status_code=500, detail="An internal server error occurred")
-
 
 async def extract_menu_single(sb):
     '''Helper function that extracts the common restaurant menu items'''
@@ -451,22 +310,6 @@ async def extract_menu_region(sb):
         print(f"Exception in {e}")
     return menu_items
 
-async def insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, rating):
-    menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
-    menu_items_list = json.loads(menu_items_json) 
-    
-    #Inserting items into MongoDB
-    restaurant_data = {
-    "Restaurant Name": restaurant_name,
-    "Rating" : rating,
-    "Menu": menu_items_list,
-    "coordinates" : {
-        "latitude" : latitude if latitude is not None else 0.0,
-        "longitude": longitude if longitude is not None else 0.0
-    }
-    }
-    result = restaurants_collection.insert_one(restaurant_data)
-    (f"Document inserted with ID: {result.inserted_id}")
 
 #TODO: We can add /marka + {restaurant_name} to gather all the rests
 async def g_crawler(url, is_area, restaurant_name):
@@ -510,7 +353,7 @@ async def g_crawler(url, is_area, restaurant_name):
                     print("Agreed the language settings..")
                     sb.sleep(3)
                     grid_restaurants = sb.find_elements("css selector", "div[class='sc-128155de-12 bEAREJ']")
-                    print("Number of restaurant in this page: " + str(len(grid_restaurants)))
+                    print("Number of restaurant in this page is " + str(len(grid_restaurants)))
                     sb.scroll_to("css selector", "button[class='style__Button-sc-__sc-6ivys6-0 hqQsnw']")
                     sb.sleep(3)
                     for index, item in enumerate(grid_restaurants):
@@ -527,7 +370,7 @@ async def g_crawler(url, is_area, restaurant_name):
                         latitude, longitude = await get_coordinates(restaurant_location)
                         print("Restaurant coordinates: " + str(latitude, longitude))
                         restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-e4ee1871-10 dZyWue']").text
-                        await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
+                        await repository.insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
                         sb.go_back()
                 except Exception as e:
                     print(f"Exception: {e}")   
@@ -543,15 +386,15 @@ async def g_crawler(url, is_area, restaurant_name):
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
                 menu_items_list = json.loads(menu_items_json)  
                 df = pd.DataFrame(menu_items_list) 
-                await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, restaurant_rating)
-            await get_from_mongo("restaurant")
+                await repository.insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, restaurant_rating)
+            await repository.get_from_mongo("restaurant")
             return df.to_json(orient='split')                  
         except Exception as e:
             print(f"Exception in Getir Crawler:  {e}")
     
                 
 async def main():
-    config = uvicorn.Config("crawler:app", host="0.0.0.0", port=8000)
+    config = uvicorn.Config("app:app", host="0.0.0.0", port=8000)
     server = uvicorn.Server(config)
     await server.serve()
      
