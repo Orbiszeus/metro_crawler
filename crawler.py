@@ -520,7 +520,7 @@ async def g_crawler(url, is_area, restaurant_name):
                         print("Restaurant address" + restaurant_location)
                     latitude, longitude = await get_coordinates(restaurant_location)
                     print("Restaurant coordinates: " + str(latitude, longitude))
-                    restaurant_rating = sb.find_element("css selector", "div[sc-e4ee1871-3.ffjObx span]").text
+                    restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-e4ee1871-10 dZyWue']").text
                     await insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
                     sb.go_back()
                     
@@ -529,7 +529,7 @@ async def g_crawler(url, is_area, restaurant_name):
             if result:
                 restaurant_location = result.group(1) + " ,İstanbul, Türkiye"
             latitude, longitude = await get_coordinates(restaurant_location)
-            restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 iwTTHJ sc-e4ee1871-10 dacgzq']").text
+            restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-e4ee1871-10 dZyWue']").text
             if not is_area:
                 menu_items = await extract_menu_single(sb)
                 menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
