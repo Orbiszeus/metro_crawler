@@ -2,6 +2,7 @@ import requests
 from curl_cffi import requests
 import json
 from urllib.parse import quote_plus
+import time 
 
 API_KEY = "AIzaSyDOwgj0fSYvgSNMXtWyxArmahvl-NPRQ00"
 
@@ -64,21 +65,40 @@ async def menu_serper_search(area):
 
 def google_maps_search(search_query):
     encoded_query = quote_plus(search_query)
-    url = f'https://maps.googleapis.com/maps/api/place/textsearch/json?query={encoded_query}&key={API_KEY}'
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
+    base_url = f'https://maps.googleapis.com/maps/api/place/textsearch/json?query={encoded_query}&key={API_KEY}'
     places = []
-    for result in data['results']:
-        place_info = {
-            'name': result['name'],
-            'address': result['formatted_address'],
-            'location': result['geometry']['location'],
-            'rating': result.get('rating', 'N/A')
-        }
-        places.append(place_info)
-        print("There are " + str(len(places)) + " restaurants.")
+
+    url = base_url
+    while url:
+        response = requests.get(url)
+        if response.status_code == 200:
+            data = response.json()
+
+            # Extract place information
+            for result in data.get('results', []):
+                place_info = {
+                    'name': result.get('name'),
+                    'address': result.get('formatted_address'),
+                    'location': result.get('geometry', {}).get('location'),
+                    'rating': result.get('rating', 'N/A')
+                }
+                places.append(place_info)
+
+            # Check if there is a next_page_token for more results
+            next_page_token = data.get('next_page_token')
+            if next_page_token:
+                # Google requires a short delay before requesting the next page
+                time.sleep(2)  # Delay to allow token activation
+                url = f'https://maps.googleapis.com/maps/api/place/textsearch/json?pagetoken={next_page_token}&key={API_KEY}'
+            else:
+                break
+        else:
+            print(f"Error fetching data: {response.status_code}")
+            break
+
+    print(f"There are {len(places)} results found.")
     for place in places:
         print(place)
+    
     return places
     

@@ -339,7 +339,7 @@ async def locate_order_address(restaurant_name, sb):
 
 #TODO: We can add /marka + {restaurant_name} to gather all the rests
 async def g_crawler(url, is_area, restaurant_name):
-    search_engine.google_maps_search("Kadiköy Burger")
+    search_engine.google_maps_search("Burger restaurants in Kadiköy")
     menu_items = []
     if is_area: #if we are crawling restaurants inside the whole region      
         url = "https://getir.com/yemek/"
@@ -382,7 +382,7 @@ async def g_crawler(url, is_area, restaurant_name):
                         sb.go_back()
                 except Exception as e:
                     print(f"Exception: {e}")   
-
+            
             restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
             result = re.search(r'\((.*?)\)', restaurant_location)
             if result:
