@@ -290,7 +290,7 @@ async def extract_menu_item(sb):
 
 async def g_crawler(url, restaurant_name):
     menu_items = []
-    with SB(uc=True, headless=True) as sb:
+    with SB(uc=True, headless=True, incognito=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 10)
         try:
             print("Trying to open: " + str(url))
@@ -324,7 +324,7 @@ async def g_crawler(url, restaurant_name):
 
 def y_crawler(url, restaurant_name):
     menu_items = []
-    with SB(uc=True, headless=False) as sb:
+    with SB(uc=True, headless=True, incognito=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 6)       
         try:
             print("Locale Code: " +str(sb.get_locale_code()))
