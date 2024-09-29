@@ -26,7 +26,7 @@ async def get_from_mongo(collection_name):
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(documents_json)
 
-async def insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, rating):
+async def insert_menu_to_db(menu_items,restaurant_name, rating):
     menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
     menu_items_list = json.loads(menu_items_json) 
     

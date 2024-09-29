@@ -254,12 +254,18 @@ async def get_coordinates(address):
         print(f"Error geocoding address '{address}': {e}")
         return None, None
 
-async def extract_menu_single(sb):
+async def extract_menu_item(sb):
     '''Helper function that extracts the common restaurant menu items'''
     menu_items = []
     try:    
         all_items = sb.find_elements("div[class='sc-be09943-2 gagwGV']")
-        print(len(all_items))
+        item_number = len(all_items)
+
+        if item_number == 0: 
+            print("Empty Page")
+            return "Empty Page"
+
+        print("Total item in the page is " + str(item_number))
         for item in all_items:
             product_name = item.find_element("css selector", "h4[class='style__Title4-sc-__sc-1nwjacj-5 jrcmhy sc-be09943-0 bpfNyi']").text
             print("Product Name: ", str(product_name))
@@ -282,66 +288,8 @@ async def extract_menu_single(sb):
         print(f"Exception in {e}")
     return menu_items
 
-async def extract_menu_region(sb):
-    '''Helper function that extracts the whole region's menu items one by one'''
+async def g_crawler(url, restaurant_name):
     menu_items = []
-    try:
-        all_items = sb.find_elements("div[class='sc-be09943-2 jfdgrR']")
-        print(len(all_items))
-        for item in all_items:
-            product_name = item.find_element("css selector", "h4[class='style__Title4-sc-__sc-1nwjacj-5 bMNcXd sc-be09943-0 xeZxm']").text
-            print("Product Name: ", str(product_name))
-            try:
-                product_description = item.find_element("css selector", "p[class='style__ParagraphText-sc-__sc-1nwjacj-9 iWEpdE']").text
-                print("Product Description: ", str(product_description))
-            except:
-                product_description = "No description for this product."
-            product_price = item.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 iwTTHJ sc-be09943-5 dBiRKe']").text
-            print("Product Price: ", str(product_price))
-            menu_item = {
-            "Menu Item": product_name,
-            "Menu Ingredients": product_description,
-            "Price": product_price
-                        }
-            if product_name == "Poşet":
-                continue
-            menu_items.append(menu_item)          
-        print(menu_items)
-    except Exception as e:
-        print(f"Exception in {e}")
-    return menu_items
-
-async def locate_order_address(restaurant_name, sb):
-    try:
-        print(f"Starting to locate {restaurant_name}..")
-        sb.click("button[aria-label='Find Location']")
-        # sb.click("css selector", "input[type='text']")
-        sb.sleep(3)
-        sb.type('input[class="style__Input-sc-__sc-1wqqe47-4 eWUYjb react-autosuggest__input"]',f"{restaurant_name}/Kadiköy, İstanbul")
-        sb.sleep(3)
-        # sb.driver.uc_gui_press_key(Keys.SPACE) --> PyAutoGUI that presses keys if needed 
-        sb.click("li[id='react-autowhatever-1--item-0']")
-        sb.click("div[kind='primary']")
-        # sb.click("button.style__Button-sc-__sc-6ivys6-0.eGRCCQ:nth-of-type(1)")
-        sb.sleep(1)
-        sb.click("button[aria-label='Step Button']") #accept address 
-        print("Accept address button clicked..") 
-        sb.click("button[aria-label='Save Button']") #save address
-        print("Saved address..")
-        sb.click("button[type='button']") #agree button 
-        sb.sleep(1)
-        sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 GDAK style__Close-sc-__sc-vk2nyz-5 fsISSX']") #changing language (being forced)
-        sb.click("div[class='style__Wrapper-sc-__sc-6ivys6-1 BpZxo style__OkButton-sc-__sc-vk2nyz-8 ezpKor']") #agreeing on the final location and language
-        print("Agreed the language settings..")
-        sb.sleep(3)
-    except Exception as e:
-        print(f"Exception in locating order address: {e}")
-
-#TODO: We can add /marka + {restaurant_name} to gather all the rests
-async def g_crawler(url, is_area, restaurant_name):
-    menu_items = []
-    if is_area: #if we are crawling restaurants inside the whole region      
-        url = "https://getir.com/yemek/"
     with SB(uc=True, headless=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 10)
         try:
@@ -354,50 +302,79 @@ async def g_crawler(url, is_area, restaurant_name):
                 print("Clicked Cookies.")
             except Exception as e:
                 print("Cannot reject/accept cookies or ", e)
-
-            if is_area: # Statement is only true when there is an area that can be crawled
-                try:
-                    print(f"Starting to locate {restaurant_name}..")
-                    await locate_order_address()
-                    grid_restaurants = sb.find_elements("css selector", "div[class='sc-128155de-12 bEAREJ']")
-                    print("Number of restaurant in this page is " + str(len(grid_restaurants)))
-                    sb.scroll_to("css selector", "button[class='style__Button-sc-__sc-6ivys6-0 hqQsnw']")
-                    sb.sleep(3)
-                    for index, item in enumerate(grid_restaurants):
-                        sb.sleep(1)
-                        sb.click_nth_visible_element("div.sc-128155de-12.bEAREJ a", index)
-                        sb.sleep(1)
-                        print("Now crawling restaurant: " + sb.find_element("css selector", "h1[class='style__Title1-sc-__sc-1nwjacj-2 hIkhWh sc-e4ee1871-2 gnsGCg']").text)
-                        menu_items = await extract_menu_region(sb)
-                        restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
-                        result = re.search(r'\((.*?)\)', restaurant_location)
-                        if result:
-                            restaurant_location = result.group(1) + " ,İstanbul, Türkiye"
-                            print("Restaurant address" + restaurant_location)
-                        latitude, longitude = await get_coordinates(restaurant_location)
-                        print("Restaurant coordinates: " + str(latitude, longitude))
-                        restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-e4ee1871-10 dZyWue']").text
-                        await repository.insert_menu_to_db(menu_items, latitude, longitude, restaurant_name , restaurant_rating)
-                        sb.go_back()
-                except Exception as e:
-                    print(f"Exception: {e}")   
             
-            restaurant_location = sb.find_element("css selector", "h1[data-testid='title']").text
-            result = re.search(r'\((.*?)\)', restaurant_location)
-            if result:
-                restaurant_location = result.group(1) + " ,İstanbul, Türkiye"
-            latitude, longitude = await get_coordinates(restaurant_location)
-            restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-e4ee1871-10 dZyWue']").text
-            if not is_area:
-                menu_items = await extract_menu_single(sb)
-                menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
-                menu_items_list = json.loads(menu_items_json)  
-                df = pd.DataFrame(menu_items_list) 
-                await repository.insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, restaurant_rating)
+            menu_items = await extract_menu_item(sb)
+            if menu_items == "Empty Page":
+                serper_y_results = await search_engine.menu_serper_search(restaurant_name, company="y")
+                for url in serper_y_results:
+                    await y_crawler(url, restaurant_name)
+            try:
+                restaurant_rating = sb.find_element("css selector", "span[class='style__Text-sc-__sc-1nwjacj-0 jbOUDC sc-e4ee1871-10 dZyWue']").text
+            except:
+                restaurant_rating = "No rating found."
+
+            menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
+            menu_items_list = json.loads(menu_items_json)  
+            df = pd.DataFrame(menu_items_list) 
+            await repository.insert_menu_to_db(menu_items, restaurant_name, restaurant_rating)
             await repository.get_from_mongo("restaurant")
-            return df.to_json(orient='split')                  
+            return df.to_json(orient='split')          
         except Exception as e:
             print(f"Exception in Getir Crawler:  {e}")
+
+def y_crawler(url, restaurant_name):
+    menu_items = []
+    with SB(uc=True, headless=False) as sb:
+        sb.driver.uc_open_with_reconnect(url, 6)       
+        try:
+            print("Locale Code: " +str(sb.get_locale_code()))
+            # print(sb.save_screenshot_to_logs(name=None, selector=None, by="css selector"))
+            print("Page title: " + str(sb.get_title()))
+            sb.sleep(3)
+            sb.uc_gui_handle_cf()
+            sb.sleep(5)
+            if sb.is_element_present("div.bds-c-modal__content-window"): #closing the closed hours pop-up
+                sb.click("button[data-testid='dialogue-cancel-cta']")
+            sb.sleep(5)
+            try:
+                sb.execute_script("UC_UI.denyAllConsents().then(UC_UI.closeCMP);") #closing the cookies
+            except:
+                print("Cookies couldn't denied/accepted.")
+            print("Crawling a single page.")
+            if sb.is_element_present("iframe[title*='recaptcha']"):
+                print("Recatptha!!!")  
+            all_items = sb.find_elements("li[data-testid='menu-product']")
+            for li in all_items:
+                product_name = li.find_element("css selector", "[data-testid='menu-product-name']").text
+                sb.sleep(0.3)
+                print("Product Name: " + product_name)
+                product_description = li.find_element("css selector", "[data-testid='menu-product-description']").text
+                sb.sleep(0.3)
+                print("Product Description: " + product_description)
+                product_price = li.find_element("css selector", "[data-testid='menu-product-price']").text            
+                sb.sleep(0.1)
+                print("Product Price: " + product_price)
+
+                menu_item = {
+                    "Menu Item": product_name,
+                    "Menu Ingredients": product_description,
+                    "Price": product_price
+                }
+                if product_name == "Poşet":
+                    continue
+                menu_items.append(menu_item)
+            menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
+            menu_items_list = json.loads(menu_items_json) 
+            #Inserting items to Mongo
+            restaurant_data = {
+            "Restaurant Name": restaurant_name,
+            "Menu": menu_items_list}
+            result = repository.restaurants_collection.insert_one(restaurant_data)
+            (f"Document inserted with ID: {result.inserted_id}")
+            df = pd.DataFrame(menu_items_list)
+        except Exception as e:
+            print(f"Exception : {e}")
+    return df.to_json(orient='split')   
 
 async def main():
     config = uvicorn.Config("app:app", host="0.0.0.0", port=8000)

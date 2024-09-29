@@ -33,17 +33,14 @@ async def hotel_crawl_api(hotel_area: str):
 @app.post("/crawl_menu")
 async def crawler_endpoint(request: CrawlRequest):
     try:
-        area = ""
-        is_area = True
+        restaurant = ""
         if request.area:
-            area += request.area
+            restaurant += request.area
         elif request.restaurant:
-            area += request.restaurant    
-            is_area = False
-        serper_y_results = await search_engine.menu_serper_search(area)
+            restaurant += request.restaurant    
+        serper_y_results = await search_engine.menu_serper_search(restaurant, company="g")
         for url in serper_y_results:
-            # df_json = await y_crawler(url, is_area, area)
-            df_json = await crawler.g_crawler(url, is_area, area)
+            df_json = await crawler.g_crawler(url, restaurant) 
             if df_json:
                 return {"dataframe": df_json,
                         "url": url}
