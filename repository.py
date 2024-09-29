@@ -35,10 +35,6 @@ async def insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, ra
     "Restaurant Name": restaurant_name,
     "Rating" : rating,
     "Menu": menu_items_list,
-    "coordinates" : {
-        "latitude" : latitude if latitude is not None else 0.0,
-        "longitude": longitude if longitude is not None else 0.0
-    }
     }
     result = restaurants_collection.insert_one(restaurant_data)
     (f"Document inserted with ID: {result.inserted_id}")
