@@ -2,6 +2,7 @@ import requests
 import json
 from urllib.parse import quote_plus
 import time 
+from geopy.geocoders import GoogleV3
 
 API_KEY = "AIzaSyDOwgj0fSYvgSNMXtWyxArmahvl-NPRQ00"
 
@@ -13,11 +14,11 @@ async def hotel_serper_search(area):
     url = "https://google.serper.dev/search"
 
     payload = json.dumps({
-    "q": f"{area} Agoda",
+    "q": f"Agoda İstanbul {area} ",
     "gl": "tr"
     })
     headers = {
-    'X-API-KEY': '576de8f38665cad7feb185636d3d3754877a8e61',
+    'X-API-KEY': '57f3e816568aee88361f0ec8bf46a98e121ac096',
     'Content-Type': 'application/json'
     }
 
@@ -73,6 +74,19 @@ async def menu_serper_search(area, company):
             search_results.append(result['link'])
 
         return search_results
+    
+async def get_coordinates(address):
+    geolocator = GoogleV3(api_key="AIzaSyCA8FOwQt4JhWVrLzJVJaJqbEwQgTLpRvM")
+    try:
+        location = geolocator.geocode(address)
+        if location:
+            return location.latitude, location.longitude
+        else:
+            return None, None
+    except Exception as e:
+        print(f"Error geocoding address '{address}': {e}")
+        return None, None
+    
 def google_maps_search(search_query):
     encoded_query = quote_plus(search_query)
     base_url = f'https://maps.googleapis.com/maps/api/place/textsearch/json?query={encoded_query}&key={API_KEY}'

@@ -1,12 +1,10 @@
 import os
-
 import osmnx as ox
 import geopandas as gpd
 import folium
 import json
 from geopy.geocoders import Nominatim
 import googlemaps
-
 
 # Methods for download and load geojson data
 def download_geodata(city_name, tags, filename=None):
