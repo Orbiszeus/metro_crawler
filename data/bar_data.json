@@ -1,0 +1,583 @@
+[
+    {
+        "name": "Arkaoda",
+        "coordinates": [
+            40.98659,
+            29.0265392
+        ]
+    },
+    {
+        "name": "Kadife",
+        "coordinates": [
+            40.9872032,
+            29.0268261
+        ]
+    },
+    {
+        "name": "SCHLEPP Cafe & Pub",
+        "coordinates": [
+            40.9909532,
+            29.0306204
+        ]
+    },
+    {
+        "name": "Yer F\u0131st\u0131\u011f\u0131",
+        "coordinates": [
+            40.9641933,
+            29.0655236
+        ]
+    },
+    {
+        "name": "Kale",
+        "coordinates": [
+            40.9536008,
+            29.0951556
+        ]
+    },
+    {
+        "name": "Hayalperest",
+        "coordinates": [
+            40.9897943,
+            29.0277507
+        ]
+    },
+    {
+        "name": "Old English Pub",
+        "coordinates": [
+            40.9623181,
+            29.0762935
+        ]
+    },
+    {
+        "name": "Nyx",
+        "coordinates": [
+            40.9867932,
+            29.0266654
+        ]
+    },
+    {
+        "name": "Fil Moda",
+        "coordinates": [
+            40.9867795,
+            29.0255213
+        ]
+    },
+    {
+        "name": "Harp Irish Bar",
+        "coordinates": [
+            40.989139,
+            29.0219739
+        ]
+    },
+    {
+        "name": "Railway",
+        "coordinates": [
+            40.9875599,
+            29.0270504
+        ]
+    },
+    {
+        "name": "Mahle",
+        "coordinates": [
+            40.9890328,
+            29.0279914
+        ]
+    },
+    {
+        "name": "London Pub",
+        "coordinates": [
+            40.9891202,
+            29.0280063
+        ]
+    },
+    {
+        "name": "Babbo Pizza & Bar",
+        "coordinates": [
+            40.9745999,
+            29.0534048
+        ]
+    },
+    {
+        "name": "Hi\u00e7",
+        "coordinates": [
+            40.9875103,
+            29.0265582
+        ]
+    },
+    {
+        "name": "Beerfest",
+        "coordinates": [
+            40.9596686,
+            29.0948821
+        ]
+    },
+    {
+        "name": "Zeplin Pub",
+        "coordinates": [
+            40.9745605,
+            29.0535257
+        ]
+    },
+    {
+        "name": "Benzin",
+        "coordinates": [
+            40.9901246,
+            29.0228236
+        ]
+    },
+    {
+        "name": "Hera",
+        "coordinates": [
+            40.9868216,
+            29.0266164
+        ]
+    },
+    {
+        "name": "Buddha Sahne",
+        "coordinates": [
+            40.9867011,
+            29.026609
+        ]
+    },
+    {
+        "name": "Karga",
+        "coordinates": [
+            40.9866436,
+            29.0265837
+        ]
+    },
+    {
+        "name": "L\u00e2l",
+        "coordinates": [
+            40.9866943,
+            29.0267473
+        ]
+    },
+    {
+        "name": "neva",
+        "coordinates": [
+            40.9888141,
+            29.0246131
+        ]
+    },
+    {
+        "name": "A\u011fa\u00e7 Ev",
+        "coordinates": [
+            40.9902,
+            29.0278
+        ]
+    },
+    {
+        "name": "AYI",
+        "coordinates": [
+            40.9614156,
+            29.0748248
+        ]
+    },
+    {
+        "name": "Ke\u00e7i",
+        "coordinates": [
+            40.9535068,
+            29.0947134
+        ]
+    },
+    {
+        "name": "Traingar",
+        "coordinates": [
+            40.9533866,
+            29.0950789
+        ]
+    },
+    {
+        "name": "Kabasakal",
+        "coordinates": [
+            40.9533071,
+            29.0952493
+        ]
+    },
+    {
+        "name": "Pablo",
+        "coordinates": [
+            40.9896453,
+            29.0262147
+        ]
+    },
+    {
+        "name": "Fil Bira Bah\u00e7esi",
+        "coordinates": [
+            41.0028491,
+            29.0438726
+        ]
+    },
+    {
+        "name": "Aksi Bar",
+        "coordinates": [
+            41.0007061,
+            29.0400973
+        ]
+    },
+    {
+        "name": "Draft",
+        "coordinates": [
+            40.9868102,
+            29.0255318
+        ]
+    },
+    {
+        "name": "Kozzbeer",
+        "coordinates": [
+            40.9759829,
+            29.096333
+        ]
+    },
+    {
+        "name": "Egnoes",
+        "coordinates": [
+            40.9866398,
+            29.0267262
+        ]
+    },
+    {
+        "name": "Kutup Moda",
+        "coordinates": [
+            40.9809581,
+            29.0244079
+        ]
+    },
+    {
+        "name": "Deniz Yildizi",
+        "coordinates": [
+            40.9902888,
+            29.0247848
+        ]
+    },
+    {
+        "name": "Bristol",
+        "coordinates": [
+            40.9880341,
+            29.0241199
+        ]
+    },
+    {
+        "name": "Goy Goy",
+        "coordinates": [
+            40.9878512,
+            29.0241545
+        ]
+    },
+    {
+        "name": "V",
+        "coordinates": [
+            40.9901693,
+            29.0269229
+        ]
+    },
+    {
+        "name": "The Harp by Gold House",
+        "coordinates": [
+            40.9890402,
+            29.0221058
+        ]
+    },
+    {
+        "name": "Kuzen Beer",
+        "coordinates": [
+            40.9888932,
+            29.0244444
+        ]
+    },
+    {
+        "name": "11 Kadikoy",
+        "coordinates": [
+            40.9881206,
+            29.0270575
+        ]
+    },
+    {
+        "name": "Zurich",
+        "coordinates": [
+            40.9877377,
+            29.0260257
+        ]
+    },
+    {
+        "name": "Black House",
+        "coordinates": [
+            40.9801652,
+            29.0215816
+        ]
+    },
+    {
+        "name": "Passenger",
+        "coordinates": [
+            40.9870786,
+            29.0260735
+        ]
+    },
+    {
+        "name": "Mekan",
+        "coordinates": [
+            40.9951345,
+            29.0293145
+        ]
+    },
+    {
+        "name": "Salpa",
+        "coordinates": [
+            40.9891044,
+            29.0275604
+        ]
+    },
+    {
+        "name": "Berlin platz",
+        "coordinates": [
+            40.9896431,
+            29.0261199
+        ]
+    },
+    {
+        "name": "Sokak",
+        "coordinates": [
+            40.9859331,
+            29.0258574
+        ]
+    },
+    {
+        "name": "Groundy Kad\u0131k\u00f6y",
+        "coordinates": [
+            40.989731,
+            29.0277177
+        ]
+    },
+    {
+        "name": "Frog",
+        "coordinates": [
+            40.990336,
+            29.0271535
+        ]
+    },
+    {
+        "name": "Harlem",
+        "coordinates": [
+            40.99024,
+            29.0276382
+        ]
+    },
+    {
+        "name": "Muaf",
+        "coordinates": [
+            40.9903374,
+            29.0270712
+        ]
+    },
+    {
+        "name": "\u015earlo",
+        "coordinates": [
+            40.9903359,
+            29.0272775
+        ]
+    },
+    {
+        "name": "Dopamine",
+        "coordinates": [
+            40.9877175,
+            29.0257493
+        ]
+    },
+    {
+        "name": "York",
+        "coordinates": [
+            40.9862178,
+            29.025859
+        ]
+    },
+    {
+        "name": "Bakkal",
+        "coordinates": [
+            40.9861896,
+            29.0258918
+        ]
+    },
+    {
+        "name": "Pennylane",
+        "coordinates": [
+            40.9674506,
+            29.067739
+        ]
+    },
+    {
+        "name": "Buselik Meyhane",
+        "coordinates": [
+            40.9805679,
+            29.0255638
+        ]
+    },
+    {
+        "name": "\u00c7ivi",
+        "coordinates": [
+            40.9876759,
+            29.0269632
+        ]
+    },
+    {
+        "name": "Nick Cave",
+        "coordinates": [
+            40.9887148,
+            29.0281409
+        ]
+    },
+    {
+        "name": "Kaserol Social",
+        "coordinates": [
+            40.995529,
+            29.0289272
+        ]
+    },
+    {
+        "name": "Publique Roof",
+        "coordinates": [
+            40.989683,
+            29.0265915
+        ]
+    },
+    {
+        "name": "K\u00fclt",
+        "coordinates": [
+            40.9884148,
+            29.0248798
+        ]
+    },
+    {
+        "name": "Zeytin Kafe Bar",
+        "coordinates": [
+            40.9882944,
+            29.0249274
+        ]
+    },
+    {
+        "name": "Barabuy",
+        "coordinates": [
+            40.9807864,
+            29.0237712
+        ]
+    },
+    {
+        "name": "Porch",
+        "coordinates": [
+            40.9568824,
+            29.088168
+        ]
+    },
+    {
+        "name": "Allen Kitchen & Cocktail",
+        "coordinates": [
+            40.9574188,
+            29.0872414
+        ]
+    },
+    {
+        "name": "Brew Kitchen & Bar",
+        "coordinates": [
+            40.9614446,
+            29.0844403
+        ]
+    },
+    {
+        "name": "Cocktail",
+        "coordinates": [
+            40.986095,
+            29.0264353
+        ]
+    },
+    {
+        "name": "Barmy",
+        "coordinates": [
+            40.9867304,
+            29.0266422
+        ]
+    },
+    {
+        "name": "Mathilda's Coctail Bar & Kitchen",
+        "coordinates": [
+            40.9883677,
+            29.0266923
+        ]
+    },
+    {
+        "name": "Punch",
+        "coordinates": [
+            40.9861531,
+            29.02647
+        ]
+    },
+    {
+        "name": "Kad\u0131k\u00f6y Sahne",
+        "coordinates": [
+            40.9903414,
+            29.0277978
+        ]
+    },
+    {
+        "name": "Aylak",
+        "coordinates": [
+            40.9894834,
+            29.0257735
+        ]
+    },
+    {
+        "name": "M\u00fclks\u00fczler",
+        "coordinates": [
+            40.9899167,
+            29.0271117
+        ]
+    },
+    {
+        "name": "Gerando",
+        "coordinates": [
+            40.9901682,
+            29.0272084
+        ]
+    },
+    {
+        "name": "Geyik",
+        "coordinates": [
+            40.9898691,
+            29.0271045
+        ]
+    },
+    {
+        "name": "Rebel",
+        "coordinates": [
+            40.9901018,
+            29.0271964
+        ]
+    },
+    {
+        "name": "Reset",
+        "coordinates": [
+            40.988204,
+            29.0236553
+        ]
+    },
+    {
+        "name": "Troyka Cocktail Bar",
+        "coordinates": [
+            40.9642616,
+            29.0732107
+        ]
+    },
+    {
+        "name": "Barmy",
+        "coordinates": [
+            40.98677381558903,
+            29.026561048076527
+        ]
+    },
+    {
+        "name": "Murphy's Dance Bar",
+        "coordinates": [
+            40.97595825714166,
+            29.0381246056941
+        ]
+    }
+]
