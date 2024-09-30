@@ -44,8 +44,6 @@ async def menu_serper_search(area, company):
         "q": f"{area} Getir",
         "gl": "tr"
         })
-    
-
         response = requests.request("POST", url, headers=headers, data=payload_g)
         
         data = response.json()
