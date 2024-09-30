@@ -44,7 +44,7 @@ async def crawler_endpoint(request: CrawlRequest):
             restaurant += request.area
         elif request.restaurant:
             restaurant += request.restaurant    
-        restaurants = geodata.get_category_data('restaurant')    
+        restaurants = geodata.get_category_data('restaurants')    
         for rest in restaurants:
             if "name" in rest:
                 serper_y_results = await search_engine.menu_serper_search(rest["name"], company="g")
