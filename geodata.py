@@ -228,4 +228,3 @@ def get_googlemaps_address_from_coords(coordinates):
         return reverse_geocode_result[0]['formatted_address']
     else:
         raise ValueError("Address could not be found for the given coordinates")
-
