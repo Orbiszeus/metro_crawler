@@ -9,10 +9,12 @@ import pandas as pd
 import asyncio
 import repository 
 import search_engine
-import geodata
+from bs4 import BeautifulSoup
+import requests
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 api_key = os.getenv('GOOGLE_MAPS_API_KEY')
+
 
 async def get_hotel_item(sb, name):
     all_facility_restaurant_details = []
@@ -32,7 +34,10 @@ async def get_hotel_item(sb, name):
         # if hotel_name_elements:
         #     hotel_name = hotel_name_elements[0].text
         #     print("Hotel Name: " + str(hotel_name))
+        if "Hotel" not in name:
+            name += " Hotel"
         hotel_name = name
+        print("Hotel Name: " + hotel_name)
         existing_hotel = repository.hotel_collection.find_one({"Hotel Name": hotel_name})
         if existing_hotel:
             print(f"Hotel '{hotel_name}' already exists in the database.")
@@ -53,27 +58,27 @@ async def get_hotel_item(sb, name):
     except:
         hotel_rating = "N/A"
     sb.sleep(2)
-    try:
-        parent_breakfasts_room_count = sb.find_element("css selector", "div[data-selenium='RoomGridFilter-filterGroup']")
-        all_divs = parent_breakfasts_room_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
-        for div in all_divs:
-            label_span = div.find_element("css selector", "div.Box-sc-kv6pi1-0.dSOQsp")
-            if label_span.text == "Kahvaltı dahil":
-                number_span = div.find_element("css selector", "div.Box-sc-kv6pi1-0.jJvGxG")
-                rooms_with_breakfast_number_raw = number_span.text
-                pattern = r'\((\d+)\)'
-                match = re.search(pattern, rooms_with_breakfast_number_raw)
-                if match:
-                    rooms_with_breakfast_number = match.group(1)
-                    print("Room with breakfast:" + str(rooms_with_breakfast_number))
-                    break
-    except:
-        rooms_with_breakfast_number = "0"
+    # try:
+    #     parent_breakfasts_room_count = sb.find_element("css selector", "div[data-selenium='RoomGridFilter-filterGroup']")
+    #     all_divs = parent_breakfasts_room_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
+    #     for div in all_divs:
+    #         label_span = div.find_element("css selector", "div.Box-sc-kv6pi1-0.dSOQsp")
+    #         if label_span.text == "Kahvaltı dahil":
+    #             number_span = div.find_element("css selector", "div.Box-sc-kv6pi1-0.jJvGxG")
+    #             rooms_with_breakfast_number_raw = number_span.text
+    #             pattern = r'\((\d+)\)'
+    #             match = re.search(pattern, rooms_with_breakfast_number_raw)
+    #             if match:
+    #                 rooms_with_breakfast_number = match.group(1)
+    #                 print("Room with breakfast:" + str(rooms_with_breakfast_number))
+    #                 break
+    # except:
+    #     rooms_with_breakfast_number = "0"
 
     try:
         parent_restaurant_count = sb.find_element("css selector", "div[data-element-name='about-hotel-useful-info']")
         all_divs = parent_restaurant_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
-        print("Number of hotel useful information is: " + len(all_divs))
+        print("Number of hotel useful information is: " + str(len(all_divs)))
         for div in all_divs:
             label_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.gwICfd.kite-js-Span ")
             if label_span.text == "Restoran Sayısı":
@@ -180,7 +185,6 @@ async def get_hotel_item(sb, name):
         "Total Restaurant Number": restaurant_in_hotel_count,
         "Total Bar Number": total_bar_number,
         "Breakfast Price" : breakfast_price,
-        "Total Number of Rooms with Breakfast": rooms_with_breakfast_number,
         "Menu and Restaurant Details: " : all_facility_restaurant_details,
         "coordinates" : {
             "latitude" : latitude if latitude is not None else 0.0,
@@ -197,8 +201,8 @@ async def hotel_crawler(url, hotel_name, is_single):
                 print("Page Title: " + sb.get_title())
                 sb.click("css selector", "div[class='SearchboxBackdrop']")
                 hotel_item = await get_hotel_item(sb, hotel_name)
-                result = repository.hotel_collection.insert_one(hotel_item)
-                print(f"Document inserted with ID: {result.inserted_id}")
+                # result = repository.hotel_collection.insert_one(hotel_item)
+                # print(f"Document inserted with ID: {result.inserted_id}")
 
             if not is_single:
                 sb.sleep(3)
