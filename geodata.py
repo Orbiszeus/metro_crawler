@@ -32,10 +32,11 @@ def load_geodata(filename):
 
 
 # Method for extract usefull data from geojson and store in json
-def extract_points_data(data, category):
+def extract_points_data(data, category, properties=None):
     points_data = list()
 
     for idx, row in data.iterrows():
+        row_data = dict()
         if row.geometry.geom_type == 'Point':
             coords = [row.geometry.y, row.geometry.x]
         elif row.geometry.geom_type == 'Polygon':
@@ -43,13 +44,26 @@ def extract_points_data(data, category):
         else:
             continue
 
-        name = row.get('name', False)
+        name = row.get('name', None)
 
-        if name:
-            points_data.append({
-                "name": name,
-                "coordinates": coords
-            })
+        if name is not None:
+            row_data['name'] = name
+            row_data['coordinates'] = coords
+
+        if properties is not None:
+            properties_list = dict()
+
+            for prop in properties:
+                _ = row.get(prop, None)
+
+                if _ is not None:
+                    properties_list[prop] = _
+
+            if properties_list:
+                row_data['properties'] = properties_list
+
+        if row_data:
+            points_data.append(row_data)
 
     if points_data:
         with open(f'data/{category}_data.json', 'w') as json_file:
@@ -228,3 +242,9 @@ def get_googlemaps_address_from_coords(coordinates):
         return reverse_geocode_result[0]['formatted_address']
     else:
         raise ValueError("Address could not be found for the given coordinates")
+
+
+# if __name__ == "__main__":
+#     city_name = "Beyoglu, Istanbul. Turkey"
+#     data = load_geodata("Beyoglu, Istanbul. Turkey_restaurants.json.geojson")
+#     extract_points_data(data, 'restaurants_Beyoglu', ["cuisine", "website"])
