@@ -1,0 +1,2571 @@
+[
+    {
+        "name": "Pera Antakya",
+        "coordinates": [
+            41.0309965,
+            28.9748683
+        ]
+    },
+    {
+        "name": "Imroz",
+        "coordinates": [
+            41.0347422,
+            28.9780262
+        ]
+    },
+    {
+        "name": "Ege Rum Meyhanesi",
+        "coordinates": [
+            41.0242307,
+            28.9739726
+        ],
+        "properties": {
+            "cuisine": "greek"
+        }
+    },
+    {
+        "name": "F\u0131cc\u0131n",
+        "coordinates": [
+            41.0325552,
+            28.9757155
+        ],
+        "properties": {
+            "cuisine": "fish;turkish"
+        }
+    },
+    {
+        "name": "\u00c7ok \u00c7ok Thai Restaurant",
+        "coordinates": [
+            41.0327089,
+            28.9751817
+        ],
+        "properties": {
+            "cuisine": "thai",
+            "website": "https://www.cokcok.com.tr/"
+        }
+    },
+    {
+        "name": "Ottaman Burger",
+        "coordinates": [
+            41.0296393,
+            28.9750264
+        ]
+    },
+    {
+        "name": "Helvetia",
+        "coordinates": [
+            41.0290262,
+            28.9740554
+        ]
+    },
+    {
+        "name": "Mangal Keyfi",
+        "coordinates": [
+            41.036163,
+            28.979663
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Karak\u00f6y Lokantas\u0131",
+        "coordinates": [
+            41.0245922,
+            28.980028
+        ],
+        "properties": {
+            "cuisine": "international;regional;michelin_starred"
+        }
+    },
+    {
+        "name": "Ming Garden",
+        "coordinates": [
+            41.0395558,
+            28.9847147
+        ],
+        "properties": {
+            "cuisine": "chinese"
+        }
+    },
+    {
+        "name": "Gaya",
+        "coordinates": [
+            41.0395385,
+            28.9834201
+        ],
+        "properties": {
+            "cuisine": "korean"
+        }
+    },
+    {
+        "name": "Taksim Karaoke",
+        "coordinates": [
+            41.0397676,
+            28.985416
+        ],
+        "properties": {
+            "cuisine": "korean"
+        }
+    },
+    {
+        "name": "Udonya Japanese Restaurant",
+        "coordinates": [
+            41.0405112,
+            28.9853334
+        ],
+        "properties": {
+            "cuisine": "japanese"
+        }
+    },
+    {
+        "name": "Kom\u00fcn",
+        "coordinates": [
+            41.0278772,
+            28.9738042
+        ],
+        "properties": {
+            "cuisine": "italian",
+            "website": "https://www.komunistanbul.com/"
+        }
+    },
+    {
+        "name": "\u00c7ukurcuma K\u00f6ftecisi",
+        "coordinates": [
+            41.0323733,
+            28.9808497
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Hatay Medeniyetler Sofrasi",
+        "coordinates": [
+            41.0357323,
+            28.9835307
+        ],
+        "properties": {
+            "website": "http://hataymedeniyetlersofrasi.com.tr/"
+        }
+    },
+    {
+        "name": "Otto Cihangir",
+        "coordinates": [
+            41.0321847,
+            28.9830065
+        ],
+        "properties": {
+            "website": "http://www.ottotr.org"
+        }
+    },
+    {
+        "name": "5. Kat",
+        "coordinates": [
+            41.0323979,
+            28.9847143
+        ],
+        "properties": {
+            "website": "https://www.5kat.com/tr"
+        }
+    },
+    {
+        "name": "Sa Va Anatolian Breakfast House",
+        "coordinates": [
+            41.0320474,
+            28.9837075
+        ],
+        "properties": {
+            "cuisine": "breakfast;turkish",
+            "website": "https://www.savaanatolianbreakfasthouse.com"
+        }
+    },
+    {
+        "name": "Hayvore",
+        "coordinates": [
+            41.0338294,
+            28.9788816
+        ],
+        "properties": {
+            "cuisine": "mediterranean;regional;turkish"
+        }
+    },
+    {
+        "name": "Nakka Bistro",
+        "coordinates": [
+            41.0268562,
+            28.9743784
+        ]
+    },
+    {
+        "name": "Dogaciyiz.com gourmet \u015fark\u00fcteri",
+        "coordinates": [
+            41.0300565,
+            28.9824119
+        ],
+        "properties": {
+            "cuisine": "Naturel_foods",
+            "website": "www.dogaciyiz.com"
+        }
+    },
+    {
+        "name": "ege rum meyhanesi cam ve ambalaj at\u0131k",
+        "coordinates": [
+            41.0242836,
+            28.97408
+        ]
+    },
+    {
+        "name": "49 \u00c7ukurcuma",
+        "coordinates": [
+            41.0334062,
+            28.9813914
+        ],
+        "properties": {
+            "cuisine": "pizza"
+        }
+    },
+    {
+        "name": "Pim Kitchen & Patisserie",
+        "coordinates": [
+            41.025723,
+            28.980903
+        ],
+        "properties": {
+            "cuisine": "italian"
+        }
+    },
+    {
+        "name": "\u015eehbender 14",
+        "coordinates": [
+            41.0297867,
+            28.9742766
+        ],
+        "properties": {
+            "website": "http://www.sehbender14.com/"
+        }
+    },
+    {
+        "name": "G\u00fcney",
+        "coordinates": [
+            41.02601,
+            28.974564
+        ],
+        "properties": {
+            "cuisine": "turkish",
+            "website": "https://www.guneyrestaurant.com/"
+        }
+    },
+    {
+        "name": "Big Chefs",
+        "coordinates": [
+            41.0281177,
+            28.9727155
+        ],
+        "properties": {
+            "cuisine": "american"
+        }
+    },
+    {
+        "name": "Nupera",
+        "coordinates": [
+            41.0317028,
+            28.9750718
+        ],
+        "properties": {
+            "website": "http://www.nupera.com.tr/"
+        }
+    },
+    {
+        "name": "Galata Kiva",
+        "coordinates": [
+            41.0260402,
+            28.9742741
+        ]
+    },
+    {
+        "name": "Miss Pizza \u015ei\u015fhane",
+        "coordinates": [
+            41.0286182,
+            28.9730564
+        ],
+        "properties": {
+            "cuisine": "pizza",
+            "website": "http://www.misspizza.com.tr/en"
+        }
+    },
+    {
+        "name": "Van Kahvalti Mufta\u011fi",
+        "coordinates": [
+            41.0331027,
+            28.9824135
+        ],
+        "properties": {
+            "cuisine": "breakfast"
+        }
+    },
+    {
+        "name": "Terrace 41",
+        "coordinates": [
+            41.0333208,
+            28.9808585
+        ],
+        "properties": {
+            "cuisine": "regional"
+        }
+    },
+    {
+        "name": "K\u00f6r Agop",
+        "coordinates": [
+            41.0304609,
+            28.973918
+        ],
+        "properties": {
+            "cuisine": "regional",
+            "website": "http://www.koragop.com/index_pera.html"
+        }
+    },
+    {
+        "name": "Hong Bin Lou",
+        "coordinates": [
+            41.0360476,
+            28.9891938
+        ],
+        "properties": {
+            "website": "https://www.hongbinlou.net/"
+        }
+    },
+    {
+        "name": "Borsa Lokantas\u0131",
+        "coordinates": [
+            41.0358603,
+            28.9828407
+        ]
+    },
+    {
+        "name": "Tavanaras\u0131",
+        "coordinates": [
+            41.0299932,
+            28.9748275
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "The House Cafe \u0130stiklal",
+        "coordinates": [
+            41.0328264,
+            28.9766652
+        ],
+        "properties": {
+            "cuisine": "European",
+            "website": "https://thehousecafe.com/"
+        }
+    },
+    {
+        "name": "Sima Cafe",
+        "coordinates": [
+            41.0362969,
+            28.9921797
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Faros Kebap",
+        "coordinates": [
+            41.0393283,
+            28.9842801
+        ],
+        "properties": {
+            "website": "http://www.faroskebap.com/"
+        }
+    },
+    {
+        "name": "No:19 Dining",
+        "coordinates": [
+            41.0329704,
+            28.9813499
+        ],
+        "properties": {
+            "cuisine": "turkish",
+            "website": "http://no19dining.com/"
+        }
+    },
+    {
+        "name": "Armada Restaurant",
+        "coordinates": [
+            41.0293902,
+            28.9753473
+        ]
+    },
+    {
+        "name": "Kardesler Kebap & Cafe",
+        "coordinates": [
+            41.031145,
+            28.9824306
+        ]
+    },
+    {
+        "name": "Parole",
+        "coordinates": [
+            41.0301695,
+            28.9754487
+        ]
+    },
+    {
+        "name": "Vera Restaurant Fish & Meat House",
+        "coordinates": [
+            41.0347532,
+            28.9771463
+        ],
+        "properties": {
+            "website": "http://www.verarestaurant.com"
+        }
+    },
+    {
+        "name": "robin's",
+        "coordinates": [
+            41.0265104,
+            28.9744713
+        ]
+    },
+    {
+        "name": "Ist Cafe",
+        "coordinates": [
+            41.0360826,
+            28.9832238
+        ]
+    },
+    {
+        "name": "M&N Cafe Brasserie",
+        "coordinates": [
+            41.0352325,
+            28.9817456
+        ]
+    },
+    {
+        "name": "Yeni Lokanta",
+        "coordinates": [
+            41.0295272,
+            28.9754514
+        ],
+        "properties": {
+            "website": "https://www.yenilokanta.com/"
+        }
+    },
+    {
+        "name": "Sar\u0131han",
+        "coordinates": [
+            41.0244276,
+            28.9766419
+        ]
+    },
+    {
+        "name": "Yare Meyhane",
+        "coordinates": [
+            41.0301449,
+            28.9744773
+        ]
+    },
+    {
+        "name": "Yakup 2",
+        "coordinates": [
+            41.0301078,
+            28.974515
+        ]
+    },
+    {
+        "name": "Limonlu bah\u00e7e",
+        "coordinates": [
+            41.0314448,
+            28.9786429
+        ]
+    },
+    {
+        "name": "Peymane",
+        "coordinates": [
+            41.0298314,
+            28.97997
+        ]
+    },
+    {
+        "name": "Mavi Melek",
+        "coordinates": [
+            41.0301791,
+            28.974439
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Konsolos",
+        "coordinates": [
+            41.0306201,
+            28.973433
+        ]
+    },
+    {
+        "name": "Gritti restaurant",
+        "coordinates": [
+            41.0302477,
+            28.9745586
+        ]
+    },
+    {
+        "name": "Cecconis",
+        "coordinates": [
+            41.0302691,
+            28.9730794
+        ],
+        "properties": {
+            "website": "https://www.cecconisistanbul.com/"
+        }
+    },
+    {
+        "name": "Aheste",
+        "coordinates": [
+            41.0291193,
+            28.9730776
+        ]
+    },
+    {
+        "name": "Baylo",
+        "coordinates": [
+            41.0292951,
+            28.9730703
+        ]
+    },
+    {
+        "name": "Duble Meze",
+        "coordinates": [
+            41.0306143,
+            28.9736131
+        ],
+        "properties": {
+            "cuisine": "turkish",
+            "website": "http://www.dublemezebar.com/"
+        }
+    },
+    {
+        "name": "Paps",
+        "coordinates": [
+            41.0246729,
+            28.9791132
+        ],
+        "properties": {
+            "cuisine": "italian"
+        }
+    },
+    {
+        "name": "Pizzeria Pera",
+        "coordinates": [
+            41.0304618,
+            28.9746567
+        ],
+        "properties": {
+            "cuisine": "pizzeria,pizza,italian",
+            "website": "https://www.pizzeriapera.com/"
+        }
+    },
+    {
+        "name": "Cihangir Lokantasi",
+        "coordinates": [
+            41.0318041,
+            28.9820472
+        ],
+        "properties": {
+            "cuisine": "local"
+        }
+    },
+    {
+        "name": "Cihangir Balik",
+        "coordinates": [
+            41.0315808,
+            28.9826322
+        ],
+        "properties": {
+            "cuisine": "fish"
+        }
+    },
+    {
+        "name": "Mikla - Turkey fusion ",
+        "coordinates": [
+            41.0310866,
+            28.9740165
+        ]
+    },
+    {
+        "name": "Nola",
+        "coordinates": [
+            41.0249318,
+            28.9734437
+        ]
+    },
+    {
+        "name": "Tadim Bufe",
+        "coordinates": [
+            41.0261257,
+            28.9746926
+        ]
+    },
+    {
+        "name": "Pepo",
+        "coordinates": [
+            41.025386,
+            28.9746171
+        ]
+    },
+    {
+        "name": "Karadeniz pideci",
+        "coordinates": [
+            41.0306243,
+            28.9742648
+        ]
+    },
+    {
+        "name": "Antiochia",
+        "coordinates": [
+            41.0289764,
+            28.9739429
+        ]
+    },
+    {
+        "name": "\u00c7a\u011fr\u0131 Karadeniz Kebap & Pide Salonu",
+        "coordinates": [
+            41.0278786,
+            28.9736399
+        ]
+    },
+    {
+        "name": "22 Restorant Bar",
+        "coordinates": [
+            41.0326016,
+            28.9855566
+        ]
+    },
+    {
+        "name": "Piknik kofte",
+        "coordinates": [
+            41.032346,
+            28.9764591
+        ],
+        "properties": {
+            "cuisine": "balkan"
+        }
+    },
+    {
+        "name": "Nato Lokantas\u0131",
+        "coordinates": [
+            41.0245845,
+            28.9779735
+        ]
+    },
+    {
+        "name": "Taksim Bah\u00e7ivan",
+        "coordinates": [
+            41.0360717,
+            28.9802563
+        ],
+        "properties": {
+            "cuisine": "local;regional;turkish"
+        }
+    },
+    {
+        "name": "\u0645\u0637\u0639\u0645 The Gounmand \u0641\u064a \u063a\u0627\u0644\u0627\u062a\u0627",
+        "coordinates": [
+            41.0265382,
+            28.9752464
+        ]
+    },
+    {
+        "name": "Vegan Istanbul",
+        "coordinates": [
+            41.0309878,
+            28.98181
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "properties": {
+            "website": "http://eggandburger.com.tr"
+        }
+    },
+    {
+        "name": "Yemek Kul\u00fcb\u00fc",
+        "coordinates": [
+            41.0294537,
+            28.9751839
+        ]
+    },
+    {
+        "name": "Nabu Karakoy",
+        "coordinates": [
+            41.0252921,
+            28.9798707
+        ],
+        "properties": {
+            "cuisine": "italian"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Eylul cafe and restaurant",
+        "coordinates": [
+            41.0389867,
+            28.9845613
+        ]
+    },
+    {
+        "name": "Esmer",
+        "coordinates": [
+            41.0352918,
+            28.9814276
+        ],
+        "properties": {
+            "cuisine": "pasta;pizza"
+        }
+    },
+    {
+        "name": "Faros Restaurant",
+        "coordinates": [
+            41.040596,
+            28.9861687
+        ]
+    },
+    {
+        "name": "Zanaat",
+        "coordinates": [
+            41.0296467,
+            28.9793666
+        ]
+    },
+    {
+        "name": "Olea",
+        "coordinates": [
+            41.0319491,
+            28.9782916
+        ],
+        "properties": {
+            "cuisine": "pizza"
+        }
+    },
+    {
+        "name": "Onur Ev Yemekleri",
+        "coordinates": [
+            41.0303377,
+            28.9809023
+        ],
+        "properties": {
+            "cuisine": "local"
+        }
+    },
+    {
+        "name": "Varuna Gezgin",
+        "coordinates": [
+            41.0293312,
+            28.9755939
+        ],
+        "properties": {
+            "cuisine": "international;turkish",
+            "website": "https://varunagezgin.com/"
+        }
+    },
+    {
+        "name": "My House",
+        "coordinates": [
+            41.0349697,
+            28.9847902
+        ]
+    },
+    {
+        "name": "Rika",
+        "coordinates": [
+            41.0303939,
+            28.9834679
+        ]
+    },
+    {
+        "name": "\u015eampiyon Kokore\u00e7",
+        "coordinates": [
+            41.0338696,
+            28.9778441
+        ]
+    },
+    {
+        "name": "Bodos Karadeniz Lokantas\u0131",
+        "coordinates": [
+            41.0277138,
+            28.9740033
+        ]
+    },
+    {
+        "name": "Akin Bal\u0131k",
+        "coordinates": [
+            41.0219284,
+            28.9726382
+        ],
+        "properties": {
+            "cuisine": "fish"
+        }
+    },
+    {
+        "name": "Sokak Kahvesi",
+        "coordinates": [
+            41.0280326,
+            28.9743093
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "me gusta",
+        "coordinates": [
+            41.033583,
+            28.9759562
+        ]
+    },
+    {
+        "name": "Bilice Kebap",
+        "coordinates": [
+            41.0300046,
+            28.9748727
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Az \u00c7ok Thai",
+        "coordinates": [
+            41.0325119,
+            28.981214
+        ]
+    },
+    {
+        "name": "Askoroz Balikcisi",
+        "coordinates": [
+            41.0361685,
+            28.9807757
+        ]
+    },
+    {
+        "name": "Liberta Teras",
+        "coordinates": [
+            41.0323418,
+            28.9778848
+        ]
+    },
+    {
+        "name": "Tarihi Kalkano\u011flu Pilavc\u0131s\u0131",
+        "coordinates": [
+            41.0341546,
+            28.9801885
+        ]
+    },
+    {
+        "name": "Pide salon",
+        "coordinates": [
+            41.0340823,
+            28.9810111
+        ]
+    },
+    {
+        "properties": {
+            "cuisine": "thai"
+        }
+    },
+    {
+        "name": "Bosnjak",
+        "coordinates": [
+            41.0257897,
+            28.9812173
+        ]
+    },
+    {
+        "name": "21",
+        "coordinates": [
+            41.0300075,
+            28.9837636
+        ],
+        "properties": {
+            "cuisine": "international"
+        }
+    },
+    {
+        "name": "Naif",
+        "coordinates": [
+            41.0258606,
+            28.9804955
+        ]
+    },
+    {
+        "name": "ArtSmyrna Cafe & Gallery",
+        "coordinates": [
+            41.0255517,
+            28.9753044
+        ],
+        "properties": {
+            "website": "http://artsmyrnagalata.com"
+        }
+    },
+    {
+        "name": "Privato Cafe",
+        "coordinates": [
+            41.0268623,
+            28.9740831
+        ],
+        "properties": {
+            "cuisine": "turkish",
+            "website": "http://privatocafe.com/"
+        }
+    },
+    {
+        "name": "Ehlitat Lokantasi",
+        "coordinates": [
+            41.0352918,
+            28.9782857
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Miniat\u00fcrk",
+        "coordinates": [
+            41.0589395,
+            28.9488253
+        ]
+    },
+    {
+        "name": "Zarafi",
+        "coordinates": [
+            41.0344408,
+            28.9829509
+        ]
+    },
+    {
+        "name": "Firuzende",
+        "coordinates": [
+            41.0255542,
+            28.9740231
+        ],
+        "properties": {
+            "cuisine": "turkish",
+            "website": "https://www.anemonhotels.com/en/hotel-istanbul/anemon-galata.aspx"
+        }
+    },
+    {
+        "name": "Kakt\u00fcs Kahvesi",
+        "coordinates": [
+            41.0315457,
+            28.9866154
+        ],
+        "properties": {
+            "cuisine": "coffee_shop;breakfast"
+        }
+    },
+    {
+        "name": "Emine Ana Tantuni",
+        "coordinates": [
+            41.0341703,
+            28.9834218
+        ]
+    },
+    {
+        "name": "Mutfak Dili Ev Yemekleri",
+        "coordinates": [
+            41.0227667,
+            28.9710771
+        ],
+        "properties": {
+            "cuisine": "regional;homecooking",
+            "website": "http://www.mutfakdili.biz"
+        }
+    },
+    {
+        "name": "Balkan Lokantas\u0131",
+        "coordinates": [
+            41.0350542,
+            28.9823077
+        ]
+    },
+    {
+        "name": "Musafir",
+        "coordinates": [
+            41.0400225,
+            28.9853059
+        ],
+        "properties": {
+            "cuisine": "indian"
+        }
+    },
+    {
+        "name": "Park bufe",
+        "coordinates": [
+            41.0236993,
+            28.9750293
+        ]
+    },
+    {
+        "name": "Kebab Restaurant",
+        "coordinates": [
+            41.0345845,
+            28.982823
+        ]
+    },
+    {
+        "name": "Sanat",
+        "coordinates": [
+            41.0348507,
+            28.9778709
+        ]
+    },
+    {
+        "name": "Hatay Medeniyetler Sofordsi",
+        "coordinates": [
+            41.0356199,
+            28.9833579
+        ]
+    },
+    {
+        "name": "Plavci",
+        "coordinates": [
+            41.0245729,
+            28.9701069
+        ],
+        "properties": {
+            "cuisine": "kebab"
+        }
+    },
+    {
+        "name": "Nola",
+        "coordinates": [
+            41.0252147,
+            28.9736624
+        ]
+    },
+    {
+        "name": "Lezzette Son Nokta",
+        "coordinates": [
+            41.0252573,
+            28.97396
+        ]
+    },
+    {
+        "name": "Datpinar Yemek Salonu",
+        "coordinates": [
+            41.0277037,
+            28.9738038
+        ]
+    },
+    {
+        "name": "Galata House Restaurant",
+        "coordinates": [
+            41.0248245,
+            28.9734784
+        ]
+    },
+    {
+        "name": "Midpoint",
+        "coordinates": [
+            41.0286271,
+            28.9742703
+        ]
+    },
+    {
+        "name": "Refik",
+        "coordinates": [
+            41.0297714,
+            28.9745527
+        ]
+    },
+    {
+        "name": "Sahrap",
+        "coordinates": [
+            41.0290124,
+            28.9733345
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Pera Public",
+        "coordinates": [
+            41.0336373,
+            28.9755706
+        ]
+    },
+    {
+        "name": "Kabata\u015f K\u00f6ftecisi Mehmet",
+        "coordinates": [
+            41.0229731,
+            28.971195
+        ]
+    },
+    {
+        "name": "D\u00fcr\u00fcmzade",
+        "coordinates": [
+            41.035399,
+            28.9773125
+        ]
+    },
+    {
+        "name": "Al madina",
+        "coordinates": [
+            41.0358366,
+            28.9835471
+        ]
+    },
+    {
+        "name": "Kenan Usta Ocakbasi",
+        "coordinates": [
+            41.0364801,
+            28.9822386
+        ]
+    },
+    {
+        "name": "Art",
+        "coordinates": [
+            41.0350436,
+            28.9772135
+        ]
+    },
+    {
+        "name": "Zencefil",
+        "coordinates": [
+            41.0366889,
+            28.982748
+        ]
+    },
+    {
+        "name": "Leb-i derya",
+        "coordinates": [
+            41.0286253,
+            28.976482
+        ],
+        "properties": {
+            "cuisine": "regional"
+        }
+    },
+    {
+        "name": "Otantik Anadolu Yemekleri",
+        "coordinates": [
+            41.0339264,
+            28.978145
+        ]
+    },
+    {
+        "name": "Z\u00fcbeyir Ocakba\u015f\u0131",
+        "coordinates": [
+            41.0365748,
+            28.9820708
+        ]
+    },
+    {
+        "name": "Zencefil",
+        "coordinates": [
+            41.0366148,
+            28.9827585
+        ]
+    },
+    {
+        "name": "alkuds resturant",
+        "coordinates": [
+            41.0354021,
+            28.9803857
+        ]
+    },
+    {
+        "name": "Chez Moi",
+        "coordinates": [
+            41.0254783,
+            28.9801151
+        ]
+    },
+    {
+        "name": "\u00d6zkonak Lokantas\u0131",
+        "coordinates": [
+            41.0311428,
+            28.9828146
+        ]
+    },
+    {
+        "name": "Kuytu Bal\u0131k",
+        "coordinates": [
+            41.0223597,
+            28.9710027
+        ]
+    },
+    {
+        "name": "Ak\u0131n Bal\u0131k",
+        "coordinates": [
+            41.0221598,
+            28.9730616
+        ]
+    },
+    {
+        "name": "Lumiere Cihangir",
+        "coordinates": [
+            41.0321429,
+            28.9818612
+        ]
+    },
+    {
+        "name": "La Fontana Di Trevi",
+        "coordinates": [
+            41.0329782,
+            28.9760223
+        ],
+        "properties": {
+            "cuisine": "italian_pizza"
+        }
+    },
+    {
+        "name": "\u00c7in B\u00fcfe",
+        "coordinates": [
+            41.0340479,
+            28.9788691
+        ]
+    },
+    {
+        "name": "Borek center",
+        "coordinates": [
+            41.0325559,
+            28.9765787
+        ]
+    },
+    {
+        "name": "\u00d6zkano\u011flu Kebap",
+        "coordinates": [
+            41.0231629,
+            28.977065
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Kervan Karak\u00f6y",
+        "coordinates": [
+            41.026136,
+            28.9814937
+        ]
+    },
+    {
+        "name": "Fasuli",
+        "coordinates": [
+            41.0261611,
+            28.9815268
+        ]
+    },
+    {
+        "name": "Midpoint",
+        "coordinates": [
+            41.0315833,
+            28.9761587
+        ]
+    },
+    {
+        "name": "Waffle",
+        "coordinates": [
+            41.0307792,
+            28.9758533
+        ]
+    },
+    {
+        "name": "mom' steak burger",
+        "coordinates": [
+            41.0336481,
+            28.9761429
+        ]
+    },
+    {
+        "name": "taj-mahal",
+        "coordinates": [
+            41.033526,
+            28.9758569
+        ]
+    },
+    {
+        "name": "angen",
+        "coordinates": [
+            41.0291367,
+            28.972967
+        ]
+    },
+    {
+        "name": "mien",
+        "coordinates": [
+            41.0336214,
+            28.9760071
+        ]
+    },
+    {
+        "name": "Hazzopulo",
+        "coordinates": [
+            41.0333868,
+            28.9759036
+        ]
+    },
+    {
+        "name": "chapelle restaurant and bar",
+        "coordinates": [
+            41.0333737,
+            28.9752632
+        ]
+    },
+    {
+        "name": "pera",
+        "coordinates": [
+            41.033414,
+            28.9753299
+        ]
+    },
+    {
+        "name": "Simit Sarayi",
+        "coordinates": [
+            41.0361592,
+            28.9844243
+        ]
+    },
+    {
+        "name": "Al Madina restaurant",
+        "coordinates": [
+            41.0358869,
+            28.9833204
+        ]
+    },
+    {
+        "name": "beyoglu halk doner",
+        "coordinates": [
+            41.0362312,
+            28.9842676
+        ]
+    },
+    {
+        "name": "Galatalife Istanbul",
+        "coordinates": [
+            41.0265394,
+            28.9746854
+        ]
+    },
+    {
+        "name": "Chinese and Sushi experience",
+        "coordinates": [
+            41.028651,
+            28.9732583
+        ]
+    },
+    {
+        "name": "Pasa Doner",
+        "coordinates": [
+            41.0347631,
+            28.9805924
+        ]
+    },
+    {
+        "name": "Hazine Cihangir",
+        "coordinates": [
+            41.0307872,
+            28.983231
+        ]
+    },
+    {
+        "name": "D\u00fcr\u00fcmzade",
+        "coordinates": [
+            41.035406,
+            28.9771685
+        ]
+    },
+    {
+        "name": "Galaktion",
+        "coordinates": [
+            41.0282522,
+            28.97709
+        ],
+        "properties": {
+            "cuisine": "georgian"
+        }
+    },
+    {
+        "name": "1924 \u0130stanbul",
+        "coordinates": [
+            41.032858,
+            28.9761331
+        ],
+        "properties": {
+            "cuisine": "russian",
+            "website": "http://www.1924istanbul.com/"
+        }
+    },
+    {
+        "name": "Karakoy gumruk",
+        "coordinates": [
+            41.0228719,
+            28.9758376
+        ]
+    },
+    {
+        "name": "Faik Pasha Design Suites -",
+        "coordinates": [
+            41.0321011,
+            28.9805883
+        ]
+    },
+    {
+        "name": "Nevizade",
+        "coordinates": [
+            41.0348432,
+            28.9777308
+        ]
+    },
+    {
+        "name": "Bilice Kebap",
+        "coordinates": [
+            41.0299144,
+            28.974975
+        ]
+    },
+    {
+        "name": "Babel Cafe",
+        "coordinates": [
+            41.0330658,
+            28.98209
+        ]
+    },
+    {
+        "name": "Galaktion (Georgian food)",
+        "coordinates": [
+            41.0343077,
+            28.9838365
+        ]
+    },
+    {
+        "name": "Mitto Pizza",
+        "coordinates": [
+            41.0324704,
+            28.9833608
+        ]
+    },
+    {
+        "name": "Neolokal",
+        "coordinates": [
+            41.0237821,
+            28.9734763
+        ],
+        "properties": {
+            "cuisine": "turkish",
+            "website": "https://www.neolokal.com/"
+        }
+    },
+    {
+        "name": "Divan Brasserie",
+        "coordinates": [
+            41.0318963,
+            28.97652
+        ]
+    },
+    {
+        "name": "Ali Ocakba\u015f\u0131",
+        "coordinates": [
+            41.03652,
+            28.9903318
+        ],
+        "properties": {
+            "website": "https://aliocakbasi.com/"
+        }
+    },
+    {
+        "name": "Aspera restaurant",
+        "coordinates": [
+            41.0344861,
+            28.9773696
+        ],
+        "properties": {
+            "cuisine": "fish"
+        }
+    },
+    {
+        "name": "salon Galata",
+        "coordinates": [
+            41.0236525,
+            28.9747153
+        ]
+    },
+    {
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Community kitchen",
+        "coordinates": [
+            41.028397,
+            28.976837
+        ]
+    },
+    {
+        "name": "Hayat",
+        "coordinates": [
+            41.0302587,
+            28.9836626
+        ]
+    },
+    {
+        "name": "Reyhun Iranian Restaurant",
+        "coordinates": [
+            41.0326721,
+            28.9778252
+        ],
+        "properties": {
+            "cuisine": "persian",
+            "website": "www.iranyemekleri.com"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "turkish",
+            "website": "https://www.ahsenlezzet.com/"
+        }
+    },
+    {
+        "name": "Can\u0131m Ci\u011ferim",
+        "coordinates": [
+            41.0303719,
+            28.9740044
+        ]
+    },
+    {
+        "name": "Cihangir sosyal tesisleri",
+        "coordinates": [
+            41.0283244,
+            28.9824353
+        ],
+        "properties": {
+            "cuisine": "regional",
+            "website": "https://tesislerimiz.ibb.istanbul"
+        }
+    },
+    {
+        "name": "Balkan Lokantas\u0131",
+        "coordinates": [
+            41.0340915,
+            28.9770159
+        ]
+    },
+    {
+        "name": "Lue karak\u00f6y",
+        "coordinates": [
+            41.025648,
+            28.9805011
+        ]
+    },
+    {
+        "name": "Mahkeme lokantasi",
+        "coordinates": [
+            41.0237033,
+            28.9718992
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Galata Kitchen",
+        "coordinates": [
+            41.0264651,
+            28.9756746
+        ]
+    },
+    {
+        "name": "Lotus port",
+        "coordinates": [
+            41.0249591,
+            28.9788522
+        ]
+    },
+    {
+        "name": "Karakoy Corba Evi",
+        "coordinates": [
+            41.0242112,
+            28.9783288
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Tahin",
+        "coordinates": [
+            41.0246927,
+            28.978961
+        ],
+        "properties": {
+            "cuisine": "lebanese"
+        }
+    },
+    {
+        "name": "Cihangir Ula\u015f Bal\u0131k\u00e7\u0131l\u0131k",
+        "coordinates": [
+            41.0301922,
+            28.9815521
+        ],
+        "properties": {
+            "cuisine": "turkish;fish"
+        }
+    },
+    {
+        "name": "Alem",
+        "coordinates": [
+            41.0347106,
+            28.9775527
+        ]
+    },
+    {
+        "name": "Esmer Chef",
+        "coordinates": [
+            41.0325364,
+            28.9762923
+        ]
+    },
+    {
+        "name": "varuna gezgin",
+        "coordinates": [
+            41.0290724,
+            28.9759234
+        ],
+        "properties": {
+            "cuisine": "international;local;pasta;sandwich;turkish"
+        }
+    },
+    {
+        "name": "Nicole",
+        "coordinates": [
+            41.0302302,
+            28.9778284
+        ]
+    },
+    {
+        "properties": {
+            "cuisine": "chicken;turkish"
+        }
+    },
+    {
+        "name": "Cafe Berry",
+        "coordinates": [
+            41.0362791,
+            28.9753057
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Saray Lokantas\u0131",
+        "coordinates": [
+            41.0357258,
+            28.9755313
+        ],
+        "properties": {
+            "cuisine": "turkish;regional"
+        }
+    },
+    {
+        "name": "Be\u015falt\u0131 Kirvem Tantuni & K\u00fcnefe Karak\u00f6y",
+        "coordinates": [
+            41.0243787,
+            28.9785671
+        ]
+    },
+    {
+        "name": "Zwina",
+        "coordinates": [
+            41.0385869,
+            28.9845106
+        ]
+    },
+    {
+        "name": "Nefes",
+        "coordinates": [
+            41.0297214,
+            28.9793455
+        ]
+    },
+    {
+        "name": "Faruk G\u00fcll\u00fco\u011flu",
+        "coordinates": [
+            41.0365065,
+            28.9852927
+        ]
+    },
+    {
+        "name": "Rakofoli",
+        "coordinates": [
+            41.0225311,
+            28.9736058
+        ],
+        "properties": {
+            "cuisine": "barbecue;turkish"
+        }
+    },
+    {
+        "name": "SARIKAYA KEBAP (KEBAPCI)",
+        "coordinates": [
+            41.0262402,
+            28.9733863
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Wama's",
+        "coordinates": [
+            41.0336994,
+            28.9779709
+        ],
+        "properties": {
+            "cuisine": "turkish;international"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "T\u00fcrk\u00e7e Meze teras",
+        "coordinates": [
+            41.0540941,
+            28.9480406
+        ]
+    },
+    {
+        "properties": {
+            "website": "https://www.nizampide.com/"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "seafood"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "seafood"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "fish"
+        }
+    },
+    {
+        "name": "Melekler Ocakba\u015bi",
+        "coordinates": [
+            41.0351479,
+            28.9831498
+        ]
+    },
+    {
+        "name": "Olimpiyat Restaurant",
+        "coordinates": [
+            41.0219093,
+            28.9760135
+        ]
+    },
+    {
+        "name": "Odessa Restaurant",
+        "coordinates": [
+            41.0219439,
+            28.9762938
+        ]
+    },
+    {
+        "name": "Afrodit&Paradise Restaurant",
+        "coordinates": [
+            41.0219679,
+            28.9764648
+        ]
+    },
+    {
+        "name": "Mare Karak\u00f6y",
+        "coordinates": [
+            41.0219602,
+            28.9764102
+        ]
+    },
+    {
+        "name": "Burak Steak House",
+        "coordinates": [
+            41.0344118,
+            28.9823328
+        ]
+    },
+    {
+        "name": "Ali Baba B\u00fcfe",
+        "coordinates": [
+            41.0378601,
+            28.9823687
+        ],
+        "properties": {
+            "cuisine": "pakistani"
+        }
+    },
+    {
+        "name": "Demeti",
+        "coordinates": [
+            41.0305124,
+            28.9841471
+        ],
+        "properties": {
+            "cuisine": "mediterranean;turkish"
+        }
+    },
+    {
+        "name": "Avlu",
+        "coordinates": [
+            41.0316226,
+            28.9787653
+        ]
+    },
+    {
+        "name": "Jash",
+        "coordinates": [
+            41.0311219,
+            28.9865441
+        ]
+    },
+    {
+        "properties": {
+            "cuisine": "turkish",
+            "website": "https://haciabdullah.com.tr/"
+        }
+    },
+    {
+        "name": "Galata Lily Caf\u00e9",
+        "coordinates": [
+            41.025589,
+            28.9750379
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Kasap Burger",
+        "coordinates": [
+            41.0280111,
+            28.9744598
+        ],
+        "properties": {
+            "cuisine": "burger",
+            "website": "https://www.kasapburger.com.tr/"
+        }
+    },
+    {
+        "name": "Novas Hagiasophia",
+        "coordinates": [
+            41.0343659,
+            28.9839887
+        ],
+        "properties": {
+            "cuisine": "turkish;mediterranean",
+            "website": "https://www.tripadvisor.fr/Restaurant_Review-g293974-d18313537-Reviews-Novas_Hagiasophia-Istanbul.html"
+        }
+    },
+    {
+        "name": "M\u00fcrver",
+        "coordinates": [
+            41.024672,
+            28.9800182
+        ],
+        "properties": {
+            "cuisine": "international"
+        }
+    },
+    {
+        "name": "Papel",
+        "coordinates": [
+            41.0255288,
+            28.9804748
+        ],
+        "properties": {
+            "cuisine": "international"
+        }
+    },
+    {
+        "name": "Habesha Restaurant",
+        "coordinates": [
+            41.0354022,
+            28.977731
+        ]
+    },
+    {
+        "name": "Latin Dance Project",
+        "coordinates": [
+            41.0361971,
+            28.9850716
+        ]
+    },
+    {
+        "properties": {
+            "website": "https://www.izakaistanbul.com/"
+        }
+    },
+    {
+        "name": "Az \u00c7ok Thai",
+        "coordinates": [
+            41.0322654,
+            28.9810636
+        ]
+    },
+    {
+        "properties": {
+            "website": "https://meroddi.com/"
+        }
+    },
+    {
+        "name": "kirpi",
+        "coordinates": [
+            41.0261806,
+            28.9838753
+        ]
+    },
+    {
+        "name": "Prince coffee house",
+        "coordinates": [
+            41.0264228,
+            28.9844305
+        ]
+    },
+    {
+        "name": "Yirmibir",
+        "coordinates": [
+            41.0334719,
+            28.9758438
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "\u00c7orba D\u00fcnyasi Deniz Lokantasi",
+        "coordinates": [
+            41.0324509,
+            28.9663957
+        ],
+        "properties": {
+            "cuisine": "Turkish, Soup"
+        }
+    },
+    {
+        "name": "Et Lokantasi",
+        "coordinates": [
+            41.0326045,
+            28.9671229
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Bursa Kebap\u00e7isi",
+        "coordinates": [
+            41.035548,
+            28.980322
+        ],
+        "properties": {
+            "cuisine": "turkish;kebab"
+        }
+    },
+    {
+        "name": "Levent B\u00f6rek",
+        "coordinates": [
+            41.0225792,
+            28.9771052
+        ]
+    },
+    {
+        "name": "Fiore \u0130talyan restoran",
+        "coordinates": [
+            41.0373626,
+            28.9895163
+        ]
+    },
+    {
+        "name": "Nizam Pide Sutla\u00e7",
+        "coordinates": [
+            41.0348401,
+            28.9823377
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Comedus \u015farap ve bira",
+        "coordinates": [
+            41.0292233,
+            28.973092
+        ],
+        "properties": {
+            "cuisine": "deli",
+            "website": "http://facebook.com/comedus.com.tr"
+        }
+    },
+    {
+        "name": "Salkim Meyhane",
+        "coordinates": [
+            41.0360595,
+            28.980151
+        ]
+    },
+    {
+        "name": "Kara Deniz Pide Salonu 1979",
+        "coordinates": [
+            41.0345878,
+            28.9767072
+        ]
+    },
+    {
+        "name": "Nepal Everest Kitchen",
+        "coordinates": [
+            41.0351252,
+            28.9829738
+        ]
+    },
+    {
+        "name": "Limon Cihangir Kahvalt\u0131 Evi",
+        "coordinates": [
+            41.0310852,
+            28.9822393
+        ]
+    },
+    {
+        "name": "Kaiser",
+        "coordinates": [
+            41.0345002,
+            28.992217
+        ]
+    },
+    {
+        "name": "Sariyer",
+        "coordinates": [
+            41.0317309,
+            28.9889502
+        ]
+    },
+    {
+        "name": "Asian vegan kitchen",
+        "coordinates": [
+            41.032877,
+            28.9877022
+        ],
+        "properties": {
+            "cuisine": "vegan"
+        }
+    },
+    {
+        "name": "Kudus Seka",
+        "coordinates": [
+            41.035338,
+            28.9804086
+        ]
+    },
+    {
+        "name": "Kanat\u00e7\u0131 day\u0131m",
+        "coordinates": [
+            41.0274918,
+            28.9798362
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Sabirta\u015fi restoran",
+        "coordinates": [
+            41.0331,
+            28.9766166
+        ],
+        "properties": {
+            "cuisine": "turkish",
+            "website": "https://www.sabirtasi.com.tr/"
+        }
+    },
+    {
+        "name": "Nizam Pide Taksim",
+        "coordinates": [
+            41.0348884,
+            28.9823125
+        ]
+    },
+    {
+        "name": "Ali ocakba\u015fi",
+        "coordinates": [
+            41.0222933,
+            28.9725924
+        ]
+    },
+    {
+        "name": "Asmali durumcu",
+        "coordinates": [
+            41.02874,
+            28.9737316
+        ]
+    },
+    {
+        "name": "Merdo midye kokorec",
+        "coordinates": [
+            41.0351344,
+            28.980998
+        ]
+    },
+    {
+        "name": "CZN Burak",
+        "coordinates": [
+            41.0340035,
+            28.9843237
+        ],
+        "properties": {
+            "cuisine": "seafood"
+        }
+    },
+    {
+        "name": "molto bene",
+        "coordinates": [
+            41.0272701,
+            28.9757194
+        ]
+    },
+    {
+        "name": "Marko Pasa",
+        "coordinates": [
+            41.0346932,
+            28.9806411
+        ]
+    },
+    {
+        "name": "Karak\u00f6y Gedikli",
+        "coordinates": [
+            41.0236733,
+            28.977569
+        ]
+    },
+    {
+        "name": "Vegan Food Cartel",
+        "coordinates": [
+            41.0349694,
+            28.9832557
+        ]
+    },
+    {
+        "name": "Payidar galata",
+        "coordinates": [
+            41.0268267,
+            28.9727176
+        ]
+    },
+    {
+        "name": "Aseka Karakoy",
+        "coordinates": [
+            41.0249867,
+            28.9774646
+        ]
+    },
+    {
+        "name": "Kedai Indonesia Turki",
+        "coordinates": [
+            41.0352146,
+            28.9867905
+        ],
+        "properties": {
+            "cuisine": "indonesian"
+        }
+    },
+    {
+        "name": "mrJADE Italy \u0130stanbul",
+        "coordinates": [
+            41.0424891,
+            28.9673457
+        ],
+        "properties": {
+            "cuisine": "italian;pizza;coffee_shop",
+            "website": "https://mrjadeitaly.com"
+        }
+    },
+    {
+        "name": "Sofyal\u0131 9 Restoran",
+        "coordinates": [
+            41.0291163,
+            28.9743233
+        ],
+        "properties": {
+            "cuisine": "t\u00fcrk_mutfa\u011f\u0131;regional;meyhane",
+            "website": "https://www.sofyali.com.tr/"
+        }
+    },
+    {
+        "name": "Ineg\u00f6l K\u00f6fte Salonu",
+        "coordinates": [
+            41.0272615,
+            28.9723307
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "De Camondo",
+        "coordinates": [
+            41.0238464,
+            28.9740942
+        ]
+    },
+    {
+        "name": "Suat Usta Tantuni",
+        "coordinates": [
+            41.0346669,
+            28.9828514
+        ]
+    },
+    {
+        "name": "Hayata Sar\u0131l Lokantas\u0131",
+        "coordinates": [
+            41.0364348,
+            28.9825931
+        ]
+    },
+    {
+        "name": "Zeytuna Cezayir'de",
+        "coordinates": [
+            41.0318135,
+            28.9794648
+        ]
+    },
+    {
+        "name": "#saltbae",
+        "coordinates": [
+            41.0276561,
+            28.9863145
+        ]
+    },
+    {
+        "name": "Asmal\u0131 Cavit",
+        "coordinates": [
+            41.0301198,
+            28.9747399
+        ]
+    },
+    {
+        "name": "Vegan Dukkan Lokanta",
+        "coordinates": [
+            41.0326448,
+            28.9840482
+        ],
+        "properties": {
+            "cuisine": "regional"
+        }
+    },
+    {
+        "name": "Roka Cafe Kahvalt\u0131",
+        "coordinates": [
+            41.0309151,
+            28.9789355
+        ],
+        "properties": {
+            "cuisine": "local;turkish"
+        }
+    },
+    {
+        "name": "By Boss Lounge",
+        "coordinates": [
+            41.026812,
+            28.9728764
+        ]
+    },
+    {
+        "name": "Octo",
+        "coordinates": [
+            41.0241227,
+            28.9791875
+        ],
+        "properties": {
+            "cuisine": "fish;mediterranean;turkish"
+        }
+    },
+    {
+        "name": "Beyoglu Halk Doner",
+        "coordinates": [
+            41.0358607,
+            28.9829807
+        ]
+    },
+    {
+        "name": "IKON",
+        "coordinates": [
+            41.026711,
+            28.985008
+        ],
+        "properties": {
+            "cuisine": "international"
+        }
+    },
+    {
+        "name": "Galata Sanat Restaurant",
+        "coordinates": [
+            41.0395991,
+            28.9855312
+        ]
+    },
+    {
+        "name": "M\u00fcnhasir D\u00f6ner & Kebap",
+        "coordinates": [
+            41.0342044,
+            28.9788126
+        ]
+    },
+    {
+        "name": "Taksim Bah\u00e7ivan",
+        "coordinates": [
+            41.0338423,
+            28.979088
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Koali",
+        "coordinates": [
+            41.0264507,
+            28.9783222
+        ],
+        "properties": {
+            "cuisine": "indonesian"
+        }
+    },
+    {
+        "name": "Peninsula",
+        "coordinates": [
+            41.023832,
+            28.9701186
+        ]
+    },
+    {
+        "name": "GALAKTION",
+        "coordinates": [
+            41.0298208,
+            28.9738985
+        ]
+    },
+    {
+        "name": "The Himalayan Restaurant",
+        "coordinates": [
+            41.036435,
+            28.9775492
+        ]
+    },
+    {
+        "name": "The Himalayan restaurant",
+        "coordinates": [
+            41.036417,
+            28.9770832
+        ]
+    },
+    {
+        "name": "Vandal",
+        "coordinates": [
+            41.0268668,
+            28.9854243
+        ]
+    },
+    {
+        "name": "Kiva",
+        "coordinates": [
+            41.0267693,
+            28.9851262
+        ]
+    },
+    {
+        "name": "Big chefs",
+        "coordinates": [
+            41.0266171,
+            28.9848161
+        ]
+    },
+    {
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Kevok Ocakba\u015f",
+        "coordinates": [
+            41.0336687,
+            28.9756382
+        ],
+        "properties": {
+            "website": "http://tunnelmedya.com/yirmibir_menu.html"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "coffee_shop;turkish",
+            "website": "https://namligurme.com.tr/"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "local;turkish"
+        }
+    },
+    {
+        "name": "Yakamoz Malik",
+        "coordinates": [
+            41.0222007,
+            28.9717128
+        ],
+        "properties": {
+            "cuisine": "seafood;turkish"
+        }
+    },
+    {
+        "name": "Nomads",
+        "coordinates": [
+            41.036144,
+            28.9850802
+        ]
+    },
+    {
+        "name": "Chez Bor\u00e9 Restaurant Caf\u00e9",
+        "coordinates": [
+            41.0313233,
+            28.9791838
+        ]
+    },
+    {
+        "name": "Endam",
+        "coordinates": [
+            41.028747,
+            28.9763271
+        ]
+    },
+    {
+        "name": "Cook me, eat me",
+        "coordinates": [
+            41.0288124,
+            28.9764066
+        ],
+        "properties": {
+            "website": "https://www.cookmeeatme.com/"
+        }
+    },
+    {
+        "name": "Beyzade Kunefe",
+        "coordinates": [
+            41.0234948,
+            28.977638
+        ]
+    },
+    {
+        "name": "Community Kitchen",
+        "coordinates": [
+            41.0278755,
+            28.9763398
+        ]
+    },
+    {
+        "name": "Abdi Bey Lokantas\u0131",
+        "coordinates": [
+            41.0241659,
+            28.9726317
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Perri Karak\u00f6y",
+        "coordinates": [
+            41.0241818,
+            28.9725865
+        ],
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "turkish"
+        }
+    },
+    {
+        "name": "Cuma",
+        "coordinates": [
+            41.03214013391108,
+            28.980786703412196
+        ]
+    },
+    {
+        "name": "Keyfeder",
+        "coordinates": [
+            41.03463737237049,
+            28.982946039861417
+        ],
+        "properties": {
+            "cuisine": "kebab"
+        }
+    },
+    {
+        "name": "Konak Kebap",
+        "coordinates": [
+            41.02852883528971,
+            28.974699025864755
+        ],
+        "properties": {
+            "cuisine": "kebab"
+        }
+    },
+    {
+        "name": "Cafe italiano",
+        "coordinates": [
+            41.02406877344085,
+            28.972885315886156
+        ]
+    },
+    {
+        "name": "Sofyal\u0131 9 Restoran",
+        "coordinates": [
+            41.029087915436065,
+            28.974325222408943
+        ],
+        "properties": {
+            "cuisine": "t\u00fcrk_mutfa\u011f\u0131;regional;meyhane",
+            "website": "https://www.sofyali.com.tr/"
+        }
+    },
+    {
+        "properties": {
+            "cuisine": "turkish"
+        }
+    }
+]

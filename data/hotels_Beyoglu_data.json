@@ -203,13 +203,6 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0339937,
-            28.9786621
-        ]
-    },
-    {
         "name": "duo galata hotel",
         "coordinates": [
             41.0265518,
@@ -329,13 +322,6 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.034181,
-            28.9803119
-        ]
-    },
-    {
         "name": "Eterno Hotel",
         "coordinates": [
             41.0399854,
@@ -350,31 +336,10 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.040405,
-            28.9876628
-        ]
-    },
-    {
         "name": "Alyon Hotel",
         "coordinates": [
             41.0343429,
             28.9806528
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0244085,
-            28.9750333
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0247388,
-            28.9800206
         ]
     },
     {
@@ -389,13 +354,6 @@
         "coordinates": [
             41.0343142,
             28.9809039
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0409495,
-            28.982816
         ]
     },
     {
@@ -417,13 +375,6 @@
         "coordinates": [
             41.0309072,
             28.9748554
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0358548,
-            28.9823277
         ]
     },
     {
@@ -462,24 +413,10 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0262685,
-            28.9693428
-        ]
-    },
-    {
         "name": "Ada",
         "coordinates": [
             41.0229254,
             28.9764785
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0400875,
-            28.982408
         ]
     },
     {
@@ -567,24 +504,10 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0375512,
-            28.9817991
-        ]
-    },
-    {
         "name": "Galata Hotel Istanbul - MGallery by Sofitel",
         "coordinates": [
             41.0241812,
             28.972617
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0400083,
-            28.9662605
         ]
     },
     {
@@ -595,24 +518,10 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0234882,
-            28.9735102
-        ]
-    },
-    {
         "name": "Chez Bor\u00e9",
         "coordinates": [
             41.0313247,
             28.979113
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0353584,
-            28.977472
         ]
     },
     {
@@ -665,13 +574,6 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.032949,
-            28.9824142
-        ]
-    },
-    {
         "name": "Sed Hotel",
         "coordinates": [
             41.0352282,
@@ -683,20 +585,6 @@
         "coordinates": [
             41.0354001,
             28.9763635
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0235007,
-            28.9742994
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0356799,
-            28.9625335
         ]
     },
     {
@@ -714,24 +602,10 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0353752,
-            28.9792502
-        ]
-    },
-    {
         "name": "\u0641\u0646\u062f\u0642",
         "coordinates": [
             41.0371681,
             28.9818863
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0392762,
-            28.9825406
         ]
     },
     {
@@ -784,13 +658,6 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0226359,
-            28.9770055
-        ]
-    },
-    {
         "name": "Sanai Hotel",
         "coordinates": [
             41.0308422,
@@ -833,13 +700,6 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0258979,
-            28.9732621
-        ]
-    },
-    {
         "name": "Zimmer Hotel Bosphorus",
         "coordinates": [
             41.0313842,
@@ -865,13 +725,6 @@
         "coordinates": [
             41.0240802,
             28.9792412
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0241223,
-            28.9745822
         ]
     },
     {
@@ -952,31 +805,10 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0388656,
-            28.9736275
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0588167,
-            28.9510064
-        ]
-    },
-    {
         "name": "Cihangir Palace",
         "coordinates": [
             41.033159,
             28.987451
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0366991,
-            28.9906727
         ]
     },
     {
@@ -1029,13 +861,6 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0253068,
-            28.9730649
-        ]
-    },
-    {
         "name": "Linfer Hotel",
         "coordinates": [
             41.0377527,
@@ -1068,13 +893,6 @@
         "coordinates": [
             41.0381977,
             28.9812757
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0344071,
-            28.9797142
         ]
     },
     {
@@ -1162,20 +980,6 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0345439,
-            28.9830651
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.036239,
-            28.9821328
-        ]
-    },
-    {
         "name": "Garlon Residence",
         "coordinates": [
             41.0367859,
@@ -1190,38 +994,10 @@
         ]
     },
     {
-        "name": NaN,
-        "coordinates": [
-            41.0396593,
-            28.9817206
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0339145,
-            28.9812311
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0307772,
-            28.974022
-        ]
-    },
-    {
         "name": "Pera Center Hotel",
         "coordinates": [
             41.0342528,
             28.9836892
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0309287,
-            28.9745174
         ]
     },
     {
@@ -1236,13 +1012,6 @@
         "coordinates": [
             41.031207,
             28.9698656
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.0342131,
-            28.9841966
         ]
     },
     {
@@ -1404,13 +1173,6 @@
         "coordinates": [
             41.02341774576847,
             28.973840185607347
-        ]
-    },
-    {
-        "name": NaN,
-        "coordinates": [
-            41.03359914169835,
-            28.981509174875082
         ]
     },
     {
