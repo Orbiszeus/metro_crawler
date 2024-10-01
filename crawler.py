@@ -26,6 +26,8 @@ async def get_hotel_item(sb):
     rooms_with_breakfast_number = "0"
     breakfast_types_list = []
     try:
+        sb.click("css selector", "button[class='BtnPair__RejectBtn']")
+        sb.sleep(3)
         hotel_name_elements = sb.find_elements("css selector", "h2[data-selenium='hotel-header-name'], p[data-selenium='hotel-header-name']")
         if hotel_name_elements:
             hotel_name = hotel_name_elements[0].text
@@ -42,10 +44,14 @@ async def get_hotel_item(sb):
         hotel_location = "N/A"
 
     try:
+        sb.sleep(3)
         hotel_rating = sb.find_element("css selector", "span[class='sc-jrAGrp sc-kEjbxe fzPhrN ehWyCi']").text
+        if hotel_rating == "":
+            hotel_rating = sb.find_element("css selector", "span[class='af4c3-af4c3-box af4c3-m-none af4c3-mr-xs']").text
+        print("Rating: " + hotel_rating)
     except:
         hotel_rating = "N/A"
-
+    sb.sleep(2)
     try:
         parent_breakfasts_room_count = sb.find_element("css selector", "div[data-selenium='RoomGridFilter-filterGroup']")
         all_divs = parent_breakfasts_room_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
@@ -58,6 +64,7 @@ async def get_hotel_item(sb):
                 match = re.search(pattern, rooms_with_breakfast_number_raw)
                 if match:
                     rooms_with_breakfast_number = match.group(1)
+                    print("Room with breakfast:" + str(rooms_with_breakfast_number))
                     break
     except:
         rooms_with_breakfast_number = "0"
@@ -89,6 +96,8 @@ async def get_hotel_item(sb):
                             total_room_number = str(number)
                             
                     total_room_number = number_span
+            
+
                     print("Room Count: " + total_room_number)
                 except:
                     total_room_number = "0"
@@ -122,7 +131,7 @@ async def get_hotel_item(sb):
                     breakfast_types_list.append(breakfast_types.text)
             except:
                 breakfast_types = "Otelin içerisinde kahvaltı içeriği bilgisi yer almıyor."                            
-                
+            print("Breakfast Types: ", breakfast_types_list)        
         # all_divs = parent_restaurant_details.find_elements("css selector", "div.Box-sc-kv6pi1-0.dtSdUZ")
             # for div in parent_restaurant_details:
             try:
@@ -130,13 +139,13 @@ async def get_hotel_item(sb):
                 if restaurant_divs:
                     for rests in restaurant_divs:
                         try:
-                            restaurant_in_hotel_count += 1
-                            restaurant_name = rests.find_element("css selector", "h5.sc-jrAGrp.sc-kEjbxe.bmFdwl.kGfVSb").text
+                            restaurant_name = rests.find_element("css selector", "h5[class='sc-jrAGrp sc-kEjbxe bmFdwl kGfVSb']").text
+                            print("Restaurant name: " + str(restaurant_name))
                         except:
                             restaurant_name = "Otelin içerisinde restoran bulunmuyor."
                         try:
                             pattern = r'Mutfak:(.*)'
-                            kitchen_name = div.find_element("css selector", "div.a9733-box.a9733-fill-inherit.a9733-text-inherit.a9733-items-center.a9733-inline-flex").text
+                            kitchen_name = rests.find_element("css selector", "span[class='Spanstyled__SpanStyled-sc-16tp9kb-0 gwICfd kite-js-Span ']").text
                             match = re.search(pattern, kitchen_name)
                             if match:
                                 kitchen_name = match.group(1).strip()
@@ -150,6 +159,7 @@ async def get_hotel_item(sb):
                             "Kitchen": kitchen_name + " Mutfağı",
                             "Menu" : "A la carte"
                         }
+                        print(facility_restaurant_details)
                         all_facility_restaurant_details.append(facility_restaurant_details)
             except:
                 print("No restaurant details are present.")
@@ -178,11 +188,10 @@ async def get_hotel_item(sb):
 
 async def hotel_crawler(url, is_single):
     hotel_items = []
-    with SB(uc=True, headless=False) as sb:
+    with SB(uc=True, headless=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 10) 
         try:
             if is_single:
-                sb.sleep(1)
                 print("Page Title: " + sb.get_title())
                 sb.click("css selector", "div[class='SearchboxBackdrop']")
                 hotel_item = await get_hotel_item(sb)
@@ -190,7 +199,7 @@ async def hotel_crawler(url, is_single):
                 print(f"Document inserted with ID: {result.inserted_id}")
 
             if not is_single:
-                sb.sleep(5)
+                sb.sleep(3)
                 # sb.uc_gui_handle_cf() --> this method is used only if there is CF involved
                 print("Locale code:" + str(sb.get_locale_code()))
                 print(sb.get_title())
