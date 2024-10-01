@@ -989,21 +989,6 @@
         }
     },
     {
-        "Hotel Name": "Hotel Kale 17",
-        "Hotel Rating": "8,5",
-        "Hotel Location": "Matbaa Sokak no : 7/2, Kemalpaşa, Çanakkale, Türkiye, 17000",
-        "Total Room Number": "0",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "5",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.1491151,
-            "longitude": 26.4011226
-        }
-    },
-    {
         "Hotel Name": "Troia Tusan Hotel",
         "Hotel Rating": "8,5",
         "Hotel Location": "Güzelyalı Köyü, Güzelyalı Mevkii, Tusan Cad. No:85/1, Güzelyalı, Çanakkale, Türkiye, 17060",
@@ -1019,74 +1004,25 @@
         }
     },
     {
-        "Hotel Name": "Grand Hotel Palmiye",
+        "Hotel Name": "Wyndham Grand Istanbul Kalamis Marina Hotel",
         "Hotel Rating": "N/A",
-        "Hotel Location": "Istiklal cad. Imam Adnan sok No 16, Beyoğlu, İstanbul, Türkiye, 34435",
-        "Total Room Number": "25",
-        "Total Restaurant Number": "1",
-        "Total Bar Number": "0",
-        "Breakfast Price": "5 EUR",
-        "Total Number of Rooms with Breakfast": "5",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 41.0358869,
-            "longitude": 28.98270699999999
-        }
-    },
-    {
-        "Hotel Name": "Zoom Hotel",
-        "Hotel Rating": "N/A",
-        "Hotel Location": "No:307 Ankara Cd., Pendik, İstanbul, Türkiye, 34912",
-        "Total Room Number": "47",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "0 EUR",
+        "Hotel Location": "Fener Kalamis Caddesi No 38, Kalamis, Kadıköy, İstanbul, Türkiye, 34726",
+        "Total Room Number": "211",
+        "Total Restaurant Number": "5",
+        "Total Bar Number": "2",
+        "Breakfast Price": "25 EUR",
         "Total Number of Rooms with Breakfast": "0",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 40.913095,
-            "longitude": 29.2978348
-        }
-    },
-    {
-        "Hotel Name": "HANCHI",
-        "Hotel Rating": "N/A",
-        "Hotel Location": "Samsa sokak 11, Kumkapi, Fatih, İstanbul, Türkiye, 34134",
-        "Total Room Number": "17",
-        "Total Restaurant Number": "1",
-        "Total Bar Number": "1",
-        "Breakfast Price": "0 EUR",
-        "Total Number of Rooms with Breakfast": "27",
         "Menu and Restaurant Details: ": [
             {
                 "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
-                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Kitchen": "Akdenizli Mutfağı",
                 "Menu": "A la carte",
-                "Breakfast Options": [
-                    "Kontinental",
-                    "Helal",
-                    "Vejetaryen"
-                ]
+                "Breakfast Options": []
             }
         ],
         "coordinates": {
-            "latitude": 41.0042817,
-            "longitude": 28.9644734
-        }
-    },
-    {
-        "Hotel Name": "ConstantinopolisHotel",
-        "Hotel Rating": "N/A",
-        "Hotel Location": "kucuk ayasofya mahalles , tahsnbey sokagi no:27, Sultanahmet, İstanbul, Türkiye, 34122",
-        "Total Room Number": "50",
-        "Total Restaurant Number": "0",
-        "Total Bar Number": "0",
-        "Breakfast Price": "10 EUR",
-        "Total Number of Rooms with Breakfast": "4",
-        "Menu and Restaurant Details: ": [],
-        "coordinates": {
-            "latitude": 41.0035107,
-            "longitude": 28.9725134
+            "latitude": 40.97736320000001,
+            "longitude": 29.0416963
         }
     }
 ]

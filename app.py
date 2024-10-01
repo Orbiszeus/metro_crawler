@@ -20,11 +20,15 @@ async def hotel_crawl_api(hotel_area: str):
         if not hotel_area:
             raise HTTPException(status_code=400, detail="Hotel area is required")
         search_url = f"https://www.agoda.com/tr-tr/city/{hotel_area}-tr.html"
-        hotels = geodata.get_category_data('hotel')    
+        hotels = geodata.get_category_data('hotels_Beyoglu')    
         for hotel in hotels:
             if "name" in hotel:
                 serper_y_results = await search_engine.hotel_serper_search(hotel["name"])
                 for url in serper_y_results:
+                    if "agoda" not in url:
+                        continue
+                    if "agoda.com" in url and "/tr-tr/" not in url:
+                        url = url.replace("agoda.com", "agoda.com/tr-tr")
                     await crawler.hotel_crawler(url, is_single=True) # "is_single" parameter means only crawling one hotel page 
         results = repository.get_from_mongo()
         if not results:
@@ -49,7 +53,7 @@ async def crawler_endpoint(request: CrawlRequest):
             if "name" in rest:
                 serper_y_results = await search_engine.menu_serper_search(rest["name"], company="g")
                 for url in serper_y_results:
-                    df_json = await crawler.g_crawler(url, rest) 
+                    df_json = await crawler.g_crawler(url, rest["name"]) 
                     # if df_json:
                     #     return {"dataframe": df_json,
                     #             "url": url}
