@@ -3,6 +3,7 @@ from pydantic import BaseModel, Field
 import crawler 
 import repository 
 import search_engine
+import geodata
 
 app = FastAPI()
 
@@ -19,8 +20,13 @@ async def hotel_crawl_api(hotel_area: str):
         if not hotel_area:
             raise HTTPException(status_code=400, detail="Hotel area is required")
         search_url = f"https://www.agoda.com/tr-tr/city/{hotel_area}-tr.html"
-        await crawler.hotel_crawler(search_url)
-        results = await repository.get_from_mongo()
+        hotels = geodata.get_category_data('hotel')    
+        for hotel in hotels:
+            if "name" in hotel:
+                serper_y_results = await search_engine.hotel_serper_search(hotel["name"])
+                for url in serper_y_results:
+                    await crawler.hotel_crawler(url, is_single=True) # "is_single" parameter means only crawling one hotel page 
+        results = repository.get_from_mongo()
         if not results:
             raise HTTPException(status_code=404, detail="No data found in MongoDB")
         return results
@@ -33,22 +39,22 @@ async def hotel_crawl_api(hotel_area: str):
 @app.post("/crawl_menu")
 async def crawler_endpoint(request: CrawlRequest):
     try:
-        area = ""
-        is_area = True
+        restaurant = ""
         if request.area:
-            area += request.area
+            restaurant += request.area
         elif request.restaurant:
-            area += request.restaurant    
-            is_area = False
-        serper_y_results = await search_engine.menu_serper_search(area)
-        for url in serper_y_results:
-            # df_json = await y_crawler(url, is_area, area)
-            df_json = await crawler.g_crawler(url, is_area, area)
-            if df_json:
-                return {"dataframe": df_json,
-                        "url": url}
-            else:
-                return {"error": "Crawling failed"}
+            restaurant += request.restaurant    
+        restaurants = geodata.get_category_data('restaurants')    
+        for rest in restaurants:
+            if "name" in rest:
+                serper_y_results = await search_engine.menu_serper_search(rest["name"], company="g")
+                for url in serper_y_results:
+                    df_json = await crawler.g_crawler(url, rest) 
+                    # if df_json:
+                    #     return {"dataframe": df_json,
+                    #             "url": url}
+                    # else:
+                    #     return {"error": "Crawling failed"}
     except Exception as e:
         print(f"An error occurred: {e}")
         raise HTTPException(status_code=500, detail="An internal server error occurred")

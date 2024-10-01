@@ -1,8 +1,8 @@
 import requests
-from curl_cffi import requests
 import json
 from urllib.parse import quote_plus
 import time 
+from geopy.geocoders import GoogleV3
 
 API_KEY = "AIzaSyDOwgj0fSYvgSNMXtWyxArmahvl-NPRQ00"
 
@@ -14,11 +14,11 @@ async def hotel_serper_search(area):
     url = "https://google.serper.dev/search"
 
     payload = json.dumps({
-    "q": f"{area} Agoda",
+    "q": f"Agoda İstanbul {area} ",
     "gl": "tr"
     })
     headers = {
-    'X-API-KEY': '576de8f38665cad7feb185636d3d3754877a8e61',
+    'X-API-KEY': '57f3e816568aee88361f0ec8bf46a98e121ac096',
     'Content-Type': 'application/json'
     }
 
@@ -31,38 +31,60 @@ async def hotel_serper_search(area):
     
     return search_results
 
-async def menu_serper_search(area):
-    
+async def menu_serper_search(area, company):
+
     url = "https://google.serper.dev/search"
-    
-    payload_y = json.dumps({
-    "q": f"{area} Yemeksepeti",
-    "gl": "tr"
-    })
-    payload_g = json.dumps({
-    "q": f"{area} Getir",
-    "gl": "tr"
-    })
     headers = {
     'X-API-KEY': '57f3e816568aee88361f0ec8bf46a98e121ac096',
     'Content-Type': 'application/json'
-    }
-
-    response = requests.request("POST", url, headers=headers, data=payload_g)
-    
-    data = response.json()
-    search_results = []
-    first_two_items = data["organic"][:2]
-
-    for index, item in enumerate(first_two_items, 1):
-        if "marka" in item.get('link'):
-            print(f"  Link: {item.get('link')}")
-            continue
-        else:
-            search_results.append(item.get('link'))
+    } 
+    if company == "g":
+ 
+        payload_g = json.dumps({
+        "q": f"{area} Kadiköy Getir",
+        "gl": "tr"
+        })
+        response = requests.request("POST", url, headers=headers, data=payload_g)
         
-    return search_results
+        data = response.json()
+        search_results = []
+        first_two_items = data["organic"][:2]
 
+        for index, item in enumerate(first_two_items, 1):
+            if "marka" in item.get('link'):
+                print(f"  Link: {item.get('link')}")
+                continue
+            else:
+                search_results.append(item.get('link'))
+            
+        return search_results
+    
+    if company == "y":
+        payload_y = json.dumps({
+        "q": f"{area} Kadiköy Yemeksepeti",
+        "gl": "tr"
+        })
+        response = requests.request("POST", url, headers=headers, data=payload_y)
+        data = response.json()
+        search_results = []
+
+        for result in data['organic'][:1]:
+            search_results.append(result['link'])
+
+        return search_results
+    
+async def get_coordinates(address):
+    geolocator = GoogleV3(api_key="AIzaSyCA8FOwQt4JhWVrLzJVJaJqbEwQgTLpRvM")
+    try:
+        location = geolocator.geocode(address)
+        if location:
+            return location.latitude, location.longitude
+        else:
+            return None, None
+    except Exception as e:
+        print(f"Error geocoding address '{address}': {e}")
+        return None, None
+    
 def google_maps_search(search_query):
     encoded_query = quote_plus(search_query)
     base_url = f'https://maps.googleapis.com/maps/api/place/textsearch/json?query={encoded_query}&key={API_KEY}'

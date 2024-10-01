@@ -9,7 +9,7 @@ db = client["MetroAnalyst"]
 hotel_collection = db["hotels"]
 restaurants_collection = db["restaurants"]
 
-async def get_from_mongo(collection_name):
+def get_from_mongo(collection_name):
     output_file = ""
     if collection_name == "hotel":
         cursor = hotel_collection.find({}, {'_id': 0}) 
@@ -26,7 +26,7 @@ async def get_from_mongo(collection_name):
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(documents_json)
 
-async def insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, rating):
+def insert_menu_to_db(menu_items,restaurant_name, rating):
     menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
     menu_items_list = json.loads(menu_items_json) 
     
@@ -35,10 +35,23 @@ async def insert_menu_to_db(menu_items, latitude, longitude, restaurant_name, ra
     "Restaurant Name": restaurant_name,
     "Rating" : rating,
     "Menu": menu_items_list,
-    "coordinates" : {
-        "latitude" : latitude if latitude is not None else 0.0,
-        "longitude": longitude if longitude is not None else 0.0
-    }
     }
     result = restaurants_collection.insert_one(restaurant_data)
     (f"Document inserted with ID: {result.inserted_id}")
+
+def check_restaurant_exists(restaurant_name):
+    # Assuming your collection is named 'restaurants'
+    restaurant = restaurants_collection.find_one({"Restaurant Name": restaurant_name})
+    
+    if restaurant:
+        return True 
+    else:
+        return False  
+    
+def check_hotel_exists(hotel_name):
+    # Assuming your collection is named 'hotels'
+    hotel = hotel_collection.find_one({"Hotel Name": hotel_name})
+    if hotel:
+        return True  
+    else:
+        return False 

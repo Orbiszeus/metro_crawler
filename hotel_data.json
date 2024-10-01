@@ -785,5 +785,308 @@
             "latitude": 41.0590421,
             "longitude": 28.9438254
         }
+    },
+    {
+        "Hotel Name": "Izmir Marriott Hotel",
+        "Hotel Rating": "9,2",
+        "Hotel Location": "Akdeniz Mahallesi Gazi Bulvari No 1 Alsancak, Konak, Kordon, İzmir, Türkiye, 35220",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "4",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 38.4243171,
+            "longitude": 27.1403452
+        }
+    },
+    {
+        "Hotel Name": "Grand Ece Otel",
+        "Hotel Rating": "7,9",
+        "Hotel Location": "KEMALPAŞA MAH. DEĞİRMENLİK 1. ÇIKMAZI SOKAK 4/A, Kemalpaşa, Çanakkale, Türkiye, 17000",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.1479929,
+            "longitude": 26.4044805
+        }
+    },
+    {
+        "Hotel Name": "Ador Troia Hotel",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "No:67 Hacıoğlu Sk., Kemalpaşa, Çanakkale, Türkiye, 17000",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "5",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.14708,
+            "longitude": 26.4067875
+        }
+    },
+    {
+        "Hotel Name": "Aspen Hotel Çanakkale",
+        "Hotel Rating": "9,0",
+        "Hotel Location": "KEMALPAŞA MH. ESKİ BALIKHANE SK. NO:5/1, Kemalpaşa, Çanakkale, Türkiye, 17000",
+        "Total Room Number": "23",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "11",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.1501078,
+            "longitude": 26.4017749
+        }
+    },
+    {
+        "Hotel Name": "Set Ozer Hotel",
+        "Hotel Rating": "9,1",
+        "Hotel Location": "Kemal Yeri Sokak, Kemalpaşa, Çanakkale, Türkiye, 17000",
+        "Total Room Number": "19",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.1486497,
+            "longitude": 26.4025878
+        }
+    },
+    {
+        "Hotel Name": "Kolin Hotel",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "Bogazkent Mevkii Kepez, Kepez, Çanakkale, Türkiye, 17110",
+        "Total Room Number": "274",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "4",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.1057572,
+            "longitude": 26.4031589
+        }
+    },
+    {
+        "Hotel Name": "Canak Hotel",
+        "Hotel Rating": "8,9",
+        "Hotel Location": "Cumhuriyet Meydani Dibek Sk. No:1, Kemalpaşa, Çanakkale, Türkiye, 17100",
+        "Total Room Number": "52",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "4",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.1490875,
+            "longitude": 26.4033493
+        }
+    },
+    {
+        "Hotel Name": "Pelit Troya Hotel",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "KIZILAY CAFER TURKER, Kemalpaşa, Çanakkale, Türkiye, 17100",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "4",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.1497037,
+            "longitude": 26.4041272
+        }
+    },
+    {
+        "Hotel Name": "Kule Hotel",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Kemalpaşa Mahallesi Cumhuriyet Bulvarı N61/55, Kemalpaşa, Çanakkale, Türkiye, 17100",
+        "Total Room Number": "37",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "12",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.1490236,
+            "longitude": 26.4038675
+        }
+    },
+    {
+        "Hotel Name": "Akol Hotel",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "Kayserili Ahmetpaşa Cad. , Kordonboyu, Cevatpaşa, Çanakkale, Türkiye, 17100",
+        "Total Room Number": "135",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "7",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Tam İngiliz/İrlanda"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.1529049,
+            "longitude": 26.407136
+        }
+    },
+    {
+        "Hotel Name": "YURDAKUL HOTEL",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "Barbaros Mah Troya Caddesi No 135, Barbaros, Çanakkale, Türkiye, 17100",
+        "Total Room Number": "48",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.1433334,
+            "longitude": 26.4173717
+        }
+    },
+    {
+        "Hotel Name": "Hotel Kale 17",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Matbaa Sokak no : 7/2, Kemalpaşa, Çanakkale, Türkiye, 17000",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "5",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.1491151,
+            "longitude": 26.4011226
+        }
+    },
+    {
+        "Hotel Name": "Troia Tusan Hotel",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Güzelyalı Köyü, Güzelyalı Mevkii, Tusan Cad. No:85/1, Güzelyalı, Çanakkale, Türkiye, 17060",
+        "Total Room Number": "45",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "6",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.043282,
+            "longitude": 26.345648
+        }
+    },
+    {
+        "Hotel Name": "Grand Hotel Palmiye",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Istiklal cad. Imam Adnan sok No 16, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "25",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "5 EUR",
+        "Total Number of Rooms with Breakfast": "5",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0358869,
+            "longitude": 28.98270699999999
+        }
+    },
+    {
+        "Hotel Name": "Zoom Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "No:307 Ankara Cd., Pendik, İstanbul, Türkiye, 34912",
+        "Total Room Number": "47",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "0",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.913095,
+            "longitude": 29.2978348
+        }
+    },
+    {
+        "Hotel Name": "HANCHI",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Samsa sokak 11, Kumkapi, Fatih, İstanbul, Türkiye, 34134",
+        "Total Room Number": "17",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "0 EUR",
+        "Total Number of Rooms with Breakfast": "27",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Mutfak bilgisi içeriği yer almıyor. Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0042817,
+            "longitude": 28.9644734
+        }
+    },
+    {
+        "Hotel Name": "ConstantinopolisHotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "kucuk ayasofya mahalles , tahsnbey sokagi no:27, Sultanahmet, İstanbul, Türkiye, 34122",
+        "Total Room Number": "50",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "10 EUR",
+        "Total Number of Rooms with Breakfast": "4",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0035107,
+            "longitude": 28.9725134
+        }
     }
 ]
