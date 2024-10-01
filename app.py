@@ -50,11 +50,11 @@ async def crawler_endpoint(request: CrawlRequest):
                 serper_y_results = await search_engine.menu_serper_search(rest["name"], company="g")
                 for url in serper_y_results:
                     df_json = await crawler.g_crawler(url, rest) 
-                    if df_json:
-                        return {"dataframe": df_json,
-                                "url": url}
-                    else:
-                        return {"error": "Crawling failed"}
+                    # if df_json:
+                    #     return {"dataframe": df_json,
+                    #             "url": url}
+                    # else:
+                    #     return {"error": "Crawling failed"}
     except Exception as e:
         print(f"An error occurred: {e}")
         raise HTTPException(status_code=500, detail="An internal server error occurred")

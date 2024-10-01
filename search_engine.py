@@ -41,7 +41,7 @@ async def menu_serper_search(area, company):
     if company == "g":
  
         payload_g = json.dumps({
-        "q": f"{area} Getir",
+        "q": f"{area} Kadiköy Getir",
         "gl": "tr"
         })
         response = requests.request("POST", url, headers=headers, data=payload_g)
@@ -61,7 +61,7 @@ async def menu_serper_search(area, company):
     
     if company == "y":
         payload_y = json.dumps({
-        "q": f"{area} Yemeksepeti",
+        "q": f"{area} Kadiköy Yemeksepeti",
         "gl": "tr"
         })
         response = requests.request("POST", url, headers=headers, data=payload_y)
