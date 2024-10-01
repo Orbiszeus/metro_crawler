@@ -383,7 +383,7 @@ def y_crawler(url, restaurant_name):
             df = pd.DataFrame(menu_items_list)
         except Exception as e:
             print(f"Exception : {e}")
-    return df.to_json(orient='split')   
+    # return df.to_json(orient='split')   
 
 async def main():
     config = uvicorn.Config("app:app", host="0.0.0.0", port=8000)
