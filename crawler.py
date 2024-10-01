@@ -14,7 +14,7 @@ import geodata
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 api_key = os.getenv('GOOGLE_MAPS_API_KEY')
 
-async def get_hotel_item(sb):
+async def get_hotel_item(sb, name):
     all_facility_restaurant_details = []
     hotel_name = ""
     hotel_location = ""
@@ -28,10 +28,11 @@ async def get_hotel_item(sb):
     try:
         sb.click("css selector", "button[class='BtnPair__RejectBtn']")
         sb.sleep(3)
-        hotel_name_elements = sb.find_elements("css selector", "h2[data-selenium='hotel-header-name'], p[data-selenium='hotel-header-name']")
-        if hotel_name_elements:
-            hotel_name = hotel_name_elements[0].text
-            print("Hotel Name: " + str(hotel_name))
+        # hotel_name_elements = sb.find_elements("css selector", "h2[data-selenium='hotel-header-name'], p[data-selenium='hotel-header-name']")
+        # if hotel_name_elements:
+        #     hotel_name = hotel_name_elements[0].text
+        #     print("Hotel Name: " + str(hotel_name))
+        hotel_name = name
         existing_hotel = repository.hotel_collection.find_one({"Hotel Name": hotel_name})
         if existing_hotel:
             print(f"Hotel '{hotel_name}' already exists in the database.")
@@ -44,7 +45,7 @@ async def get_hotel_item(sb):
         hotel_location = "N/A"
 
     try:
-        sb.sleep(3)
+        sb.sleep(2)
         hotel_rating = sb.find_element("css selector", "span[class='sc-jrAGrp sc-kEjbxe fzPhrN ehWyCi']").text
         if hotel_rating == "":
             hotel_rating = sb.find_element("css selector", "span[class='af4c3-af4c3-box af4c3-m-none af4c3-mr-xs']").text
@@ -72,8 +73,9 @@ async def get_hotel_item(sb):
     try:
         parent_restaurant_count = sb.find_element("css selector", "div[data-element-name='about-hotel-useful-info']")
         all_divs = parent_restaurant_count.find_elements("css selector", "div.Box-sc-kv6pi1-0.hRUYUu")
+        print("Number of hotel useful information is: " + len(all_divs))
         for div in all_divs:
-            label_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.gwICfd")
+            label_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.gwICfd.kite-js-Span ")
             if label_span.text == "Restoran Sayısı":
                 try:
                     number_span = div.find_element("css selector", "span.Spanstyled__SpanStyled-sc-16tp9kb-0.kkSkZk")
@@ -186,7 +188,7 @@ async def get_hotel_item(sb):
         }
     }    
 
-async def hotel_crawler(url, is_single):
+async def hotel_crawler(url, hotel_name, is_single):
     hotel_items = []
     with SB(uc=True, headless=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 10) 
@@ -194,7 +196,7 @@ async def hotel_crawler(url, is_single):
             if is_single:
                 print("Page Title: " + sb.get_title())
                 sb.click("css selector", "div[class='SearchboxBackdrop']")
-                hotel_item = await get_hotel_item(sb)
+                hotel_item = await get_hotel_item(sb, hotel_name)
                 result = repository.hotel_collection.insert_one(hotel_item)
                 print(f"Document inserted with ID: {result.inserted_id}")
 

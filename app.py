@@ -25,11 +25,12 @@ async def hotel_crawl_api(hotel_area: str):
             if "name" in hotel:
                 serper_y_results = await search_engine.hotel_serper_search(hotel["name"])
                 for url in serper_y_results:
+                    current_hotel = hotel["name"]
                     if "agoda" not in url:
                         continue
                     if "agoda.com" in url and "/tr-tr/" not in url:
                         url = url.replace("agoda.com", "agoda.com/tr-tr")
-                    await crawler.hotel_crawler(url, is_single=True) # "is_single" parameter means only crawling one hotel page 
+                    await crawler.hotel_crawler(url, current_hotel, is_single=True) # "is_single" parameter means only crawling one hotel page 
         results = repository.get_from_mongo()
         if not results:
             raise HTTPException(status_code=404, detail="No data found in MongoDB")
