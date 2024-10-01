@@ -31,7 +31,7 @@ async def hotel_crawl_api(hotel_area: str):
                     if "agoda.com" in url and "/tr-tr/" not in url:
                         url = url.replace("agoda.com", "agoda.com/tr-tr")
                     await crawler.hotel_crawler(url, current_hotel, is_single=True) # "is_single" parameter means only crawling one hotel page 
-        results = repository.get_from_mongo()
+        results = repository.get_from_mongo("hotel")
         if not results:
             raise HTTPException(status_code=404, detail="No data found in MongoDB")
         return results
@@ -60,6 +60,7 @@ async def crawler_endpoint(request: CrawlRequest):
                     #             "url": url}
                     # else:
                     #     return {"error": "Crawling failed"}
+                repository.get_from_mongo("restaurant")
     except Exception as e:
         print(f"An error occurred: {e}")
         raise HTTPException(status_code=500, detail="An internal server error occurred")

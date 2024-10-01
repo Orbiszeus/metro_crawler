@@ -1231,5 +1231,2716 @@
             "latitude": 41.0345502,
             "longitude": 28.98452499999999
         }
+    },
+    {
+        "Hotel Name": "Tepebaşı Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Asmalimescit Mah. Mesrutiyet Cad. No:91 Tepebasi/Beyoglu, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "46",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Helal",
+                    "Koşer"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.030242,
+            "longitude": 28.973402
+        }
+    },
+    {
+        "Hotel Name": "Euro Plaza Hotel",
+        "Hotel Rating": "7,1",
+        "Hotel Location": "Yahya Kahya Mahallesi Refik Saydam Caddesi No.20/1, Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "89 TRY",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.034722,
+            "longitude": 28.973962
+        }
+    },
+    {
+        "Hotel Name": "Taksim Yufa Suites Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Cumhuriyet Cad. No.31 , Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "İtalyan Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0405078,
+            "longitude": 28.9861159
+        }
+    },
+    {
+        "Hotel Name": "Grand Oztanik Hotel",
+        "Hotel Rating": "7,9",
+        "Hotel Location": "Topcu Caddesi No.11, Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "MANGO RESTORAN",
+                "Kitchen": "Yerel Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.040156,
+            "longitude": 28.984817
+        }
+    },
+    {
+        "Hotel Name": "Grand Hotel de Londres",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Mesrutiyet Caddesi, No53 Tepebaşı, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "54",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "2",
+        "Breakfast Price": "47 TRY",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.032517,
+            "longitude": 28.975194
+        }
+    },
+    {
+        "Hotel Name": "Nippon Hotel",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "Top&#231;u Cad. No:6 T alimhane Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Niwa Restaurant",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Helal",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Tam İngiliz/İrlanda",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.040385,
+            "longitude": 28.9850417
+        }
+    },
+    {
+        "Hotel Name": "Taksim Star Hotel",
+        "Hotel Rating": "6,5",
+        "Hotel Location": "Sıraselviler Cad. No.37, Beyoğlu, Taksim, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "42",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "2",
+        "Breakfast Price": "3 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Restaurant #1",
+                "Kitchen": "Hint Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Asyalı",
+                    "Helal"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0348938,
+            "longitude": 28.9848858
+        }
+    },
+    {
+        "Hotel Name": "Point Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Topcu Caddesi No 2 Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "233",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "2",
+        "Breakfast Price": "16 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Avrupa Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0406118,
+            "longitude": 28.9854697
+        }
+    },
+    {
+        "Hotel Name": "Weingart Hotel",
+        "Hotel Rating": "8,7",
+        "Hotel Location": "Necatibey Caddesi No:69 Karaköy Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.024942,
+            "longitude": 28.978061
+        }
+    },
+    {
+        "Hotel Name": "Cheers Port House Hotel",
+        "Hotel Rating": "8,0",
+        "Hotel Location": "Mumhane Cad. No.31 , Karaköy, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "10",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0242428,
+            "longitude": 28.9782642
+        }
+    },
+    {
+        "Hotel Name": "The Central Palace Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Lamartin Sokak No:18, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "Tam İngiliz/İrlanda",
+                    "Koşer"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0396151,
+            "longitude": 28.9849402
+        }
+    },
+    {
+        "Hotel Name": "Crystal Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Receppaşa Sok. No. 7 , Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "185",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0398665,
+            "longitude": 28.9853792
+        }
+    },
+    {
+        "Hotel Name": "Gezilist House Residence Hotel",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "Sehsuvarbey Mah. Kadirga Limani Cad. No:40 Kumkapi Fatih, Fatih, İstanbul, Türkiye, 34126",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0044653,
+            "longitude": 28.9665658
+        }
+    },
+    {
+        "Hotel Name": "New Pera Suites Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Bülbül Mahallesi Turan Caddesi No 55, Beyoğlu, İstanbul, Türkiye, 34420",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.03833849999999,
+            "longitude": 28.98125
+        }
+    },
+    {
+        "Hotel Name": "İstiklal St House Hotel",
+        "Hotel Rating": "7,5",
+        "Hotel Location": "Kuloglu Mah. Sadri Alisik Sok. No:22, Beyoglu, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "9",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "10 TRY",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0341152,
+            "longitude": 28.9809631
+        }
+    },
+    {
+        "Hotel Name": "The Marmara Taksim Hotel",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "Taksim Square, Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Tuti Restaurant",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0366566,
+            "longitude": 28.9864661
+        }
+    },
+    {
+        "Hotel Name": "Diamond Hotel Taksim",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Ergenekon Mah. Dolapdere Cad. No 106 Harbiye, Şişli, İstanbul, Türkiye, 34373",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.047203,
+            "longitude": 28.9848896
+        }
+    },
+    {
+        "Hotel Name": "The Peak Hotel",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "Mesrutiyet Caddesi, Oteller Sokak, No:1-3 Tepebasi, Beyoglu, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "200",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "1",
+        "Breakfast Price": "59 TRY",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "La Verde",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0311499,
+            "longitude": 28.9746142
+        }
+    },
+    {
+        "Hotel Name": "Taximist Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kocatepe Mahallesi Taksim Dolapdere Caddesi No 63 Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "22",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0397104,
+            "longitude": 28.9827424
+        }
+    },
+    {
+        "Hotel Name": "Corner Suites Taksim Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Cambazoğlu Sokak 11-13, Beyoğlu, İstanbul, Türkiye, 34400",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0395628,
+            "longitude": 28.9821225
+        }
+    },
+    {
+        "Hotel Name": "Hotel Grand Zentrum",
+        "Hotel Rating": "5,5",
+        "Hotel Location": "Abdulhakhamid Ave. No.10 Taksim, Beyoglu , Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0345502,
+            "longitude": 28.98452499999999
+        }
+    },
+    {
+        "Hotel Name": "Pera Rose Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Mesrutiyet Cad. No.87, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "52",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "10 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0304669,
+            "longitude": 28.973504
+        }
+    },
+    {
+        "Hotel Name": "Art Nouveau Galata Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "Witt Istanbul Hotel",
+        "Hotel Rating": "9,4",
+        "Hotel Location": "Defterdar Yokusu No:26 Cihangir, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.029184,
+            "longitude": 28.9820823
+        }
+    },
+    {
+        "Hotel Name": "Nordstern Hotel, Galata",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "Arap Camii District,Tersane Street,no5 Karakoy, Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "21",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0243025,
+            "longitude": 28.971025
+        }
+    },
+    {
+        "Hotel Name": "duo galata hotel Hotel",
+        "Hotel Rating": "7,9",
+        "Hotel Location": "Sahkulu Mah. Galipdede Cad. No: 56/83, Beyoğlu, İstanbul, Türkiye, 34420",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "SNOG ROOF % BAR",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.026528,
+            "longitude": 28.974512
+        }
+    },
+    {
+        "Hotel Name": "Hotel Birol",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Asmalı Mescit Sokak No:18 Beyoğlu,Taksim, Beyoğlu, İstanbul, Türkiye, 34110",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.09817049999999,
+            "longitude": 29.1684767
+        }
+    },
+    {
+        "Hotel Name": "Galata 1875 Suites Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Hacimimi Mah. Lulecihendek Cad. No 25, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "15",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "12 USD",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.026516,
+            "longitude": 28.978035
+        }
+    },
+    {
+        "Hotel Name": "DoubleTree by Hilton Hotel Istanbul - Piyalepasa",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kaptanpasa Mahallesi, Piyalepasa Bulvari 5,, Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Vegan"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0396153,
+            "longitude": 28.9663636
+        }
+    },
+    {
+        "Hotel Name": "Elan Otel Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Asmalimescit Mah. Mesrutiyet Cad. No:91 Tepebasi/Beyoglu, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Helal",
+                    "Koşer"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.030242,
+            "longitude": 28.973402
+        }
+    },
+    {
+        "Hotel Name": "Devman Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Asmalimescit Caddesi No:22 Tepebasi, Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0303024,
+            "longitude": 28.9744721
+        }
+    },
+    {
+        "Hotel Name": "Bristol Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "Monopol Hotel",
+        "Hotel Rating": "8,7",
+        "Hotel Location": "Meşrutiyet Cad. No.93 , Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0302391,
+            "longitude": 28.97338959999999
+        }
+    },
+    {
+        "Hotel Name": "Karakoy Aparts Hotel",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "Yüksek Kaldırım Caddesi No.49 Karaköy , Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.023977,
+            "longitude": 28.975173
+        }
+    },
+    {
+        "Hotel Name": "Faros Hotel",
+        "Hotel Rating": "9,0",
+        "Hotel Location": "Divan Yolu Caddesi No:76, Eminonu, Sultanahmet, İstanbul, Türkiye, 34110",
+        "Total Room Number": "23",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "5 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Faros Old City",
+                "Kitchen": "Amerikan Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0083644,
+            "longitude": 28.9737642
+        }
+    },
+    {
+        "Hotel Name": "galata life Hotel",
+        "Hotel Rating": "9,0",
+        "Hotel Location": "Sahkulu Mah. Galipdede Cad. No:75 Galata Karakoy, Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0267858,
+            "longitude": 28.9746169
+        }
+    },
+    {
+        "Hotel Name": "The Marmara Pera Hotel",
+        "Hotel Rating": "8,0",
+        "Hotel Location": "Meşrutiyet Caddesi, Tepebaşı, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "205",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "2",
+        "Breakfast Price": "15 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Mikla",
+                "Kitchen": "Yerel Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Tam İngiliz/İrlanda"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.03292,
+            "longitude": 28.97407
+        }
+    },
+    {
+        "Hotel Name": "Adamant Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "Adahan Hotel",
+        "Hotel Rating": "9,3",
+        "Hotel Location": "Asamalit mescit Mah. General Yazgan Sokagi No 14, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Cachi Lokanta Bar",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.029124,
+            "longitude": 28.973268
+        }
+    },
+    {
+        "Hotel Name": "occidental pees hotel Istanbul Hotel",
+        "Hotel Rating": "8,7",
+        "Hotel Location": "Topcu Caddesi,No.19, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Portofino Stage",
+                "Kitchen": "Avrupa Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0399182,
+            "longitude": 28.9842107
+        }
+    },
+    {
+        "Hotel Name": "Seminal Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kocatepe Mahallesi Sehit Muhtar Caddesi Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0394189,
+            "longitude": 28.9841552
+        }
+    },
+    {
+        "Hotel Name": "De pera Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Mesrutiyet Cad. No:113 Sishane/Beyoglu, Beyoğlu, İstanbul, Türkiye",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.028863,
+            "longitude": 28.973188
+        }
+    },
+    {
+        "Hotel Name": "Eterno Hotel",
+        "Hotel Rating": "7,3",
+        "Hotel Location": "Kocatepe Mahallesi Topçu Cad. No.17, Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "64",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Al Sham Restaurant",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Açık büfe"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.03994590000001,
+            "longitude": 28.98419909999999
+        }
+    },
+    {
+        "Hotel Name": "Serene Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Istiklal Mahallesi, Galatasaray Meydani, Tutuncu Cikmazi No 4/1, Beyoglu, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "10",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "35 TRY",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.033558,
+            "longitude": 28.976783
+        }
+    },
+    {
+        "Hotel Name": "Alyon Hotel",
+        "Hotel Rating": "5,8",
+        "Hotel Location": "Kuloğlu mahallesi Alyon gecidi sokak no 2 Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "27",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0344285,
+            "longitude": 28.9804801
+        }
+    },
+    {
+        "Hotel Name": "Vault Karaköy Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Azapkapi Mah, Bankalar Cad. No. 5, Beyoglu, Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "62",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "20 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Helal",
+                    "İtalyan",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0235298,
+            "longitude": 28.9743781
+        }
+    },
+    {
+        "Hotel Name": "8 Istanbul Suites Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kuloğlu Mahallesi Gazeteci Erol Dernek Sokak No.1, Beyoğlu +90 212 249 89 30, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "21",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "47 TRY",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.034259,
+            "longitude": 28.9808589
+        }
+    },
+    {
+        "Hotel Name": "Cihangir Ceylan Suite Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Mebusan Caddesi Akyol Sokak no 24. Cihangir, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.03276899999999,
+            "longitude": 28.9873764
+        }
+    },
+    {
+        "Hotel Name": "Aston hotels Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Katip Mustafa Celebi Mahallesi Siraselviler caddesi Hocazade Sokak No. 16, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "10",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "10 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0339381,
+            "longitude": 28.9842443
+        }
+    },
+    {
+        "Hotel Name": "Nossa Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "Bonne Sante Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Istiklal Street No: 45 Katip Mustafa Celebi Beyoglu / istanbul, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0356982,
+            "longitude": 28.9830834
+        }
+    },
+    {
+        "Hotel Name": "Hotel Au Pera",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Mesrutiyet Cad. No:113 Sishane/Beyoglu, Beyoğlu, İstanbul, Türkiye",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.028863,
+            "longitude": 28.973188
+        }
+    },
+    {
+        "Hotel Name": "كرفان سراي تقسيم Hotel",
+        "Hotel Rating": "2,4",
+        "Hotel Location": "Sehit Muhtar Caddesi No:61, Beyoglu,, Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "65",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.040517,
+            "longitude": 28.9833923
+        }
+    },
+    {
+        "Hotel Name": "Ada Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "palazzo donizetti Hotel",
+        "Hotel Rating": "8,1",
+        "Hotel Location": "Asmalı Mescit Mah. Asmalı Mescit Sok. No.55 , Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Duble Meze Bar",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Açık büfe"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.09817049999999,
+            "longitude": 29.1684767
+        }
+    },
+    {
+        "Hotel Name": "pera Hotel",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "Mesrutiyet Cad. No:113 Sishane/Beyoglu, Beyoğlu, İstanbul, Türkiye",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.028863,
+            "longitude": 28.973188
+        }
+    },
+    {
+        "Hotel Name": "Richmond Hotel",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "Istiklal Caddesi No 227 Tunel Beyoglu Istanbul, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.02972159999999,
+            "longitude": 28.9755606
+        }
+    },
+    {
+        "Hotel Name": "tulip Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Yenidoğan Mah. Cicoz Yolu Caddesi No: 13 Bayrampasa, Bayrampasa, İstanbul, Türkiye, 34030",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0551791,
+            "longitude": 28.9085089
+        }
+    },
+    {
+        "Hotel Name": "the pera hill Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Tepebaşı Meşrutiyet Cad. No.39, Beyoğlu, İstanbul, Türkiye, 34340",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0333064,
+            "longitude": 28.9753674
+        }
+    },
+    {
+        "Hotel Name": "Grand Hotel de Pera",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Meşrutiyet Caddesi No:55 Tepebaşı, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0323946,
+            "longitude": 28.97531649999999
+        }
+    },
+    {
+        "Hotel Name": "Rixos Pera Istanbul Hotel",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "Kamerhatun Mah. Meşrutiyet Cad. No.44, Tepebaşı, Taksim, Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "116",
+        "Total Restaurant Number": "4",
+        "Total Bar Number": "0",
+        "Breakfast Price": "25 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Chapelle The Italian Restaurant",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0333525,
+            "longitude": 28.9751201
+        }
+    },
+    {
+        "Hotel Name": "DUO Galata hotel Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Sahkulu Mah. Galipdede Cad. No: 56/83, Beyoğlu, İstanbul, Türkiye, 34420",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.026528,
+            "longitude": 28.974512
+        }
+    },
+    {
+        "Hotel Name": "Vita Suites Karakoy Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Müeyyetzade mahallesi, Yüksek kaldırım caddesi no:47 karaköy \\ Beyoğlu İstanbul, Beyoğlu, İstanbul, Türkiye, 34420",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0240528,
+            "longitude": 28.9752764
+        }
+    },
+    {
+        "Hotel Name": "Galata Hotel Istanbul - MGallery by Sofitel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Arap Camii Mahallesi Bankalar Caddesi No 21 Beyoglu, Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0240099,
+            "longitude": 28.97256609999999
+        }
+    },
+    {
+        "Hotel Name": "Corinne Hotel",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Turnacıbaşı Caddesi No:41, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "39",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "8 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "TERRACE 41",
+                "Kitchen": "Amerikan Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.033342,
+            "longitude": 28.98086709999999
+        }
+    },
+    {
+        "Hotel Name": "New Taksim Hotel",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "bedrettin mahallesi havuz sokak 23, Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "14",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "7 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0300269,
+            "longitude": 28.969721
+        }
+    },
+    {
+        "Hotel Name": "Ramada;Ramada Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Halaskargazi Cad. No 63, Şişli, İstanbul, Türkiye, 34373",
+        "Total Room Number": "179",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "18 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Helal",
+                    "Vejetaryen",
+                    "Vegan"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0509691,
+            "longitude": 28.9871575
+        }
+    },
+    {
+        "Hotel Name": "White Cihangir Apart Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Beyoğlu, İstanbul, Türkiye",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0382864,
+            "longitude": 28.9703304
+        }
+    },
+    {
+        "Hotel Name": "Sweet Home Taksim Otel Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kocatepe Mah. Çaylak Sk. No.86, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0402834,
+            "longitude": 28.9812607
+        }
+    },
+    {
+        "Hotel Name": "Odda Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "The Purl Hotel",
+        "Hotel Rating": "8,0",
+        "Hotel Location": "Bankalar Cad. No.2/1 , Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34403",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0238524,
+            "longitude": 28.9749162
+        }
+    },
+    {
+        "Hotel Name": "Sed Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Ömer Avni Mah. Muhtar Leyla İldir Sok. No.6, Ayazpaşa ,Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34427",
+        "Total Room Number": "50",
+        "Total Restaurant Number": "2",
+        "Total Bar Number": "2",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.03517129999999,
+            "longitude": 28.9914672
+        }
+    },
+    {
+        "Hotel Name": "Black Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Eski Büyükdere Caddesi No.29, Şişli, İstanbul, Türkiye, 34416",
+        "Total Room Number": "117",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "15 TRY",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.089218,
+            "longitude": 29.005689
+        }
+    },
+    {
+        "Hotel Name": "Soho House Hotel",
+        "Hotel Rating": "8,9",
+        "Hotel Location": "Mesrutiyet Cad. Evliya Celebi Mah. No:56 Beyoglu Istanbul, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Cecconi's",
+                "Kitchen": "İtalyan Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0302581,
+            "longitude": 28.9729463
+        }
+    },
+    {
+        "Hotel Name": "فندق Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Yerebatan cad no 30, Sultanahmet, İstanbul, Türkiye, 34110",
+        "Total Room Number": "20",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0096899,
+            "longitude": 28.9767569
+        }
+    },
+    {
+        "Hotel Name": "Taxim Hill Hotel",
+        "Hotel Rating": "7,7",
+        "Hotel Location": "Siraselviler No:5 Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "HILL TERRACE RESTAURANT",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0366037,
+            "longitude": 28.9854615
+        }
+    },
+    {
+        "Hotel Name": "التقاء Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "T.Square Hotel",
+        "Hotel Rating": "9,3",
+        "Hotel Location": "Kocatepe Mah. Feridiye Caddesi No: 93 Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.039883,
+            "longitude": 28.9820319
+        }
+    },
+    {
+        "Hotel Name": "Place F Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "Tryp by Wyndham Taksim Hotel",
+        "Hotel Rating": "7,5",
+        "Hotel Location": "Kazancı Yokusu Sokak No 8-12 Taksim/İstanbul, Beyoğlu, İstanbul, Türkiye, 00000",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0354429,
+            "longitude": 28.9854659
+        }
+    },
+    {
+        "Hotel Name": "Walton Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Bankalar Caddesi, Şair Eşref Paşa Sok. No 4 Galata - Istanbul - Türkiye, Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "27",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "8 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Menü: A la carte Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0258719,
+            "longitude": 28.9723579
+        }
+    },
+    {
+        "Hotel Name": "The Westist Hotel&SPA",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Balyoz Sokak Asmalı Mescit Mahallesi, Balyoz Sokak No:14, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.03099599999999,
+            "longitude": 28.9747632
+        }
+    },
+    {
+        "Hotel Name": "Sanai Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "Hotel diamond",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Telsiz Mah Muammer Aksoy Cad, Zeytinburnu, İstanbul, Türkiye, 34020",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Vegan"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 40.994028,
+            "longitude": 28.918458
+        }
+    },
+    {
+        "Hotel Name": "Alba Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Ahmad Racabli 3/28, Nasimi, Bakü, Azerbaycan, AZE1075",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 40.4026246,
+            "longitude": 49.866527
+        }
+    },
+    {
+        "Hotel Name": "Zimmer Hotel Bosphorus",
+        "Hotel Rating": "8,1",
+        "Hotel Location": "Fındıklı Meclis-i Mebusan Cad. No:61, Beyoğlu, İstanbul, Türkiye, 34427",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Lulu Hookah Lounge",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0315336,
+            "longitude": 28.9887657
+        }
+    },
+    {
+        "Hotel Name": "Dora Pera Hotel",
+        "Hotel Rating": "6,6",
+        "Hotel Location": "Dolapdere Caddesi No:33, Şişli, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Dora restraurant",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Helal",
+                    "Vegan",
+                    "Açık büfe"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.044161,
+            "longitude": 28.982253
+        }
+    },
+    {
+        "Hotel Name": "Taksim Square Hotel",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Sıraselviler Cad. No: 7 Taksim Istanbul, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "10 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Restaurant",
+                "Kitchen": "Akdenizli Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.03630450000001,
+            "longitude": 28.9853982
+        }
+    },
+    {
+        "Hotel Name": "JW Mariott Hotel",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "Kemankes Kara Mustafa Pasa Mahallesi, Kemankes Caddesi, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "130",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0235247,
+            "longitude": 28.9786144
+        }
+    },
+    {
+        "Hotel Name": "Taxim Starlight Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "23 Kılıç Aslan Sokak Kamer Hatun, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.035766,
+            "longitude": 28.974704
+        }
+    },
+    {
+        "Hotel Name": "Hotel Santa Hill",
+        "Hotel Rating": "7,5",
+        "Hotel Location": "Kamer Hatun Mah. Refik Saydam Caddesi No.14 Beyoglu-Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0350173,
+            "longitude": 28.9741891
+        }
+    },
+    {
+        "Hotel Name": "The House of Tulpan Hotel",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "Katip Mustafa Celebi, Abdullah Sk. No.9, Beyoğlu, İstanbul, Türkiye, 34000",
+        "Total Room Number": "15",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0349598,
+            "longitude": 28.9834171
+        }
+    },
+    {
+        "Hotel Name": "Galataport Hotel",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "Bereketzade Mah. Lalelicesme Sok. No 10 Galata, Beyoğlu, İstanbul, Türkiye, 34200",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.02536,
+            "longitude": 28.9729422
+        }
+    },
+    {
+        "Hotel Name": "Galata Hill Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "N/A",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 0.0,
+            "longitude": 0.0
+        }
+    },
+    {
+        "Hotel Name": "The Halich Hotel",
+        "Hotel Rating": "8,9",
+        "Hotel Location": "Emekyemez Mahallesi, Tersane Caddesi No 102, Beyoğlu, İstanbul, Türkiye, 34420",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0248413,
+            "longitude": 28.9697554
+        }
+    },
+    {
+        "Hotel Name": "Hotel Vavien",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "No:5 Aylak Sk., Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "VAVİEN BREAKFAST",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0250532,
+            "longitude": 28.971082
+        }
+    },
+    {
+        "Hotel Name": "Taksim Maya Hotel",
+        "Hotel Rating": "7,9",
+        "Hotel Location": "Kemalpaşa Mah. Fevziye Cad. No:5, Laleli, İstanbul, Türkiye, 34470",
+        "Total Room Number": "48",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Restaurant",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0118536,
+            "longitude": 28.9570038
+        }
+    },
+    {
+        "Hotel Name": "Tango Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Dolapdere Cad. No 213, Şişli, İstanbul, Türkiye, 34373",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0507037,
+            "longitude": 28.9865188
+        }
+    },
+    {
+        "Hotel Name": "Panda Residence Hotel",
+        "Hotel Rating": "8,7",
+        "Hotel Location": "Cumhuriyet Caddesi Selbasi Sokak No:6 Harbiye / Sisli, Şişli, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.048517,
+            "longitude": 28.9868782
+        }
+    },
+    {
+        "Hotel Name": "MAGNOVA STUDİOS Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Tomtom District Istiklal Street No: 165/2, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "9",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "10 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.032642,
+            "longitude": 28.976593
+        }
+    },
+    {
+        "Hotel Name": "Cihangir Palace Hotel",
+        "Hotel Rating": "7,2",
+        "Hotel Location": "Cihangir Mah. Mebusan Yokuşu No/39 Taksim Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "22",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0331199,
+            "longitude": 28.987411
+        }
+    },
+    {
+        "Hotel Name": "Novus Pera Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Asmal Mescit, Jurnal Sokak No.7, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "16",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0294801,
+            "longitude": 28.9736962
+        }
+    },
+    {
+        "Hotel Name": "Net House Hotel",
+        "Hotel Rating": "7,5",
+        "Hotel Location": "Sehit Muhtar Mahallesi Yogurtcu Faik Sokak No:3, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "10",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "3 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0377214,
+            "longitude": 28.9835421
+        }
+    },
+    {
+        "Hotel Name": "Pera Luna Residence Hotel",
+        "Hotel Rating": "9,0",
+        "Hotel Location": "yoğurtçu faik sokak, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "16",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.037678,
+            "longitude": 28.98313
+        }
+    },
+    {
+        "Hotel Name": "Cartoon Hotel",
+        "Hotel Rating": "7,1",
+        "Hotel Location": "Sehit Muhtar Mh., Corbaci Sok. No.36,, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "127",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "30 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "AISHA RESTAURANT",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Helal"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0382354,
+            "longitude": 28.9823266
+        }
+    },
+    {
+        "Hotel Name": "Santa Lucia Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "10 Çamlık Sk., Beykoz, İstanbul, Türkiye, 34825",
+        "Total Room Number": "20",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "1",
+        "Breakfast Price": "6 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.1546259,
+            "longitude": 29.0977136
+        }
+    },
+    {
+        "Hotel Name": "Senator Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "AbdulHak Hamit Caddesi No:9, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.038291,
+            "longitude": 28.983947
+        }
+    },
+    {
+        "Hotel Name": "Taksim Leon's Hotel - Spa & Cafe",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kocatepe, Abdülhak Hamit Cd. No:7, Beyoğlu/İstanbul, 7 , Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "24",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "20 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.03817,
+            "longitude": 28.984011
+        }
+    },
+    {
+        "Hotel Name": "Linfer Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Baş Ağa Çeşmesi Sokak No:7, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.03333860000001,
+            "longitude": 28.9800107
+        }
+    },
+    {
+        "Hotel Name": "Mara İstanbul Hotel",
+        "Hotel Rating": "7,6",
+        "Hotel Location": "Turnacıbaşı caddesi no 4, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "hayvore",
+                "Kitchen": "Ek bilgi yok Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0338593,
+            "longitude": 28.9788887
+        }
+    },
+    {
+        "Hotel Name": "Loop Hotel Bosphorus Istanbul",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Hardal Sokak, 15, Beyoğlu, İstanbul, Türkiye, 34427",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.031934,
+            "longitude": 28.987917
+        }
+    },
+    {
+        "Hotel Name": "Orka Taksim Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kuloğlu Mahallesi Ağahamamı Caddesi No.18, Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "40",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "0",
+        "Breakfast Price": "10 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0358415,
+            "longitude": 28.9826439
+        }
+    },
+    {
+        "Hotel Name": "Taksim story residence Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Bulbul kapanca sk 19/1 AP-Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.038199,
+            "longitude": 28.981302
+        }
+    },
+    {
+        "Hotel Name": "Meroddi Hotel",
+        "Hotel Rating": "8,8",
+        "Hotel Location": "Serdar-i Ekrem Street. No 29, Galata / Beyoglu, Beyoğlu, İstanbul, Türkiye, 34420",
+        "Total Room Number": "18",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Lattas Coffee",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0268447,
+            "longitude": 28.9754327
+        }
+    },
+    {
+        "Hotel Name": "Fidan Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Taksim, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "9",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "15 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0301201,
+            "longitude": 28.9768795
+        }
+    },
+    {
+        "Hotel Name": "Peradays Hotel",
+        "Hotel Rating": "9,3",
+        "Hotel Location": "Kamerhatun Mah. Hamalbaşı Cad. No.32, Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0352252,
+            "longitude": 28.9759986
+        }
+    },
+    {
+        "Hotel Name": "Depiero Hotel Karaköy",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Sarı Zeybek Sokak, Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "1",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0251202,
+            "longitude": 28.9701332
+        }
+    },
+    {
+        "Hotel Name": "Fide Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kalyoncukulluk Mahallesi Tarlabasi Bulvari No:266-268 Taksim / Beyoglu, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0357496,
+            "longitude": 28.9759132
+        }
+    },
+    {
+        "Hotel Name": "Galata Dream Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Yolcuzade İskender Caddesi, Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "13",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0271411,
+            "longitude": 28.9702669
+        }
+    },
+    {
+        "Hotel Name": "The Nest Hotel",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Cumhuriyet Mahallesi , Nakiye Elgün sokak ,no :28 , Şişli, Şişli, İstanbul, Türkiye, 34380",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0549337,
+            "longitude": 28.986342
+        }
+    },
+    {
+        "Hotel Name": "Grand Opera Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "İstiklal Caddesi Tütüncü Çıkmazı No: 5 Taksim, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0329551,
+            "longitude": 28.9765455
+        }
+    },
+    {
+        "Hotel Name": "Four sides beyoĝlu Hotel",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "La Martin Caddesi No:41, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Restaurant",
+                "Kitchen": "Menü: A la carte Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0404167,
+            "longitude": 28.9842607
+        }
+    },
+    {
+        "Hotel Name": "Story Hotel",
+        "Hotel Rating": "9,5",
+        "Hotel Location": "Kumbaracı Sk. No 66 Taksim Beyoglu, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Yeni Lokanta",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.02953189999999,
+            "longitude": 28.9756319
+        }
+    },
+    {
+        "Hotel Name": "Garlon Residence Hotel",
+        "Hotel Rating": "9,2",
+        "Hotel Location": "ŞEHİT MUHTAR MAHALLESİ TARLABAŞI BULVARI NO:150-170 D:31 34435 BEYOĞLU, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "4",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.036411,
+            "longitude": 28.979328
+        }
+    },
+    {
+        "Hotel Name": "costa karakoy hotel Hotel",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "Kemankes Karamustafa Paşa Mah., Tophane İskele Cad., No.10 , Beyoglu, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "22",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0256228,
+            "longitude": 28.9818975
+        }
+    },
+    {
+        "Hotel Name": "Pera Center Hotel",
+        "Hotel Rating": "6,7",
+        "Hotel Location": "Katip Mustafa Celebi Mah. Billurcu Sok. No:14, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "PERA CENTER HOTEL ROOF",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Asyalı",
+                    "Helal"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0342511,
+            "longitude": 28.9836657
+        }
+    },
+    {
+        "Hotel Name": "Next house hotel Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Istiklal Cad. Asmal?mescid Mah. Kallavi Sok. No:4 Beyoglu, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.032193,
+            "longitude": 28.97586179999999
+        }
+    },
+    {
+        "Hotel Name": "Nova Plaza Pera Hotel",
+        "Hotel Rating": "7,6",
+        "Hotel Location": "Hayratci Sokak, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0308329,
+            "longitude": 28.969738
+        }
+    },
+    {
+        "Hotel Name": "Sofitel Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Gumussuyu Mah Siraselviler Cad No 13 Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.036766,
+            "longitude": 28.9852683
+        }
+    },
+    {
+        "Hotel Name": "Kumbaracı Apartments & Suites Hotel",
+        "Hotel Rating": "9,5",
+        "Hotel Location": "Kumbaracı Sk. No 66 Taksim Beyoglu, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Yeni Lokanta",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.02953189999999,
+            "longitude": 28.9756319
+        }
+    },
+    {
+        "Hotel Name": "FAMA Boutique Hotel",
+        "Hotel Rating": "9,2",
+        "Hotel Location": "Arsin Sokak, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "11",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0236562,
+            "longitude": 28.9762042
+        }
+    },
+    {
+        "Hotel Name": "Ore Pera Suite Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kocatepe mahallesi caylak sokak no 73, Beyoğlu, İstanbul, Türkiye, 34454",
+        "Total Room Number": "1",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0399129,
+            "longitude": 28.9813251
+        }
+    },
+    {
+        "Hotel Name": "The Havana Residence Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "firüzağa mahallesi Bostanbaşı Caddesi no 23, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0316543,
+            "longitude": 28.9799598
+        }
+    },
+    {
+        "Hotel Name": "Wilson Galata Hotel",
+        "Hotel Rating": "9,4",
+        "Hotel Location": "Bankalar Caddesi, Şair Eşref Paşa Sok. No 4 Galata - Istanbul - Türkiye, Beyoğlu, İstanbul, Türkiye, 34421",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Simple",
+                "Kitchen": "Menü: A la carte Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0258719,
+            "longitude": 28.9723579
+        }
+    },
+    {
+        "Hotel Name": "taxim cool Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "katip mustafa çelebi mahallesi hocazade sookak no 21, Beyoğlu, İstanbul, Türkiye, 34433",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0337922,
+            "longitude": 28.9834529
+        }
+    },
+    {
+        "Hotel Name": "The Artisan MGallery Istanbul Hotel",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Omer Avni Mah Inonu Caddesi No 42 Gumussuyu Beyoglu, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Restaurant",
+                "Kitchen": "Amerikan Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0369777,
+            "longitude": 28.9921926
+        }
+    },
+    {
+        "Hotel Name": "Marlon Hotel",
+        "Hotel Rating": "7,3",
+        "Hotel Location": "Mecidiyeköy Mahallesi, Mecidiyekuyu Sokak No: 33, Sisli-İstanbul, Şişli, İstanbul, Türkiye, 34287",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Restaurant",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0693214,
+            "longitude": 28.9949862
+        }
+    },
+    {
+        "Hotel Name": "10 Karaköy Hotel",
+        "Hotel Rating": "9,0",
+        "Hotel Location": "Kemeraltı Caddesi No:10 Karaköy, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Brasserie Ten",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0238418,
+            "longitude": 28.9757637
+        }
+    },
+    {
+        "Hotel Name": "Sub Hotel",
+        "Hotel Rating": "8,4",
+        "Hotel Location": "Karaköy Mah. Necatibey Cad. 91, Beyoğlu, İstanbul, Türkiye, 34425",
+        "Total Room Number": "20",
+        "Total Restaurant Number": "1",
+        "Total Bar Number": "1",
+        "Breakfast Price": "10 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0256739,
+            "longitude": 28.9789057
+        }
+    },
+    {
+        "Hotel Name": "Barceló Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Abdülhak Hamit Caddesi No:25/1 Beyoglu, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Akdenizli Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "İtalyan",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Glutensiz"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.04123,
+            "longitude": 28.9837468
+        }
+    },
+    {
+        "Hotel Name": "Ceylan Inter Continental İstanbul Otel Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Asker Ocagi Cad No: 1, Beyoğlu, İstanbul, Türkiye, 34435",
+        "Total Room Number": "390",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "0",
+        "Breakfast Price": "30 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen",
+                    "Tam İngiliz/İrlanda"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0380585,
+            "longitude": 28.9840782
+        }
+    },
+    {
+        "Hotel Name": "İstanbul Taxim Suites Hotel",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Cumhuriyet Cad. No.31 , Beyoğlu, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "FAROS DINE & WINE",
+                "Kitchen": "İtalyan Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0405078,
+            "longitude": 28.9861159
+        }
+    },
+    {
+        "Hotel Name": "CVK Park Bosphorus Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Gumussuyu Mah. Inonu Caddesi No8,, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Türk Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Helal"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0369531,
+            "longitude": 28.9908574
+        }
+    },
+    {
+        "Hotel Name": "Four Sides Lion Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "La Martin Caddesi No:41, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Menü: A la carte Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0404167,
+            "longitude": 28.9842607
+        }
+    },
+    {
+        "Hotel Name": "Titanic City Taksim Hotel",
+        "Hotel Rating": "8,5",
+        "Hotel Location": "Lamartin Caddesi No 47 Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "20 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Alesta Restaurant",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Kontinental",
+                    "Helal",
+                    "Vejetaryen"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0407102,
+            "longitude": 28.9840569
+        }
+    },
+    {
+        "Hotel Name": "Golden Age Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Talimhane Mahç Topcu Cad. No.10 , Taksim, Beyoğlu, İstanbul, Türkiye, 34437",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Otelin içerisinde restoran bulunmuyor.",
+                "Kitchen": "Menü: Büfe Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": [
+                    "Amerikan",
+                    "Kontinental",
+                    "Helal",
+                    "İtalyan",
+                    "Vejetaryen",
+                    "Vegan",
+                    "Tam İngiliz/İrlanda"
+                ]
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0401223,
+            "longitude": 28.9843658
+        }
+    },
+    {
+        "Hotel Name": "Golden City Hotel",
+        "Hotel Rating": "8,2",
+        "Hotel Location": "Tersane Cd.NO:111 Karakoy, 34440, Beyoğlu, İstanbul, Türkiye, 34420",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Peninsula Restorant",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0239172,
+            "longitude": 28.9701049
+        }
+    },
+    {
+        "Hotel Name": "Pera Palace Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Mesrutiyet cad. No:52, Beyoğlu, İstanbul, Türkiye, 34430",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "160 TRY",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.030976,
+            "longitude": 28.973544
+        }
+    },
+    {
+        "Hotel Name": "Tomtom Suites Hotel",
+        "Hotel Rating": "9,5",
+        "Hotel Location": "Bogazkesen Caddesi, Tomtom Kaptan Sokak No.18, Beyoglu, Beyoğlu, İstanbul, Türkiye, 34413",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Nicole Restaurant",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0302261,
+            "longitude": 28.9777573
+        }
+    },
+    {
+        "Hotel Name": "Dosso Dossi Golden Horn Hotel",
+        "Hotel Rating": "8,6",
+        "Hotel Location": "Sutluce Mah. Imrahor Cad. Dutluk Sok. No:3 Beyoglu, Beyoğlu, İstanbul, Türkiye, 34445",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "SUMAC GRILLRESTAURANT",
+                "Kitchen": "Amerikan Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0537887,
+            "longitude": 28.9498169
+        }
+    },
+    {
+        "Hotel Name": "Galata By Boss Hotel",
+        "Hotel Rating": "9,0",
+        "Hotel Location": "Sururi Mahallesi Türkocağı Caddesi No. 15, Fatih, İstanbul, Türkiye, 34120",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0119261,
+            "longitude": 28.9732322
+        }
+    },
+    {
+        "Hotel Name": "Sheraton Istanbul City Center Hotel",
+        "Hotel Rating": "8,3",
+        "Hotel Location": "23 Kurtuluş Deresi Cd., Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "254",
+        "Total Restaurant Number": "3",
+        "Total Bar Number": "4",
+        "Breakfast Price": "15 EUR",
+        "Menu and Restaurant Details: ": [
+            {
+                "Restaurant Name": "Alesta Restaurant",
+                "Kitchen": "Uluslararası Mutfağı",
+                "Menu": "A la carte",
+                "Breakfast Options": []
+            }
+        ],
+        "coordinates": {
+            "latitude": 41.0392763,
+            "longitude": 28.9745488
+        }
+    },
+    {
+        "Hotel Name": "Cher Hotel",
+        "Hotel Rating": "N/A",
+        "Hotel Location": "Kurtuluş Deresi Caddesi, Beyoğlu, İstanbul, Türkiye, 34440",
+        "Total Room Number": "0",
+        "Total Restaurant Number": "0",
+        "Total Bar Number": "0",
+        "Breakfast Price": "0 EUR",
+        "Menu and Restaurant Details: ": [],
+        "coordinates": {
+            "latitude": 41.0387433,
+            "longitude": 28.9737899
+        }
     }
 ]

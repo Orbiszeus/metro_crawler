@@ -201,8 +201,8 @@ async def hotel_crawler(url, hotel_name, is_single):
                 print("Page Title: " + sb.get_title())
                 sb.click("css selector", "div[class='SearchboxBackdrop']")
                 hotel_item = await get_hotel_item(sb, hotel_name)
-                # result = repository.hotel_collection.insert_one(hotel_item)
-                # print(f"Document inserted with ID: {result.inserted_id}")
+                result = repository.hotel_collection.insert_one(hotel_item)
+                print(f"Document inserted with ID: {result.inserted_id}")
 
             if not is_single:
                 sb.sleep(3)
@@ -327,7 +327,6 @@ async def g_crawler(url, restaurant_name):
             menu_items_list = json.loads(menu_items_json)  
             df = pd.DataFrame(menu_items_list) 
             repository.insert_menu_to_db(menu_items, restaurant_name, restaurant_rating)
-            repository.get_from_mongo("restaurant")
             return df.to_json(orient='split')          
         except Exception as e:
             print(f"Exception in Getir Crawler:  {e}")
