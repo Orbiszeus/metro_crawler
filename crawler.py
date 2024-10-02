@@ -299,7 +299,7 @@ async def extract_menu_item(sb):
         print(f"Exception in {e}")
     return menu_items
 
-async def g_crawler(url, restaurant_name):
+async def g_crawler(url, restaurant_name, category):
     menu_items = []
     with SB(uc=True, headless=True, incognito=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 10)
