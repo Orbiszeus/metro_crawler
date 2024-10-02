@@ -1,0 +1,2135 @@
+[
+    {
+        "Restaurant Name": "Big Chefs",
+        "Rating": "4.1",
+        "Menu": [
+            {
+                "Menu Item": "Soslu Alaturka Pizza",
+                "Menu Ingredients": "Dana sucuk, dana jambon, dana sosis, krema sos, zeytin, tane m\u0131s\u0131r, mozarella peyniri, domates sos ile",
+                "Price": "\u20ba540,00"
+            },
+            {
+                "Menu Item": "Tavuk Schnitzel",
+                "Menu Ingredients": "Patates salatas\u0131, roka ve domates ile",
+                "Price": "\u20ba540,00"
+            },
+            {
+                "Menu Item": "BigJoy",
+                "Menu Ingredients": "2 adet mini hamburger, patates k\u0131zartmas\u0131, 4 adet falafel, cips nachos, \u00e7\u0131t\u0131r tavuk, 3 adet tavuklu quesadilla, k\u0131zarm\u0131\u015f ke\u00e7i peyniri, yufkal\u0131 sosis \u015fi\u015f ve mini \u0131zgara k\u00f6fte ile",
+                "Price": "\u20ba1750,00"
+            },
+            {
+                "Menu Item": "Ma\u00e7 \u00d6zel",
+                "Menu Ingredients": "Alaturca pizza ve coca cola (330 ml) ile",
+                "Price": "\u20ba456,00"
+            },
+            {
+                "Menu Item": "BigJoy",
+                "Menu Ingredients": "2 adet mini hamburger, patates k\u0131zartmas\u0131, 4 adet falafel, cips nachos, \u00e7\u0131t\u0131r tavuk, 3 adet tavuklu quesadilla, k\u0131zarm\u0131\u015f ke\u00e7i peyniri, yufkal\u0131 sosis \u015fi\u015f ve mini \u0131zgara k\u00f6fte ile",
+                "Price": "\u20ba1750,00"
+            },
+            {
+                "Menu Item": "BigFun",
+                "Menu Ingredients": "Hamburger (adet), patates k\u0131zartmas\u0131, 2 adet tantuni bun, cips nachos, 3 adet tavuklu quesadilla, \u00e7\u0131t\u0131r tavuk ve k\u0131zarm\u0131\u015f ke\u00e7i peyniri ile",
+                "Price": "\u20ba1920,00"
+            },
+            {
+                "Menu Item": "Margarita Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, domates sos ve roka yapraklar\u0131 ile",
+                "Price": "\u20ba345,00"
+            },
+            {
+                "Menu Item": "Soslu Alaturka Pizza",
+                "Menu Ingredients": "Dana sucuk, dana jambon, dana sosis, krema sos, zeytin, tane m\u0131s\u0131r, mozarella peyniri, domates sos ile",
+                "Price": "\u20ba540,00"
+            },
+            {
+                "Menu Item": "D\u00f6rt Peynirli Pizza",
+                "Menu Ingredients": "Parmesan, mozzarella, rokfor, cheddar peyniri, krema sos ve roka yapraklar\u0131 ile",
+                "Price": "\u20ba540,00"
+            },
+            {
+                "Menu Item": "\u00c7ok Peynirli Tost",
+                "Menu Ingredients": "Bazlama ekme\u011fi, ka\u015far peyniri, cheddar peyniri, domates ve pesto sos",
+                "Price": "\u20ba335,00"
+            },
+            {
+                "Menu Item": "Bazlama Tost",
+                "Menu Ingredients": "Bazlama ekme\u011fi, ka\u015far peyniri, sucuk, sosis ve kuru domates pestosu",
+                "Price": "\u20ba335,00"
+            },
+            {
+                "Menu Item": "Etli Yaprak Sarma",
+                "Menu Ingredients": "S\u00fczme yo\u011furt ile",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "K\u00f6fteli Kase",
+                "Menu Ingredients": "Bizim k\u00f6fte, ye\u015fillikler, cherry domates, zahter salatas\u0131, siyez bulguru, f\u0131r\u0131n patates, s\u00fczme yo\u011furt, babagannu\u015f, bazlama ekme\u011fi, sumak, zeytinya\u011f\u0131 ve balzamik sos ile",
+                "Price": "\u20ba575,00"
+            },
+            {
+                "Menu Item": "Etli Kase",
+                "Menu Ingredients": "Izgara dana eti, ye\u015fillikler, vi\u015fne domates, zahter salatas\u0131, siyez bulguru, f\u0131r\u0131n patates, s\u00fczme yogurt, Abagannu\u015f, bazlama ekme\u011fi sumak, zeytinya\u011f\u0131 ve balzamik sos ile",
+                "Price": "\u20ba675,00"
+            },
+            {
+                "Menu Item": "Thai Soslu Tavuk Kase",
+                "Menu Ingredients": "Ye\u015fillikler, Thai sosla sotelenmi\u015f tavuk par\u00e7alar\u0131, soya filizi, avokado, baby \u0131spanak, susam edamame, k\u00f6zlenmi\u015f k\u0131rm\u0131z\u0131 biber, ha\u015flanm\u0131\u015f ye\u015fil mercimek ve zeytinya\u011f\u0131 & limon sos ile ha\u015flanm\u0131\u015f ye\u015fil mercimek ve zeytinya\u011fl\u0131 limon sos",
+                "Price": "\u20ba540,00"
+            },
+            {
+                "Menu Item": "Falafel Kase",
+                "Menu Ingredients": "Mantar dolgulu falafel, ye\u015fillikler, soya filizi, avokado, baby \u0131spanak, edamame,k\u00f6zlenmi\u015f k\u0131rm\u0131z\u0131 biber, ha\u015flanm\u0131\u015f ye\u015fil mercimek ve zeytinya\u011f\u0131 & limon sos",
+                "Price": "\u20ba480,00"
+            },
+            {
+                "Menu Item": "BBQ & Cheddar Soslu Tavuk Kase",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba515,00"
+            },
+            {
+                "Menu Item": "Ball\u0131 Teriyaki Soslu Tavuk Kase",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba530,00"
+            },
+            {
+                "Menu Item": "K\u00f6ri Soslu Tavuk Kase",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba515,00"
+            },
+            {
+                "Menu Item": "K\u00f6fte Bun",
+                "Menu Ingredients": "Bun ekme\u011fi aras\u0131nda \u0131zgara k\u00f6ftesi, domates sos ve roka ile",
+                "Price": "\u20ba470,00"
+            },
+            {
+                "Menu Item": "Tavuk Mangal Bun",
+                "Menu Ingredients": "Bun ekme\u011fi aras\u0131nda barbek\u00fc soslu \u0131zgara tavuk, k\u0131rm\u0131z\u0131 so\u011fan ve maydanoz",
+                "Price": "\u20ba455,00"
+            },
+            {
+                "Menu Item": "BBQ & Cheddar Burger",
+                "Menu Ingredients": "Barbek\u00fc burger k\u00f6fte, cheddar sos, ac\u0131l\u0131 domates salsa, burger sos ve baharatl\u0131 patates k\u0131zartmas\u0131",
+                "Price": "\u20ba535,00"
+            },
+            {
+                "Menu Item": "Big Big Burger",
+                "Menu Ingredients": "Burger k\u00f6ftesi, sote mantar, domates ve karamelize so\u011fan, baharatl\u0131 patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba515,00"
+            },
+            {
+                "Menu Item": "\u00c7\u0131t\u0131r Tavuk Burger",
+                "Menu Ingredients": "\u00c7\u0131t\u0131r tavuk, mayonez & zeytin salsa, burger sos ve baharatl\u0131 patates k\u0131zartmas\u0131",
+                "Price": "\u20ba430,00"
+            },
+            {
+                "Menu Item": "Tand\u0131r Burger",
+                "Menu Ingredients": "Baharatlarla a\u011f\u0131r ate\u015fte pi\u015firilmi\u015f dana tand\u0131r, k\u00f6z patl\u0131can be\u011fendi, \u0131zgara domates, \u0131zgara biber, korni\u015fon tur\u015fu, burger sos ve baharatl\u0131 patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba575,00"
+            },
+            {
+                "Menu Item": "Sinop Mant\u0131s\u0131",
+                "Menu Ingredients": "Yo\u011furt, ceviz ve k\u0131zarm\u0131\u015f ya\u011f ile",
+                "Price": "\u20ba505,00"
+            },
+            {
+                "Menu Item": "Caserecce Pesto Rosso",
+                "Menu Ingredients": "Kuru domates pesto sos, tavuk ve krema",
+                "Price": "\u20ba500,00"
+            },
+            {
+                "Menu Item": "Fettuccine Alfredo",
+                "Menu Ingredients": "Tavuk par\u00e7alar\u0131, mantar, parmesan peyniri ve krema sos",
+                "Price": "\u20ba470,00"
+            },
+            {
+                "Menu Item": "Penne Arrabbiata",
+                "Menu Ingredients": "Ac\u0131l\u0131 domates sos",
+                "Price": "\u20ba370,00"
+            },
+            {
+                "Menu Item": "Glutensiz Makarna",
+                "Menu Ingredients": "Taze domates sos ile",
+                "Price": "\u20ba455,00"
+            },
+            {
+                "Menu Item": "Tavuk Schnitzel",
+                "Menu Ingredients": "Patates salatas\u0131, roka ve domates ile",
+                "Price": "\u20ba540,00"
+            },
+            {
+                "Menu Item": "Bizim K\u00f6fte",
+                "Menu Ingredients": "Tereya\u011fl\u0131 bazlama ekme\u011fi, k\u0131rm\u0131z\u0131 so\u011fanl\u0131 roka salatas\u0131, s\u00fczme yo\u011furt",
+                "Price": "\u20ba565,00"
+            },
+            {
+                "Menu Item": "Izgara Levrek",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba830,00"
+            },
+            {
+                "Menu Item": "Portakall\u0131 Izgara Somon",
+                "Menu Ingredients": "Siyez bulgurlu \u0131spanak kavurmas\u0131, Akdeniz ye\u015fillikleri ve balsamikli domates ile",
+                "Price": "\u20ba830,00"
+            },
+            {
+                "Menu Item": "Baharatl\u0131 Patates Tava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba175,00"
+            },
+            {
+                "Menu Item": "Taze Baharatl\u0131 Patates P\u00fcresi",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba120,00"
+            },
+            {
+                "Menu Item": "Tereya\u011fl\u0131 Kuskus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba120,00"
+            },
+            {
+                "Menu Item": "Vegan Schnitzel",
+                "Menu Ingredients": "Sebze proteini ve lifleri ile haz\u0131rlanm\u0131\u015f schnitzel ve biberiyeli patates ve domatesli roka salatas\u0131 ile",
+                "Price": "\u20ba530,00"
+            },
+            {
+                "Menu Item": "Mantar Dolgulu Falafel",
+                "Menu Ingredients": "Ye\u015fillik, k\u0131rm\u0131z\u0131 so\u011fan tur\u015fusu, tahin sos ile",
+                "Price": "\u20ba445,00"
+            },
+            {
+                "Menu Item": "Kinoa Tabule Salatas\u0131",
+                "Menu Ingredients": "Marul, roka, domates, taze nane, taze so\u011fan, cherry domates, nar taneleri ve nar ek\u015fili sos",
+                "Price": "\u20ba395,00"
+            },
+            {
+                "Menu Item": "Izgara Levrek Salata",
+                "Menu Ingredients": "Izgara levrek filetosu, k\u00f6z patl\u0131can salatas\u0131, mevsim ye\u015fillikleri, beluga mercimek, ma\u015f fasulyesi ve nar vinegret ile",
+                "Price": "\u20ba610,00"
+            },
+            {
+                "Menu Item": "Yan\u0131k Cheesecake",
+                "Menu Ingredients": "Ek\u015fi krema ve krem peynirle haz\u0131rlanm\u0131\u015f, aronya meyveli sos ile",
+                "Price": "\u20ba275,00"
+            },
+            {
+                "Menu Item": "\u015eef'in \u00c7ikolatal\u0131 Tart\u0131",
+                "Menu Ingredients": "\u00c7ok \u00e7ikolatal\u0131 tart, \u00e7\u0131t\u0131r krep k\u0131r\u0131klar\u0131 ve vanilya sos ile",
+                "Price": "\u20ba275,00"
+            },
+            {
+                "Menu Item": "\u015eekersiz Gluten Free Brownie (B\u00fct\u00fcn)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba1860,00"
+            },
+            {
+                "Menu Item": "Yan\u0131k Cheesecake (B\u00fct\u00fcn)",
+                "Menu Ingredients": "Ek\u015fi krema ve krem peynirle haz\u0131rlanm\u0131\u015f, aronya meyveli sos ile",
+                "Price": "\u20ba2375,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Coca Cola \u015eekersiz (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Fanta (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Sprite (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Fuse Tea (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Schweppes Bitter Limon (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Schweppes Mandarin (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Schweppes Lime & Mint (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Schweppes Ginger Ale (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Ayran (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Damla Maden Suyu (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba45,00"
+            },
+            {
+                "Menu Item": "Burn (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            }
+        ],
+        "coordinates": [
+            41.0281177,
+            28.9727155
+        ],
+        "properties": {
+            "cuisine": "american"
+        }
+    },
+    {
+        "Restaurant Name": "Big Chefs",
+        "Rating": "No rating found.",
+        "Menu": [
+            {
+                "Menu Item": "Ma\u00e7 \u00d6zel",
+                "Menu Ingredients": "Alaturca pizza ve coca cola (330 ml) ile",
+                "Price": "\u20ba456,00"
+            },
+            {
+                "Menu Item": "\u00c7ok Peynirli Tost",
+                "Menu Ingredients": "Bazlama ekme\u011fi, ka\u015far peyniri, cheddar peyniri, domates ve pesto sos",
+                "Price": "\u20ba335,00"
+            },
+            {
+                "Menu Item": "Bazlama Tost",
+                "Menu Ingredients": "Bazlama ekme\u011fi, ka\u015far peyniri, sucuk, sosis ve kuru domates pestosu",
+                "Price": "\u20ba335,00"
+            },
+            {
+                "Menu Item": "Etli Yaprak Sarma",
+                "Menu Ingredients": "S\u00fczme yo\u011furt ile",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "Sebze M\u00fccver & Izgara Sak\u0131z Kaba\u011f\u0131 Sarma",
+                "Menu Ingredients": "Naneli yo\u011furt sos ve roka yapraklar\u0131 ile",
+                "Price": "\u20ba300,00"
+            },
+            {
+                "Menu Item": "K\u00f6fteli Kase",
+                "Menu Ingredients": "Bizim k\u00f6fte, ye\u015fillikler, cherry domates, zahter salatas\u0131, siyez bulguru, f\u0131r\u0131n patates, s\u00fczme yo\u011furt, babagannu\u015f, bazlama ekme\u011fi, sumak, zeytinya\u011f\u0131 ve balzamik sos ile",
+                "Price": "\u20ba575,00"
+            },
+            {
+                "Menu Item": "Etli Kase",
+                "Menu Ingredients": "Izgara dana eti, ye\u015fillikler, vi\u015fne domates, zahter salatas\u0131, siyez bulguru, f\u0131r\u0131n patates, s\u00fczme yogurt, Abagannu\u015f, bazlama ekme\u011fi sumak, zeytinya\u011f\u0131 ve balzamik sos ile",
+                "Price": "\u20ba675,00"
+            },
+            {
+                "Menu Item": "Thai Soslu Tavuk Kase",
+                "Menu Ingredients": "Ye\u015fillikler, Thai sosla sotelenmi\u015f tavuk par\u00e7alar\u0131, soya filizi, avokado, baby \u0131spanak, susam edamame, k\u00f6zlenmi\u015f k\u0131rm\u0131z\u0131 biber, ha\u015flanm\u0131\u015f ye\u015fil mercimek ve zeytinya\u011f\u0131 & limon sos ile ha\u015flanm\u0131\u015f ye\u015fil mercimek ve zeytinya\u011fl\u0131 limon sos",
+                "Price": "\u20ba540,00"
+            },
+            {
+                "Menu Item": "Falafel Kase",
+                "Menu Ingredients": "Mantar dolgulu falafel, ye\u015fillikler, soya filizi, avokado, baby \u0131spanak, edamame,k\u00f6zlenmi\u015f k\u0131rm\u0131z\u0131 biber, ha\u015flanm\u0131\u015f ye\u015fil mercimek ve zeytinya\u011f\u0131 & limon sos",
+                "Price": "\u20ba480,00"
+            },
+            {
+                "Menu Item": "K\u00f6fte Bun",
+                "Menu Ingredients": "Bun ekme\u011fi aras\u0131nda \u0131zgara k\u00f6ftesi, domates sos ve roka ile",
+                "Price": "\u20ba470,00"
+            },
+            {
+                "Menu Item": "Tavuk Mangal Bun",
+                "Menu Ingredients": "Bun ekme\u011fi aras\u0131nda barbek\u00fc soslu \u0131zgara tavuk, k\u0131rm\u0131z\u0131 so\u011fan ve maydanoz",
+                "Price": "\u20ba455,00"
+            },
+            {
+                "Menu Item": "BBQ & Cheddar Burger",
+                "Menu Ingredients": "Barbek\u00fc burger k\u00f6fte, cheddar sos, ac\u0131l\u0131 domates salsa, burger sos ve baharatl\u0131 patates k\u0131zartmas\u0131",
+                "Price": "\u20ba535,00"
+            },
+            {
+                "Menu Item": "Big Big Burger",
+                "Menu Ingredients": "Burger k\u00f6ftesi, sote mantar, domates ve karamelize so\u011fan, baharatl\u0131 patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba515,00"
+            },
+            {
+                "Menu Item": "\u00c7\u0131t\u0131r Tavuk Burger",
+                "Menu Ingredients": "\u00c7\u0131t\u0131r tavuk, mayonez & zeytin salsa, burger sos ve baharatl\u0131 patates k\u0131zartmas\u0131",
+                "Price": "\u20ba430,00"
+            },
+            {
+                "Menu Item": "Tand\u0131r Burger",
+                "Menu Ingredients": "Baharatlarla a\u011f\u0131r ate\u015fte pi\u015firilmi\u015f dana tand\u0131r, k\u00f6z patl\u0131can be\u011fendi, \u0131zgara domates, \u0131zgara biber, korni\u015fon tur\u015fu, burger sos ve baharatl\u0131 patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba575,00"
+            },
+            {
+                "Menu Item": "Sinop Mant\u0131s\u0131",
+                "Menu Ingredients": "Yo\u011furt, ceviz ve k\u0131zarm\u0131\u015f ya\u011f ile",
+                "Price": "\u20ba505,00"
+            },
+            {
+                "Menu Item": "Caserecce Pesto Rosso",
+                "Menu Ingredients": "Kuru domates pesto sos, tavuk ve krema",
+                "Price": "\u20ba500,00"
+            },
+            {
+                "Menu Item": "Fettuccine Alfredo",
+                "Menu Ingredients": "Tavuk par\u00e7alar\u0131, mantar, parmesan peyniri ve krema sos",
+                "Price": "\u20ba470,00"
+            },
+            {
+                "Menu Item": "Penne Arrabbiata",
+                "Menu Ingredients": "Ac\u0131l\u0131 domates sos",
+                "Price": "\u20ba370,00"
+            },
+            {
+                "Menu Item": "Glutensiz Makarna",
+                "Menu Ingredients": "Taze domates sos ile",
+                "Price": "\u20ba455,00"
+            },
+            {
+                "Menu Item": "Tavuk Schnitzel",
+                "Menu Ingredients": "Patates salatas\u0131, roka ve domates ile",
+                "Price": "\u20ba540,00"
+            },
+            {
+                "Menu Item": "Bizim K\u00f6fte",
+                "Menu Ingredients": "Tereya\u011fl\u0131 bazlama ekme\u011fi, k\u0131rm\u0131z\u0131 so\u011fanl\u0131 roka salatas\u0131, s\u00fczme yo\u011furt",
+                "Price": "\u20ba565,00"
+            },
+            {
+                "Menu Item": "Izgara Levrek",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba830,00"
+            },
+            {
+                "Menu Item": "Portakall\u0131 Izgara Somon",
+                "Menu Ingredients": "Siyez bulgurlu \u0131spanak kavurmas\u0131, Akdeniz ye\u015fillikleri ve balsamikli domates ile",
+                "Price": "\u20ba830,00"
+            },
+            {
+                "Menu Item": "Baharatl\u0131 Patates Tava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba175,00"
+            },
+            {
+                "Menu Item": "Taze Baharatl\u0131 Patates P\u00fcresi",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba120,00"
+            },
+            {
+                "Menu Item": "Tereya\u011fl\u0131 Kuskus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba120,00"
+            },
+            {
+                "Menu Item": "Vegan Schnitzel",
+                "Menu Ingredients": "Sebze proteini ve lifleri ile haz\u0131rlanm\u0131\u015f schnitzel ve biberiyeli patates ve domatesli roka salatas\u0131 ile",
+                "Price": "\u20ba530,00"
+            },
+            {
+                "Menu Item": "Mantar Dolgulu Falafel",
+                "Menu Ingredients": "Ye\u015fillik, k\u0131rm\u0131z\u0131 so\u011fan tur\u015fusu, tahin sos ile",
+                "Price": "\u20ba445,00"
+            },
+            {
+                "Menu Item": "Kinoa Tabule Salatas\u0131",
+                "Menu Ingredients": "Marul, roka, domates, taze nane, taze so\u011fan, cherry domates, nar taneleri ve nar ek\u015fili sos",
+                "Price": "\u20ba395,00"
+            },
+            {
+                "Menu Item": "Izgara Levrek Salata",
+                "Menu Ingredients": "Izgara levrek filetosu, k\u00f6z patl\u0131can salatas\u0131, mevsim ye\u015fillikleri, beluga mercimek, ma\u015f fasulyesi ve nar vinegret ile",
+                "Price": "\u20ba610,00"
+            },
+            {
+                "Menu Item": "\u015eef'in \u00c7ikolatal\u0131 Tart\u0131",
+                "Menu Ingredients": "\u00c7ok \u00e7ikolatal\u0131 tart, \u00e7\u0131t\u0131r krep k\u0131r\u0131klar\u0131 ve vanilya sos ile",
+                "Price": "\u20ba275,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Coca Cola \u015eekersiz (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Fanta (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Sprite (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Fuse Tea (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Ayran (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Damla Maden Suyu (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba45,00"
+            },
+            {
+                "Menu Item": "Burn (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            }
+        ],
+        "coordinates": [
+            41.0281177,
+            28.9727155
+        ],
+        "properties": {
+            "cuisine": "american"
+        }
+    },
+    {
+        "Restaurant Name": "Borsa Lokantas\u0131",
+        "Rating": "4.7",
+        "Menu": [
+            {
+                "Menu Item": "Be\u011fendili Kebap",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "Pirin\u00e7 Pilav\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba70,00"
+            },
+            {
+                "Menu Item": "Cac\u0131k",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba60,00"
+            },
+            {
+                "Menu Item": "Ekmek",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba8,00"
+            },
+            {
+                "Menu Item": "S\u00fctla\u00e7",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Ezogelin \u00c7orbas\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba70,00"
+            },
+            {
+                "Menu Item": "Be\u011fendili Kebap",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "Arnavut Ci\u011feri",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba250,00"
+            },
+            {
+                "Menu Item": "Et Sote",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "P\u00fcreli Kebap",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba250,00"
+            },
+            {
+                "Menu Item": "Patl\u0131can Karn\u0131yar\u0131k",
+                "Menu Ingredients": "Tercihe g\u00f6re pirin\u00e7 pilav\u0131, p\u00fcre veya bulgur pilav\u0131 ile",
+                "Price": "\u20ba240,00"
+            },
+            {
+                "Menu Item": "Kuzu \u0130ncik Ha\u015flama",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba550,00"
+            },
+            {
+                "Menu Item": "Dana Kavurma",
+                "Menu Ingredients": "Pilav ya da p\u00fcre ile",
+                "Price": "\u20ba300,00"
+            },
+            {
+                "Menu Item": "Mant\u0131",
+                "Menu Ingredients": "Yo\u011furt ile",
+                "Price": "\u20ba240,00"
+            },
+            {
+                "Menu Item": "Taze Fasulye",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba120,00"
+            },
+            {
+                "Menu Item": "Kar\u0131\u015f\u0131k Sebze",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Hindi Tand\u0131r",
+                "Menu Ingredients": "Tercihe g\u00f6re pirin\u00e7 pilav\u0131, p\u00fcre veya bulgur pilav\u0131 ile",
+                "Price": "\u20ba190,00"
+            },
+            {
+                "Menu Item": "\u00c7\u0131t\u0131r Kanat",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba170,00"
+            },
+            {
+                "Menu Item": "Beybi \u015ei\u015f",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba170,00"
+            },
+            {
+                "Menu Item": "Zeytinya\u011fl\u0131 Ayran A\u015f\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba110,00"
+            },
+            {
+                "Menu Item": "Zeytinya\u011fl\u0131 \u015eak\u015fuka",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba120,00"
+            },
+            {
+                "Menu Item": "Zeytinya\u011fl\u0131 \u00c7al\u0131 Fasulyesi",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba160,00"
+            },
+            {
+                "Menu Item": "Zeytinya\u011fl\u0131 Abugannu\u015f",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba110,00"
+            },
+            {
+                "Menu Item": "Pembe Sultan",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba110,00"
+            },
+            {
+                "Menu Item": "Havu\u00e7 Tarator",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba110,00"
+            },
+            {
+                "Menu Item": "Patl\u0131can Be\u011fendi",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Pirin\u00e7 Pilav\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba70,00"
+            },
+            {
+                "Menu Item": "Patates K\u0131zartmas\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba60,00"
+            },
+            {
+                "Menu Item": "Kutu Yo\u011furt",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba40,00"
+            },
+            {
+                "Menu Item": "Cac\u0131k",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba60,00"
+            },
+            {
+                "Menu Item": "Patates P\u00fcresi",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba70,00"
+            },
+            {
+                "Menu Item": "Bulgur Pilav\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba70,00"
+            },
+            {
+                "Menu Item": "Ekmek",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba8,00"
+            },
+            {
+                "Menu Item": "Roka Salatas\u0131",
+                "Menu Ingredients": "Zeytinya\u011f\u0131, limon, nar ek\u015fisi ve sirke ile",
+                "Price": "\u20ba80,00"
+            },
+            {
+                "Menu Item": "Akdeniz Salata",
+                "Menu Ingredients": "Akdeniz ye\u015fillikleri, zeytinya\u011f\u0131, limon, nar ek\u015fisi ve sirke ile",
+                "Price": "\u20ba80,00"
+            },
+            {
+                "Menu Item": "Ton Bal\u0131kl\u0131 Salata",
+                "Menu Ingredients": "Mevsim ye\u015fillikleri, ton bal\u0131\u011f\u0131, zeytinya\u011f\u0131, limon, nar ek\u015fisi ve sirke",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Mevsim Salata",
+                "Menu Ingredients": "Mevsim ye\u015fillikleri, zeytinya\u011f\u0131, limon, nar ek\u015fisi ve sirke",
+                "Price": "\u20ba70,00"
+            },
+            {
+                "Menu Item": "\u00c7oban Salata",
+                "Menu Ingredients": "Zeytinya\u011f\u0131, limon, nar ek\u015fisi, sirke ve tercihe g\u00f6re so\u011fan ile",
+                "Price": "\u20ba70,00"
+            },
+            {
+                "Menu Item": "Tavukg\u00f6\u011fs\u00fc",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Profiterol",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba125,00"
+            },
+            {
+                "Menu Item": "A\u015fure",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Krem \u015eokola",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Kemalpa\u015fa Tatl\u0131s\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "S\u00fctla\u00e7",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Karamelli Trile\u00e7e",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "\u015eekerpare",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Ke\u015fk\u00fcl",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Kazandibi",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "\u0130rmik Helvas\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba125,00"
+            },
+            {
+                "Menu Item": "Antep F\u0131st\u0131kl\u0131 Tel Kaday\u0131f",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Cevizli Tel Kaday\u0131f",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba100,00"
+            },
+            {
+                "Menu Item": "Kabak Tatl\u0131s\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba125,00"
+            },
+            {
+                "Menu Item": "Coca Cola \u015eekersiz (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba55,00"
+            },
+            {
+                "Menu Item": "Coca Cola Light (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba55,00"
+            },
+            {
+                "Menu Item": "Fanta (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba55,00"
+            },
+            {
+                "Menu Item": "Sprite (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba55,00"
+            },
+            {
+                "Menu Item": "Fuse Tea (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba55,00"
+            },
+            {
+                "Menu Item": "Cappy (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba55,00"
+            },
+            {
+                "Menu Item": "Uluda\u011f Limonata (330 ml)",
+                "Menu Ingredients": "\u015ei\u015fe",
+                "Price": "\u20ba30,00"
+            },
+            {
+                "Menu Item": "S\u00fcta\u015f Ayran (300 ml)",
+                "Menu Ingredients": "\u015ei\u015fe",
+                "Price": "\u20ba30,00"
+            },
+            {
+                "Menu Item": "Soda (200 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba25,00"
+            },
+            {
+                "Menu Item": "Limonlu Soda (200 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba30,00"
+            },
+            {
+                "Menu Item": "Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba14,00"
+            }
+        ],
+        "coordinates": [
+            41.0358603,
+            28.9828407
+        ]
+    },
+    {
+        "Restaurant Name": "Borsa Lokantas\u0131",
+        "Menu": [],
+        "coordinates": [
+            41.0358603,
+            28.9828407
+        ]
+    },
+    {
+        "Restaurant Name": "Midpoint",
+        "Rating": "4.4",
+        "Menu": [
+            {
+                "Menu Item": "Mantarl\u0131 Risotto",
+                "Menu Ingredients": "K\u00fclt\u00fcr mantar\u0131, istiridye mantar\u0131, orman mantar\u0131, sar\u0131msak, tr\u00fcf ya\u011f\u0131, krema, tereya\u011f\u0131",
+                "Price": "\u20ba466,00"
+            },
+            {
+                "Menu Item": "Fettucini Chicken All Pesto",
+                "Menu Ingredients": "Sote tavuk, mantar, k\u0131rm\u0131z\u0131biber, ye\u015fil biber, pesto soslu krema sosu, mihal\u00e7 peyniri",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "Kid Kar\u0131\u015f\u0131k Pizza",
+                "Menu Ingredients": "Salam, sucuk, sosis, m\u0131s\u0131r",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "Barbek\u00fc Etli Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, \u0131zgara et, barbek\u00fc sos, karamelize so\u011fan, renkli biber, domates, roka",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "Margherita Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, domates, fesle\u011fen",
+                "Price": "\u20ba328,00"
+            },
+            {
+                "Menu Item": "Yengen Tost",
+                "Menu Ingredients": "Ek\u015fi mayal\u0131 tost ekme\u011fi, domates sos, ka\u015far peyniri, salam, sucuk, tur\u015fu ve akdeniz ye\u015fillikleri ile",
+                "Price": "\u20ba293,00"
+            },
+            {
+                "Menu Item": "Ayval\u0131k Tostu",
+                "Menu Ingredients": "Sucuk, salam, sosis, amerikan salatas\u0131, ka\u015far peyniri, lutenitsa sos, tur\u015fu, patates k\u0131zartmas\u0131 ve akdeniz ye\u015fillikleri ile",
+                "Price": "\u20ba305,00"
+            },
+            {
+                "Menu Item": "Korean Chicken",
+                "Menu Ingredients": "Izgara kemiksiz tavuk but, korean sos, ki\u015fni\u015fli salatal\u0131k, g\u00fcn\u00fcn pilav\u0131 ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba431,00"
+            },
+            {
+                "Menu Item": "Sweet Chili Chicken",
+                "Menu Ingredients": "K\u0131zarm\u0131\u015f tavuk g\u00f6\u011f\u00fcs par\u00e7alar\u0131, sweet chilli sos, taze so\u011fan, taze ki\u015fni\u015f ve g\u00fcn\u00fcn pilav\u0131 ile",
+                "Price": "\u20ba443,00"
+            },
+            {
+                "Menu Item": "Tavuk \u015enitzel",
+                "Menu Ingredients": "Tavuk \u015fnitzel ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba454,00"
+            },
+            {
+                "Menu Item": "Tavuk K\u00fclbast\u0131",
+                "Menu Ingredients": "Baharatl\u0131 \u0131zgara tavuk g\u00f6\u011f\u00fcs, g\u00fcn\u00fcn pilav\u0131, sote sebze ve patates dilimleri ile",
+                "Price": "\u20ba443,00"
+            },
+            {
+                "Menu Item": "Cajun Basket Chicken",
+                "Menu Ingredients": "Cajun baharatl\u0131 tavuk g\u00f6\u011f\u00fcs par\u00e7alar\u0131 ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba357,00"
+            },
+            {
+                "Menu Item": "Kaburga Burger (180 g)",
+                "Menu Ingredients": "\u00c7avdar ekme\u011fi, f\u0131r\u0131n dana kaburga, cheddar peyniri, karamelize so\u011fan, istiridye mantar\u0131 ve patates k\u0131zartmas\u0131 ilee",
+                "Price": "\u20ba454,00"
+            },
+            {
+                "Menu Item": "Kid Burger",
+                "Menu Ingredients": "Cheddar peyniri, tur\u015fu, marul ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "Texas Burger (180 g)",
+                "Menu Ingredients": "Izgara ac\u0131 biber, cheddar peyniri, karamelize k\u0131rm\u0131z\u0131 so\u011fan, dana bacon ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba449,00"
+            },
+            {
+                "Menu Item": "Midpoint Burger (180 g)",
+                "Menu Ingredients": "Karamelize so\u011fan, mantar, k\u00f6zlenmi\u015f biber, cheddar peyniri ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba454,00"
+            },
+            {
+                "Menu Item": "Klasik Burger",
+                "Menu Ingredients": "Marul, burger sos ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba431,00"
+            },
+            {
+                "Menu Item": "Cheese Burger (180 g)",
+                "Menu Ingredients": "Cheddar peyniri, marul, burger sos, tur\u015fu ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba443,00"
+            },
+            {
+                "Menu Item": "Kid Kar\u0131\u015f\u0131k Pizza",
+                "Menu Ingredients": "Salam, sucuk, sosis, m\u0131s\u0131r",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "Barbek\u00fc Etli Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, \u0131zgara et, barbek\u00fc sos, karamelize so\u011fan, renkli biber, domates, roka",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "Mexican Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, fajita baharatl\u0131 \u0131zgara et, so\u011fan, jalapeno biberi, domates, cheddar peyniri",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "Margherita Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, domates, fesle\u011fen",
+                "Price": "\u20ba328,00"
+            },
+            {
+                "Menu Item": "Combo Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, salam, sucuk, sosis, renkli biber, kekik, domates, zeytin",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "4 Peynirli Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, ke\u00e7i peyniri, mihal\u00e7 peyniri, rokfor peyniri, domates, roka, taze kekik",
+                "Price": "\u20ba449,00"
+            },
+            {
+                "Menu Item": "\u00dc\u00e7 Mantarl\u0131 Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, k\u00fclt\u00fcr mantar\u0131, istiridye mantar\u0131, orman mantar\u0131, kekik, domates, fesle\u011fen",
+                "Price": "\u20ba457,00"
+            },
+            {
+                "Menu Item": "Kid Margherita Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, domates",
+                "Price": "\u20ba276,00"
+            },
+            {
+                "Menu Item": "Fettucini Chicken All Pesto",
+                "Menu Ingredients": "Sote tavuk, mantar, k\u0131rm\u0131z\u0131biber, ye\u015fil biber, pesto soslu krema sosu, mihal\u00e7 peyniri",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "Tavuklu Noodle",
+                "Menu Ingredients": "\u00c7in eri\u015ftesi, j\u00fclyen et, lahana, havu\u00e7, kabak, mantar, renkli biber, soya sos, susam ya\u011f\u0131, tane susam, maydanoz",
+                "Price": "\u20ba420,00"
+            },
+            {
+                "Menu Item": "Penne Arrab\u0131ata",
+                "Menu Ingredients": "So\u011fan, sar\u0131msak, ac\u0131 domates sos, mihal\u00e7 peyniri",
+                "Price": "\u20ba328,00"
+            },
+            {
+                "Menu Item": "Tagliatelle Alfredo",
+                "Menu Ingredients": "Pesto soslu krema, mantar, mihal\u00e7 peyniri",
+                "Price": "\u20ba368,00"
+            },
+            {
+                "Menu Item": "Mac & Cheese",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "Mantarl\u0131 Risotto",
+                "Menu Ingredients": "K\u00fclt\u00fcr mantar\u0131, istiridye mantar\u0131, orman mantar\u0131, sar\u0131msak, tr\u00fcf ya\u011f\u0131, krema, tereya\u011f\u0131",
+                "Price": "\u20ba466,00"
+            },
+            {
+                "Menu Item": "5 Peynirli Ravioli",
+                "Menu Ingredients": "Mihal\u00e7 peyniri, rokfor peyniri, ka\u015far peyniri, chedddar peyniri, mozzarella peyniri, domates sos",
+                "Price": "\u20ba368,00"
+            },
+            {
+                "Menu Item": "Mant\u0131",
+                "Menu Ingredients": "Yo\u011furt ve sos ile",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "5 Peynirli Kremal\u0131 Ravioli",
+                "Menu Ingredients": "Mihal\u00e7 peyniri, rokfor peyniri, ka\u015far peyniri, chedddar peyniri, mozzarella peyniri, domates sos, kremal\u0131 sos",
+                "Price": "\u20ba378,00"
+            },
+            {
+                "Menu Item": "Etli Quesadilla",
+                "Menu Ingredients": "Etli quesadilla (tortilla ekme\u011fi, ac\u0131 biber, sotelenmi\u015f et, ka\u015far peyniri, cheddar peyniri), patates k\u0131zartmas\u0131, akdeniz ye\u015fillikleri, salsa sos ve s\u00fczme yo\u011furt ile",
+                "Price": "\u20ba454,00"
+            },
+            {
+                "Menu Item": "BBQ Tavuk Quesadilla",
+                "Menu Ingredients": "Tavuklu quesadilla (tortilla ekme\u011fi, ac\u0131 biber, sotelenmi\u015f tavuk but par\u00e7alar\u0131, ka\u015far peyniri, cheddar peyniri), patates k\u0131zartmas\u0131, akdeniz ye\u015fillikleri, salsa sos ve s\u00fczme yo\u011furt ile",
+                "Price": "\u20ba420,00"
+            },
+            {
+                "Menu Item": "Tavuk Noodle",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba420,00"
+            },
+            {
+                "Menu Item": "Etli Noodle",
+                "Menu Ingredients": "\u00c7in eri\u015ftesi, j\u00fclyen et, lahana, havu\u00e7, kabak, mantar, renkli biber, soya sos, susam ya\u011f\u0131, tane susam, maydanoz",
+                "Price": "\u20ba449,00"
+            },
+            {
+                "Menu Item": "Patates K\u0131zartmas\u0131",
+                "Menu Ingredients": "Ket\u00e7ap ve mayonez ile",
+                "Price": "\u20ba242,00"
+            },
+            {
+                "Menu Item": "Tr\u00fcfl\u00fc Patates K\u0131zartmas\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba259,00"
+            },
+            {
+                "Menu Item": "Cheddarl\u0131 Patates Tava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba253,00"
+            },
+            {
+                "Menu Item": "Cajun Salatas\u0131",
+                "Menu Ingredients": "Akdeniz ye\u015fillikleri, cajun baharat\u0131 ile panelenmi\u015f tavuk g\u00f6\u011f\u00fcs par\u00e7alar\u0131, ka\u015far peyniri, domates, honey mustard sos",
+                "Price": "\u20ba385,00"
+            },
+            {
+                "Menu Item": "Tavuk Sezar Salata",
+                "Menu Ingredients": "Izgara tavuk dilimleri, marul, sar\u0131msakl\u0131 k\u0131t\u0131r ekmek, sezar sos",
+                "Price": "\u20ba385,00"
+            },
+            {
+                "Menu Item": "Akdeniz Salatas\u0131",
+                "Menu Ingredients": "G\u00f6bek marul, akdeniz ye\u015fillikleri, salatal\u0131k, beyaz peynir, zeytin, ceviz, roka, m\u0131s\u0131r, kapari, zeytinya\u011f\u0131, limon sos",
+                "Price": "\u20ba288,00"
+            },
+            {
+                "Menu Item": "Falafel Salata",
+                "Menu Ingredients": "Marul, roka, nohut k\u00f6fteleri, bergama tulum peyniri, m\u0131s\u0131r, domates, nar ek\u015fili sos",
+                "Price": "\u20ba316,00"
+            },
+            {
+                "Menu Item": "Sezar Salata",
+                "Menu Ingredients": "Marul, sar\u0131msakl\u0131 k\u0131t\u0131r ekmek, sezar sos",
+                "Price": "\u20ba288,00"
+            },
+            {
+                "Menu Item": "Frambuazl\u0131 Cheesecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "B\u00f6\u011f\u00fcrtlenli Cheesecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "\u00c7ikolatal\u0131 Cheesecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "Bask Cheesecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "\u00c7ilekli Cheseecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "Coca Cola Zero Sugar (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Fanta (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Sprite (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Cappy (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Fuse Tea (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Schweppes (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Ayran (300 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Damla Mineralli Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Damla Su Cam (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba55,00"
+            }
+        ],
+        "coordinates": [
+            41.0286271,
+            28.9742703
+        ]
+    },
+    {
+        "Restaurant Name": "Midpoint",
+        "Rating": "4.4",
+        "Menu": [
+            {
+                "Menu Item": "Mantarl\u0131 Risotto",
+                "Menu Ingredients": "K\u00fclt\u00fcr mantar\u0131, istiridye mantar\u0131, orman mantar\u0131, sar\u0131msak, tr\u00fcf ya\u011f\u0131, krema, tereya\u011f\u0131",
+                "Price": "\u20ba466,00"
+            },
+            {
+                "Menu Item": "Fettucini Chicken All Pesto",
+                "Menu Ingredients": "Sote tavuk, mantar, k\u0131rm\u0131z\u0131biber, ye\u015fil biber, pesto soslu krema sosu, mihal\u00e7 peyniri",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "Kid Kar\u0131\u015f\u0131k Pizza",
+                "Menu Ingredients": "Salam, sucuk, sosis, m\u0131s\u0131r",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "Barbek\u00fc Etli Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, \u0131zgara et, barbek\u00fc sos, karamelize so\u011fan, renkli biber, domates, roka",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "Margherita Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, domates, fesle\u011fen",
+                "Price": "\u20ba328,00"
+            },
+            {
+                "Menu Item": "Yengen Tost",
+                "Menu Ingredients": "Ek\u015fi mayal\u0131 tost ekme\u011fi, domates sos, ka\u015far peyniri, salam, sucuk, tur\u015fu ve akdeniz ye\u015fillikleri ile",
+                "Price": "\u20ba293,00"
+            },
+            {
+                "Menu Item": "Ayval\u0131k Tostu",
+                "Menu Ingredients": "Sucuk, salam, sosis, amerikan salatas\u0131, ka\u015far peyniri, lutenitsa sos, tur\u015fu, patates k\u0131zartmas\u0131 ve akdeniz ye\u015fillikleri ile",
+                "Price": "\u20ba305,00"
+            },
+            {
+                "Menu Item": "Korean Chicken",
+                "Menu Ingredients": "Izgara kemiksiz tavuk but, korean sos, ki\u015fni\u015fli salatal\u0131k, g\u00fcn\u00fcn pilav\u0131 ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba431,00"
+            },
+            {
+                "Menu Item": "Sweet Chili Chicken",
+                "Menu Ingredients": "K\u0131zarm\u0131\u015f tavuk g\u00f6\u011f\u00fcs par\u00e7alar\u0131, sweet chilli sos, taze so\u011fan, taze ki\u015fni\u015f ve g\u00fcn\u00fcn pilav\u0131 ile",
+                "Price": "\u20ba443,00"
+            },
+            {
+                "Menu Item": "Tavuk \u015enitzel",
+                "Menu Ingredients": "Tavuk \u015fnitzel ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba454,00"
+            },
+            {
+                "Menu Item": "Tavuk K\u00fclbast\u0131",
+                "Menu Ingredients": "Baharatl\u0131 \u0131zgara tavuk g\u00f6\u011f\u00fcs, g\u00fcn\u00fcn pilav\u0131, sote sebze ve patates dilimleri ile",
+                "Price": "\u20ba443,00"
+            },
+            {
+                "Menu Item": "Cajun Basket Chicken",
+                "Menu Ingredients": "Cajun baharatl\u0131 tavuk g\u00f6\u011f\u00fcs par\u00e7alar\u0131 ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba357,00"
+            },
+            {
+                "Menu Item": "Kaburga Burger (180 g)",
+                "Menu Ingredients": "\u00c7avdar ekme\u011fi, f\u0131r\u0131n dana kaburga, cheddar peyniri, karamelize so\u011fan, istiridye mantar\u0131 ve patates k\u0131zartmas\u0131 ilee",
+                "Price": "\u20ba454,00"
+            },
+            {
+                "Menu Item": "Kid Burger",
+                "Menu Ingredients": "Cheddar peyniri, tur\u015fu, marul ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "Texas Burger (180 g)",
+                "Menu Ingredients": "Izgara ac\u0131 biber, cheddar peyniri, karamelize k\u0131rm\u0131z\u0131 so\u011fan, dana bacon ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba449,00"
+            },
+            {
+                "Menu Item": "Midpoint Burger (180 g)",
+                "Menu Ingredients": "Karamelize so\u011fan, mantar, k\u00f6zlenmi\u015f biber, cheddar peyniri ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba454,00"
+            },
+            {
+                "Menu Item": "Klasik Burger",
+                "Menu Ingredients": "Marul, burger sos ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba431,00"
+            },
+            {
+                "Menu Item": "Cheese Burger (180 g)",
+                "Menu Ingredients": "Cheddar peyniri, marul, burger sos, tur\u015fu ve patates k\u0131zartmas\u0131 ile",
+                "Price": "\u20ba443,00"
+            },
+            {
+                "Menu Item": "Kid Kar\u0131\u015f\u0131k Pizza",
+                "Menu Ingredients": "Salam, sucuk, sosis, m\u0131s\u0131r",
+                "Price": "\u20ba270,00"
+            },
+            {
+                "Menu Item": "Barbek\u00fc Etli Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, \u0131zgara et, barbek\u00fc sos, karamelize so\u011fan, renkli biber, domates, roka",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "Mexican Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, fajita baharatl\u0131 \u0131zgara et, so\u011fan, jalapeno biberi, domates, cheddar peyniri",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "Margherita Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, domates, fesle\u011fen",
+                "Price": "\u20ba328,00"
+            },
+            {
+                "Menu Item": "Combo Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, salam, sucuk, sosis, renkli biber, kekik, domates, zeytin",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "4 Peynirli Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, ke\u00e7i peyniri, mihal\u00e7 peyniri, rokfor peyniri, domates, roka, taze kekik",
+                "Price": "\u20ba449,00"
+            },
+            {
+                "Menu Item": "\u00dc\u00e7 Mantarl\u0131 Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, k\u00fclt\u00fcr mantar\u0131, istiridye mantar\u0131, orman mantar\u0131, kekik, domates, fesle\u011fen",
+                "Price": "\u20ba457,00"
+            },
+            {
+                "Menu Item": "Kid Margherita Pizza",
+                "Menu Ingredients": "Mozzarella peyniri, domates",
+                "Price": "\u20ba276,00"
+            },
+            {
+                "Menu Item": "Fettucini Chicken All Pesto",
+                "Menu Ingredients": "Sote tavuk, mantar, k\u0131rm\u0131z\u0131biber, ye\u015fil biber, pesto soslu krema sosu, mihal\u00e7 peyniri",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "Tavuklu Noodle",
+                "Menu Ingredients": "\u00c7in eri\u015ftesi, j\u00fclyen et, lahana, havu\u00e7, kabak, mantar, renkli biber, soya sos, susam ya\u011f\u0131, tane susam, maydanoz",
+                "Price": "\u20ba420,00"
+            },
+            {
+                "Menu Item": "Penne Arrab\u0131ata",
+                "Menu Ingredients": "So\u011fan, sar\u0131msak, ac\u0131 domates sos, mihal\u00e7 peyniri",
+                "Price": "\u20ba328,00"
+            },
+            {
+                "Menu Item": "Tagliatelle Alfredo",
+                "Menu Ingredients": "Pesto soslu krema, mantar, mihal\u00e7 peyniri",
+                "Price": "\u20ba368,00"
+            },
+            {
+                "Menu Item": "Mac & Cheese",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "Mantarl\u0131 Risotto",
+                "Menu Ingredients": "K\u00fclt\u00fcr mantar\u0131, istiridye mantar\u0131, orman mantar\u0131, sar\u0131msak, tr\u00fcf ya\u011f\u0131, krema, tereya\u011f\u0131",
+                "Price": "\u20ba466,00"
+            },
+            {
+                "Menu Item": "5 Peynirli Ravioli",
+                "Menu Ingredients": "Mihal\u00e7 peyniri, rokfor peyniri, ka\u015far peyniri, chedddar peyniri, mozzarella peyniri, domates sos",
+                "Price": "\u20ba368,00"
+            },
+            {
+                "Menu Item": "Mant\u0131",
+                "Menu Ingredients": "Yo\u011furt ve sos ile",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "5 Peynirli Kremal\u0131 Ravioli",
+                "Menu Ingredients": "Mihal\u00e7 peyniri, rokfor peyniri, ka\u015far peyniri, chedddar peyniri, mozzarella peyniri, domates sos, kremal\u0131 sos",
+                "Price": "\u20ba378,00"
+            },
+            {
+                "Menu Item": "Etli Quesadilla",
+                "Menu Ingredients": "Etli quesadilla (tortilla ekme\u011fi, ac\u0131 biber, sotelenmi\u015f et, ka\u015far peyniri, cheddar peyniri), patates k\u0131zartmas\u0131, akdeniz ye\u015fillikleri, salsa sos ve s\u00fczme yo\u011furt ile",
+                "Price": "\u20ba454,00"
+            },
+            {
+                "Menu Item": "BBQ Tavuk Quesadilla",
+                "Menu Ingredients": "Tavuklu quesadilla (tortilla ekme\u011fi, ac\u0131 biber, sotelenmi\u015f tavuk but par\u00e7alar\u0131, ka\u015far peyniri, cheddar peyniri), patates k\u0131zartmas\u0131, akdeniz ye\u015fillikleri, salsa sos ve s\u00fczme yo\u011furt ile",
+                "Price": "\u20ba420,00"
+            },
+            {
+                "Menu Item": "Tavuk Noodle",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba420,00"
+            },
+            {
+                "Menu Item": "Etli Noodle",
+                "Menu Ingredients": "\u00c7in eri\u015ftesi, j\u00fclyen et, lahana, havu\u00e7, kabak, mantar, renkli biber, soya sos, susam ya\u011f\u0131, tane susam, maydanoz",
+                "Price": "\u20ba449,00"
+            },
+            {
+                "Menu Item": "Patates K\u0131zartmas\u0131",
+                "Menu Ingredients": "Ket\u00e7ap ve mayonez ile",
+                "Price": "\u20ba242,00"
+            },
+            {
+                "Menu Item": "Tr\u00fcfl\u00fc Patates K\u0131zartmas\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba259,00"
+            },
+            {
+                "Menu Item": "Cheddarl\u0131 Patates Tava",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba253,00"
+            },
+            {
+                "Menu Item": "Cajun Salatas\u0131",
+                "Menu Ingredients": "Akdeniz ye\u015fillikleri, cajun baharat\u0131 ile panelenmi\u015f tavuk g\u00f6\u011f\u00fcs par\u00e7alar\u0131, ka\u015far peyniri, domates, honey mustard sos",
+                "Price": "\u20ba385,00"
+            },
+            {
+                "Menu Item": "Tavuk Sezar Salata",
+                "Menu Ingredients": "Izgara tavuk dilimleri, marul, sar\u0131msakl\u0131 k\u0131t\u0131r ekmek, sezar sos",
+                "Price": "\u20ba385,00"
+            },
+            {
+                "Menu Item": "Akdeniz Salatas\u0131",
+                "Menu Ingredients": "G\u00f6bek marul, akdeniz ye\u015fillikleri, salatal\u0131k, beyaz peynir, zeytin, ceviz, roka, m\u0131s\u0131r, kapari, zeytinya\u011f\u0131, limon sos",
+                "Price": "\u20ba288,00"
+            },
+            {
+                "Menu Item": "Falafel Salata",
+                "Menu Ingredients": "Marul, roka, nohut k\u00f6fteleri, bergama tulum peyniri, m\u0131s\u0131r, domates, nar ek\u015fili sos",
+                "Price": "\u20ba316,00"
+            },
+            {
+                "Menu Item": "Sezar Salata",
+                "Menu Ingredients": "Marul, sar\u0131msakl\u0131 k\u0131t\u0131r ekmek, sezar sos",
+                "Price": "\u20ba288,00"
+            },
+            {
+                "Menu Item": "Frambuazl\u0131 Cheesecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "B\u00f6\u011f\u00fcrtlenli Cheesecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "\u00c7ikolatal\u0131 Cheesecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "Bask Cheesecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "\u00c7ilekli Cheseecake",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba247,00"
+            },
+            {
+                "Menu Item": "Coca Cola Zero Sugar (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Fanta (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Sprite (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Cappy (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Fuse Tea (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Schweppes (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Ayran (300 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Damla Mineralli Su (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba92,00"
+            },
+            {
+                "Menu Item": "Damla Su Cam (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba55,00"
+            }
+        ],
+        "coordinates": [
+            41.0315833,
+            28.9761587
+        ]
+    },
+    {
+        "Restaurant Name": "Midpoint",
+        "Menu": [],
+        "coordinates": [
+            41.0286271,
+            28.9742703
+        ]
+    },
+    {
+        "Restaurant Name": "Midpoint",
+        "Menu": [],
+        "coordinates": [
+            41.0315833,
+            28.9761587
+        ]
+    },
+    {
+        "Restaurant Name": "Ali Ocakba\u015f\u0131",
+        "Rating": "4.5",
+        "Menu": [
+            {
+                "Menu Item": "Lahmacun",
+                "Menu Ingredients": "Maydanoz, domates, so\u011fan ile",
+                "Price": "\u20ba150,00"
+            },
+            {
+                "Menu Item": "\u00c7\u00f6p \u015ei\u015f",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba495,00"
+            },
+            {
+                "Menu Item": "Ali Kebap",
+                "Menu Ingredients": "(Dana ve kuzu k\u0131ymadan) K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba475,00"
+            },
+            {
+                "Menu Item": "Gavurda\u011f\u0131 Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba295,00"
+            },
+            {
+                "Menu Item": "Tavuk \u015ei\u015f",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba395,00"
+            },
+            {
+                "Menu Item": "Ali Kebap",
+                "Menu Ingredients": "(Dana ve kuzu k\u0131ymadan) K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba475,00"
+            },
+            {
+                "Menu Item": "Ali K\u00f6fte",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba465,00"
+            },
+            {
+                "Menu Item": "Ali Pirzola",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba550,00"
+            },
+            {
+                "Menu Item": "A\u00e7\u0131k Beyti Kebap",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba650,00"
+            },
+            {
+                "Menu Item": "Sarma Beyti Kebap",
+                "Menu Ingredients": "(Yo\u011furtlu, soslu, lava\u015fa sar\u0131l\u0131) K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba650,00"
+            },
+            {
+                "Menu Item": "Dana Bonfile",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba890,00"
+            },
+            {
+                "Menu Item": "Dana Bonfile (Tek Par\u00e7a)",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba260,00"
+            },
+            {
+                "Menu Item": "Ci\u011fer \u015ei\u015f",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba475,00"
+            },
+            {
+                "Menu Item": "\u00c7\u00f6p \u015ei\u015f",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba495,00"
+            },
+            {
+                "Menu Item": "F\u0131st\u0131kl\u0131 Kebap",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba680,00"
+            },
+            {
+                "Menu Item": "Kuzu Kaburga",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba490,00"
+            },
+            {
+                "Menu Item": "Kuzu \u015ei\u015f",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba695,00"
+            },
+            {
+                "Menu Item": "Kuzu K\u00fc\u015fleme",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba790,00"
+            },
+            {
+                "Menu Item": "Lokma Kaburga",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba590,00"
+            },
+            {
+                "Menu Item": "Patl\u0131canl\u0131 Kebap",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba680,00"
+            },
+            {
+                "Menu Item": "Tavuk Kanat",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba395,00"
+            },
+            {
+                "Menu Item": "Tavuk \u015ei\u015f",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba395,00"
+            },
+            {
+                "Menu Item": "Dana \u015ea\u015fl\u0131k",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba689,00"
+            },
+            {
+                "Menu Item": "Z\u0131rh Kebab\u0131",
+                "Menu Ingredients": "K\u00f6zlenmi\u015f domates, biber ile",
+                "Price": "\u20ba495,00"
+            },
+            {
+                "Menu Item": "Lahmacun",
+                "Menu Ingredients": "Maydanoz, domates, so\u011fan ile",
+                "Price": "\u20ba150,00"
+            },
+            {
+                "Menu Item": "Cevizli Lahmacun",
+                "Menu Ingredients": "Maydanoz, domates, so\u011fan ile",
+                "Price": "\u20ba170,00"
+            },
+            {
+                "Menu Item": "\u0130sotlu Lahmacun",
+                "Menu Ingredients": "Maydanoz, domates, so\u011fan ile",
+                "Price": "\u20ba150,00"
+            },
+            {
+                "Menu Item": "Ceviz Lahmacun",
+                "Menu Ingredients": "Maydanoz, domates, so\u011fan ile",
+                "Price": "\u20ba130,00"
+            },
+            {
+                "Menu Item": "F\u0131nd\u0131k Lahmacun",
+                "Menu Ingredients": "Maydanoz, domates, so\u011fan ile",
+                "Price": "\u20ba85,00"
+            },
+            {
+                "Menu Item": "Glutensiz Ispanakl\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba450,00"
+            },
+            {
+                "Menu Item": "Glutensiz Ka\u015farl\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba450,00"
+            },
+            {
+                "Menu Item": "Glutensiz K\u0131ymal\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba450,00"
+            },
+            {
+                "Menu Item": "Glutensiz Ku\u015fba\u015f\u0131l\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba489,00"
+            },
+            {
+                "Menu Item": "Ispanakl\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba320,00"
+            },
+            {
+                "Menu Item": "Ka\u015farl\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba320,00"
+            },
+            {
+                "Menu Item": "K\u0131ymal\u0131 Ka\u015farl\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba350,00"
+            },
+            {
+                "Menu Item": "Ku\u015fba\u015f\u0131l\u0131 Ka\u015farl\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba380,00"
+            },
+            {
+                "Menu Item": "K\u0131ymal\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba330,00"
+            },
+            {
+                "Menu Item": "Ku\u015fba\u015f\u0131l\u0131 Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba359,00"
+            },
+            {
+                "Menu Item": "Tulum Peynirli Pide",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba320,00"
+            },
+            {
+                "Menu Item": "Ali Kebap D\u00fcr\u00fcm",
+                "Menu Ingredients": "Ye\u015fillik, domates, tercihe g\u00f6re so\u011fan",
+                "Price": "\u20ba440,00"
+            },
+            {
+                "Menu Item": "Beyti Kebap D\u00fcr\u00fcm",
+                "Menu Ingredients": "Ye\u015fillik, domates, tercihe g\u00f6re so\u011fan",
+                "Price": "\u20ba440,00"
+            },
+            {
+                "Menu Item": "\u00c7\u00f6p \u015ei\u015f D\u00fcr\u00fcm",
+                "Menu Ingredients": "Ye\u015fillik, domates, tercihe g\u00f6re so\u011fan",
+                "Price": "\u20ba440,00"
+            },
+            {
+                "Menu Item": "Tavuk \u015ei\u015f D\u00fcr\u00fcm",
+                "Menu Ingredients": "Ye\u015fillik, domates, tercihe g\u00f6re so\u011fan",
+                "Price": "\u20ba410,00"
+            },
+            {
+                "Menu Item": "Z\u0131rh Kebap D\u00fcr\u00fcm",
+                "Menu Ingredients": "Ye\u015fillik, domates, tercihe g\u00f6re so\u011fan",
+                "Price": "\u20ba440,00"
+            },
+            {
+                "Menu Item": "Sebzeli \u0130mambay\u0131ld\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba390,00"
+            },
+            {
+                "Menu Item": "\u0130\u00e7li K\u00f6fte",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba120,00"
+            },
+            {
+                "Menu Item": "Abagannu\u015f",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Ac\u0131l\u0131 Yo\u011furt",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Beyaz Peynir",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba95,00"
+            },
+            {
+                "Menu Item": "\u00c7i\u011f K\u00f6fte (7 S\u0131k\u0131m)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba295,00"
+            },
+            {
+                "Menu Item": "Efe",
+                "Menu Ingredients": "Beyaz peynir, maydanoz, ye\u015filso\u011fan, ceviz",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Kabak \u00c7i\u00e7e\u011fi Dolmas\u0131 (4 Adet)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba295,00"
+            },
+            {
+                "Menu Item": "K\u00f6po\u011flu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "K\u00f6zlenmi\u015f K\u0131rm\u0131z\u0131biber",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Kuru Cac\u0131k",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Muhammara",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Past\u0131rmal\u0131 Humus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba295,00"
+            },
+            {
+                "Menu Item": "Patl\u0131can Salatas\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Patl\u0131can S\u00f6\u011f\u00fcrme",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba245,00"
+            },
+            {
+                "Menu Item": "Sebzeli G\u00fcve\u00e7",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba395,00"
+            },
+            {
+                "Menu Item": "Tulum Peyniri",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Tur\u015fu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba175,00"
+            },
+            {
+                "Menu Item": "Yo\u011furtlu Semizotu",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "Humus",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba195,00"
+            },
+            {
+                "Menu Item": "G\u00f6bek Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba275,00"
+            },
+            {
+                "Menu Item": "Ezme Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba285,00"
+            },
+            {
+                "Menu Item": "Ali Salata",
+                "Menu Ingredients": "Taze nane, roka, domates, maydanoz, sumak, toz biber, k\u0131r\u0131k bu\u011fday, nar ek\u015fisi",
+                "Price": "\u20ba295,00"
+            },
+            {
+                "Menu Item": "Gavurda\u011f\u0131 Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba295,00"
+            },
+            {
+                "Menu Item": "Mevsim Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba275,00"
+            },
+            {
+                "Menu Item": "\u00c7oban Salata",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba275,00"
+            },
+            {
+                "Menu Item": "F\u0131r\u0131n S\u00fctla\u00e7",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba240,00"
+            },
+            {
+                "Menu Item": "Kabak Tatl\u0131s\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba295,00"
+            },
+            {
+                "Menu Item": "Katmer",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba450,00"
+            },
+            {
+                "Menu Item": "K\u00fcnefe",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba240,00"
+            },
+            {
+                "Menu Item": "Peynirli \u0130rmik Tatl\u0131s\u0131",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba295,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba75,00"
+            },
+            {
+                "Menu Item": "Coca Cola \u015eekersiz (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba75,00"
+            },
+            {
+                "Menu Item": "Fuse Tea (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba75,00"
+            },
+            {
+                "Menu Item": "\u015ealgam Suyu (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba75,00"
+            },
+            {
+                "Menu Item": "Ayran (300 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba75,00"
+            },
+            {
+                "Menu Item": "Soda (200 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba45,00"
+            },
+            {
+                "Menu Item": "Su (750 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba45,00"
+            },
+            {
+                "Menu Item": "Coca Cola (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba90,00"
+            },
+            {
+                "Menu Item": "Coca Cola \u015eekersiz (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba90,00"
+            },
+            {
+                "Menu Item": "\u015ealgam Suyu (1 L)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba110,00"
+            }
+        ],
+        "coordinates": [
+            41.03652,
+            28.9903318
+        ],
+        "properties": {
+            "website": "https://aliocakbasi.com/"
+        }
+    },
+    {
+        "Restaurant Name": "Levent B\u00f6rek",
+        "Rating": "4.7",
+        "Menu": [
+            {
+                "Menu Item": "Past\u0131rmal\u0131 Peynirli B\u00f6rek (500 g)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba460,00"
+            },
+            {
+                "Menu Item": "Past\u0131rmal\u0131 Peynirli B\u00f6rek",
+                "Menu Ingredients": "Porsiyon b\u00f6rek (250 g)",
+                "Price": "\u20ba230,00"
+            },
+            {
+                "Menu Item": "K\u0131ymal\u0131 B\u00f6rek",
+                "Menu Ingredients": "Porsiyon b\u00f6rek (250 g)",
+                "Price": "\u20ba200,00"
+            },
+            {
+                "Menu Item": "K\u0131ymal\u0131 B\u00f6rek (500 g)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba400,00"
+            },
+            {
+                "Menu Item": "K\u0131ymal\u0131 B\u00f6rek",
+                "Menu Ingredients": "Porsiyon b\u00f6rek (250 g)",
+                "Price": "\u20ba200,00"
+            },
+            {
+                "Menu Item": "Past\u0131rmal\u0131 Peynirli B\u00f6rek",
+                "Menu Ingredients": "Porsiyon b\u00f6rek (250 g)",
+                "Price": "\u20ba230,00"
+            },
+            {
+                "Menu Item": "K\u0131ymal\u0131 B\u00f6rek (500 g)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba400,00"
+            },
+            {
+                "Menu Item": "Past\u0131rmal\u0131 Peynirli B\u00f6rek (500 g)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba460,00"
+            },
+            {
+                "Menu Item": "K\u0131ymal\u0131 B\u00f6rek (1 kg)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba800,00"
+            },
+            {
+                "Menu Item": "Past\u0131rmal\u0131 Peynirli B\u00f6rek (1 kg)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba920,00"
+            },
+            {
+                "Menu Item": "Coca Cola (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Coca Cola \u015eekersiz (330 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            },
+            {
+                "Menu Item": "Limonlu Soda",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba35,00"
+            },
+            {
+                "Menu Item": "Sade Soda",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba30,00"
+            },
+            {
+                "Menu Item": "Su (330 ml)",
+                "Menu Ingredients": "Cam \u015fi\u015fe",
+                "Price": "\u20ba20,00"
+            },
+            {
+                "Menu Item": "Cappy (250 ml)",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba65,00"
+            }
+        ],
+        "coordinates": [
+            41.0225792,
+            28.9771052
+        ]
+    },
+    {
+        "Restaurant Name": "Levent B\u00f6rek",
+        "Rating": "4.5",
+        "Menu": [
+            {
+                "Menu Item": "Levent B\u00f6rek Peynirli (250 g)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba155,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek K\u0131ymal\u0131 (250 g)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba191,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek Peynirli (350 g)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba190,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek K\u0131ymal\u0131 (350 g)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba218,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek Peynirli (500 g)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba272,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek K\u0131ymal\u0131 (500 g)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba311,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek Peynirli (750 g)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba408,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek K\u0131ymal\u0131 (750 g)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba467,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek Peynirli (1 kg)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba544,00"
+            },
+            {
+                "Menu Item": "Levent B\u00f6rek K\u0131ymal\u0131 (1 kg)",
+                "Menu Ingredients": "Dilim say\u0131lar\u0131 de\u011fi\u015fkenlik g\u00f6sterebilir. \u00dcr\u00fcnler tart\u0131larak gramaja uygun olarak g\u00f6nderilmektedir.",
+                "Price": "\u20ba623,00"
+            },
+            {
+                "Menu Item": "Ayran",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba59,00"
+            },
+            {
+                "Menu Item": "Meyveli Soda",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba44,00"
+            },
+            {
+                "Menu Item": "Soda",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba39,00"
+            },
+            {
+                "Menu Item": "Su",
+                "Menu Ingredients": "No description for this product.",
+                "Price": "\u20ba30,00"
+            }
+        ],
+        "coordinates": [
+            41.0225792,
+            28.9771052
+        ]
+    }
+]

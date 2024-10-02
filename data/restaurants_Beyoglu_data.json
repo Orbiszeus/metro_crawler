@@ -692,11 +692,6 @@
         }
     },
     {
-        "properties": {
-            "website": "http://eggandburger.com.tr"
-        }
-    },
-    {
         "name": "Yemek Kul\u00fcb\u00fc",
         "coordinates": [
             41.0294537,
@@ -711,11 +706,6 @@
         ],
         "properties": {
             "cuisine": "italian"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "turkish"
         }
     },
     {
@@ -879,11 +869,6 @@
             41.0340823,
             28.9810111
         ]
-    },
-    {
-        "properties": {
-            "cuisine": "thai"
-        }
     },
     {
         "name": "Bosnjak",
@@ -1505,11 +1490,6 @@
         ]
     },
     {
-        "properties": {
-            "cuisine": "turkish"
-        }
-    },
-    {
         "name": "Community kitchen",
         "coordinates": [
             41.028397,
@@ -1532,12 +1512,6 @@
         "properties": {
             "cuisine": "persian",
             "website": "www.iranyemekleri.com"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "turkish",
-            "website": "https://www.ahsenlezzet.com/"
         }
     },
     {
@@ -1658,11 +1632,6 @@
         ]
     },
     {
-        "properties": {
-            "cuisine": "chicken;turkish"
-        }
-    },
-    {
         "name": "Cafe Berry",
         "coordinates": [
             41.0362791,
@@ -1741,36 +1710,11 @@
         }
     },
     {
-        "properties": {
-            "cuisine": "turkish"
-        }
-    },
-    {
         "name": "T\u00fcrk\u00e7e Meze teras",
         "coordinates": [
             41.0540941,
             28.9480406
         ]
-    },
-    {
-        "properties": {
-            "website": "https://www.nizampide.com/"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "seafood"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "seafood"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "fish"
-        }
     },
     {
         "name": "Melekler Ocakba\u015bi",
@@ -1849,12 +1793,6 @@
         ]
     },
     {
-        "properties": {
-            "cuisine": "turkish",
-            "website": "https://haciabdullah.com.tr/"
-        }
-    },
-    {
         "name": "Galata Lily Caf\u00e9",
         "coordinates": [
             41.025589,
@@ -1921,21 +1859,11 @@
         ]
     },
     {
-        "properties": {
-            "website": "https://www.izakaistanbul.com/"
-        }
-    },
-    {
         "name": "Az \u00c7ok Thai",
         "coordinates": [
             41.0322654,
             28.9810636
         ]
-    },
-    {
-        "properties": {
-            "website": "https://meroddi.com/"
-        }
     },
     {
         "name": "kirpi",
@@ -2408,11 +2336,6 @@
         ]
     },
     {
-        "properties": {
-            "cuisine": "turkish"
-        }
-    },
-    {
         "name": "Kevok Ocakba\u015f",
         "coordinates": [
             41.0336687,
@@ -2420,22 +2343,6 @@
         ],
         "properties": {
             "website": "http://tunnelmedya.com/yirmibir_menu.html"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "turkish"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "coffee_shop;turkish",
-            "website": "https://namligurme.com.tr/"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "local;turkish"
         }
     },
     {
@@ -2514,11 +2421,6 @@
         }
     },
     {
-        "properties": {
-            "cuisine": "turkish"
-        }
-    },
-    {
         "name": "Cuma",
         "coordinates": [
             41.03214013391108,
@@ -2561,11 +2463,6 @@
         "properties": {
             "cuisine": "t\u00fcrk_mutfa\u011f\u0131;regional;meyhane",
             "website": "https://www.sofyali.com.tr/"
-        }
-    },
-    {
-        "properties": {
-            "cuisine": "turkish"
         }
     }
 ]

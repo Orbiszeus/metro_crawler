@@ -4,7 +4,7 @@ import streamlit.components.v1 as components
 import json
 import time
 import os
-from geodata import load_geodata, create_folium_markers, create_folium_map
+from geodata import load_geodata, create_folium_markers, create_folium_map, create_folium_markers_from_json
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Hotel Analyst", layout="wide")
@@ -34,10 +34,12 @@ hotels = load_geodata("istanbul_hotel.geojson")
 
 markers = list()
 
-markers.extend(create_folium_markers(bars, "orange", "beer", "Bar"))
-markers.extend(create_folium_markers(coffee, "blue", "coffee", "Coffee"))
-markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel"))
-markers.extend(create_folium_markers(restaurants, "green", "cutlery", "Restaurant"))
+# markers.extend(create_folium_markers(bars, "orange", "beer", "Bar"))
+# markers.extend(create_folium_markers(coffee, "blue", "coffee", "Coffee"))
+# markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel"))
+# markers.extend(create_folium_markers(restaurants, "green", "cutlery", "Restaurant"))
+#markers.extend(create_folium_markers_from_json('restaurant_full_data.json', "green", "cutlery", "Restaurant"))
+markers.extend(create_folium_markers_from_json("coffees_full_data.json", "blue", "coffee", "Coffee"))
 
 map_html = create_folium_map(markers)
 
