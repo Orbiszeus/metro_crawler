@@ -70,7 +70,7 @@ async def crawler_endpoint(request: CrawlRequest):
         repository.get_from_mongo("restaurant")
 
         for cafe in coffee_shops:
-            if repository.check_cafes_exists(cafe["name"]):
+            if repository.check_cafe_exists(cafe["name"]):
                 continue
             if "name" in cafe:
                 serper_y_results = await search_engine.menu_serper_search(cafe["name"], company="g")
