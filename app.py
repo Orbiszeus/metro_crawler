@@ -67,7 +67,7 @@ async def crawler_endpoint(request: CrawlRequest):
                     #             "url": url}
                     # else:
                     #     return {"error": "Crawling failed"}
-                repository.get_from_mongo("restaurant")
+        repository.get_from_mongo("restaurant")
 
         for cafe in coffee_shops:
             if repository.check_cafes_exists(cafe["name"]):
@@ -76,7 +76,8 @@ async def crawler_endpoint(request: CrawlRequest):
                 serper_y_results = await search_engine.menu_serper_search(cafe["name"], company="g")
                 for url in serper_y_results:
                     await crawler.g_crawler(url, cafe["name"], "cafe") 
-                repository.get_from_mongo("cafes")            
+        repository.get_from_mongo("cafes")       
+
     except Exception as e:
         print(f"An error occurred: {e}")
         raise HTTPException(status_code=500, detail="An internal server error occurred")
