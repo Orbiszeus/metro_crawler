@@ -28,23 +28,33 @@ def get_from_mongo(collection_name):
         cursor = cafes_collection.find({}, {'_id': 0}) 
         documents = list(cursor)
         documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
-        output_file += "restaurant_data.json"
+        output_file += "cafe_data.json"
 
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(documents_json)
 
-def insert_menu_to_db(menu_items,restaurant_name, rating):
+def insert_menu_to_db(menu_items,restaurant_name, rating, category):
     menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
     menu_items_list = json.loads(menu_items_json) 
     
+    if category == "restaurant":
     #Inserting items into MongoDB
-    restaurant_data = {
-    "Restaurant Name": restaurant_name,
-    "Rating" : rating,
-    "Menu": menu_items_list,
-    }
-    result = restaurants_collection.insert_one(restaurant_data)
-    (f"Document inserted with ID: {result.inserted_id}")
+        restaurant_data = {
+        "Restaurant Name": restaurant_name,
+        "Rating" : rating,
+        "Menu": menu_items_list,
+        }
+        result = restaurants_collection.insert_one(restaurant_data)
+        (f"Document inserted with ID: {result.inserted_id}")
+
+    if category == "cafe":
+        restaurant_data = {
+        "Cafe Name": restaurant_name,
+        "Rating" : rating,
+        "Menu": menu_items_list,
+        }
+        result = cafes_collection.insert_one(restaurant_data)
+        (f"Document inserted with ID: {result.inserted_id}")
 
 def check_restaurant_exists(restaurant_name):
     # Assuming your collection is named 'restaurants'
@@ -58,6 +68,14 @@ def check_restaurant_exists(restaurant_name):
 def check_hotel_exists(hotel_name):
     # Assuming your collection is named 'hotels'
     hotel = hotel_collection.find_one({"Hotel Name": hotel_name})
+    if hotel:
+        return True  
+    else:
+        return False 
+
+def check_cafe_exists(cafe_name):
+    # Assuming your collection is named 'hotels'
+    hotel = hotel_collection.find_one({"Cafe Name": cafe_name})
     if hotel:
         return True  
     else:

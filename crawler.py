@@ -326,7 +326,7 @@ async def g_crawler(url, restaurant_name):
             menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
             menu_items_list = json.loads(menu_items_json)  
             df = pd.DataFrame(menu_items_list) 
-            repository.insert_menu_to_db(menu_items, restaurant_name, restaurant_rating)
+            repository.insert_menu_to_db(menu_items, restaurant_name, restaurant_rating, category)
             return df.to_json(orient='split')          
         except Exception as e:
             print(f"Exception in Getir Crawler:  {e}")
