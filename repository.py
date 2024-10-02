@@ -8,6 +8,7 @@ client = MongoClient(connection, tlsCAFile=certifi.where())
 db = client["MetroAnalyst"]
 hotel_collection = db["hotels"]
 restaurants_collection = db["restaurants"]
+cafes_collection = db['cafes']
 
 def get_from_mongo(collection_name):
     output_file = ""
@@ -19,6 +20,12 @@ def get_from_mongo(collection_name):
 
     if collection_name == "restaurant":
         cursor = restaurants_collection.find({}, {'_id': 0}) 
+        documents = list(cursor)
+        documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
+        output_file += "restaurant_data.json"
+
+    if collection_name == "cafes":
+        cursor = cafes_collection.find({}, {'_id': 0}) 
         documents = list(cursor)
         documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
         output_file += "restaurant_data.json"

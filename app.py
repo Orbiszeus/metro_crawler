@@ -22,6 +22,8 @@ async def hotel_crawl_api(hotel_area: str):
         search_url = f"https://www.agoda.com/tr-tr/city/{hotel_area}-tr.html"
         hotels = geodata.get_category_data('hotels_Beyoglu')    
         for hotel in hotels:
+            if repository.check_hotel_exists(hotel["name"]):
+                continue
             if "name" in hotel:
                 serper_y_results = await search_engine.hotel_serper_search(hotel["name"])
                 for url in serper_y_results:
@@ -49,8 +51,13 @@ async def crawler_endpoint(request: CrawlRequest):
             restaurant += request.area
         elif request.restaurant:
             restaurant += request.restaurant    
-        restaurants = geodata.get_category_data('restaurants')    
+
+        restaurants = geodata.get_category_data('restaurants')   
+        coffee_shops = geodata.get_category_data('coffee')   
+
         for rest in restaurants:
+            if repository.check_restaurant_exists(rest["name"]):
+                continue
             if "name" in rest:
                 serper_y_results = await search_engine.menu_serper_search(rest["name"], company="g")
                 for url in serper_y_results:
