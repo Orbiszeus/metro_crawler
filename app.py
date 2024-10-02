@@ -55,19 +55,19 @@ async def crawler_endpoint(request: CrawlRequest):
         restaurants = geodata.get_category_data('restaurants')   
         coffee_shops = geodata.get_category_data('coffee')   
 
-        for rest in restaurants:
-            if repository.check_restaurant_exists(rest["name"]):
-                continue
-            if "name" in rest:
-                serper_y_results = await search_engine.menu_serper_search(rest["name"], company="g")
-                for url in serper_y_results:
-                    df_json = await crawler.g_crawler(url, rest["name"], "restaurant") 
-                    # if df_json:
-                    #     return {"dataframe": df_json,
-                    #             "url": url}
-                    # else:
-                    #     return {"error": "Crawling failed"}
-        repository.get_from_mongo("restaurant")
+        # for rest in restaurants:
+        #     if repository.check_restaurant_exists(rest["name"]):
+        #         continue
+        #     if "name" in rest:
+        #         serper_y_results = await search_engine.menu_serper_search(rest["name"], company="g")
+        #         for url in serper_y_results:
+        #             df_json = await crawler.g_crawler(url, rest["name"], "restaurant") 
+        #             # if df_json:
+        #             #     return {"dataframe": df_json,
+        #             #             "url": url}
+        #             # else:
+        #             #     return {"error": "Crawling failed"}
+        # repository.get_from_mongo("restaurant")
 
         for cafe in coffee_shops:
             if repository.check_cafe_exists(cafe["name"]):
