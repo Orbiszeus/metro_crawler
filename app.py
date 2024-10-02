@@ -77,7 +77,9 @@ async def crawler_endpoint(request: CrawlRequest):
                 for url in serper_y_results:
                     await crawler.g_crawler(url, cafe["name"], "cafe") 
         repository.get_from_mongo("cafes")       
-
+    
     except Exception as e:
         print(f"An error occurred: {e}")
         raise HTTPException(status_code=500, detail="An internal server error occurred")
+    
+    return {"message": "Crawling completed successfully"}
