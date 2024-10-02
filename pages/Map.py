@@ -24,8 +24,8 @@ if not st.session_state['authenticated']:
     st.subheader("You must log in to access this page.")
     st.stop()  # Stop the page from loading further
 
-st.title("Test")
-st.subheader("Map concept test")
+st.title("METRO ANALYST")
+st.subheader("Map for Metro Analyst")
 
 bars = load_geodata("istanbul_bar.geojson")
 restaurants = load_geodata("istanbul_restaurants.geojson")
