@@ -108,7 +108,7 @@ def get_category_data(category):
 
 
 # Methods for create folium markers and map
-def create_folium_markers(data, color, icon, category=None):
+def create_folium_markers_from_geojson(data, color, icon, category=None):
     marker_list = list()
     group = None
 
@@ -123,13 +123,7 @@ def create_folium_markers(data, color, icon, category=None):
         else:
             continue
 
-        name = row.get('name', 'Unnamed')
-        address = row.get('addr:full', 'No Address Provided')
-
-        popup_content = f"""
-                        <strong>{name}</strong><br>
-                        <p>{address}</p>
-                        """
+        popup_content = create_popup_content(data)
 
         _ = folium.Marker(
                 location=coords,
@@ -150,39 +144,43 @@ def create_folium_markers(data, color, icon, category=None):
 def create_popup_content(data):
     html_content = "<div style='width: 250px; max-height: 200px; overflow-y: auto;'>"
 
-    for key, value in data.items():
-        if key != 'coordinates':  # Excluir las coordenadas del popup
-            if key == "Cafe Name" or key == "Rating":  # Para claves 'Cafe Name' y 'Rating', mostrar valores al lado
-                html_content += f"<strong>{key}:</strong> {value}<br>"
-
-            # Verificar si el valor es una lista (para el menú)
-            if isinstance(value, list):
-                if key == "Menu":
-                    html_content += "<ul>"  # Lista HTML para el menú
-                    for item in value:
-                        html_content += "<li>"
-                        for sub_key, sub_value in item.items():
-                            html_content += f"<strong>{sub_key}:</strong> {sub_value}<br>"
-                        html_content += "</li>"
-                    html_content += "</ul>"
+    html_content += create_html(data)
 
     html_content += "</div>"
+
     return html_content
 
 
-def create_folium_markers_from_json(filename, color, icon, category=None):
-    with open(f"data/{filename}", 'r') as f1:
-        json_data = json.load(f1)
+def create_html(content):
+    if isinstance(content, dict):
+        html_content = "<ul>"
+        for key, value in content.items():
+            html_content += f"<li><strong>{key}:</strong> {create_html(value)}</li>"
+        html_content += "</ul>"
+        return html_content
+    elif isinstance(content, list):
+        html_content = "<ul>"
+        for item in content:
+            html_content += f"<li>{create_html(item)}</li>"
+        html_content += "</ul>"
+        return html_content
+    else:
+        return str(content)
 
+
+def create_folium_markers(list_data, color, icon, category=None):
     marker_list = list()
     group = None
 
     if category is not None:
         group = folium.FeatureGroup(name=category)
-    count = 0
-    for data in json_data:
-        coords = data['coordinates']
-        count += 1
+
+    for data in list_data:
+        coords = data.pop('coordinates', None)
+
+        if coords is None:
+            continue
+
         popup_content = create_popup_content(data)
 
         _ = folium.Marker(
@@ -197,7 +195,7 @@ def create_folium_markers_from_json(filename, color, icon, category=None):
 
     if group is not None:
         marker_list.append(group)
-    print(count)
+
     return marker_list
 
 

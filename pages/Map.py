@@ -1,10 +1,7 @@
 import streamlit as st
-import requests
 import streamlit.components.v1 as components
-import json
-import time
-import os
-from geodata import load_geodata, create_folium_markers, create_folium_map, create_folium_markers_from_json
+from geodata import create_folium_markers, create_folium_map
+from repository import get_from_mongo
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Hotel Analyst", layout="wide")
@@ -27,19 +24,14 @@ if not st.session_state['authenticated']:
 st.title("METRO ANALYST")
 st.subheader("Map for Metro Analyst")
 
-bars = load_geodata("istanbul_bar.geojson")
-restaurants = load_geodata("istanbul_restaurants.geojson")
-coffee = load_geodata("istanbul_coffee.geojson")
-hotels = load_geodata("istanbul_hotel.geojson")
+hotels = get_from_mongo("hotel", False)
+restaurants = get_from_mongo("restaurant", False)
 
 markers = list()
 
-# markers.extend(create_folium_markers(bars, "orange", "beer", "Bar"))
-# markers.extend(create_folium_markers(coffee, "blue", "coffee", "Coffee"))
-# markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel"))
-# markers.extend(create_folium_markers(restaurants, "green", "cutlery", "Restaurant"))
-#markers.extend(create_folium_markers_from_json('restaurant_full_data.json', "green", "cutlery", "Restaurant"))
-markers.extend(create_folium_markers_from_json("coffees_full_data.json", "blue", "coffee", "Coffee"))
+markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel"))
+markers.extend(create_folium_markers(restaurants, "green", "cutlery", "Restaurant"))
+
 
 map_html = create_folium_map(markers)
 

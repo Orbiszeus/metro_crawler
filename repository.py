@@ -10,28 +10,32 @@ hotel_collection = db["hotels"]
 restaurants_collection = db["restaurants"]
 cafes_collection = db['cafes']
 
-def get_from_mongo(collection_name):
-    output_file = ""
+
+def get_from_mongo(collection_name, save_file=True):
     if collection_name == "hotel":
-        cursor = hotel_collection.find({}, {'_id': 0}) 
-        documents = list(cursor)
-        documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
-        output_file += "hotel_data.json"
+        collection = hotel_collection
+        output_file = "hotel_data.json"
 
-    if collection_name == "restaurant":
-        cursor = restaurants_collection.find({}, {'_id': 0}) 
-        documents = list(cursor)
-        documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
-        output_file += "restaurant_data.json"
+    elif collection_name == "restaurant":
+        collection = restaurants_collection
+        output_file = "restaurant_data.json"
 
-    if collection_name == "cafes":
-        cursor = cafes_collection.find({}, {'_id': 0}) 
-        documents = list(cursor)
-        documents_json = json.dumps(documents, ensure_ascii=False, indent=4)
-        output_file += "cafe_data.json"
+    elif collection_name == "cafe":
+        collection = cafes_collection
+        output_file = "cafe_data.json"
 
-    with open(output_file, "w", encoding="utf-8") as file:
-        file.write(documents_json)
+    else:
+        return None
+
+    cursor = collection.find({}, {'_id': 0})
+    results = list(cursor)
+
+    if save_file:
+        with open(output_file, "w", encoding="utf-8") as file:
+            documents_json = json.dumps(results, ensure_ascii=False, indent=4)
+            file.write(documents_json)
+
+    return results
 
 def insert_menu_to_db(menu_items,restaurant_name, rating, category):
     menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)   
@@ -79,4 +83,46 @@ def check_cafe_exists(cafe_name):
     if hotel:
         return True  
     else:
-        return False 
+        return False
+
+
+def update_coordinates(collection_name):
+    collection = db[collection_name]
+    documents = collection.find({"coordinates": {"$exists": True}})
+
+    for doc in documents:
+        if isinstance(doc['coordinates'], dict) and 'latitude' in doc['coordinates'] and 'longitude' in doc['coordinates']:
+            latitude = doc['coordinates']['latitude']
+            longitude = doc['coordinates']['longitude']
+
+            new_coordinates = [latitude, longitude]
+
+            collection.update_one(
+                {"_id": doc["_id"]},
+                {"$set": {"coordinates": new_coordinates}}
+            )
+
+
+def join_json_to_mongo(json_file, collection_name, join_field_1, join_field_2):
+    collection = db[collection_name]
+
+    with open(json_file, 'r') as f1:
+        json_data = json.load(f1)
+
+    for item in json_data:
+        name_in_json = item.pop(join_field_1, None)
+
+        if name_in_json is not None:
+            mongo_doc = collection.find_one({join_field_2: name_in_json})
+
+            if mongo_doc:
+                update_data = {
+                    "$set": item
+                }
+
+                collection.update_one({"_id": mongo_doc["_id"]}, update_data)
+
+
+if __name__ == "__main__":
+    join_json_to_mongo("data/restaurants_data.json", 'restaurants',
+                       'name', 'Restaurant Name')
