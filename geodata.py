@@ -194,7 +194,7 @@ def restaurant_icon_generator(data):
             pass
 
     size = get_icon_size(rating)
-    url = "https://img.icons8.com/external-others-inmotus-design/67/external-Restaurant-round-icons-others-inmotus-design-4.png"
+    url = "https://img.icons8.com/external-becris-lineal-color-becris/64/external-restaurant-hotel-service-becris-lineal-color-becris.png"
 
     icon = folium.CustomIcon(
         url,
@@ -213,7 +213,7 @@ def coffee_icon_generator(data):
             pass
 
     size = get_icon_size(rating)
-    url = "https://img.icons8.com/external-doodle-color-bomsymbols-/91/external-coffee-set01-coffee-colors-doodle-doodle-color-bomsymbols--8.png"
+    url = "https://img.icons8.com/external-doodle-color-bomsymbols-/91/external-cafe-set01-coffee-colors-doodle-doodle-color-bomsymbols--6.png"
 
     icon = folium.CustomIcon(
         url,
@@ -232,7 +232,7 @@ def hotel_icon_generator(data):
             pass
 
     size = get_icon_size(rating)
-    url = "https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/65/external-Hotel-traveling-and-tourism-smashingstocks-circular-smashing-stocks.png"
+    url = "https://img.icons8.com/external-nawicon-outline-color-nawicon/64/external-hotel-location-nawicon-outline-color-nawicon.png"
 
     icon = folium.CustomIcon(
         url,
