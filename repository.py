@@ -124,5 +124,5 @@ def join_json_to_mongo(json_file, collection_name, join_field_1, join_field_2):
 
 
 if __name__ == "__main__":
-    join_json_to_mongo("data/restaurants_data.json", 'restaurants',
-                       'name', 'Restaurant Name')
+    join_json_to_mongo("data/coffee_data.json", 'cafes',
+                       'name', 'Cafe Name')
