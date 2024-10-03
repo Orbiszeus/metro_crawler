@@ -3,7 +3,7 @@ import certifi
 import json 
 
 connection = "mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&ssl=true&ssl_cert_reqs=CERT_NONE&appName=MetroAnalyst"
-client = MongoClient(connection, tlsCAFile=certifi.where())
+client = MongoClient(connection, tlsCAFile=certifi.where(), socketTimeoutMS=60000, connectTimeoutMS=60000)
 
 db = client["MetroAnalyst"]
 hotel_collection = db["hotels"]
