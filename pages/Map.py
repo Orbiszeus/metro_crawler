@@ -1,6 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
-from geodata import create_folium_markers, create_folium_map, restaurant_icon_generator, hotel_icon_generator
+from geodata import (create_folium_markers, create_folium_map, restaurant_icon_generator, hotel_icon_generator,
+                     coffee_icon_generator)
 from repository import get_from_mongo
 
 # Set up Streamlit page configuration
@@ -26,12 +27,13 @@ st.subheader("Map for Metro Analyst")
 
 hotels = get_from_mongo("hotel", False)
 restaurants = get_from_mongo("restaurant", False)
+coffee = get_from_mongo("cafe", False)
 
 markers = list()
 
 markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel", hotel_icon_generator))
 markers.extend(create_folium_markers(restaurants, "green", "cutlery", "Restaurant", restaurant_icon_generator))
-
+markers.extend(create_folium_markers(coffee, "blue", "coffee", "Coffee", coffee_icon_generator))
 
 map_html = create_folium_map(markers)
 

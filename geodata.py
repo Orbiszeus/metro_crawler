@@ -204,6 +204,25 @@ def restaurant_icon_generator(data):
     return icon
 
 
+def coffee_icon_generator(data):
+    rating = 1
+    if 'Rating' in data and data['Rating'] is not None:
+        try:
+            rating = float(data['Rating'])
+        except ValueError:
+            pass
+
+    size = get_icon_size(rating)
+    url = "https://img.icons8.com/external-doodle-color-bomsymbols-/91/external-coffee-set01-coffee-colors-doodle-doodle-color-bomsymbols--8.png"
+
+    icon = folium.CustomIcon(
+        url,
+        icon_size=(size, size)
+    )
+
+    return icon
+
+
 def hotel_icon_generator(data):
     rating = 1
     if 'Hotel Rating' in data and data['Hotel Rating'] is not None:
