@@ -29,6 +29,10 @@ hotels = get_from_mongo("hotel", False)
 restaurants = get_from_mongo("restaurant", False)
 coffee = get_from_mongo("cafe", False)
 
+total_markers_rest = len(restaurants)
+total_markers_cafe = len(coffee)
+total_markers_hotels = len(hotels)
+
 markers = list()
 
 markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel", hotel_icon_generator))
@@ -67,3 +71,6 @@ html_content = f"""
 # Render the HTML content in Streamlit
 components.html(html_content, height=600)
 
+st.write("Total restaurant number: " + str(total_markers_rest))
+st.write("Total hotel number: " + str(total_markers_hotels))
+st.write("Total coffee shop number: " + str(total_markers_cafe))
