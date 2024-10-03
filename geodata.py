@@ -2,9 +2,11 @@ import os
 import osmnx as ox
 import geopandas as gpd
 import folium
+from folium.plugins import BeautifyIcon
 import json
 from geopy.geocoders import Nominatim
 import googlemaps
+
 
 # Methods for download and load geojson data
 def download_geodata(city_name, tags, filename=None):
@@ -168,7 +170,60 @@ def create_html(content):
         return str(content)
 
 
-def create_folium_markers(list_data, color, icon, category=None):
+def normalize(valor, min_valor, max_valor):
+    nuevo_min = 0
+    nuevo_max = 5
+    return ((valor - min_valor) / (max_valor - min_valor)) * (nuevo_max - nuevo_min) + nuevo_min
+
+
+def get_icon_size(value):
+    min_size = 20
+    max_size = 60
+
+    value_transformed = (value / 5) ** 3  # Elevar al cubo para aumentar la diferencia entre 4 y 5
+
+    return int(min_size + value_transformed * (max_size - min_size))
+
+
+def restaurant_icon_generator(data):
+    rating = 1
+    if 'Rating' in data and data['Rating'] is not None:
+        try:
+            rating = float(data['Rating'])
+        except ValueError:
+            pass
+
+    size = get_icon_size(rating)
+    url = "https://img.icons8.com/external-others-inmotus-design/67/external-Restaurant-round-icons-others-inmotus-design-4.png"
+
+    icon = folium.CustomIcon(
+        url,
+        icon_size=(size, size)
+    )
+
+    return icon
+
+
+def hotel_icon_generator(data):
+    rating = 1
+    if 'Hotel Rating' in data and data['Hotel Rating'] is not None:
+        try:
+            rating = float(data['Hotel Rating'].replace(",", ".")) / 2
+        except ValueError:
+            pass
+
+    size = get_icon_size(rating)
+    url = "https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/65/external-Hotel-traveling-and-tourism-smashingstocks-circular-smashing-stocks.png"
+
+    icon = folium.CustomIcon(
+        url,
+        icon_size=(size, size)
+    )
+
+    return icon
+
+
+def create_folium_markers(list_data, color, icon, category=None, icon_function=None):
     marker_list = list()
     group = None
 
@@ -183,10 +238,15 @@ def create_folium_markers(list_data, color, icon, category=None):
 
         popup_content = create_popup_content(data)
 
+        if icon_function is not None:
+            icon_object = icon_function(data)
+        else:
+            icon_object = folium.Icon(color=color, icon=icon, prefix='fa')
+
         _ = folium.Marker(
             location=coords,
             popup=folium.Popup(popup_content, max_width=400),
-            icon=folium.Icon(color=color, icon=icon, prefix='fa')
+            icon=icon_object
         )
         if group is not None:
             _.add_to(group)
@@ -199,7 +259,7 @@ def create_folium_markers(list_data, color, icon, category=None):
     return marker_list
 
 
-def create_folium_map(markers, filename="",save=False):
+def create_folium_map(markers, filename="", save=False):
     map_center = [41.0082, 28.9784]  # Coordinates for Istanbul
     m = folium.Map(location=map_center, zoom_start=12)
 
@@ -317,14 +377,3 @@ def join_data(file_1, file_2, join_value_1, join_value_2, filename):
     with open(f'{filename}.json', 'w') as f_out:
         json.dump(result, f_out, indent=4)
 
-
-# if __name__ == "__main__":
-#     city_name = "Beyoglu, Istanbul. Turkey"
-#     data = load_geodata("Beyoglu, Istanbul. Turkey_restaurants.json.geojson")
-#     extract_points_data(data, 'restaurants_Beyoglu', ["cuisine", "website"])
-#
-#     join_data('hotel_data.json', 'data/hotels_Beyoglu_data.json','Hotel Name', 'name',
-#               'hotels_full_data')
-#
-#     join_data('cafe_data.json', 'data/coffee_data.json','Cafe Name', 'name',
-#               'coffees_full_data')
