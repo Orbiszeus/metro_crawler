@@ -124,7 +124,16 @@ def join_json_to_mongo(json_file, collection_name, join_field_1, join_field_2):
 
                 collection.update_one({"_id": mongo_doc["_id"]}, update_data)
 
+'''@Returns a specific restaurant menu data if is present in mongo'''
+def get_restaurant_data(place_name, collection_name):
 
+    if collection_name == "cafes":
+        cursor = db[collection_name].find({"Cafe Name": place_name})
+        return [doc['Menu'] for doc in cursor]
+    
+    if collection_name == "restaurants":
+        cursor = db[collection_name].find({"Restaurant Name" : place_name})
+        return [doc['Menu'] for doc in cursor]
+    
 if __name__ == "__main__":
-    join_json_to_mongo("data/coffee_data.json", 'cafes',
-                       'name', 'Cafe Name')
+    print(get_restaurant_data("Binbir Tadım Döner", "restaurants"))

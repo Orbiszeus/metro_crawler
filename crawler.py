@@ -301,6 +301,13 @@ async def extract_menu_item(sb):
 
 async def g_crawler(url, restaurant_name, category):
     menu_items = []
+    if repository.check_restaurant_exists(restaurant_name):
+        menu_items = repository.get_restaurant_data(restaurant_name, "restaurants")
+        menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
+        menu_items_list = json.loads(menu_items_json)  
+        df = pd.DataFrame(menu_items_list) 
+        return df.to_json(orient='split')    
+    
     with SB(uc=True, headless=True, incognito=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 10)
         try:

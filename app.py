@@ -52,8 +52,14 @@ async def crawler_endpoint(request: CrawlRequest):
         elif request.restaurant:
             restaurant += request.restaurant    
 
-        restaurants = geodata.get_category_data('restaurants')   
-        coffee_shops = geodata.get_category_data('coffee')   
+        '''Single restaurant crawler from command line'''
+        serper_y_results = await search_engine.menu_serper_search(restaurant, company="g")
+        for url in serper_y_results:
+            df = await crawler.g_crawler(url, restaurant, category="restaurant")
+            return df
+        # restaurants = geodata.get_category_data('restaurants')   
+        # coffee_shops = geodata.get_category_data('coffee')   
+
 
         # for rest in restaurants:
         #     if repository.check_restaurant_exists(rest["name"]):
@@ -69,14 +75,14 @@ async def crawler_endpoint(request: CrawlRequest):
         #             #     return {"error": "Crawling failed"}
         # repository.get_from_mongo("restaurant")
 
-        for cafe in coffee_shops:
-            if repository.check_cafe_exists(cafe["name"]):
-                continue
-            if "name" in cafe:
-                serper_y_results = await search_engine.menu_serper_search(cafe["name"], company="g")
-                for url in serper_y_results:
-                    await crawler.g_crawler(url, cafe["name"], "cafe") 
-        repository.get_from_mongo("cafes")       
+        # for cafe in coffee_shops:
+        #     if repository.check_cafe_exists(cafe["name"]):
+        #         continue
+        #     if "name" in cafe:
+        #         serper_y_results = await search_engine.menu_serper_search(cafe["name"], company="g")
+        #         for url in serper_y_results:
+        #             await crawler.g_crawler(url, cafe["name"], "cafe") 
+        # repository.get_from_mongo("cafes")       
     
     except Exception as e:
         print(f"An error occurred: {e}")
