@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 from geodata import (create_folium_markers, create_folium_map, restaurant_icon_generator, hotel_icon_generator,
                      coffee_icon_generator)
 from repository import get_from_mongo
-
+import json
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Hotel Analyst", layout="wide")
 st.markdown("""
@@ -25,19 +25,31 @@ if not st.session_state['authenticated']:
 st.title("METRO ANALYST")
 st.subheader("Map for Metro Analyst")
 
-hotels = get_from_mongo("hotel", False)
-restaurants = get_from_mongo("restaurant", False)
-coffee = get_from_mongo("cafe", False)
+# hotels = get_from_mongo("hotel", False)
+# restaurants = get_from_mongo("restaurant", False)
+# coffee = get_from_mongo("cafe", False)
 
-total_markers_rest = len(restaurants)
-total_markers_cafe = len(coffee)
-total_markers_hotels = len(hotels)
 
 markers = list()
+file_path_cafe = 'cafe_data.json'
+file_path_restaurant = 'restaurant_data'
+file_path_hotel = 'hotel_data.json'
+
+with open(file_path_cafe, 'r') as file:
+    cafes = json.load(file)
+with open(file_path_restaurant, 'r') as file:
+    restaurants = json.load(file)
+with open(file_path_hotel, 'r') as file:
+    hotels = json.load(file)
+
+
+total_markers_rest = len(restaurants)
+total_markers_cafe = len(cafes)
+total_markers_hotels = len(hotels)
 
 markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel", hotel_icon_generator))
 markers.extend(create_folium_markers(restaurants, "green", "cutlery", "Restaurant", restaurant_icon_generator))
-markers.extend(create_folium_markers(coffee, "blue", "coffee", "Coffee", coffee_icon_generator))
+markers.extend(create_folium_markers(cafes, "blue", "coffee", "Coffee", coffee_icon_generator))
 
 map_html = create_folium_map(markers)
 

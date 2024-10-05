@@ -9,8 +9,6 @@ import pandas as pd
 import asyncio
 import repository 
 import search_engine
-from bs4 import BeautifulSoup
-import requests
 
 GOOGLE_MAPS_QUERY = "https://www.google.com/maps/search/?api=1&query={}&query_place_id={}"
 api_key = os.getenv('GOOGLE_MAPS_API_KEY')
@@ -300,13 +298,7 @@ async def extract_menu_item(sb):
     return menu_items
 
 async def g_crawler(url, restaurant_name, category):
-    menu_items = []
-    if repository.check_restaurant_exists(restaurant_name):
-        menu_items = repository.get_restaurant_data(restaurant_name, "restaurants")
-        menu_items_json = json.dumps(menu_items, ensure_ascii=False, indent=4)  
-        menu_items_list = json.loads(menu_items_json)  
-        df = pd.DataFrame(menu_items_list) 
-        return df.to_json(orient='split')    
+    menu_items = []  
     
     with SB(uc=True, headless=True, incognito=True) as sb:
         sb.driver.uc_open_with_reconnect(url, 10)

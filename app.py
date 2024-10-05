@@ -4,6 +4,8 @@ import crawler
 import repository 
 import search_engine
 import geodata
+import pandas as pd
+import json 
 
 app = FastAPI()
 
@@ -50,13 +52,31 @@ async def crawler_endpoint(request: CrawlRequest):
         if request.area:
             restaurant += request.area
         elif request.restaurant:
-            restaurant += request.restaurant    
-
+            restaurant += request.restaurant 
+              
+        if repository.check_restaurant_exists(restaurant):
+            try:
+                menu_items = repository.get_restaurant_data(restaurant, "restaurants")
+                menu_items_list = json.loads(json.dumps(menu_items, ensure_ascii=False))  
+                df_json = pd.DataFrame(menu_items_list) 
+                if not df_json.empty:
+                    return {"dataframe": df_json.to_json(orient='split'),
+                            "url": "This was crawled from getir"}
+                else:
+                    return {"error": "Crawling failed"}  
+            except Exception as e:
+                print(f"Exception: {e}")
+                
         '''Single restaurant crawler from command line'''
         serper_y_results = await search_engine.menu_serper_search(restaurant, company="g")
         for url in serper_y_results:
-            df = await crawler.g_crawler(url, restaurant, category="restaurant")
-            return df
+            df_json = await crawler.g_crawler(url, restaurant, category="restaurant")
+            if not df_json.empty:
+                return {"dataframe": df_json,
+                        "url": url}
+            else:
+                return {"error": "Crawling failed"}
+            
         # restaurants = geodata.get_category_data('restaurants')   
         # coffee_shops = geodata.get_category_data('coffee')   
 
