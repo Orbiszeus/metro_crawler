@@ -153,3 +153,4 @@ wheel==0.44.0
 wsproto==1.2.0
 xyzservices==2024.9.0
 yarl==1.9.11
+googlemaps
