@@ -3,7 +3,7 @@ import streamlit.components.v1 as components
 from geodata import (create_folium_markers, create_folium_map, restaurant_icon_generator, hotel_icon_generator,
                      coffee_icon_generator)
 from repository import get_from_mongo
-
+import time
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Hotel Analyst", layout="wide")
 
@@ -27,48 +27,51 @@ if not st.session_state['authenticated']:
 st.title("METRO ANALYST")
 st.subheader("Map for Metro Analyst")
 
-hotels = get_from_mongo("hotel", False)
-restaurants = get_from_mongo("restaurant", False)
-coffee = get_from_mongo("cafe", False)
-
-total_markers_rest = len(restaurants)
-total_markers_cafe = len(coffee)
-total_markers_hotels = len(hotels)
-
-markers = list()
-
-markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel", hotel_icon_generator))
-markers.extend(create_folium_markers(restaurants, "green", "cutlery", "Restaurant", restaurant_icon_generator))
-markers.extend(create_folium_markers(coffee, "blue", "coffee", "Coffee", coffee_icon_generator))
-
-map_html = create_folium_map(markers)
-
-# Generate the HTML content with the API key dynamically
-html_content = f"""
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Key Locations</title>
-    <style>
-        #map {{
-            height: 100%;
-            width: 100%;
-        }}
-        html, body {{
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }}
-    </style>
-</head>
-<body>
-    <div id="map">
-    {map_html}
-    </div>
+with st.spinner('Loading map...'):  
+    time.sleep(6)
     
-</body>
-</html>
-"""
+    hotels = get_from_mongo("hotel", False)
+    restaurants = get_from_mongo("restaurant", False)
+    coffee = get_from_mongo("cafe", False)
+
+    total_markers_rest = len(restaurants)
+    total_markers_cafe = len(coffee)
+    total_markers_hotels = len(hotels)
+
+    markers = list()
+
+    markers.extend(create_folium_markers(hotels, "red", "bed", "Hotel", hotel_icon_generator))
+    markers.extend(create_folium_markers(restaurants, "green", "cutlery", "Restaurant", restaurant_icon_generator))
+    markers.extend(create_folium_markers(coffee, "blue", "coffee", "Coffee", coffee_icon_generator))
+
+    map_html = create_folium_map(markers)
+
+    # Generate the HTML content with the API key dynamically
+    html_content = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Key Locations</title>
+        <style>
+            #map {{
+                height: 100%;
+                width: 100%;
+            }}
+            html, body {{
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }}
+        </style>
+    </head>
+    <body>
+        <div id="map">
+        {map_html}
+        </div>
+        
+    </body>
+    </html>
+    """
 
 # Render the HTML content in Streamlit
 components.html(html_content, height=600)
