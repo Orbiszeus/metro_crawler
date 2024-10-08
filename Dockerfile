@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the ports used by Streamlit (8501) and FastAPI (8000)
-EXPOSE 8503
+EXPOSE 8501
 
 # Ensure the bash script has executable permissions
 RUN chmod +x ./run.sh
