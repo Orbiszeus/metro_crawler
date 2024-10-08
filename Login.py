@@ -19,8 +19,10 @@ st.markdown("""
         .stDeployButton {display:none;}
         footer {visibility: hidden;}
         #stDecoration {display:none;}
+        div[data-testid="stToolbar"] {visibility: hidden;} /* Hide the stToolbar */
     </style>
 """, unsafe_allow_html=True)
 
 if st.session_state['authenticated']:
     st.subheader('Hello, ' + st.session_state['username'])
+

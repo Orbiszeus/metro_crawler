@@ -15,6 +15,7 @@ st.markdown("""
         .stDeployButton {display:none;}
         footer {visibility: hidden;}
         #stDecoration {display:none;}
+        div[data-testid="stToolbar"] {visibility: hidden;} /* Hide the stToolbar */
     </style>
 """, unsafe_allow_html=True)
 # if not st.session_state['authenticated']:
