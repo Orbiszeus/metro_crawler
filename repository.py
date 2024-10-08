@@ -2,10 +2,14 @@ from pymongo import MongoClient
 import certifi
 import json 
 
-connection = "mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&ssl=true&ssl_cert_reqs=CERT_NONE&connectTimeoutMS=60000&socketTimeoutMS=60000&appName=MetroAnalyst"
+# connection = "mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&ssl=true&ssl_cert_reqs=CERT_NONE&connectTimeoutMS=60000&socketTimeoutMS=60000&appName=MetroAnalyst"
 
 
-client = MongoClient(connection, tlsCAFile=certifi.where())
+try:
+    client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&ssl=true&connectTimeoutMS=60000&socketTimeoutMS=60000&appName=MetroAnalyst")
+    print("Connected successfully")
+except Exception as e:
+    print("Connection error: ", e)
 
 db = client["MetroAnalyst"]
 hotel_collection = db["hotels"]
