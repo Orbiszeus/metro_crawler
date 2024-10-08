@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Run Streamlit app in the background
-streamlit run Login.py &
+streamlit run Login.py
 
 # Get the PID of the Streamlit process
 STREAMLIT_PID=$!
