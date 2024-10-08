@@ -7,7 +7,7 @@ import json
 
 try:
     client = MongoClient("mongodb+srv://baris_ozdizdar:ZhcyQqCIwQMS8M29@metroanalyst.thli7ie.mongodb.net/?retryWrites=true&w=majority&ssl=true&connectTimeoutMS=60000&socketTimeoutMS=60000&appName=MetroAnalyst")
-    print("Connected successfully")
+    print("Mongo connection successfulls")
 except Exception as e:
     print("Connection error: ", e)
 
