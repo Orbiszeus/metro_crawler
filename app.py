@@ -6,8 +6,18 @@ import search_engine
 import geodata
 import pandas as pd
 import json 
+from fastapi.middleware.cors import CORSMiddleware
+
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["https://metrocrawler-production.up.railway.app"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 class CrawlRequest(BaseModel):
     area: str = Field(default=None, description="The area to search for restaurants")
