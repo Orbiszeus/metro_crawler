@@ -17,9 +17,9 @@ st.markdown("""
         #stDecoration {display:none;}
     </style>
 """, unsafe_allow_html=True)
-if not st.session_state['authenticated']:
-    st.subheader("You must log in to access this page.")
-    st.stop()  # Stop the page from loading further
+# if not st.session_state['authenticated']:
+#     st.subheader("You must log in to access this page.")
+#     st.stop()  # Stop the page from loading further
     
 with st.container(): 
     st.subheader("This is the menu extractor!")
