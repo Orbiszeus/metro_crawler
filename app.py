@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket
 from pydantic import BaseModel, Field
 import crawler 
 import repository 
@@ -7,7 +7,7 @@ import geodata
 import pandas as pd
 import json 
 from fastapi.middleware.cors import CORSMiddleware
-
+import logging
 
 app = FastAPI()
 
@@ -25,6 +25,14 @@ class CrawlRequest(BaseModel):
     
 class HotelCrawlRequest(BaseModel):
     hotel_area: str = Field(default=None, description="The area to search for hotels")
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    logging.info("WebSocket connection established.")
+    while True:
+        data = await websocket.receive_text()
+        logging.info(f"Received message: {data}")
+        await websocket.send_text(f"Message received: {data}")
 
 @app.post("/crawl_hotels")
 async def hotel_crawl_api(hotel_area: str):
