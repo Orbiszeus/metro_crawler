@@ -3,5 +3,4 @@
 * .pyc
 __pycache__
 /.venv
-/.streamlit
 /nohup.out
