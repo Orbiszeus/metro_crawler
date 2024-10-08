@@ -6,6 +6,7 @@ from repository import get_from_mongo
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Hotel Analyst", layout="wide")
+
 st.markdown("""
     <style>
         .reportview-container {
@@ -17,6 +18,13 @@ st.markdown("""
         #stDecoration {display:none;}
     </style>
 """, unsafe_allow_html=True)
+
+ws = st.experimental.websocket("https://metrocrawler-production.up.railway.app")
+
+if ws:
+    ws.send("Hello, WebSocket!")
+    message = ws.receive()
+    st.write(message)
 
 if not st.session_state['authenticated']:
     st.subheader("You must log in to access this page.")
