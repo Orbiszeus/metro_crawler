@@ -3,9 +3,6 @@ import streamlit.components.v1 as components
 from geodata import (create_folium_markers, create_folium_map, restaurant_icon_generator, hotel_icon_generator,
                      coffee_icon_generator)
 from repository import get_from_mongo
-import websocket
-import threading
-import json 
 
 # Set up Streamlit page configuration
 st.set_page_config(page_title="Hotel Analyst", layout="wide")
@@ -25,32 +22,6 @@ st.markdown("""
 if not st.session_state['authenticated']:
     st.subheader("You must log in to access this page.")
     st.stop()  # Stop the page from loading further
-
-ws = None
-def on_message(ws, message):
-    st.write(f"Received: {message}")
-
-def on_error(ws, error):
-    st.write(f"Error: {error}")
-
-def on_close(ws):
-    st.write("WebSocket closed")
-
-def on_open(ws):
-    st.write("WebSocket connection opened")
-
-def run_websocket():
-    global ws
-    ws = websocket.WebSocketApp(
-        "ws://0.0.0.0:8000/ws",
-        on_message=on_message,
-        on_error=on_error,
-        on_close=on_close,
-        on_open=on_open,
-    )
-    ws.run_forever()
-
-threading.Thread(target=run_websocket, daemon=True).start()
 
 st.title("METRO ANALYST")
 st.subheader("Map for Metro Analyst")
