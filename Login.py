@@ -25,4 +25,6 @@ st.markdown("""
 
 if st.session_state['authenticated']:
     st.subheader('Hello, ' + st.session_state['username'])
+if not st.session_state['authenticated']:
+    st.warning("Your session has expired. Please log in again!",  icon="⚠️")
 

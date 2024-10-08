@@ -25,11 +25,11 @@ if not st.session_state['authenticated']:
     st.stop()  # Stop the page from loading further
 
 st.title("METRO ANALYST")
-st.subheader("Map for Metro Analyst")
+st.subheader("Dive into Our Interactive Map Featuring Top Restaurants Cafés, and Hotels!")
+
 
 with st.spinner('Loading map...'):  
-    time.sleep(6)
-    
+    time.sleep(10)
     hotels = get_from_mongo("hotel", False)
     restaurants = get_from_mongo("restaurant", False)
     coffee = get_from_mongo("cafe", False)
@@ -79,3 +79,6 @@ components.html(html_content, height=600)
 st.write("Total restaurant number: " + str(total_markers_rest))
 st.write("Total hotel number: " + str(total_markers_hotels))
 st.write("Total coffee shop number: " + str(total_markers_cafe))
+
+if not st.session_state['authenticated']:
+    st.warning("Your session has expired. Please log in again!",  icon="⚠️")
