@@ -29,7 +29,7 @@ st.subheader("Dive into Our Interactive Map Featuring Top Restaurants Cafés, an
 
 
 with st.spinner('Loading map...'):  
-    time.sleep(10)
+    time.sleep(15)
     hotels = get_from_mongo("hotel", False)
     restaurants = get_from_mongo("restaurant", False)
     coffee = get_from_mongo("cafe", False)
